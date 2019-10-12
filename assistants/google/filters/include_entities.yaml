@@ -1,0 +1,56 @@
+---
+# Provides a list of entities to include in Google Assistant.
+#
+# https://www.nabucasa.com/config/google_assistant
+#
+include_entities:
+  #### Camera ####
+  - camera.altan
+  - camera.badevaerelset
+  - camera.bornevaerelset
+  - camera.dor
+  - camera.gangen
+  - camera.kokkenet
+  - camera.stuen
+  - camera.sovevaerelset
+
+  #### Climate ####
+  - climate.stuen
+
+  #### Lights ####
+  - light.badevaerelset
+  - light.bornevaerelset
+  - light.gangen
+  - light.kokkenet_nilfisk
+  - light.kokkenet_vask
+  - light.sovevaerelset
+  - light.stuen
+  - light.stuen_nilfisk
+  - light.stuen_sort
+  - light.stuen_rod
+  - light.stuen_hvid
+
+  #### Media Players ####
+  - media_player.android_tv_boks
+  - media_player.samsung_tv
+
+  #### Sensor's ####
+  - binary_sensor.window_altandor
+  - binary_sensor.window_hoveddor
+  - binary_sensor.window_postkasse
+  - sensor.owm_temperature
+
+  #### Switches ####
+  - switch.adguard_protection
+  - switch.bad
+  - switch.born
+  - switch.gang
+  - switch.kokken
+
+  #### Vacuum ####
+  - vacuum.james
+  - script.vacuum_badevarelset
+  - script.vacuum_bornevarelset
+  - script.vacuum_gangen
+  - script.vacuum_kokkenet
+  - script.vacuum_stuen
