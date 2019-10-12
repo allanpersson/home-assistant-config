@@ -1,0 +1,38 @@
+---
+# Welcome to my Home Assistant configuration!
+#
+# Don't be scared by the size of my configuration file...
+# It is probably the smallest you've ever seen.
+#
+# My system is very modular and very differently structured
+# compared to other configurations you'll find online.
+#
+# Basically, each file in the repository does 1 (one, uno, eins)
+# thing only! Click through it, you'll get it pretty fast.
+#
+# The configuration.yaml is only used to bootstrap the system
+# and contains some minimal, but vital, settings.
+#
+homeassistant:
+  # Name of this Home Assistant instance... I've tried to be original... ;)
+  name: Pepe.io
+
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret zone_home_latitude
+  longitude: !secret zone_home_longitude
+
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: !secret zone_home_elevation
+
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+
+  # Pick yours from here:
+  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Copenhagen
+
+  # Load packages
+  packages: !include_dir_named integrations
+
+hacs:
+  token: !secret github_access_token
