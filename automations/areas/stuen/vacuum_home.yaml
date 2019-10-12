@@ -1,0 +1,22 @@
+---
+alias: "Home (Vacuum)"
+trigger:
+  - platform: state
+    entity_id: group.person_alle
+    to: "home"
+  - platform: time_pattern
+    seconds: "/60"
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: vacuum.james
+      state: "cleaning"
+    - condition: state
+      entity_id: group.person_alle
+      state: "home"
+action:
+  - service: vacuum.set_fan_speed
+    data:
+      entity_id: vacuum.james
+      fan_speed: 105

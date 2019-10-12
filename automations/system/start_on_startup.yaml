@@ -1,0 +1,15 @@
+---
+#
+alias: start on startup
+trigger:
+  - platform: homeassistant
+    event: start
+action:
+  # - service: switch.turn_on
+  #   entity_id: switch.born
+  - service: switch.turn_on
+    entity_id: switch.bad
+  - service: switch.turn_on
+    entity_id: switch.gang
+  - service: switch.turn_on
+    entity_id: switch.kokken

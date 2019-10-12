@@ -1,0 +1,16 @@
+---
+alias: "Ikea switch off"
+trigger:
+  - platform: event
+    event_type: deconz_event
+    event_data:
+      id: huset
+      event: 2001
+action:
+  service: light.turn_off
+  data:
+    # transition: 10
+    # brightness_pct: 1
+    # rgb_color: [255 , 160 , 39]
+    entity_id:
+      - light.stuen

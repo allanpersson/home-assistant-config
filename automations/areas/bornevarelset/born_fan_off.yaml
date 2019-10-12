@@ -1,0 +1,21 @@
+---
+alias: "Fan Off (Børneværelset)"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.bornevaerelset_temperature
+    below: '23.0'
+# condition:
+#   condition: and
+#   conditions:
+#     - condition: numeric_state
+#       entity_id: sensor.motion_stuen
+#       below: 10
+#     - condition: state
+#       entity_id: media_player.android_tv_boks
+#       state: 'playing'
+#     - condition: state
+#       entity_id: light.stuen
+#       state: 'off'
+action:
+  service: switch.turn_off
+  entity_id: switch.born

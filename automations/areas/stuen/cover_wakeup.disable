@@ -1,0 +1,23 @@
+---
+#
+alias: "Cover - Wake Up (Stuen)"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.huawei_mediapad_face
+    to: "on"
+  # - platform: numeric_state
+  #   entity_id: unplugged phone!!!
+  #   below: 25
+condition:
+  condition: and
+  conditions:
+    - condition: numeric_state
+      entity_id: sensor.motion_born
+    - condition: numeric_state
+      entity_id: sensor.owm_cloud_coverage
+      below: 25
+    - condition: numeric_state
+      entity_id: sensor.stuen_temperature_mean
+      above: 22.3
+action:
+  - service: script.cover_stuen_100_percent_open

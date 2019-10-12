@@ -1,0 +1,41 @@
+---
+#
+alias: "Google Home badeværelset volume sync"
+# initial_state: true
+trigger:
+  - platform: state
+    entity_id: media_player.badevaerelset
+condition:
+  - condition: template
+    value_template: >
+      {% set from = trigger.from_state.attributes.volume_level | float %}
+      {% set to = trigger.to_state.attributes.volume_level | float %}
+      {{ to != from }}
+  - condition: state
+    entity_id: person.gaester
+    state: "not_home"
+action:
+  - delay:
+      milliseconds: 50
+  - service: media_player.volume_set
+    data_template:
+      entity_id: media_player.gangen
+      volume_level: >
+        {{states.media_player.badevaerelset.
+        attributes.volume_level }}
+  - delay:
+      milliseconds: 50
+  - service: media_player.volume_set
+    data_template:
+      entity_id: media_player.kokkenet
+      volume_level: >
+        {{states.media_player.badevaerelset.
+        attributes.volume_level }}
+  - delay:
+      milliseconds: 50
+  - service: media_player.volume_set
+    data_template:
+      entity_id: media_player.stuen
+      volume_level: >
+        {{states.media_player.badevaerelset.
+        attributes.volume_level }}

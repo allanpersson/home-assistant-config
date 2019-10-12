@@ -1,0 +1,71 @@
+---
+#
+alias: "Climate auto off"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.owm_temperature
+    above: "17.0"
+  - platform: time_pattern
+    seconds: "/300"
+condition:
+  condition: and
+  conditions:
+    - condition: numeric_state
+      entity_id: sensor.owm_temperature
+      above: "17.0"
+action:
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.stuen
+      hvac_mode: "off"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.stuen
+      target_temp_high: 7
+      temperature: 6
+      target_temp_low: 5
+      hvac_mode: "off"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.gangen
+      hvac_mode: "off"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.gangen
+      target_temp_high: 7
+      temperature: 6
+      target_temp_low: 5
+      hvac_mode: "off"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.kokkenet
+      hvac_mode: "off"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.kokkenet
+      target_temp_high: 7
+      temperature: 6
+      target_temp_low: 5
+      hvac_mode: "off"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.badevaerelset
+      hvac_mode: "off"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.badevaerelset
+      target_temp_high: 7
+      temperature: 6
+      target_temp_low: 5
+      hvac_mode: "off"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.bornevaerelset
+      hvac_mode: "off"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.bornevaerelset
+      target_temp_high: 7
+      temperature: 6
+      target_temp_low: 5
+      hvac_mode: "off"

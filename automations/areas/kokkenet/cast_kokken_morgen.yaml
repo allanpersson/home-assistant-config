@@ -1,0 +1,24 @@
+---
+#
+alias: "Cast Køkken Morgen"
+trigger:
+  - platform: state
+    entity_id: media_player.kokkenet
+    to: "off"
+  - platform: state
+    entity_id: media_player.kokkenet
+    to: "idle"
+condition:
+  condition: or
+  conditions:
+    - condition: state
+      entity_id: media_player.kokkenet
+      state: "off"
+    - condition: state
+      entity_id: media_player.kokkenet
+      state: "idle"
+action:
+  - service: cast.show_lovelace_view
+    data:
+      entity_id: media_player.kokkenet
+      view_path: "morgen"

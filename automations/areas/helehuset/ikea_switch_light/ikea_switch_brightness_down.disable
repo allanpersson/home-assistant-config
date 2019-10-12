@@ -1,0 +1,21 @@
+---
+alias: "Ikea switch brightness down"
+trigger:
+  - platform: event
+    event_type: deconz_event
+    event_data:
+      id: huset
+      event: 2002
+# condition:
+#   - condition: template
+#     value_template: >
+#        {% set x = trigger.event.data.event|string %}
+#        {{ x|length != 4 or x[1:3] != '00' }}
+action:
+  service: light.turn_on
+  data_template:
+    transition: 1
+    brightness: '{{states.light.stuen.attributes.brightness - 10}}'
+    # rgb_color: [255 , 160 , 39]
+    entity_id:
+      - light.stuen

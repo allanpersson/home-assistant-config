@@ -1,0 +1,88 @@
+---
+#
+alias: "Climate auto sleep"
+trigger:
+  - platform: time_pattern
+    seconds: "/300"
+  - platform: state
+    entity_id: media_player.android_tv_boks
+    to: "off"
+condition:
+  condition: and
+  conditions:
+    - condition: numeric_state
+      entity_id: sensor.owm_temperature
+      below: 17
+    - condition: state
+      entity_id: group.person_alle
+      state: "home"
+    - condition: time
+      after: "23:00:00"
+      before: "06:00:00"
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: media_player.android_tv_boks
+          state: "standby"
+        - condition: state
+          entity_id: media_player.android_tv_boks
+          state: "idle"
+        - condition: state
+          entity_id: media_player.android_tv_boks
+          state: "off"
+action:
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.stuen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.stuen
+      target_temp_high: 19
+      temperature: 18
+      target_temp_low: 17
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.gangen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.gangen
+      target_temp_high: 19
+      temperature: 18
+      target_temp_low: 17
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.kokkenet
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.kokkenet
+      target_temp_high: 19
+      temperature: 18
+      target_temp_low: 17
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.badevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.badevaerelset
+      target_temp_high: 19
+      temperature: 18
+      target_temp_low: 17
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.bornevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.bornevaerelset
+      target_temp_high: 21
+      temperature: 20
+      target_temp_low: 19
+      hvac_mode: "heat"
