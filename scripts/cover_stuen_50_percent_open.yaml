@@ -1,0 +1,15 @@
+---
+#
+cover_stuen_50_percent_open:
+  alias: "Cover 50% open (Stuen)"
+  sequence:
+    - service: cover.set_cover_position
+      entity_id: cover.stuen_venstre
+      data:
+        position: 65
+    - delay:
+        milliseconds: 100
+    - service: cover.set_cover_position
+      entity_id: cover.stuen_hojre
+      data:
+        position: 65
