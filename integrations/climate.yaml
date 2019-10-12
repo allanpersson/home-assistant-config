@@ -1,0 +1,3 @@
+---
+#
+climate: !include_dir_list ../entities/climate

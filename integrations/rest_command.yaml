@@ -1,0 +1,3 @@
+---
+#
+rest_command: !include_dir_merge_named ../entities/rest_commands
