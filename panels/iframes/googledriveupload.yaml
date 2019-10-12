@@ -1,0 +1,6 @@
+---
+#
+backup:
+  title: "Snapshots"
+  icon: mdi:cloud-upload
+  url: !secret iframe_url_googledriveupload
