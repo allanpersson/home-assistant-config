@@ -1,0 +1,8 @@
+---
+#
+platform: mqtt
+state_topic: "tecnosensor/face"
+name: "Tecno Face"
+payload_on: '{"value":true}'
+payload_off: '{"value":false}'
+device_class: motion

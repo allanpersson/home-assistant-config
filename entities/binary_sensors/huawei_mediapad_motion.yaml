@@ -1,0 +1,8 @@
+---
+#
+platform: mqtt
+state_topic: "huaweisensor/motion"
+name: "Huawei Mediapad Motion"
+payload_on: '{"value":true}'
+payload_off: '{"value":false}'
+device_class: motion

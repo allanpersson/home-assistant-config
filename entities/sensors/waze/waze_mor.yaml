@@ -1,0 +1,8 @@
+---
+#
+platform: waze_travel_time
+name: 'Til Mor'
+origin: device_tracker.allanpersson_pepemobil
+destination: zone.mor
+region: 'EU'
+realtime: true

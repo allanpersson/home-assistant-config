@@ -1,0 +1,7 @@
+---
+name: Arbejde
+latitude: !secret zone_arbejde_latitude
+longitude: !secret zone_arbejde_longitude
+radius: 150
+passive: false
+icon: mdi:hammer

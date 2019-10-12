@@ -1,0 +1,8 @@
+---
+#
+platform: rejseplanen
+name: "Rejseplanen Aarhus rutebilstationen"
+stop_id: "751009201"
+# direction:
+# - 'Skanderborg Busterminal'
+# - "Hinnerup"

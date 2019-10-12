@@ -1,0 +1,10 @@
+---
+#
+person.alle:
+  view: true
+  # control: hidden
+  name: "Personer alle"
+  icon: mdi:account-supervisor
+  entities:
+    - person.allan_persson
+    - person.ea_rose_hebsgaard

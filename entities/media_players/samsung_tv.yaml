@@ -1,0 +1,10 @@
+---
+# This is my Livingroom Samsung TV.
+#
+# https://www.home-assistant.io/components/media_player.samsungtv/
+#
+platform: samsungtv
+name: Samsung Tv
+host: !secret samsungtv_host
+port: !secret samsungtv_port
+mac: !secret samsungtv_mac_wifi

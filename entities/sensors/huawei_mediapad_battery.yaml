@@ -1,0 +1,7 @@
+---
+#
+platform: mqtt
+state_topic: "huaweisensor/battery"
+name: "Huawei mediapad Battery Level"
+unit_of_measurement: "%"
+value_template: '{{ value_json.value }}'

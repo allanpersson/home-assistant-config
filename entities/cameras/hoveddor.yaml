@@ -1,0 +1,11 @@
+---
+# Pizero Cam
+platform: mjpeg
+name: Dør
+username: !secret pizero_username_hoveddor
+password: !secret pizero_password_hoveddor
+verify_ssl: false
+authentication: basic
+still_image_url: !secret pizero_still_image_url_hoveddor
+mjpeg_url: !secret pizero_mjpeg_url_hoveddor
+# framerate: 30

@@ -1,0 +1,7 @@
+---
+name: "Mo's Friends"
+latitude: !secret zone_mosfriends_latitude
+longitude: !secret zone_mosfriends_longitude
+radius: 150
+passive: false
+icon: mdi:run

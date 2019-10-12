@@ -1,0 +1,11 @@
+---
+#
+kokken_windows:
+  view: true
+  # control: hidden
+  name: "Køkken windows"
+  icon: mdi:border-all-variant
+  entities:
+    - binary_sensor.window_kokken_lille
+    - binary_sensor.window_kokken_hojre
+    - binary_sensor.window_kokken_venstre

@@ -1,0 +1,5 @@
+---
+# Lokal file Camera
+platform: local_file
+name: Stuen
+file_path: /config/www/images/rooms/stuen.jpg

@@ -1,0 +1,7 @@
+---
+name: Hempel & Juhl
+latitude: !secret zone_hempeljuhl_latitude
+longitude: !secret zone_hempeljuhl_longitude
+radius: 250
+passive: false
+icon: mdi:home-heart
