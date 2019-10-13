@@ -128,7 +128,7 @@ Below list of accessories i use with my cameras.
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my camera entities. 
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my camera entities. So far i haven't found any use case for any automations, but feel free to inspire me with some ideas.
 
 **Automations:**
 <details>
