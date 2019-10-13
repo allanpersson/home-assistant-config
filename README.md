@@ -232,7 +232,6 @@ Below you can find list of the software i'm using with my cameras.
 <tr><td colspan="4">
   
   
-
 #### Climate <a name="climate" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
@@ -302,6 +301,57 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
   <summary>Template Sensors (Climate)</summary><p align="center">
   <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/sensors/template/climate_template.yaml>
   Template sensors - Climate</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+
+</table>
+</p>
+
+<table align="center" border="0">
+<tr><td colspan="4">
+
+
+
+
+#### Locks <a name="locks" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Danalock V3](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR11.TRC1.A0.H0.Xdanalock.TRS0%26_nkw%3Ddanalock%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR11.TRC1.A0.H0.Xdanalock.TRS0%26_nkw%3Ddanalock%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/71I1QvjAVIL._SL1500_.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR11.TRC1.A0.H0.Xdanalock.TRS0%26_nkw%3Ddanalock%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+
+<tr><td colspan="4">
+
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my Danalock because i have the bluetooth only version.
+<br><br>
+⚠️ ***I strongly advise you NOT to buy any Danalock products. The software is not working, and they don't take it serious and keeps trying to delete social media profiles to make the company look better!*** ⚠️
+
+**Automations:**
+<details>
+  <summary>None... But feel free to to suggest some for me</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/>
+  None... But feel free to to suggest some for me - /automations/</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+<tr><td colspan="4">
+
+Below configuration of my locks.
+
+**Configuration:**
+<details>
+  <summary>None... But would love to get my lock in Home Assistant</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/>
+  None... But would love to get my lock in Home Assistant</a><br>
 <p></details>
 
 </td></tr>
