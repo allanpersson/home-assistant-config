@@ -32,25 +32,96 @@ title: Stue
 type: picture-glance
 ```
 
-# Device list
-List of all the devices i use on [Home Assistant](https://github.com/home-assistant), and information about if i have automations build around the device.
+# Devices & Automations
 
-| Brand | Model | Automations |
-| --------- | ----------- | ----------- |
-| Google | Home | Yes |
-| Google | Home Hub | Yes |
-| Google | Home Mini | Yes |
-| Huawei | Mediapad T3 | ? |
-| Ikea | Fyrtur | Yes |
-| Raspberry | Pi Zero W | ? |
-| Xiaomi | Dafang | ? |
-| Xiaomi | Roborock S50 | Yes |
+<a name="devices"></a>
+<div align="center">
+  <h4>
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#lights">
+      Lights
+    </a>
+    <span> | </span>
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
+      Mediaplayers
+    </a>
+    <span> | </span>
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#switches">
+      Switches
+    </a>
+    <span> | </span>
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#vacuums">
+      Vacuums
+    </a>
+  </h4>
+</div>
 
-Updating! The list is incomplete...
+<table align="center" border="0">
+<tr><td colspan="4">
 
 
+#### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Google Home](http://amzn.to/2dSVbK4)
+</td><td align="center">
+
+[Google Home Hub](http://amzn.to/2e3vHFQ)
+</td><td align="center">
+
+[Google Home Mini](https://store.google.com/product/google_home_mini)
+</td><td align="center">
+
+[Harman Kardon Citation 300](https://www.harmankardon.dk/baerbare-hojtalere-og-hojitalere-til-hjemmet/CITATION+300.html?dwvar_CITATION%20300_color=Black-EMEA-Current)
+</td></tr>
+
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://lh3.googleusercontent.com/igThvoKwToXtZOfTANWbgp2ZoLnPBV2KDt9oJuaK419yIHQIo24eIcsCbgWcnfwlFjs=w1000" width="140" ></a>
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/g/h/ghh-rc2.jpg" width="140" ></a>
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://www.mytrendyphone.dk/images2/Google-Home-Mini-Smart-Speaker-Chalk-11052018-04-p.jpg" width="140" ></a>
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://cdn.webshopapp.com/shops/76048/files/220339352/harman-kardon-citation-300.jpg" width="140" ></a>
+
+<tr><td colspan="4">
+
+Description.....and some [Links](http://www.ww.com) will be here sooooooon!
+<details>
+  <summary>Automation 1.</summary><p align="center">
+  <a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/packages/triggers/last_message.yaml>
+  Last Message Package - /config/packages/triggers/last_message.yaml</a><br>
+<p></details>
+<details>
+<summary>Automation 2.</summary><p align="center">
+<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/input_boolean/home_modes.yaml#L1-L4>
+Defining Guest Mode - /config/input_boolean/home_modes.yaml#L1-L4</a><br>
+<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/script/speech_engine.yaml#L25-L27>
+Using Guest mode as a condition - /config/script/speech_engine.yaml#L25-L27</a><br>
+<p></details>
+<details>
+<summary>Automation 3.</summary><p align="center">
+<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/input_boolean/hidden_booleans.yaml#L5-L7>
+Defining responsibilities trigger - /config/input_boolean/hidden_booleans.yaml#L5-L7</a><br>
+<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/script/speech_engine.yaml#L56-L68>
+Responsibility Speech Code - /config/script/speech_engine.yaml#L56-L68</a><br>
+<p></details>
+<details>
+<summary>Automation 4.</summary><p align="center">
+<a href=http://www.vCloudInfo.com/2017/10/speak-naturally-to-your-alexa-context.html>
+Read about it here on vCloudInfo.com</a><br>
+<p></details>
+<details>
+<summary>Automation 5.</summary><p align="center">
+<a href=https://www.youtube.com/playlist?list=PLlOJRJVOmoe7HhertwlAb-kTIvHtRaB-h>
+Be sure to Like and Subscribe if you enjoy this type of content.</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+  
 # Credits
-Thanks to [Frenck](https://github.com/frenck) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
+Thanks to:
+- [Ccostan](https://github.com/CCOSTAN/) for documentation inspiration.
+- [Frenck](https://github.com/frenck/) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
+- [Renemarc](https://github.com/renemarc/) for documentation inspiration.
 
 # Contact
 Fell free to follow and/or contact me on:
