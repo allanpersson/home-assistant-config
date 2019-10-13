@@ -134,6 +134,9 @@ Be sure to Like and Subscribe if you enjoy this type of content.</a><br>
 </td></tr>
 
 <tr><td colspan="4">
+
+</table>
+</p>
   
 # Credits
 Thanks to:
