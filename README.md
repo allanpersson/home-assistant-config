@@ -5,6 +5,27 @@ This is my [Home Assistant](https://github.com/home-assistant) configuration for
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
 The theme on the image is [Material Dark Theme - Pepe Version](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
 
+## Lovelace card configuration
+
+Add the following code to your lovelace configuration, and insert your own entities.
+
+```yaml
+# Example `stue` lovelace view
+aspect_ratio: 16x11
+camera_image: camera.stuen
+entities:
+  - group.stuen_windows
+  - light.stuen
+  - binary_sensor.motion_stuen
+  - climate.stuen
+  - sensor.stuen_temperature
+  - sensor.motion_stuen_2
+  - sensor.stuen_humidity
+  - binary_sensor.fire_stuen
+title: Stue
+type: picture-glance
+```
+
 # Credits
 Thanks to [Frenck](https://github.com/frenck) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
 
