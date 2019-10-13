@@ -56,9 +56,86 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
   </h4>
 </div>
 
+
+
 <table align="center" border="0">
 <tr><td colspan="4">
 
+
+#### Cameras <a name="cameras" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Huawei Mediapad T3 10](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bmi%2Bbox%2Bs%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xhuawei%2Bmediapad%2Bt3.TRS0%26_nkw%3Dhuawei%2Bmediapad%2Bt3%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
+  
+[Raspberry Pi 5MP](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_odkw%3Draspberry%2Bpi%2Bzero%2Bw%2Bcamera%2B5mp%26_osacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Draspberry%2Bpi%2Bzero%2Bw%2Bcamera%2B5mp%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
+
+[Xiaomi Dafang](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR1.TRC0.A0.H0.Xxiaomi%2Bdafang.TRS0%26_nkw%3Dxiaomi%2Bdafang%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://consumer-img.huawei.com/content/dam/huawei-cbg-site/cee-nordics/dk/mkt/pdp/tablets/mediapad-t3-10/mediapad-t3-10-dimage-0212-original.jpg" width="130" ></a>
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://ae01.alicdn.com/kf/HTB1C.WoLpXXXXXwXXXXq6xXFXXXu/free-shipping-raspberry-pi-camera-5mp-pixels-RASPBERRY-PI-2-CAMERA.jpg" width="130" ></a>
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/dafang.png" width="130" ></a>
+
+<tr><td colspan="4">
+
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my camera entities. 
+
+**Automations:**
+<details>
+  <summary>None... But feel free to suggest some cool automations for me</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/>
+  None... But feel free to suggest some cool automations for me - /automations/</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+
+I don't use any NVR for my cameras. They just stream and disappears...
+
+**NVR:**
+<details>
+  <summary>None... But feel free to suggest NVR</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/>
+  None... But feel free to suggest NVR - /</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+  
+Below you can find list of the software i'm using with my cameras.
+
+**Software:**
+<details>
+  <summary>Dafang Hacks</summary><p align="center">
+  <a href=https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks>
+  Dafang Hacks - Alternative OS for Xiaomi Dafang</a><br>
+<p></details>
+<details>
+  <summary>MotionEyeOS</summary><p align="center">
+  <a href=https://github.com/ccrisan/motioneyeos/wiki>
+  MotionEyeOS - OS for Raspberry Pi Zero W + Camera</a><br>
+<p></details>
+<details>
+  <summary>Wallpanel</summary><p align="center">
+  <a href=https://thanksmister.com/wallpanel-android/>
+  Wallpanel - Dashboard, camera, motionsensor etc. for Android</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+
+</table>
+</p>
+
+
+<table align="center" border="0">
+<tr><td colspan="4">
 
 #### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
