@@ -10,7 +10,7 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ```yaml
-# Example `stue` lovelace view
+# Example "stue" lovelace view
 aspect_ratio: 16x11
 camera_image: camera.stuen
 entities:
