@@ -244,6 +244,36 @@ I use alot of [Automations](https://github.com/allanpersson/home-assistant-confi
   <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/system/entity_update/climate_update.yaml>
   Entity update (Climate) - /automations/system/entity_update/climate_update.yaml</a><br>
 <p></details>
+<details>
+  <summary>Away mode</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_away.yaml>
+  Away mode - /automations/areas/helehuset/climate/climate_auto_away.yaml</a><br>
+<p></details>
+<details>
+  <summary>Home mode</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_home.yaml>
+  Home mode - /automations/areas/helehuset/climate/climate_auto_home.yaml</a><br>
+<p></details>
+<details>
+  <summary>Auto off</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_off.yaml>
+  Auto off - /automations/areas/helehuset/climate/climate_auto_off.yaml</a><br>
+<p></details>
+<details>
+  <summary>Sleep mode (Night)</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_sleep.yaml>
+  Sleep mode (Night) - /automations/areas/helehuset/climate/climate_auto_sleep.yaml</a><br>
+<p></details>
+<details>
+  <summary>Windows closed</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_close_windows.yaml>
+  Windows closed - /automations/areas/helehuset/climate/climate_close_windows.yaml</a><br>
+<p></details>
+<details>
+  <summary>Windows open</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_open_windows.yaml>
+  Windows open - /automations/areas/helehuset/climate/climate_open_windows.yaml</a><br>
+<p></details>
 
 </td></tr>
 
