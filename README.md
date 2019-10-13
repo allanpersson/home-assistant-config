@@ -86,6 +86,20 @@ type: picture-glance
 
 <tr><td colspan="4">
 
+</td></tr>
+<tr><td align="center">
+
+[Huawei Mediapad T3 10](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bmi%2Bbox%2Bs%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xhuawei%2Bmediapad%2Bt3.TRS0%26_nkw%3Dhuawei%2Bmediapad%2Bt3%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
+
+[Xiaomi Mi Box S](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3DHarman%2BKardon%2BCitation%2B300%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR12.TRC2.A0.H0.Xxiaomi%2Bmi%2Bbox%2Bs.TRS0%26_nkw%3Dxiaomi%2Bmi%2Bbox%2Bs%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://consumer-img.huawei.com/content/dam/huawei-cbg-site/cee-nordics/dk/mkt/pdp/tablets/mediapad-t3-10/mediapad-t3-10-dimage-0212-original.jpg" width="140" ></a>
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Xiaomi_Mi_Box_S.jpg" width="140" ></a>
+
+<tr><td colspan="4">
+
 Description.....and some [Links](http://www.ww.com) will be here sooooooon!
 <details>
   <summary>Automation 1.</summary><p align="center">
