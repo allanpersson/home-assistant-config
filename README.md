@@ -46,6 +46,10 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
       Sensors
     </a>
     <span> | </span>
+    <a href="https://github.com/allanpersson/home-assistant-config#smokedetectors">
+      Smokedetectors
+    </a>
+    <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#switches">
       Switches
     </a>
