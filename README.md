@@ -7,9 +7,7 @@
 [![Home Assistant version][img-ha-version]][link-ha-version]
 [![Hass.io][img-hassio]][link-hassio]
 
-# Pepe's Home Assistant Config
-This is my [Home Assistant](https://github.com/home-assistant) configuration for inspiration.
-
+Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc8i3bek.html) for a two bedroom apartment (66m2).
 
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
 The theme on the image is [Material Dark Theme - Pepe Version](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
