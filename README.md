@@ -1,3 +1,7 @@
+<h1 align="center">
+  🏰<br/>Home Assistant configuration for making my life easier... Hopefully 🙈<br/> <sup><sub>by <a href="http://marathonpepe.dk">Allan Persson</a> 😈</sub></sup>
+</h1>
+
 [![Price][img-price]][link-license]
 [![License][img-license]][link-license]
 [![Home Assistant version][img-ha-version]][link-ha-version]
