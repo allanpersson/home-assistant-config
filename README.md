@@ -67,16 +67,16 @@ type: picture-glance
 </td></tr>
 <tr><td align="center">
 
-[Google Home](https://amzn.to/2oCygI7)
+[Google Home](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3FBrand%3DGoogle%26LH_All%3D1%26_osacat%3D0%26_odkw%3Dgoogle%2Bhome%2Bmini%26rt%3Dnc%26_dcat%3D184435%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR10.TRC0.A0.H0.Xgoogle%2Bhome.TRS0%26_nkw%3Dgoogle%2Bhome%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td><td align="center">
 
-[Google Home Hub](https://amzn.to/2oCygI7)
+[Google Home Hub](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3FBrand%3DGoogle%26LH_All%3D1%26_osacat%3D0%26_odkw%3Dgoogle%2Bhome%26_dcat%3D184435%26rt%3Dnc%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR10.TRC0.A0.H0.Xgoogle%2Bhome%2Bhub.TRS0%26_nkw%3Dgoogle%2Bhome%2Bhub%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td><td align="center">
 
-[Google Home Mini](https://amzn.to/2oCygI7)
+[Google Home Mini](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_nkw%3Dgoogle%2Bhome%2Bmini%26_sacat%3D0%26Brand%3DGoogle%26_dcat%3D184435%26rt%3Dnc%26LH_All%3D1&campid=5338610312&toolid=20008)
 </td><td align="center">
 
-[Harman Kardon Citation 300](https://amzn.to/2oCygI7)
+[Harman Kardon Citation 300](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3FBrand%3DGoogle%26LH_All%3D1%26_osacat%3D0%26_odkw%3Dgoogle%2Bhome%2Bhub%26rt%3Dnc%26_dcat%3D184435%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DHarman%2BKardon%2BCitation%2B300%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td></tr>
 
 </td><td align="center"><img border="0" <img align="center" border="0" src="https://lh3.googleusercontent.com/igThvoKwToXtZOfTANWbgp2ZoLnPBV2KDt9oJuaK419yIHQIo24eIcsCbgWcnfwlFjs=w1000" width="140" ></a>
