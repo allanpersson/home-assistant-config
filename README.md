@@ -101,6 +101,8 @@ type: picture-glance
 <tr><td colspan="4">
 
 I use my mediaplayers in many of my [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) because in my use case it often define what i'm doing. I also use my mediaplayers alot for playing music and podcasts, so the volume sync is fantastic for not being annoyed with different volume level around the appartment.
+
+**Automations:**
 <details>
   <summary>Google Home volume sync</summary><p align="center">
   <a href=https://github.com/allanpersson/home-assistant-config/tree/master/automations/areas/helehuset/media_players_volume_sync>
