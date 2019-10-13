@@ -112,6 +112,53 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 </table>
 </p>
 
+
+<table align="center" border="0">
+<tr><td colspan="4">
+
+
+#### Vacuums <a name="vacuums" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Xiaomi Roborock S50](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR11.TRC1.A0.H0.Xxiaomi%2Broborock%2Bs50.TRS0%26_nkw%3Dxiaomi%2Broborock%2Bs50%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://sc02.alicdn.com/kf/HTB11hAzm0fJ8KJjy0Feq6xKEXXaQ/Global-Version-XIAOMI-Roborock-S50-MI-Robot.jpg_350x350.jpg" width="140" ></a>
+
+<tr><td colspan="4">
+
+I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my vacuum to help me keep my appartment clean, which can be tricky with a labrador retriever. And of course some for comfort as well. 
+
+**Automations:**
+<details>
+  <summary>Autoclean every 3.5 hours after last finish</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_autoclean.yaml>
+  Autoclean every 3.5 hours after last finish - /automations/areas/stuen/vacuum_autoclean.yaml</a><br>
+<p></details>
+<details>
+<summary>Set home mode if home</summary><p align="center">
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_home.yaml>
+Set home mode if home - /automations/areas/stuen/vacuum_home.yaml</a><br>
+<p></details>
+<details>
+<summary>Set away mode if away</summary><p align="center">
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_away.yaml>
+Set away mode if away - /automations/areas/stuen/vacuum_away.yaml</a><br>
+<p></details>
+<details>
+<summary>Return to dock when child is going to bed</summary><p align="center">
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_ea_sleep.yaml>
+Return to dock when child is going to bed - /automations/areas/stuen/vacuum_ea_sleep.yaml</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+
+</table>
+</p>
+
 ## Lovelace card configuration
 Add the following code to your lovelace configuration, and insert your own entities.
 
