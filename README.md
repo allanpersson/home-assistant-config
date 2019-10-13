@@ -10,6 +10,10 @@
 
 Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc8i3bek.html) for a two bedroom apartment (66m2).
 
+I use `packages` configuration introduced by [Frenck](https://github.com/frenck/). 
+
+That means my `configuration.yaml` points to the folder `integrations`, and the files in my `integrations` folder is pointing to the `entities` folder where every entity has it's own file sorted by type.
+
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
 The theme on the image is [Material Dark Theme - Pepe Version](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
 
