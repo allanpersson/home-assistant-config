@@ -16,7 +16,7 @@
 2. **[Devices](#devices-)**\
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace card configuration](#Lovelace-card-configuration-)**\
-    [Example "stue" camera lovelace view](#supporting-hardware-choices-) | [Example Xiaomi Roborock vacuum card](#configuration-)
+    [Camera View](#camera-view-) | [Vacuum Card](#vacuum-card-)
 4. **[Credits](#credits-)**
 5. **[Contact](#contact-)**
 6. **[Support](#support-)**
@@ -339,6 +339,7 @@ Return to dock when child is going to bed - /automations/areas/stuen/vacuum_ea_s
 ## Lovelace card configuration 🌅
 Add the following code to your lovelace configuration, and insert your own entities.
 
+## Camera View 🌅
 ```yaml
 # Example "stue" camera lovelace view
 aspect_ratio: 16x11
@@ -356,6 +357,7 @@ title: Stue
 type: picture-glance
 ```
 
+## Vacuum Card 🌅
 ```yaml
 # Example Xiaomi Roborock vacuum card
 cards:
