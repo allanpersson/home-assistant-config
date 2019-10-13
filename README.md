@@ -107,11 +107,9 @@ Description.....and some [Links](http://www.ww.com) will be here sooooooon!
   Google Home volume sync - /automations/areas/helehuset/media_players_volume_sync</a><br>
 <p></details>
 <details>
-<summary>Automation 2.</summary><p align="center">
-<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/input_boolean/home_modes.yaml#L1-L4>
-Defining Guest Mode - /config/input_boolean/home_modes.yaml#L1-L4</a><br>
-<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/script/speech_engine.yaml#L25-L27>
-Using Guest mode as a condition - /config/script/speech_engine.yaml#L25-L27</a><br>
+<summary>Auto light on in livingroom when lux is low and mediaplayer is 'on'</summary><p align="center">
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/stuen_androidtv_lights_on.yaml>
+Auto light on in livingroom when lux is low and mediaplayer is 'on' - /automations/areas/stuen/stuen_androidtv_lights_on.yaml</a><br>
 <p></details>
 <details>
 <summary>Roll down Ikea Fyrtur when Kodi is 'on'.</summary><p align="center">
