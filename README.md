@@ -240,8 +240,7 @@ Below you can find list of the software i'm using with my cameras.
 [Tado Smart Radiator Thermostat V3+](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dtado%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td></tr>
 
-</td><td align="center"><img border="0" <img align="center" border="0" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMNR2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1543598077883" width="130" ></a>
-
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dtado%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMNR2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1543598077883" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dtado%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
 
 
 <tr><td colspan="4">
@@ -398,7 +397,7 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 [Xiaomi Roborock S50](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR11.TRC1.A0.H0.Xxiaomi%2Broborock%2Bs50.TRS0%26_nkw%3Dxiaomi%2Broborock%2Bs50%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td></tr>
 
-</td><td align="center"><img border="0" <img align="center" border="0" src="https://sc02.alicdn.com/kf/HTB11hAzm0fJ8KJjy0Feq6xKEXXaQ/Global-Version-XIAOMI-Roborock-S50-MI-Robot.jpg_350x350.jpg" width="130" ></a>
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR11.TRC1.A0.H0.Xxiaomi%2Broborock%2Bs50.TRS0%26_nkw%3Dxiaomi%2Broborock%2Bs50%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://sc02.alicdn.com/kf/HTB11hAzm0fJ8KJjy0Feq6xKEXXaQ/Global-Version-XIAOMI-Roborock-S50-MI-Robot.jpg_350x350.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR11.TRC1.A0.H0.Xxiaomi%2Broborock%2Bs50.TRS0%26_nkw%3Dxiaomi%2Broborock%2Bs50%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
 
 <tr><td colspan="4">
 
