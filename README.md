@@ -114,11 +114,9 @@ Defining Guest Mode - /config/input_boolean/home_modes.yaml#L1-L4</a><br>
 Using Guest mode as a condition - /config/script/speech_engine.yaml#L25-L27</a><br>
 <p></details>
 <details>
-<summary>Automation 3.</summary><p align="center">
-<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/input_boolean/hidden_booleans.yaml#L5-L7>
-Defining responsibilities trigger - /config/input_boolean/hidden_booleans.yaml#L5-L7</a><br>
-<a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/script/speech_engine.yaml#L56-L68>
-Responsibility Speech Code - /config/script/speech_engine.yaml#L56-L68</a><br>
+<summary>Roll down Ikea Fyrtur when Kodi is 'on'.</summary><p align="center">
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_kodi.yaml>
+Roll down Ikea Fyrtur when Kodi is 'on' - /automations/areas/stuen/cover_kodi.yaml</a><br>
 <p></details>
 <details>
 <summary>Automation 4.</summary><p align="center">
