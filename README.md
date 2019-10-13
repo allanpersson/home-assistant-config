@@ -126,9 +126,9 @@ Responsibility Speech Code - /config/script/speech_engine.yaml#L56-L68</a><br>
 Read about it here on vCloudInfo.com</a><br>
 <p></details>
 <details>
-<summary>Automation 5.</summary><p align="center">
-<a href=https://www.youtube.com/playlist?list=PLlOJRJVOmoe7HhertwlAb-kTIvHtRaB-h>
-Be sure to Like and Subscribe if you enjoy this type of content.</a><br>
+<summary>Play radio in bathroom when having guests</summary><p align="center">
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/badevarelset/bad_radio_on_guests.yaml>
+Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_radio_on_guests.yaml</a><br>
 <p></details>
 
 </td></tr>
