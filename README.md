@@ -100,7 +100,7 @@ type: picture-glance
 
 <tr><td colspan="4">
 
-Description.....and some [Links](http://www.ww.com) will be here sooooooon!
+I use my mediaplayers in many of my [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) because in my use case it often define what i'm doing. I also use my mediaplayers alot for playing music and podcasts, so the volume sync is fantastic for not being annoyed with different volume level around the appartment.
 <details>
   <summary>Google Home volume sync</summary><p align="center">
   <a href=https://github.com/allanpersson/home-assistant-config/tree/master/automations/areas/helehuset/media_players_volume_sync>
@@ -115,11 +115,6 @@ Auto light on in livingroom when lux is low and mediaplayer is 'on' - /automatio
 <summary>Roll down Ikea Fyrtur when Kodi is 'on'.</summary><p align="center">
 <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_kodi.yaml>
 Roll down Ikea Fyrtur when Kodi is 'on' - /automations/areas/stuen/cover_kodi.yaml</a><br>
-<p></details>
-<details>
-<summary>Automation 4.</summary><p align="center">
-<a href=http://www.vCloudInfo.com/2017/10/speak-naturally-to-your-alexa-context.html>
-Read about it here on vCloudInfo.com</a><br>
 <p></details>
 <details>
 <summary>Play radio in bathroom when having guests</summary><p align="center">
