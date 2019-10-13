@@ -18,23 +18,23 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
 <a name="devices"></a>
 <div align="center">
   <h4>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
+    <a href="https://github.com/allanpersson/home-assistant-config#mediaplayers">
       Climate
     </a>
     <span> | </span>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
+    <a href="https://github.com/allanpersson/home-assistant-config#mediaplayers">
       Lights
     </a>
     <span> | </span>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
+    <a href="https://github.com/allanpersson/home-assistant-config#mediaplayers">
       Mediaplayers
     </a>
     <span> | </span>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
+    <a href="https://github.com/allanpersson/home-assistant-config#mediaplayers">
       Switches
     </a>
     <span> | </span>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#vacuums">
+    <a href="https://github.com/allanpersson/home-assistant-config#vacuums">
       Vacuums
     </a>
   </h4>
