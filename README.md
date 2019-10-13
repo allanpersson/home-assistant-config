@@ -95,7 +95,7 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
 <tr><td colspan="4">
 
 
-#### Cameras <a name="cameras" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+#### Cameras <a name="cameras" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
 
@@ -223,7 +223,7 @@ Below you can find list of the software i'm using with my cameras.
   
   
 
-#### Climate <a name="climate" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+#### Climate <a name="climate" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
 
@@ -314,7 +314,7 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
   
 
 
-#### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+#### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
 
@@ -387,7 +387,7 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 <tr><td colspan="4">
 
 
-#### Vacuums <a name="vacuums" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+#### Vacuums <a name="vacuums" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
 
