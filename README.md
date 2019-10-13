@@ -111,9 +111,9 @@ I use my mediaplayers in many of my [Automations](https://github.com/allanpersso
 Auto light on in livingroom when lux is low and mediaplayer is 'on' - /automations/areas/stuen/stuen_androidtv_lights_on.yaml</a><br>
 <p></details>
 <details>
-<summary>Roll down Ikea Fyrtur when Kodi is 'on'.</summary><p align="center">
+<summary>Roll down Ikea Fyrtur cover when Kodi is 'on'.</summary><p align="center">
 <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_kodi.yaml>
-Roll down Ikea Fyrtur when Kodi is 'on' - /automations/areas/stuen/cover_kodi.yaml</a><br>
+Roll down Ikea Fyrtur cover when Kodi is 'on' - /automations/areas/stuen/cover_kodi.yaml</a><br>
 <p></details>
 <details>
 <summary>Play radio in bathroom when having guests</summary><p align="center">
