@@ -328,9 +328,9 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my Danalock because i have the bluetooth only version.
-<br><br>
 ⚠️ ***I strongly advise you NOT to buy any Danalock products. The software is not working, and they don't take it serious and keeps trying to delete social media profiles to make the company look better!*** ⚠️
+<br><br>
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my Danalock because i have the bluetooth only version.
 
 **Automations:**
 <details>
