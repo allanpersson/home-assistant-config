@@ -1,9 +1,3 @@
-<h1 align="center">
-  🏰<br/>Home Assistant configuration<br/> ...for making my life easier... Hopefully 🙈<br/> <sup><sub>by <a href="http://marathonpepe.dk">Allan Persson</a> 😈</sub></sup>
-</h1>
-
-
-
 [![Last commit][img-last-commit]][link-repo]
 [![Price][img-price]][link-license]
 [![License][img-license]][link-license]
@@ -11,6 +5,13 @@
 [![Hass.io][img-hassio]][link-hassio]
 <a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 10px !important;width: 40px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
+
+<h1 align="center">
+  🏰<br/>Home Assistant configuration</sub></sup>
+</h1>
+<h2 align="center">
+ ...for making my life easier... Hopefully 🙈<br/> <sup><sub>by <a href="http://marathonpepe.dk">Allan Persson</a> 😈</sub></sup>
+</h2>
 
 
 ## Table of contents 📑
