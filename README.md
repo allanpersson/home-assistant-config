@@ -8,16 +8,33 @@
 [![Hass.io][img-hassio]][link-hassio]
 <a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 10px !important;width: 40px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
+
+## Table of contents 📑
+
+1. **[Overview](#overview-)**\
+    [Description](#description-) | [Screenshots](#screenshots-)
+2. **[Devices](#devices-)**\
+    [Cameras](#climate-control-) | [Climate](#weather-report-) | [Covers](#lighting-control-) | [Fans](#presence-and-basic-security-) | [Hardware](#modes-and-scenes-) | [Lights](#general-information-) | [Locks](#additional-human-interfaces-) | [Mediaplayers](#additional-human-interfaces-) | [Sensors](#additional-human-interfaces-) | [Smoke Detectors](#additional-human-interfaces-) | [Switches](#additional-human-interfaces-) | [Vacuums](#additional-human-interfaces-)
+3. **[Lovelace card configuration](#Lovelace-card-configuration-)**\
+    [Example "stue" camera lovelace view](#supporting-hardware-choices-) | [Example Xiaomi Roborock vacuum card](#configuration-)
+4. **[Credits](#credits-)**
+5. **[Contact](#contact-)**
+6. **[Support](#support-)**
+
+## Overview 🌅
+
+## Description 🌅
 Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc8i3bek.html) for a two bedroom apartment (66m2).
 
 I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
 
 That means my `configuration.yaml` points to the folder `integrations`, and the files in my `integrations` folder is pointing to the `entities` folder where every entity has it's own file sorted by type.
 
+## Screenshots 🌅
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
 The theme on the image is [Material Dark Theme - Pepe Version](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
 
-# Devices & Automations
+## Devices 🌅
 
 <a name="devices"></a>
 <div align="center">
@@ -319,7 +336,7 @@ Return to dock when child is going to bed - /automations/areas/stuen/vacuum_ea_s
 </table>
 </p>
 
-## Lovelace card configuration
+## Lovelace card configuration 🌅
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ```yaml
@@ -578,17 +595,17 @@ cards:
 type: 'custom:vertical-stack-in-card'
 ```
 
-# Credits
+# Credits 🌅
 Thanks to:
 - [Ccostan](https://github.com/CCOSTAN/) for documentation inspiration.
 - [Frenck](https://github.com/frenck/) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
 - [Renemarc](https://github.com/renemarc/) for documentation inspiration.
 
-# Contact
+# Contact 🌅
 Fell free to follow and/or contact me on:
 [Facebook](http://facebook.com/marathonpepe) │ [Instagram](http://instagram.com/marathonpepe) │ [Twitter](http://twitter.com/marathonpepe) │ [Website](http://marathonpepe.dk)
 
-# Support
+# Support 🌅
 This body runs on coffee and you can <a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
