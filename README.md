@@ -37,6 +37,10 @@ type: picture-glance
 <a name="devices"></a>
 <div align="center">
   <h4>
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#climate">
+      Climate
+    </a>
+    <span> | </span>
     <a href="https://github.com/allanpersson/Home-AssistantConfig#lights">
       Lights
     </a>
