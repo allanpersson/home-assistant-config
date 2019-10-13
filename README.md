@@ -10,7 +10,7 @@
 
 Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc8i3bek.html) for a two bedroom apartment (66m2).
 
-I use `packages` configuration introduced by [Frenck](https://github.com/frenck/). 
+I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
 
 That means my `configuration.yaml` points to the folder `integrations`, and the files in my `integrations` folder is pointing to the `entities` folder where every entity has it's own file sorted by type.
 
