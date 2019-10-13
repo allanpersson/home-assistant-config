@@ -116,6 +116,11 @@ Below you can find list of the software i'm using with my cameras.
   Dafang Hacks - Alternative OS for Xiaomi Dafang</a><br>
 <p></details>
 <details>
+  <summary>Local File</summary><p align="center">
+  <a href=https://www.home-assistant.io/integrations/local_file/>
+  Home Assistant Local File - Used for still image in my lovelace view ("Fake" camera view)</a><br>
+<p></details>
+<details>
   <summary>MotionEyeOS</summary><p align="center">
   <a href=https://github.com/ccrisan/motioneyeos/wiki>
   MotionEyeOS - OS for Raspberry Pi Zero W + Camera</a><br>
