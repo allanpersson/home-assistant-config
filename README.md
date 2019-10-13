@@ -30,6 +30,14 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
       Climate
     </a>
     <span> | </span>
+    <a href="https://github.com/allanpersson/home-assistant-config#covers">
+      Covers
+    </a>
+    <span> | </span>
+    <a href="https://github.com/allanpersson/home-assistant-config#fans">
+      Fans
+    </a>
+    <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#hardware">
       Hardware
     </a>
