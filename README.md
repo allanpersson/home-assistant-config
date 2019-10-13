@@ -1,5 +1,5 @@
 <h1 align="center">
-  🏰<br/>Home Assistant configuration for making my life easier... Hopefully 🙈<br/> <sup><sub>by <a href="http://marathonpepe.dk">Allan Persson</a> 😈</sub></sup>
+  🏰<br/>Home Assistant configuration<br/> ...for making my life easier... Hopefully 🙈<br/> <sup><sub>by <a href="http://marathonpepe.dk">Allan Persson</a> 😈</sub></sup>
 </h1>
 
 
@@ -226,7 +226,6 @@ Below you can find list of the software i'm using with my cameras.
 </table>
 </p>
 
-
 <table align="center" border="0">
 <tr><td colspan="4">
   
@@ -306,16 +305,10 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 
 </td></tr>
 
-
-
-
-
-
 <tr><td colspan="4">
 
 </table>
 </p>
-
 
 <table align="center" border="0">
 <tr><td colspan="4">
@@ -391,9 +384,9 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 </table>
 </p>
 
-
 <table align="center" border="0">
 <tr><td colspan="4">
+
 
 
 #### Vacuums <a name="vacuums" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
@@ -453,10 +446,11 @@ Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
 </td></tr>
 
 <tr><td colspan="4">
-  
 
 </table>
 </p>
+
+
 
 ## Lovelace card configuration 🌅
 Add the following code to your lovelace configuration, and insert your own entities.
