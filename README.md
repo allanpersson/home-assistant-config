@@ -28,7 +28,7 @@ Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io]
 
 I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
 
-That means my `configuration.yaml` points to the folder `integrations`, and the files in my `integrations` folder is pointing to the `entities` folder where every entity has it's own file sorted by type.
+That means my [configuration.yaml](https://github.com/allanpersson/home-assistant-config/blob/master/configuration.yaml) points to the folder [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/integrations), and the files in my [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/integrations) folder is pointing to the [entities](https://github.com/allanpersson/home-assistant-config/tree/master/entities) folder where every entity has it's own file sorted by type.
 
 ## Screenshots 🌅
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
