@@ -18,12 +18,24 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
 <a name="devices"></a>
 <div align="center">
   <h4>
+    <a href="https://github.com/allanpersson/home-assistant-config#cameras">
+      Cameras
+    </a>
+    <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#climate">
       Climate
     </a>
     <span> | </span>
+    <a href="https://github.com/allanpersson/home-assistant-config#hardware">
+      Hardware
+    </a>
+    <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#lights">
       Lights
+    </a>
+    <span> | </span>
+    <a href="https://github.com/allanpersson/home-assistant-config#locks">
+      Locks
     </a>
     <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#mediaplayers">
