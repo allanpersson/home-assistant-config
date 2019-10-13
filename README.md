@@ -114,7 +114,7 @@ I don't have any [Automations](https://github.com/allanpersson/home-assistant-co
 
 <tr><td colspan="4">
 
-Below list of accessories i use with my cameras. 
+Below configuration on the different cameras. 
 
 **Configuration:**
 <details>
