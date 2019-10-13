@@ -14,7 +14,7 @@
 1. **[Overview](#overview-)**\
     [Description](#description-) | [Screenshots](#screenshots-)
 2. **[Devices](#devices-)**\
-    [Cameras](#cameras) | [Climate](#weather-report-) | [Covers](#lighting-control-) | [Fans](#presence-and-basic-security-) | [Hardware](#modes-and-scenes-) | [Lights](#general-information-) | [Locks](#additional-human-interfaces-) | [Mediaplayers](#additional-human-interfaces-) | [Sensors](#additional-human-interfaces-) | [Smoke Detectors](#additional-human-interfaces-) | [Switches](#additional-human-interfaces-) | [Vacuums](#additional-human-interfaces-)
+    [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace card configuration](#Lovelace-card-configuration-)**\
     [Example "stue" camera lovelace view](#supporting-hardware-choices-) | [Example Xiaomi Roborock vacuum card](#configuration-)
 4. **[Credits](#credits-)**
