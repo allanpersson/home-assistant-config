@@ -601,4 +601,4 @@ This body runs on coffee and you can <a href="https://www.buymeacoffee.com/marat
 [link-ha-version]:https://github.com/home-assistant/home-assistant/tree/0.100.2
 [link-hassio]:https://home-assistant.io/hassio/
 [link-issues]:https://github.com/allanpersson/home-assistant-config/issues
-[link-license]:LICENSE.txt
+[link-license]:https://github.com/allanpersson/home-assistant-config/blob/master/LICENSE.txt
