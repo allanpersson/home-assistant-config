@@ -33,6 +33,3 @@ homeassistant:
 
   # Load packages
   packages: !include_dir_named integrations
-
-hacs:
-  token: !secret github_access_token
