@@ -63,7 +63,7 @@ type: picture-glance
 <tr><td colspan="4">
 
 
-#### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="20" ></a>
+#### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
 
