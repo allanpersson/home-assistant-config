@@ -110,6 +110,38 @@ I don't have any [Automations](https://github.com/allanpersson/home-assistant-co
 
 </td></tr>
 
+
+
+<tr><td colspan="4">
+
+Below list of accessories i use with my cameras. 
+
+**Configuration:**
+<details>
+  <summary>Huawei Mediapad T3 10</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/sovevarelset.yaml>
+  Huawei Mediapad T3 10 - Wallpanel</a><br>
+<p></details>
+<details>
+  <summary>Local File</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/gangen.yaml>
+  Local file - Local image as camera</a><br>
+<p></details>
+<details>
+  <summary>Raspberry Pi Zero W</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/hoveddor.yaml>
+  Raspberry Pi Zero W - MotionEyeOS</a><br>
+<p></details>
+<details>
+  <summary>Xiaomi Dafang</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/kokkenet.yaml>
+  Xiaomi Dafang - Dafang Hacks</a><br>
+<p></details>
+
+</td></tr>
+
+
+
 <tr><td colspan="4">
 
 I don't use any NVR for my cameras. They just stream and disappears...
