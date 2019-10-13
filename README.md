@@ -30,7 +30,10 @@ List of all the devices i use on [Home Assistant](https://github.com/home-assist
 
 | Brand | Model | Automations |
 | --------- | ----------- | ----------- |
+| Google | Home Mini | Yes |
+| Huawei | Mediapad T3 | ? |
 | Ikea | Fyrtur | Yes |
+| Raspberry | Pi Zero W | ? |
 | Xiaomi | Dafang | ? |
 | Xiaomi | Roborock S50 | Yes |
 
