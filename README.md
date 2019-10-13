@@ -30,6 +30,10 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
       Mediaplayers
     </a>
     <span> | </span>
+    <a href="https://github.com/allanpersson/home-assistant-config#sensors">
+      Sensors
+    </a>
+    <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#switches">
       Switches
     </a>
