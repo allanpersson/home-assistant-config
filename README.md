@@ -67,16 +67,16 @@ type: picture-glance
 </td></tr>
 <tr><td align="center">
 
-[Google Home](http://amzn.to/2dSVbK4)
+[Google Home](https://amzn.to/2oCygI7)
 </td><td align="center">
 
-[Google Home Hub](http://amzn.to/2e3vHFQ)
+[Google Home Hub](https://amzn.to/2oCygI7)
 </td><td align="center">
 
-[Google Home Mini](https://store.google.com/product/google_home_mini)
+[Google Home Mini](https://amzn.to/2oCygI7)
 </td><td align="center">
 
-[Harman Kardon Citation 300](https://www.harmankardon.dk/baerbare-hojtalere-og-hojitalere-til-hjemmet/CITATION+300.html?dwvar_CITATION%20300_color=Black-EMEA-Current)
+[Harman Kardon Citation 300](https://amzn.to/2oCygI7)
 </td></tr>
 
 </td><td align="center"><img border="0" <img align="center" border="0" src="https://lh3.googleusercontent.com/igThvoKwToXtZOfTANWbgp2ZoLnPBV2KDt9oJuaK419yIHQIo24eIcsCbgWcnfwlFjs=w1000" width="140" ></a>
