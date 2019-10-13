@@ -13,26 +13,6 @@ Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io]
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
 The theme on the image is [Material Dark Theme - Pepe Version](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
 
-## Lovelace card configuration
-Add the following code to your lovelace configuration, and insert your own entities.
-
-```yaml
-# Example "stue" lovelace view
-aspect_ratio: 16x11
-camera_image: camera.stuen
-entities:
-  - group.stuen_windows
-  - light.stuen
-  - binary_sensor.motion_stuen
-  - climate.stuen
-  - sensor.stuen_temperature
-  - sensor.motion_stuen_2
-  - sensor.stuen_humidity
-  - binary_sensor.fire_stuen
-title: Stue
-type: picture-glance
-```
-
 # Devices & Automations
 
 <a name="devices"></a>
@@ -131,7 +111,266 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 
 </table>
 </p>
-  
+
+## Lovelace card configuration
+Add the following code to your lovelace configuration, and insert your own entities.
+
+```yaml
+# Example "stue" camera lovelace view
+aspect_ratio: 16x11
+camera_image: camera.stuen
+entities:
+  - group.stuen_windows
+  - light.stuen
+  - binary_sensor.motion_stuen
+  - climate.stuen
+  - sensor.stuen_temperature
+  - sensor.motion_stuen_2
+  - sensor.stuen_humidity
+  - binary_sensor.fire_stuen
+title: Stue
+type: picture-glance
+```
+
+```yaml
+# Example Xiaomi Roborock vacuum card
+cards:
+  - aspect_ratio: 16x9
+    elements:
+      - entity: vacuum.james
+        icon: 'mdi:bell-ring'
+        style:
+          color: '#3090C7'
+          left: 80%
+          top: 90%
+        tap_action:
+          action: call-service
+          entity: vacuum.james
+          service: vacuum.locate
+        type: icon
+      - entity: vacuum.james
+        icon: 'mdi:crosshairs'
+        style:
+          color: '#3090C7'
+          left: 65%
+          top: 90%
+        tap_action:
+          action: call-service
+          entity: vacuum.james
+          service: vacuum.clean_spot
+        type: icon
+      - entity: vacuum.james
+        icon: 'mdi:home'
+        style:
+          color: '#3090C7'
+          left: 50%
+          top: 90%
+        tap_action:
+          action: call-service
+          entity: vacuum.james
+          service: vacuum.return_to_base
+        type: icon
+      - entity: vacuum.james
+        icon: 'mdi:stop'
+        style:
+          color: '#3090C7'
+          left: 35%
+          top: 90%
+        tap_action:
+          action: call-service
+          entity: vacuum.james
+          service: vacuum.stop
+        type: icon
+      - entity: vacuum.james
+        icon: 'mdi:play'
+        style:
+          color: '#3090C7'
+          left: 20%
+          top: 90%
+        tap_action:
+          action: call-service
+          entity: vacuum.james
+          service: vacuum.start
+        type: icon
+      - entity: sensor.vacuum_operation
+        style:
+          background-color: '#3090C7'
+          border-color: 'rgb(34, 154, 210)'
+          border-radius: 20px
+          color: 'rgb(255, 255, 255)'
+          font-family: Trebuchet MS
+          font-size: 70%
+          font-weight: bold
+          left: 1%
+          pointer-events: none
+          top: 20%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_accessories
+        style:
+          background-color: '#3090C7'
+          border-color: 'rgb(34, 154, 210)'
+          border-radius: 20px
+          color: 'rgb(255, 255, 255)'
+          font-family: Trebuchet MS
+          font-size: 70%
+          font-weight: bold
+          pointer-events: none
+          right: 1%
+          top: 20%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: vacuum.james
+        icon: 'mdi:robot-vacuum'
+        style:
+          background-color: '#cccccc'
+          border-color: 'rgb(34, 154, 210)'
+          border-radius: 80px
+          color: 'rgb(255, 255, 255)'
+          font-family: Trebuchet MS
+          font-size: 150%
+          font-weight: bold
+          left: 45%
+          top: 10%
+          transform: 'translate(0%,-50%)'
+        tap_action:
+          action: more-info
+          entity: vacuum.james
+        type: icon
+      - entity: sensor.vacuum_cleanmainbrush
+        style:
+          border-color: 'rgb(34, 154, 210)'
+          border-right-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 76%
+          font-weight: bold
+          pointer-events: none
+          right: 1%
+          top: 35%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_cleansidebrush
+        style:
+          border-color: 'rgb(34, 154, 210)'
+          border-right-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 76%
+          font-weight: bold
+          pointer-events: none
+          right: 1%
+          top: 45%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_cleanfilter
+        style:
+          border-color: 'rgb(34, 154, 210)'
+          border-right-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 76%
+          font-weight: bold
+          opacity: 0.8
+          pointer-events: none
+          right: 1%
+          top: 55%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_sensordirtyleft
+        style:
+          border-color: 'rgb(34, 154, 210)'
+          border-right-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 76%
+          font-weight: bold
+          pointer-events: none
+          right: 1%
+          top: 65%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: vacuum.james
+        style:
+          border-color: '#3090C7'
+          border-left-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 76%
+          font-weight: bold
+          left: 1%
+          pointer-events: none
+          top: 35%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_status
+        style:
+          border-color: '#3090C7'
+          border-left-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 76%
+          font-weight: bold
+          left: 1%
+          pointer-events: none
+          top: 45%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_battery
+        style:
+          border-color: 'rgb(34, 154, 210)'
+          border-left-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 75%
+          font-weight: bold
+          left: 1%
+          pointer-events: none
+          top: 55%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_fan_speed
+        style:
+          border-color: 'rgb(34, 154, 210)'
+          border-left-style: solid
+          color: '#ffffff'
+          font-family: Trebuchet MS
+          font-size: 75%
+          font-weight: bold
+          left: 1%
+          pointer-events: none
+          top: 65%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_cleaned_area
+        prefix: 'Area:'
+        style:
+          color: '#84a6ba'
+          font-family: Trebuchet MS
+          font-size: 80%
+          font-weight: bold
+          left: 31%
+          pointer-events: none
+          top: 79%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+      - entity: sensor.vacuum_cleaning_time
+        prefix: 'Time:'
+        style:
+          color: '#84a6ba'
+          font-family: Trebuchet MS
+          font-size: 80%
+          font-weight: bold
+          left: 51%
+          pointer-events: none
+          top: 79%
+          transform: 'translate(0%,-50%)'
+        type: state-label
+    image: /local/images/things/vacuum1.jpg
+    type: picture-elements
+type: 'custom:vertical-stack-in-card'
+```
+
 # Credits
 Thanks to:
 - [Ccostan](https://github.com/CCOSTAN/) for documentation inspiration.
