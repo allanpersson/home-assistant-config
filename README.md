@@ -425,6 +425,26 @@ Return to dock when child is going to bed - /automations/areas/stuen/vacuum_ea_s
 </td></tr>
 
 <tr><td colspan="4">
+  
+  
+I have some [Scripts](https://github.com/allanpersson/home-assistant-config/tree/master/scripts) for my vacuum, which i use for zoned clean up or trigger sleep mode when i go to bed late. 
+
+**Scripts:**
+<details>
+  <summary>Goodnight script turn off autoclean for 9 hours</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/godnat_vacuum_off.yaml>
+  Goodnight script turn off autoclean for 9 hours - /scripts/godnat_vacuum_off.yaml</a><br>
+<p></details>
+<details>
+<summary>Zoned clean up (Livingroom)</summary><p align="center">
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/vacuum_zone_stuen.yaml>
+Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+  
 
 </table>
 </p>
