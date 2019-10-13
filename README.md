@@ -30,6 +30,8 @@ List of all the devices i use on [Home Assistant](https://github.com/home-assist
 
 | Brand | Model | Automations |
 | --------- | ----------- | ----------- |
+| Google | Home | Yes |
+| Google | Home Hub | Yes |
 | Google | Home Mini | Yes |
 | Huawei | Mediapad T3 | ? |
 | Ikea | Fyrtur | Yes |
