@@ -102,9 +102,9 @@ type: picture-glance
 
 Description.....and some [Links](http://www.ww.com) will be here sooooooon!
 <details>
-  <summary>Automation 1.</summary><p align="center">
-  <a href=https://github.com/CCOSTAN/Home-AssistantConfig/blob/master/config/packages/triggers/last_message.yaml>
-  Last Message Package - /config/packages/triggers/last_message.yaml</a><br>
+  <summary>Google Home volume sync</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/tree/master/automations/areas/helehuset/media_players_volume_sync>
+  Google Home volume sync - /automations/areas/helehuset/media_players_volume_sync</a><br>
 <p></details>
 <details>
 <summary>Automation 2.</summary><p align="center">
