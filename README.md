@@ -220,6 +220,69 @@ Below you can find list of the software i'm using with my cameras.
 
 <table align="center" border="0">
 <tr><td colspan="4">
+  
+  
+
+#### Climate <a name="climate" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Tado Smart Radiator Thermostat V3+](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dtado%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><img border="0" <img align="center" border="0" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMNR2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1543598077883" width="130" ></a>
+
+
+
+<tr><td colspan="4">
+
+I use alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for controlling my thermostats for best comfort and saving most energy.
+
+**Automations:**
+<details>
+  <summary>Entity update</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/system/entity_update/climate_update.yaml>
+  Entity update (Climate) - /automations/system/entity_update/climate_update.yaml</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+<tr><td colspan="4">
+
+Below configuration on my radiator thermostats. It's possible to use the Tado cloud service in [Home Assistant](https://home-assistant.io/) which i have done until i changed to the new option with homekit in [Home Assistant](https://home-assistant.io/).
+
+**Configuration:**
+<details>
+  <summary>Homekit documentation</summary><p align="center">
+  <a href=https://www.home-assistant.io/integrations/homekit_controller/>
+  Homekit - Documentation</a><br>
+<p></details>
+<details>
+  <summary>Template Sensors (Climate)</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/sensors/template/climate_template.yaml>
+  Template sensors - Climate</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+
+
+
+<tr><td colspan="4">
+
+</table>
+</p>
+
+
+<table align="center" border="0">
+<tr><td colspan="4">
+  
+  
+
 
 #### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/Home-AssistantConfig#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
