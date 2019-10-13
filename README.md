@@ -51,7 +51,7 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
     </a>
     <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#smokedetectors">
-      Smokedetectors
+      Smoke Detectors
     </a>
     <span> | </span>
     <a href="https://github.com/allanpersson/home-assistant-config#switches">
