@@ -18,11 +18,11 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
 <a name="devices"></a>
 <div align="center">
   <h4>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#climate">
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
       Climate
     </a>
     <span> | </span>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#lights">
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
       Lights
     </a>
     <span> | </span>
@@ -30,7 +30,7 @@ The theme on the image is [Material Dark Theme - Pepe Version](https://github.co
       Mediaplayers
     </a>
     <span> | </span>
-    <a href="https://github.com/allanpersson/Home-AssistantConfig#switches">
+    <a href="https://github.com/allanpersson/Home-AssistantConfig#mediaplayers">
       Switches
     </a>
     <span> | </span>
