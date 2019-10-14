@@ -19,7 +19,7 @@
     [Code](#code-) | [Description](#description-) | [PRs](#prs-) | [Screenshots](#screenshots-) | [Theme](#theme-)
 2. **[Devices](#devices-)**\
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
-3. **[Lovelace card configuration](#Lovelace-card-configuration-)**\
+3. **[Lovelace Configuration](#Lovelace-configuration-)**\
     [Camera View](#camera-view-) | [Vacuum Card](#vacuum-card-)
 4. **[Credits](#credits-)**
 5. **[Contact](#contact-)**
@@ -351,7 +351,7 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 
 <tr><td colspan="4">
 
-⚠️ ***I strongly advise you NOT to buy any Danalock products. The software is not working, and they don't take it serious and keeps trying to delete social media profiles to make the company look better!*** ⚠️
+⚠️ ***I strongly advise you NOT to buy any Danalock products. The software is not working, and they don't take it serious and keeps deleting their social media profiles to make the company look better!*** ⚠️
 <br><br>
 I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my Danalock because i have the bluetooth only version.
 
@@ -530,7 +530,7 @@ Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
 
 
 
-## Lovelace card configuration 🌅
+## Lovelace Configuration 🌅
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ## Camera View 🌅
