@@ -16,7 +16,7 @@
 
 ## Table of contents 📑
 1. **[Overview](#overview-)**\
-    [Description](#description-) | [Screenshots](#screenshots-)| [Theme](#theme-)
+    [Code](#code-) | [Description](#description-) | [PRs](#prs-) | [Screenshots](#screenshots-) | [Theme](#theme-)
 2. **[Devices](#devices-)**\
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace card configuration](#Lovelace-card-configuration-)**\
@@ -31,12 +31,24 @@
 
 
 
+## Code 🌅
+Let me be clear from the start; I'm not a great coder in any way!
+I don't feel the excitement from putting some code together, but i have the higest respect and admiration for people who finds joy in it and are good at it. **You make my life easier ❤️**
+
+So you might experience my code is 'ugly' and you are probably right, i find joy in making things work as i want it to. In coding there is frontend and backend coders, i'm the **userfriendliness and comfort guy** 😛
+
+
+
 ## Description 🌅
 Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008) for a two bedroom apartment (66m2).
 
 I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
 
 That means my [configuration.yaml](https://github.com/allanpersson/home-assistant-config/blob/master/configuration.yaml) points to the folder [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/integrations), and the files in my [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/integrations) folder is pointing to the [entities](https://github.com/allanpersson/home-assistant-config/tree/master/entities) folder where every entity has it's own file sorted by type.
+
+
+
+## PRs 🌅
 
 
 
