@@ -339,6 +339,46 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 
 
 
+
+#### Hardware <a name="hardware" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[INTEL® NUC KIT NUC8I3BEK](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://www.intel.com/content/dam/products/hero/foreground/nuc8-i5i3-bek-front-angle.png.rendition.intel.web.978.550.png" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+
+<tr><td colspan="4">
+
+Below information on the software used on/with my hardware.
+
+**Software:**
+<details>
+  <summary>Hass.io</summary><p align="center">
+  <a href=https://www.home-assistant.io/getting-started/>
+  Hass.io - Flashed with etcher direct on the SSD</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+
+</table>
+</p>
+
+<table align="center" border="0">
+<tr><td colspan="4">
+  
+  
+
+
+
+
+
+
+
 #### Locks <a name="locks" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
