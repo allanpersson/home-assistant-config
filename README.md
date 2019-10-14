@@ -16,7 +16,7 @@
 
 ## Table of contents 📑
 1. **[Overview](#overview-)**\
-    [Description](#description-) | [Screenshots](#screenshots-)
+    [Description](#description-) | [Screenshots](#screenshots-)| [Theme](#theme-)
 2. **[Devices](#devices-)**\
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace card configuration](#Lovelace-card-configuration-)**\
@@ -42,7 +42,14 @@ That means my [configuration.yaml](https://github.com/allanpersson/home-assistan
 
 ## Screenshots 🌅
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
-The theme on the image is [Material Dark Theme - Pepe Version](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
+
+
+
+## Theme 🌅
+The theme i use (screenshot images) is [Material Dark Theme](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
+
+**Automations:**
+- [Default theme](https://github.com/allanpersson/home-assistant-config/blob/master/automations/system/default_theme.yaml)
 
 
 
