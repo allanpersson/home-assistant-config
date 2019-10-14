@@ -49,6 +49,8 @@ That means my [configuration.yaml](https://github.com/allanpersson/home-assistan
 
 
 ## PRs 🌅
+You are more than welcome to submit PRs to my repo. This repo and documentation is "quite big" to keep up to date but i try my best! 
+Your help is much appreciated on my code, broken links, typos etc.
 
 
 
