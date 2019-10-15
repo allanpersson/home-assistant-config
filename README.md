@@ -360,6 +360,11 @@ I use some [Automations](https://github.com/allanpersson/home-assistant-config/t
   <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_kodi.yaml>
   Roll down when mediaplayer (Kodi) is playing - /automations/areas/stuen/cover_kodi.yaml</a><br>
 <p></details>
+<details>
+  <summary>Roll down when sunny and room is getting hot</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_sunny.yaml>
+  Roll down when sunny and room is getting hot - /automations/areas/stuen/cover_sunny.yaml</a><br>
+<p></details>
 
 </td></tr>
 
