@@ -333,13 +333,129 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 </table>
 </p>
 
+
+
+
+
 <table align="center" border="0">
 <tr><td colspan="4">
+  
+#### Covers <a name="covers" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Ikea Fyrtur](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Bfyrtur%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Bfyrtur%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://www.ikea.com/PIAimages/0595179_PE675959_S5.JPG" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Bfyrtur%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+
+<tr><td colspan="4">
+
+I use some [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my covers, but in future i'm gonna look more into cool cover automations, maybe a "naked sensor" that rolls down the covers if your naked...
+
+**Automations:**
+<details>
+  <summary>Roll down when mediaplayer (Kodi) is playing</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_kodi.yaml>
+  Roll down when mediaplayer (Kodi) is playing - /automations/areas/stuen/cover_kodi.yaml</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+<tr><td colspan="4">
+
+Below information on the gateway(s) im using for my covers. 
+
+**Gateway:**
+<details>
+  <summary>Conbee II</summary><p align="center">
+  <a href=https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DConBee%2BII%26_sacat%3D0&campid=5338610312&toolid=20008>
+  Conbee II - Deconz</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+<tr><td colspan="4">
+
+I use scripts to trigger my cover automations.
+
+**Scripts:**
+<details>
+  <summary>Cover 0% open</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_0_percent_open.yaml>
+  Cover 0% open - /scripts/cover_stuen_0_percent_open.yaml</a><br>
+<p></details>
+<details>
+  <summary>Cover 10% open</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_10_percent_open.yaml>
+  Cover 10% open - /scripts/cover_stuen_10_percent_open.yaml</a><br>
+<p></details>
+<details>
+  <summary>Cover 50% open</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_50_percent_open.yaml>
+  Cover 50% open - /scripts/cover_stuen_50_percent_open.yaml</a><br>
+<p></details>
+<details>
+  <summary>Cover 100% open</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_100_percent_open.yaml>
+  Cover 100% open - /scripts/cover_stuen_100_percent_open.yaml</a><br>
+<p></details>
+
+</td></tr>
+
+
+<tr><td colspan="4">
+
+Below some videos i have found useful myself. 
+
+**Videos:**
+<details>
+  <summary>IKEA FYRTUR smart blinds unboxing and teardown</summary><p align="center">
+  <a href=https://www.youtube.com/watch?v=tfJn6oNGF74>
+  IKEA FYRTUR smart blinds unboxing and teardown - DIY techie</a><br>
+<p></details>
+<details>
+  <summary>IKEA FYRTUR smart blinds hands-on installation guide + noise and speed test</summary><p align="center">
+  <a href=https://www.youtube.com/watch?v=RqW6bVfrHNQ&t=57s>
+  IKEA FYRTUR smart blinds hands-on installation guide + noise and speed test - DIY techie</a><br>
+<p></details>
+<details>
+  <summary>IKEA SMART BLINDS cut to size - how to make them fit your window</summary><p align="center">
+  <a href=https://www.youtube.com/watch?v=PL6LPZZoFlo>
+  IKEA SMART BLINDS cut to size, how to make them fit your window - DIY techie</a><br>
+<p></details>
+<details>
+  <summary>IKEA smart blinds with Google Assistant & IKEA app - No HomeKit or Alexa</summary><p align="center">
+  <a href=https://www.youtube.com/watch?v=pe0WhThL3Eo>
+  IKEA smart blinds with Google Assistant & IKEA app, No HomeKit or Alexa - DIY techie</a><br>
+<p></details>
+<details>
+  <summary>HomeKit support for IKEA FYRTUR SMART BLINDS via Homebridge</summary><p align="center">
+  <a href=https://www.youtube.com/watch?v=1l4-mtsb66A>
+  HomeKit support for IKEA FYRTUR SMART BLINDS via Homebridge - DIY techie</a><br>
+<p></details>
+
+</td></tr>
+
+</table>
+</p>
+
+<table align="center" border="0">
+<tr><td colspan="4">
+  
 
 
 
 
 
+<table align="center" border="0">
+<tr><td colspan="4">
+  
 #### Hardware <a name="hardware" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
@@ -388,16 +504,15 @@ Below information on the software used on/with my hardware.
 </table>
 </p>
 
+
+  
+  
+
+
+
+
 <table align="center" border="0">
 <tr><td colspan="4">
-  
-  
-
-
-
-
-
-
 
 #### Locks <a name="locks" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
@@ -444,11 +559,11 @@ Below configuration of my locks.
 </table>
 </p>
 
+
+  
+  
 <table align="center" border="0">
 <tr><td colspan="4">
-  
-  
-
 
 #### Mediaplayers <a name="mediaplayers" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
@@ -522,10 +637,13 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 </table>
 </p>
 
+
+
+
+
+
 <table align="center" border="0">
 <tr><td colspan="4">
-
-
 
 #### Vacuums <a name="vacuums" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
