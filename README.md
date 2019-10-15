@@ -27,11 +27,11 @@
 
 
 
-## Overview 🌅
+## Overview 📇
 
 
 
-## Code 🌅
+## Code ⌨
 Let me be clear from the start; I'm not a great coder in any way!
 I don't feel the excitement from putting some code together, but i have the higest respect and admiration for people who finds joy in it and are good at it. **You make my life easier ❤️**
 
@@ -39,7 +39,7 @@ So you might experience my code is 'ugly' and you are probably right, i find joy
 
 
 
-## Description 🌅
+## Description 📜
 Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008) for a two bedroom apartment (66m2).
 
 I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
@@ -48,13 +48,13 @@ That means my [configuration.yaml](https://github.com/allanpersson/home-assistan
 
 
 
-## PRs 🌅
+## PRs 📝
 You are more than welcome to submit PRs to my repo. This repo and documentation is "quite big" to keep up to date but i try my best! 
 Your help is much appreciated on my code, broken links, typos etc.
 
 
 
-## Screenshots 🌅
+## Screenshots 📷
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
 
 
@@ -976,7 +976,7 @@ type: 'custom:vertical-stack-in-card'
 
 
 
-# Credits 🌅
+# Credits ✋
 Thanks to:
 - [Ccostan](https://github.com/CCOSTAN/) for documentation inspiration.
 - [Frenck](https://github.com/frenck/) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
@@ -984,13 +984,13 @@ Thanks to:
 
 
 
-# Contact 🌅
+# Contact 📮
 Fell free to follow and/or contact me on:
 [Facebook](http://facebook.com/marathonpepe) │ [Instagram](http://instagram.com/marathonpepe) │ [Twitter](http://twitter.com/marathonpepe) │ [Website](http://marathonpepe.dk)
 
 
 
-# Support 🌅
+# Support 🙏
 This body runs on coffee and you can <a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
