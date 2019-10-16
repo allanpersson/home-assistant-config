@@ -28,7 +28,7 @@
 
 
 ## Overview 📇
-⚠ ***Documentation is currently work in progress*** ⚠
+⚠ ***Documentation is currently work in progress*** ⚠ 
 
 
 ## Code ⌨
@@ -511,7 +511,100 @@ Below information on the software used on/with my hardware.
 
 
   
+
+
+<table align="center" border="0">
+<tr><td colspan="4">
+
+
+#### Lights <a name="lights" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Ikea Trådfri LED 600 lm](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
+
+[Innr](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dyeelight%2Blightstrip%2Bplus%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dinnr%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
   
+[Philips Hue](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR10.TRC2.A0.H0.Xphilips%2Bhue%2Bbulb.TRS0%26_nkw%3Dphilips%2Bhue%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
+
+[Xiaomi Yeelight Lightstrip Plus](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dphilips%2Bhue%2Bbulb%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dyeelight%2Blightstrip%2Bplus%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://www.ikea.com/PIAimages/0653803_PE708096_S5.JPG?f=s" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dyeelight%2Blightstrip%2Bplus%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dinnr%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://cdn.shopify.com/s/files/1/0066/8149/3559/products/rb165_bulb_3d_1_700x700.jpg?v=1556780428" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dyeelight%2Blightstrip%2Bplus%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dinnr%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR10.TRC2.A0.H0.Xphilips%2Bhue%2Bbulb.TRS0%26_nkw%3Dphilips%2Bhue%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://brain-images-ssl.cdn.dixons.com/6/3/10160336/u_10160336.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR10.TRC2.A0.H0.Xphilips%2Bhue%2Bbulb.TRS0%26_nkw%3Dphilips%2Bhue%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dphilips%2Bhue%2Bbulb%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dyeelight%2Blightstrip%2Bplus%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://xiaomi-store.cz/4226/xiaomi-yeelight-lightstrip-plus-extension.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dphilips%2Bhue%2Bbulb%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dyeelight%2Blightstrip%2Bplus%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+
+
+
+<tr><td colspan="4">
+
+I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my lights. Actually i almost never manually or with voice activate my lights. 
+
+**Automations:**
+<details>
+  <summary>Lights on (Day)</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_on_day.yaml>
+  Lights on (Day) - /automations/areas/kokkenet/kokken_lights_on_day.yaml</a><br>
+<p></details>
+<details>
+  <summary>Lights on (Night)</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_on_night.yaml>
+  Lights on (Night) - /automations/areas/kokkenet/kokken_lights_on_night.yaml</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+
+
+
+<tr><td colspan="4">
+
+Below configuration for my lights. 
+
+**Configuration:**
+<details>
+  <summary>Yeelight</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/integrations/yeelight.yaml>
+  Yeelight</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+<tr><td colspan="4">
+  
+Below you can find information about my gateway and software used to control my lights.
+
+**Gateway & Software:**
+<details>
+  <summary>Conbee II</summary><p align="center">
+  <a href=https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DConBee%2BII%26_sacat%3D0&campid=5338610312&toolid=20008>
+  Conbee II - Deconz</a><br>
+<p></details>
+<details>
+  <summary>Deconz</summary><p align="center">
+  <a href=https://www.home-assistant.io/integrations/deconz/>
+  Deconz - Controlling Zigbee network</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+
+</table>
+</p>
+
 
 
 
