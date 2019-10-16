@@ -555,9 +555,19 @@ I have alot of [Automations](https://github.com/allanpersson/home-assistant-conf
   Lights on (Day) - /automations/areas/kokkenet/kokken_lights_on_day.yaml</a><br>
 <p></details>
 <details>
+  <summary>Lights off (Day)</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_off_day.yaml>
+  Lights off (Day) - /automations/areas/kokkenet/kokken_lights_off_day.yaml</a><br>
+<p></details>
+<details>
   <summary>Lights on (Night)</summary><p align="center">
   <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_on_night.yaml>
   Lights on (Night) - /automations/areas/kokkenet/kokken_lights_on_night.yaml</a><br>
+<p></details>
+<details>
+  <summary>Lights off (Night)</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_off_night.yaml>
+  Lights off (Night) - /automations/areas/kokkenet/kokken_lights_off_night.yaml</a><br>
 <p></details>
 
 </td></tr>
