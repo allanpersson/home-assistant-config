@@ -569,6 +569,21 @@ I have alot of [Automations](https://github.com/allanpersson/home-assistant-conf
   <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_off_night.yaml>
   Lights off (Night) - /automations/areas/kokkenet/kokken_lights_off_night.yaml</a><br>
 <p></details>
+<details>
+  <summary>Lights on when lux is low, door is closed and mediaplayer is playing</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/stuen_androidtv_lights_on.yaml>
+  Lights on when lux is low, door is closed and mediaplayer is playing - /automations/areas/stuen/stuen_androidtv_lights_on.yaml</a><br>
+<p></details>
+<details>
+  <summary>Lights off when mediaplayer is turned off at bedtime</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/stuen_androidtv_lights_off.yaml>
+  Lights off when mediaplayer is turned off at bedtime - /automations/areas/stuen/stuen_androidtv_lights_off.yaml</a><br>
+<p></details>
+<details>
+  <summary>Turn off all lights and mediaplayer when not home</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/leaving_home_turn_off.yaml>
+  Turn off all lights and mediaplayer when not home - /automations/areas/helehuset/leaving_home_turn_off.yaml</a><br>
+<p></details>
 
 </td></tr>
 
