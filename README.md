@@ -25,12 +25,12 @@
 5. **[Contact](#contact-)**\
      [Facebook](#facebook-) | [Instagram](#instagram-) | [Twitter](#twitter-) | [Website](#website-)
 6. **[Support](#support-)**\
-    [Buy me a coffee](#buy-me-a-coffee-)
+     [Affiliate Links](#affiliate-links-) | [Buy me a coffee](#buy-me-a-coffee-)
 
 
 
 ## Overview 📇
-⚠ ***Documentation is currently work in progress*** ⚠ 
+⚠ This repo contains [affiliate links](#affiliate-links-) that [support](#support-) my work! ⚠ 
 
 
 ## Code ⌨
@@ -1379,6 +1379,9 @@ Fell free to contact me on one of the following places. And i would be happy if 
 
 # Support 🙏
 This body runs on coffee and you can send a little love to be in the following way(s).
+
+# Affiliate Links 🙏
+By using my product links in this repo i get a small commision, and you are supporting me and encourage me to keep spending time keeping it up to date.
 
 # Buy me a coffee ☕
 <a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
