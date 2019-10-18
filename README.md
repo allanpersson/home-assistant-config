@@ -21,7 +21,8 @@
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace Configuration](#Lovelace-configuration-)**\
     [Camera Card](#camera-card-) | [Vacuum Card](#vacuum-card-)
-4. **[Credits](#credits-)**
+4. **[Credits](#credits-)**\
+     [Ccostan](#ccostan) | [Frenck](#frenck) | [Renemarc](#renemarc)
 5. **[Contact](#contact-)**\
      [Facebook](#facebook-) | [Instagram](#instagram-) | [Twitter](#twitter-) | [Website](#website-)
 6. **[Support](#support-)**\
@@ -1111,8 +1112,14 @@ Here you can find the lovelace code for [Vacuum card](https://github.com/allanpe
 
 # Credits 💕
 Thanks to:
+
+## Ccostan
 - [Ccostan](https://github.com/CCOSTAN/) for documentation inspiration.
+
+## Frenck
 - [Frenck](https://github.com/frenck/) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
+
+## Renemarc
 - [Renemarc](https://github.com/renemarc/) for documentation inspiration.
 
 
