@@ -14,7 +14,7 @@
 </h2>
 
 
-## Table of contents 📑
+# Table of contents 📑
 1. **[Overview](#overview-)**\
     [Code](#code-) | [Description](#description-) | [PRs](#prs-) | [Screenshots](#screenshots-) | [Theme](#theme-)
 2. **[Devices](#devices-)**\
@@ -29,7 +29,7 @@
 
 
 
-## Overview 📇
+# Overview 📇
 ⚠ This repo contains [affiliate links](#affiliate-links-) that [support](#support-) my work! ⚠ 
 
 
@@ -71,14 +71,14 @@ Your help is much appreciated on my code, broken links, typos etc.
 
 
 ## Theme 🌅
-The theme i use (screenshot images) is [Material Dark Theme](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks made by me like rounded corners, color changes etc.
+The theme i use ([screenshots](https://github.com/allanpersson/home-assistant-config#screenshots-)) is my take on [Material Dark Theme "Pepe Version"](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks like rounded corners, color changes etc.
 
 **Automations:**
 - [Default theme](https://github.com/allanpersson/home-assistant-config/blob/master/automations/system/default_theme.yaml)
 
 
 
-## Devices 🌅
+# Devices 🌅
 <a name="devices"></a>
 <div align="center">
   <h4>
@@ -1098,7 +1098,7 @@ Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
 
 
 
-## Lovelace Configuration 🌅
+# Lovelace Configuration 🌅
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ## Camera Card 📸
@@ -1120,16 +1120,16 @@ Thanks to:
 # Contact 📮
 Fell free to contact me on one of the following places. And i would be happy if you follow me as well.
 
-# Facebook 📮
+## Facebook 📮
 [Facebook](http://facebook.com/marathonpepe)
 
-# Instagram 📮
+## Instagram 📮
 [Instagram](http://instagram.com/marathonpepe)
 
-# Twitter 📮
+## Twitter 📮
 [Twitter](http://twitter.com/marathonpepe)
 
-# Website 📮
+## Website 📮
 [Website](http://marathonpepe.dk)
 
 
@@ -1137,10 +1137,10 @@ Fell free to contact me on one of the following places. And i would be happy if 
 # Support 💘
 This body runs on coffee and you can send a little love to me in the following way(s).
 
-# Affiliate Links 🤝
+## Affiliate Links 🤝
 By using my product links in this repo i get a small commision, and you are supporting me and encourage me to keep spending time keeping it up to date.
 
-# Buy me a coffee ☕
+## Buy me a coffee ☕
 <a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
