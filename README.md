@@ -57,7 +57,16 @@ Your help is much appreciated on my code, broken links, typos etc.
 
 
 ## Screenshots 📷
+
+**Laptop:**
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_laptop.png)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_camera_description.jpeg)
+
+**Tablet:**
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_tablet.jpeg)
+
+**Mobile:**
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_mobile.jpg)
 
 
 
