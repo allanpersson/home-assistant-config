@@ -57,7 +57,7 @@ Your help is much appreciated on my code, broken links, typos etc.
 
 
 ## Screenshots 📷
-![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_preview.png)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_laptop.png)
 
 
 
@@ -1377,10 +1377,10 @@ Fell free to contact me on one of the following places. And i would be happy if 
 
 
 
-# Support 🙏
+# Support 💘
 This body runs on coffee and you can send a little love to be in the following way(s).
 
-# Affiliate Links 🙏
+# Affiliate Links 🤝
 By using my product links in this repo i get a small commision, and you are supporting me and encourage me to keep spending time keeping it up to date.
 
 # Buy me a coffee ☕
