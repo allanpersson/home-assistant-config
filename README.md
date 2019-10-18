@@ -20,7 +20,7 @@
 2. **[Devices](#devices-)**\
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace Configuration](#Lovelace-configuration-)**\
-    [Camera View](#camera-view-) | [Vacuum Card](#vacuum-card-)
+    [Camera Card](#camera-card-) | [Vacuum Card](#vacuum-card-)
 4. **[Credits](#credits-)**
 5. **[Contact](#contact-)**\
      [Facebook](#facebook-) | [Instagram](#instagram-) | [Twitter](#twitter-) | [Website](#website-)
@@ -1101,7 +1101,7 @@ Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
 ## Lovelace Configuration 🌅
 Add the following code to your lovelace configuration, and insert your own entities.
 
-## Camera View 📸
+## Camera Card 📸
 Here you can find the lovelace code for [Camera card](https://github.com/allanpersson/home-assistant-config/blob/master/www/lovelace_cards/camera_card.yaml)
 
 ## Vacuum Card 🧹
@@ -1135,7 +1135,7 @@ Fell free to contact me on one of the following places. And i would be happy if 
 
 
 # Support 💘
-This body runs on coffee and you can send a little love to be in the following way(s).
+This body runs on coffee and you can send a little love to me in the following way(s).
 
 # Affiliate Links 🤝
 By using my product links in this repo i get a small commision, and you are supporting me and encourage me to keep spending time keeping it up to date.
