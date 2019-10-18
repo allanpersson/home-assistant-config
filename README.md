@@ -457,6 +457,61 @@ Below some videos i have found useful myself.
 
 
 
+<table align="center" border="0">
+<tr><td colspan="4">
+
+
+#### Fans <a name="fans" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
+</td></tr>
+<tr><td align="center">
+
+[Table fan](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xtable%2Bfan.TRS0%26_nkw%3Dtable%2Bfan%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td></tr>
+
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xtable%2Bfan.TRS0%26_nkw%3Dtable%2Bfan%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="http://c1.peakpx.com/wallpaper/858/711/797/white-fan-objects-hardwood-wallpaper-preview.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xtable%2Bfan.TRS0%26_nkw%3Dtable%2Bfan%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+
+
+
+<tr><td colspan="4">
+
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my fan(s) at the moment.
+
+**Automations:**
+<details>
+  <summary>None.... Yet</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/>
+  None.... Yet</a><br>
+<p></details>
+
+</td></tr>
+
+
+
+
+<tr><td colspan="4">
+  
+Below you can find information about my configuration.
+
+**Configuration:**
+<details>
+  <summary>Fan entity (Generic_Thermostat)</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/climate/born_fan.yaml>
+  Fan entity (Generic_Thermostat)</a><br>
+<p></details>
+
+</td></tr>
+
+<tr><td colspan="4">
+
+</table>
+</p>
+
+
+
+
+
 
 <table align="center" border="0">
 <tr><td colspan="4">
@@ -511,6 +566,8 @@ Below information on the software used on/with my hardware.
 
 
   
+
+
 
 
 <table align="center" border="0">
