@@ -834,9 +834,19 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 </td></tr>
 <tr><td align="center">
 
-[Xiaomi door/window sensor](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008)
+[Xiaomi BLE Temperature and Humidity sensor](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
+
+[Xiaomi ZigBee Temperature and Humidity sensor](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR3.TRC2.A0.H0.Xxiaomi%2Btemperature%2Bsensor.TRS0%26_nkw%3Dxiaomi%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008)
+</td><td align="center">
+
+[Xiaomi Door and Window sensor](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td></tr>
 
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/510hPhIkOPL._SX425_.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+
+</td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR3.TRC2.A0.H0.Xxiaomi%2Btemperature%2Bsensor.TRS0%26_nkw%3Dxiaomi%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/31kV-Vk90NL._SX466_.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR3.TRC2.A0.H0.Xxiaomi%2Btemperature%2Bsensor.TRS0%26_nkw%3Dxiaomi%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
 
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://i.ebayimg.com/images/g/i88AAOSwnG1dTOpH/s-l640.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
 
