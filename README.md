@@ -3,7 +3,7 @@
 [![License][img-license]][link-license]
 [![Home Assistant version][img-ha-version]][link-ha-version]
 [![Hass.io][img-hassio]][link-hassio]
-<a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 10px !important;width: 40px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 20px !important;width: 120px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
 <h1 align="center">
@@ -22,8 +22,10 @@
 3. **[Lovelace Configuration](#Lovelace-configuration-)**\
     [Camera View](#camera-view-) | [Vacuum Card](#vacuum-card-)
 4. **[Credits](#credits-)**
-5. **[Contact](#contact-)**
-6. **[Support](#support-)**
+5. **[Contact](#contact-)**\
+     [Facebook](#facebook-) | [Instagram](#instagram-) | [Twitter](#twitter-) | [Website](#website-)
+6. **[Support](#support-)**\
+    [Buy me a coffee](#buy-me-a-coffee-)
 
 
 
@@ -1222,13 +1224,27 @@ Thanks to:
 
 
 # Contact 📮
-Fell free to follow and/or contact me on:
-[Facebook](http://facebook.com/marathonpepe) │ [Instagram](http://instagram.com/marathonpepe) │ [Twitter](http://twitter.com/marathonpepe) │ [Website](http://marathonpepe.dk)
+Fell free to contact me on one of the following places. And i would be happy if you follow me as well.
+
+# Facebook 📮
+[Facebook](http://facebook.com/marathonpepe)
+
+# Instagram 📮
+[Instagram](http://instagram.com/marathonpepe)
+
+# Twitter 📮
+[Twitter](http://twitter.com/marathonpepe)
+
+# Website 📮
+[Website](http://marathonpepe.dk)
 
 
 
 # Support 🙏
-This body runs on coffee and you can <a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+This body runs on coffee and you can send a little love to be in the following way(s).
+
+# Buy me a coffee ☕
+<a href="https://www.buymeacoffee.com/marathonpepe" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
 
