@@ -70,7 +70,7 @@ Your help is much appreciated on my code, broken links, typos etc.
 
 
 
-## Theme 🌅
+## Theme 🖼️
 The theme i use ([screenshots](https://github.com/allanpersson/home-assistant-config#screenshots-)) is my take on [Material Dark Theme "Pepe Version"](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks like rounded corners, color changes etc.
 
 **Automations:**
@@ -78,7 +78,7 @@ The theme i use ([screenshots](https://github.com/allanpersson/home-assistant-co
 
 
 
-# Devices 🌅
+# Devices 📱
 <a name="devices"></a>
 <div align="center">
   <h4>
@@ -1098,7 +1098,7 @@ Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
 
 
 
-# Lovelace Configuration 🌅
+# Lovelace Configuration ⚓
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ## Camera Card 📸
@@ -1109,7 +1109,7 @@ Here you can find the lovelace code for [Vacuum card](https://github.com/allanpe
 
 
 
-# Credits ✋
+# Credits 💕
 Thanks to:
 - [Ccostan](https://github.com/CCOSTAN/) for documentation inspiration.
 - [Frenck](https://github.com/frenck/) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
@@ -1120,21 +1120,21 @@ Thanks to:
 # Contact 📮
 Fell free to contact me on one of the following places. And i would be happy if you follow me as well.
 
-## Facebook 📮
+## Facebook 🔗
 [Facebook](http://facebook.com/marathonpepe)
 
-## Instagram 📮
+## Instagram 🔗
 [Instagram](http://instagram.com/marathonpepe)
 
-## Twitter 📮
+## Twitter 🔗
 [Twitter](http://twitter.com/marathonpepe)
 
-## Website 📮
+## Website 🌐
 [Website](http://marathonpepe.dk)
 
 
 
-# Support 💘
+# Support 👍
 This body runs on coffee and you can send a little love to me in the following way(s).
 
 ## Affiliate Links 🤝
