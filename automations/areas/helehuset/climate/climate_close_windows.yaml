@@ -6,7 +6,7 @@ trigger:
     entity_id: group.windows_alle
     to: "off"
     for:
-      seconds: 30
+      seconds: 15
 # condition:
 #   condition: and
 #   conditions:
