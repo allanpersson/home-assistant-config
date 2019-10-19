@@ -39,8 +39,8 @@ action:
     data:
       entity_id: climate.stuen
       target_temp_high: 19
-      temperature: 18
-      target_temp_low: 17
+      temperature: 18.5
+      target_temp_low: 18
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -50,8 +50,8 @@ action:
     data:
       entity_id: climate.gangen
       target_temp_high: 19
-      temperature: 18
-      target_temp_low: 17
+      temperature: 18.5
+      target_temp_low: 18
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -61,8 +61,8 @@ action:
     data:
       entity_id: climate.kokkenet
       target_temp_high: 19
-      temperature: 18
-      target_temp_low: 17
+      temperature: 18.5
+      target_temp_low: 18
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -72,8 +72,8 @@ action:
     data:
       entity_id: climate.badevaerelset
       target_temp_high: 19
-      temperature: 18
-      target_temp_low: 17
+      temperature: 18.5
+      target_temp_low: 18
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -83,6 +83,6 @@ action:
     data:
       entity_id: climate.bornevaerelset
       target_temp_high: 21
-      temperature: 20
-      target_temp_low: 19
+      temperature: 20.5
+      target_temp_low: 20
       hvac_mode: "heat"
