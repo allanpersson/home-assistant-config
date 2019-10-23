@@ -1,6 +1,0 @@
----
-#
-joaoapps_join:
-  - name: Allan_Persson
-    device_id: !secret join_galaxy_device_id
-    api_key: !secret join_api
