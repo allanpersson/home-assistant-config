@@ -1,9 +1,0 @@
----
-#
-altandor:
-  view: true
-  # control: hidden
-  name: "Altandør"
-  icon: mdi:door
-  entities:
-    - binary_sensor.window_altandor
