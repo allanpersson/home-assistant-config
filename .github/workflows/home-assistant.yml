@@ -36,6 +36,8 @@ jobs:
     steps:
       - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
+      - name: Copy stub files into configuration folder
+        run: cp -R ./.stubs/* ./config
       - name: Home Assistant Version
         uses: "docker://homeassistant/home-assistant:stable"
         with:
@@ -52,6 +54,8 @@ jobs:
     steps:
       - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
+      - name: Copy stub files into configuration folder
+        run: cp -R ./.stubs/* ./config
       - name: Home Assistant Version
         uses: "docker://homeassistant/home-assistant:beta"
         with:
@@ -68,6 +72,8 @@ jobs:
     steps:
       - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
+      - name: Copy stub files into configuration folder
+        run: cp -R ./.stubs/* ./config
       - name: Home Assistant Version
         uses: "docker://homeassistant/home-assistant:dev"
         with:
