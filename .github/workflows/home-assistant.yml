@@ -18,6 +18,7 @@ jobs:
         uses: "docker://pipelinecomponents/yamllint:latest"
         with:
           args: yamllint .
+        ignore: .github/
   remarklint:
     runs-on: ubuntu-latest
     steps:
