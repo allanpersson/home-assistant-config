@@ -1,0 +1,5 @@
+---
+#
+tado:
+  username: !secret tado_allan_user
+  password: !secret tado_allan_password

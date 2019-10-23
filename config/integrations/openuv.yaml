@@ -1,0 +1,4 @@
+---
+#
+openuv:
+  api_key: !secret openuv_api

@@ -1,0 +1,8 @@
+---
+#
+logger:
+  default: warning
+  logs:
+    pydeconz: warning
+    homeassistant.components.deconz: warning
+    custom_components.hacs: warning
