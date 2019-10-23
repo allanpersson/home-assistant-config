@@ -1,8 +1,0 @@
----
-#
-platform: waze_travel_time
-name: 'Til Ditte Hebsgaard'
-origin: device_tracker.allanpersson_pepemobil
-destination: zone.ditte_hebsgaard
-region: 'EU'
-realtime: true
