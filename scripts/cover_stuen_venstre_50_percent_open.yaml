@@ -1,9 +1,0 @@
----
-#
-cover_stuen_venstre_50_percent_open:
-  alias: "Cover 50% open (Stuen, Venstre)"
-  sequence:
-    - service: cover.set_cover_position
-      entity_id: cover.stuen_venstre
-      data:
-        position: 65
