@@ -45,8 +45,7 @@ jobs:
         uses: "docker://homeassistant/home-assistant:stable"
         with:
           args: >
-            "python -m homeassistant --config ./config/
-            --script check_config --info all"
+            python -m homeassistant --config . --script check_config --info all
   home_assistant_beta:
     runs-on: ubuntu-latest
     needs: [yamllint, remarklint]
