@@ -47,7 +47,7 @@ Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io]
 
 I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
 
-That means my [configuration.yaml](https://github.com/allanpersson/home-assistant-config/blob/master/configuration.yaml) points to the folder [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/integrations), and the files in my [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/integrations) folder is pointing to the [entities](https://github.com/allanpersson/home-assistant-config/tree/master/entities) etc. folder where every entity has it's own file sorted by type.
+That means my [configuration.yaml](https://github.com/allanpersson/home-assistant-config/blob/master/config/configuration.yaml) points to the folder [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations), and the files in my [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations) folder is pointing to the [entities](https://github.com/allanpersson/home-assistant-config/tree/master/config/entities) etc. folder where every entity has it's own file sorted by type.
 
 Watch this video to learn more: [How I structure my Home Assistant configuration - By Frenck](https://www.youtube.com/watch?v=lndeybw21PY) or take a deeper look at my configuration.
 
@@ -176,7 +176,7 @@ Below list of accessories i use with my cameras.
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my camera entities. So far i haven't found any use case for any automations, but feel free to inspire me with some ideas.
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my camera entities. So far i haven't found any use case for any automations, but feel free to inspire me with some ideas.
 
 **Automations:**
 <details>
@@ -196,22 +196,22 @@ Below configuration on the different cameras.
 **Configuration:**
 <details>
   <summary>Huawei Mediapad T3 10</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/sovevarelset.yaml>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/entities/cameras/sovevarelset.yaml>
   Huawei Mediapad T3 10 - Wallpanel</a><br>
 <p></details>
 <details>
   <summary>Local File</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/gangen.yaml>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/entities/cameras/gangen.yaml>
   Local file - Local image as camera</a><br>
 <p></details>
 <details>
   <summary>Raspberry Pi Zero W</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/hoveddor.yaml>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/entities/cameras/hoveddor.yaml>
   Raspberry Pi Zero W - MotionEyeOS</a><br>
 <p></details>
 <details>
   <summary>Xiaomi Dafang</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/cameras/kokkenet.yaml>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/entities/cameras/kokkenet.yaml>
   Xiaomi Dafang - Dafang Hacks</a><br>
 <p></details>
 
@@ -281,7 +281,7 @@ Below you can find list of the software i'm using with my cameras.
 
 <tr><td colspan="4">
 
-I use alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for controlling my thermostats for best comfort and saving most energy.
+I use alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for controlling my thermostats for best comfort and saving most energy.
 
 **Automations:**
 <details>
@@ -336,7 +336,7 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 <p></details>
 <details>
   <summary>Template Sensors (Climate)</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/sensors/template/climate_template.yaml>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/entities/sensors/template/climate_template.yaml>
   Template sensors - Climate</a><br>
 <p></details>
 
@@ -406,23 +406,23 @@ I use scripts to trigger my cover automations.
 **Scripts:**
 <details>
   <summary>Cover 0% open</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_0_percent_open.yaml>
-  Cover 0% open - /scripts/cover_stuen_0_percent_open.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/cover_stuen_0_percent_open.yaml>
+  Cover 0% open - /config/scripts/cover_stuen_0_percent_open.yaml</a><br>
 <p></details>
 <details>
   <summary>Cover 10% open</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_10_percent_open.yaml>
-  Cover 10% open - /scripts/cover_stuen_10_percent_open.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/cover_stuen_10_percent_open.yaml>
+  Cover 10% open - /config/scripts/cover_stuen_10_percent_open.yaml</a><br>
 <p></details>
 <details>
   <summary>Cover 50% open</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_50_percent_open.yaml>
-  Cover 50% open - /scripts/cover_stuen_50_percent_open.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/cover_stuen_50_percent_open.yaml>
+  Cover 50% open - /config/scripts/cover_stuen_50_percent_open.yaml</a><br>
 <p></details>
 <details>
   <summary>Cover 100% open</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/cover_stuen_100_percent_open.yaml>
-  Cover 100% open - /scripts/cover_stuen_100_percent_open.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/cover_stuen_100_percent_open.yaml>
+  Cover 100% open - /config/scripts/cover_stuen_100_percent_open.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -513,7 +513,7 @@ Below you can find information about my configuration.
 **Configuration:**
 <details>
   <summary>Fan entity (Generic_Thermostat)</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/climate/born_fan.yaml>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/entities/climate/born_fan.yaml>
   Fan entity (Generic_Thermostat)</a><br>
 <p></details>
 
@@ -672,7 +672,7 @@ Below configuration for my lights.
 **Configuration:**
 <details>
   <summary>Yeelight</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/integrations/yeelight.yaml>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/integrations/yeelight.yaml>
   Yeelight</a><br>
 <p></details>
 
@@ -972,7 +972,7 @@ Below you can find information about my gateway and software used to control my 
 
 <tr><td colspan="4">
 
-I don't have any real [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my switches(s) at the moment. Exept making sure they are on at start up.
+I don't have any real [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my switches(s) at the moment. Exept making sure they are on at start up.
 
 **Automations:**
 <details>
@@ -1083,13 +1083,13 @@ I have some [Scripts](https://github.com/allanpersson/home-assistant-config/tree
 **Scripts:**
 <details>
   <summary>Goodnight script turn off autoclean for 9 hours</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/godnat_vacuum_off.yaml>
-  Goodnight script turn off autoclean for 9 hours - /scripts/godnat_vacuum_off.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/godnat_vacuum_off.yaml>
+  Goodnight script turn off autoclean for 9 hours - /config/scripts/godnat_vacuum_off.yaml</a><br>
 <p></details>
 <details>
 <summary>Zoned clean up (Livingroom)</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/scripts/vacuum_zone_stuen.yaml>
-Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/vacuum_zone_stuen.yaml>
+Zoned clean up (Livingroom) - /config/scripts/vacuum_zone_stuen.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -1105,10 +1105,10 @@ Zoned clean up (Livingroom) - /scripts/vacuum_zone_stuen.yaml</a><br>
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ## Camera Card 📸
-Here you can find the lovelace code for [Camera card](https://github.com/allanpersson/home-assistant-config/blob/master/www/lovelace_cards/camera_card.yaml)
+Here you can find the lovelace code for [Camera card](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/camera_card.yaml)
 
 ## Vacuum Card 🧹
-Here you can find the lovelace code for [Vacuum card](https://github.com/allanpersson/home-assistant-config/blob/master/www/lovelace_cards/vacuum_card.yaml)
+Here you can find the lovelace code for [Vacuum card](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/vacuum_card.yaml)
 
 
 
