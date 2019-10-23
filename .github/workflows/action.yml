@@ -25,15 +25,15 @@ jobs:
         uses: "docker://pipelinecomponents/remark-lint:latest"
         continue-on-error: true
         with:
-          args: "remark --no-stdout --color --frail --use preset-lint-recommended ."
+          args: \
+            "remark --no-stdout --color --frail --use preset-lint-recommended ."
   home_assistant_ci:
     runs-on: ubuntu-latest
     steps:
       - name: Getting configuration from GitHub
         uses: actions/checkout@master
-      - name: Create secrets.yaml
-        run: mv travis_secrets.yaml secrets.yaml
       - name: Home Assistant Check Installed
         uses: "docker://homeassistant/home-assistant:0.100.3"
         with:
-          args: python -m homeassistant --config . --script check_config --info all
+          args: \
+            python -m homeassistant --config . --script check_config --info all
