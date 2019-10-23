@@ -10,7 +10,7 @@ on:
 
 jobs:
   yamllint:
-    runs-on: intel-nuc
+    runs-on: ubuntu-latest
     steps:
       - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
@@ -19,7 +19,7 @@ jobs:
         with:
           args: yamllint .
   remarklint:
-    runs-on: intel-nuc
+    runs-on: ubuntu-latest
     steps:
       - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
@@ -30,7 +30,7 @@ jobs:
           args: \
             "remark --no-stdout --color --frail --use preset-lint-recommended ."
   home_assistant_stable:
-    runs-on: intel-nuc
+    runs-on: ubuntu-latest
     needs: [yamllint, remarklint]
     steps:
       - name: Getting your configuration from GitHub
@@ -47,7 +47,7 @@ jobs:
             python -m homeassistant --config \
             ./config/ --script check_config --info all
   home_assistant_beta:
-    runs-on: intel-nuc
+    runs-on: ubuntu-latest
     needs: [yamllint, remarklint]
     steps:
       - name: Getting your configuration from GitHub
@@ -64,7 +64,7 @@ jobs:
             python -m homeassistant --config \
             ./config/ --script check_config --info all
   home_assistant_dev:
-    runs-on: intel-nuc
+    runs-on: ubuntu-latest
     needs: [yamllint, remarklint]
     steps:
       - name: Getting your configuration from GitHub
