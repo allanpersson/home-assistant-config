@@ -1,0 +1,39 @@
+---
+name: Home Assistant Installed
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+  pull_request:
+
+jobs:
+  yamllint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Getting your configuration from GitHub
+        uses: actions/checkout@v1
+      - name: Running YAMLlint
+        uses: "docker://pipelinecomponents/yamllint:latest"
+        with:
+          args: yamllint .
+  remarklint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Getting your configuration from GitHub
+        uses: actions/checkout@v1
+      - name: Running Remark lint
+        uses: "docker://pipelinecomponents/remark-lint:latest"
+        continue-on-error: true
+        with:
+          args: "remark --no-stdout --color --frail --use preset-lint-recommended ."
+  home_assistant_ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Getting configuration from GitHub
+        uses: actions/checkout@master
+      - name: Create secrets.yaml
+        run: mv travis_secrets.yaml secrets.yaml
+      - name: Home Assistant Check Installed
+        uses: "docker://homeassistant/home-assistant:0.100.3"
+        with:
+          args: python -m homeassistant --config . --script check_config --info all
