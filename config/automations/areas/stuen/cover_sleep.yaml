@@ -1,0 +1,15 @@
+---
+#
+alias: "Cover - Sleep (Stuen)"
+trigger:
+  - platform: state
+    entity_id: media_player.android_tv_boks
+    to: "off"
+condition:
+  condition: and
+  conditions:
+    - condition: time
+      after: "21:30:00"
+      before: "07:00:00"
+action:
+  - service: script.cover_stuen_0_percent_open

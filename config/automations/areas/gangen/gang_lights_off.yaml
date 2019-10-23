@@ -1,0 +1,12 @@
+---
+#
+alias: "Lights off (Gangen)"
+trigger:
+  platform: state
+  entity_id: binary_sensor.motion_gang
+  to: 'off'
+  for:
+    minutes: 1
+action:
+  service: light.turn_off
+  entity_id: light.gangen

@@ -1,0 +1,29 @@
+---
+alias: "Ea sleep (Vacuum)"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.motion_born
+    below: 25
+  - platform: time_pattern
+    seconds: "/60"
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: vacuum.james
+      state: "cleaning"
+    - condition: numeric_state
+      entity_id: sensor.motion_born
+      below: 5
+    - condition: state
+      entity_id: person.ea_hebsgaard
+      state: "home"
+action:
+  - service: vacuum.set_fan_speed
+    data:
+      entity_id: vacuum.james
+      fan_speed: 105
+  - delay:
+      milliseconds: 100
+  - service: vacuum.return_to_base
+    entity_id: vacuum.james

@@ -1,0 +1,28 @@
+---
+alias: "Volume startup (Android Tv)"
+trigger:
+  - platform: state
+    entity_id: media_player.android_tv_boks
+    from: "off"
+    to: "on"
+# condition:
+#   condition: and
+#   conditions:
+#     - condition: numeric_state
+#       entity_id: sensor.0x00178801032bcf7d_illuminance
+#       below: 9000
+#     - condition: state
+#       entity_id: media_player.android_tv_boks
+#       state: 'playing'
+#     - condition: state
+#       entity_id: light.stuen
+#       state: 'off'
+action:
+  - service: media_player.set_volume
+    data:
+      entity_id: media_player.android_tv_boks
+      volume_level: "0.10"
+  - service: media_player.set_volume
+    data:
+      entity_id: media_player.stuen
+      volume_level: "0.10"

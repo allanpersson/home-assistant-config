@@ -1,0 +1,14 @@
+---
+#
+alias: "Lights off (Soveværelset)"
+trigger:
+  platform: state
+  entity_id:
+    - binary_sensor.motion_stuen
+    - binary_sensor.huawei_mediapad_motion
+  to: "off"
+  for:
+    minutes: 5
+action:
+  service: light.turn_off
+  entity_id: light.sovevaerelset

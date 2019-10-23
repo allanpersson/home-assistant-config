@@ -1,0 +1,83 @@
+---
+#
+alias: "Climate open windows"
+trigger:
+  - platform: state
+    entity_id: group.windows_alle
+    to: "on"
+    for:
+      seconds: 20
+# condition:
+#   condition: and
+#   conditions:
+#     - condition: numeric_state
+#       entity_id: sensor.owm_temperature
+#       below: 17
+#     - condition: state
+#       entity_id: group.person_alle
+#       state: "not_home"
+#     - condition: time
+#       after: "06:00:00"
+#       before: "23:00:00"
+action:
+  - service: automation.turn_off
+    data:
+      entity_id: automation.climate_auto_away
+  - service: automation.turn_off
+    data:
+      entity_id: automation.climate_auto_home
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.stuen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.stuen
+      target_temp_high: 17
+      temperature: 16
+      target_temp_low: 15
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.gangen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.gangen
+      target_temp_high: 17
+      temperature: 16
+      target_temp_low: 15
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.kokkenet
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.kokkenet
+      target_temp_high: 17
+      temperature: 16
+      target_temp_low: 15
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.badevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.badevaerelset
+      target_temp_high: 17
+      temperature: 16
+      target_temp_low: 15
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.bornevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.bornevaerelset
+      target_temp_high: 17
+      temperature: 16
+      target_temp_low: 15
+      hvac_mode: "heat"

@@ -1,0 +1,35 @@
+---
+#
+alias: climate update
+trigger:
+  - platform: time_pattern
+    seconds: "/20"
+# condition:
+#   - condition: template
+#     value_template: "{{ now().month > 9 }}" ## Starting September
+#   - condition: template
+#     value_template: "{{ now().month < 5 }}" ## Ending May
+#   - condition: time
+#     after: "07:00:00"
+#     before: "22:00:00"
+action:
+  - service: homeassistant.update_entity
+    entity_id: sensor.bornevaerelset_temperature
+  - service: homeassistant.update_entity
+    entity_id: sensor.badevaerelset_temperature
+  - service: homeassistant.update_entity
+    entity_id: sensor.stuen_temperature
+  - service: homeassistant.update_entity
+    entity_id: sensor.gangen_temperature
+  - service: homeassistant.update_entity
+    entity_id: sensor.kokkenet_temperature
+    # - service: homeassistant.update_entity
+    #   entity_id: climate.bornevaerelset
+    # - service: homeassistant.update_entity
+    #   entity_id: climate.badevaerelset
+    # - service: homeassistant.update_entity
+    #   entity_id: climate.stuen
+    # - service: homeassistant.update_entity
+    #   entity_id: climate.gangen
+    # - service: homeassistant.update_entity
+    #   entity_id: climate.kokkenet
