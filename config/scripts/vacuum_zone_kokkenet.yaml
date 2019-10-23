@@ -1,0 +1,10 @@
+---
+#
+vacuum_kokkenet:
+  alias: "Vacuum Køkkenet"
+  sequence:
+    - service: vacuum.send_command
+      data:
+        entity_id: vacuum.james
+        command: app_zoned_clean
+        params: [[22559, 18960, 26109, 21660, 2]]
