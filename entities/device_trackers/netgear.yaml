@@ -1,7 +1,0 @@
----
-#
-platform: netgear
-host: !secret netgear_host
-port: !secret netgear_port
-username: !secret netgear_username
-password: !secret netgear_password
