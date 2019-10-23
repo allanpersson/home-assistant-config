@@ -1,0 +1,14 @@
+---
+aspect_ratio: 16x11
+camera_image: camera.stuen
+entities:
+  - group.stuen_windows
+  - light.stuen
+  - binary_sensor.motion_stuen
+  - climate.stuen
+  - sensor.stuen_temperature
+  - sensor.motion_stuen_2
+  - sensor.stuen_humidity
+  - binary_sensor.fire_stuen
+title: Stue
+type: picture-glance
