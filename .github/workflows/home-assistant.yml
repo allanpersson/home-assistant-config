@@ -27,7 +27,7 @@ jobs:
         uses: "docker://pipelinecomponents/remark-lint:latest"
         continue-on-error: true
         with:
-          args: >
+          args: |
             "remark --no-stdout --color --frail
             --use preset-lint-recommended ."
   home_assistant_stable:
@@ -44,7 +44,7 @@ jobs:
       - name: Home Assistant Check
         uses: "docker://homeassistant/home-assistant:stable"
         with:
-          args: >
+          args: |
             "python -m homeassistant --config ./config/
             --script check_config --info all"
   home_assistant_beta:
@@ -61,7 +61,7 @@ jobs:
       - name: Home Assistant Check
         uses: "docker://homeassistant/home-assistant:beta"
         with:
-          args: >
+          args: |
             "python -m homeassistant --config ./config/
             --script check_config --info all"
   home_assistant_dev:
@@ -78,6 +78,6 @@ jobs:
       - name: Home Assistant Check
         uses: "docker://homeassistant/home-assistant:dev"
         with:
-          args: >
+          args: |
             "python -m homeassistant --config ./config/
             --script check_config --info all"
