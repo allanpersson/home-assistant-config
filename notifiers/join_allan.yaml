@@ -1,8 +1,0 @@
----
-#
-platform: joaoapps_join
-name: Join Allan
-api_key: !secret join_api
-device_id: !secret join_galaxy_device_id
-# device_ids: DEVICE_ID_1,DEVICE_ID_2
-# device_names: DEVICE_1_NAME,DEVICE_2_NAME
