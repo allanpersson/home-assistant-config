@@ -1,6 +1,0 @@
----
-#
-platform: xiaomi_miio
-name: James
-host: !secret roborock_ip
-token: !secret roborock_token
