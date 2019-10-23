@@ -1,3 +1,4 @@
+---
 # Generic ignores
 *.log
 *.db
@@ -50,16 +51,9 @@ addons/*
 backup/*
 share/*
 ssl/*
-config/automations
-config/custom_components
 config/customizations
 config/deps
-config/entities
 config/esphome
 config/glances
-config/integrations
-config/notifiers
-config/panels
-config/scripts
 config/tts
 config/www
