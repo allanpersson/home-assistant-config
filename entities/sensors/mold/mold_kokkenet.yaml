@@ -1,7 +1,0 @@
----
-platform: mold_indicator
-name: "Mold køkkenet"
-indoor_temp_sensor: sensor.kokkenet_temperature
-indoor_humidity_sensor: sensor.kokkenet_humidity
-outdoor_temp_sensor: sensor.owm_temperature
-calibration_factor: 2.0
