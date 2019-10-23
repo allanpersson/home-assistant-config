@@ -1,7 +1,0 @@
----
-platform: mold_indicator
-name: "Mold badeværelset"
-indoor_temp_sensor: sensor.badevaerelset_temperature
-indoor_humidity_sensor: sensor.badevaerelset_humidity
-outdoor_temp_sensor: sensor.owm_temperature
-calibration_factor: 2.0
