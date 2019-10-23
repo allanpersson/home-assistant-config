@@ -28,7 +28,7 @@ jobs:
         continue-on-error: true
         with:
           args: >
-            "remark --no-stdout --color --frail 
+            "remark --no-stdout --color --frail
             --use preset-lint-recommended ."
   home_assistant_stable:
     runs-on: ubuntu-latest
@@ -45,7 +45,7 @@ jobs:
         uses: "docker://homeassistant/home-assistant:stable"
         with:
           args: >
-            "python -m homeassistant --config ./config/ 
+            "python -m homeassistant --config ./config/
             --script check_config --info all"
   home_assistant_beta:
     runs-on: ubuntu-latest
@@ -62,7 +62,7 @@ jobs:
         uses: "docker://homeassistant/home-assistant:beta"
         with:
           args: >
-            "python -m homeassistant --config ./config/ 
+            "python -m homeassistant --config ./config/
             --script check_config --info all"
   home_assistant_dev:
     runs-on: ubuntu-latest
@@ -79,5 +79,5 @@ jobs:
         uses: "docker://homeassistant/home-assistant:dev"
         with:
           args: >
-            "python -m homeassistant --config ./config/ 
+            "python -m homeassistant --config ./config/
             --script check_config --info all"
