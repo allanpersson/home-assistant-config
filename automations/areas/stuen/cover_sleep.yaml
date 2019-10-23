@@ -5,9 +5,6 @@ trigger:
   - platform: state
     entity_id: media_player.android_tv_boks
     to: "off"
-  # - platform: state
-  #   entity_id: media_player.kodi
-  #   to: "playing"
 condition:
   condition: and
   conditions:
