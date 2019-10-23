@@ -1,0 +1,8 @@
+---
+#
+platform: waze_travel_time
+name: 'Til Evigglad'
+origin: device_tracker.allanpersson_pepemobil
+destination: zone.evigglad
+region: 'EU'
+realtime: true

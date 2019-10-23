@@ -1,0 +1,19 @@
+---
+#####   https://www.home-assistant.io/components/generic_thermostat/   #####
+platform: generic_thermostat
+name: "Ventilator (Børneværelset)"
+heater: switch.born
+target_sensor: sensor.bornevaerelset_temperature
+# min_temp: 19.0
+# max_temp: 23.5
+ac_mode: true
+target_temp: 23.0
+# cold_tolerance: 0.3
+# hot_tolerance: 0.3
+# min_cycle_duration:
+#   seconds: 60
+# keep_alive:
+#   minutes: 3
+initial_hvac_mode: "cool"
+# away_temp: 15
+precision: 0.1

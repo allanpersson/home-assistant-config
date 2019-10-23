@@ -1,0 +1,14 @@
+---
+#
+platform: openweathermap
+api_key: !secret openweathermap_api
+language: da
+forecast: true
+monitored_conditions:
+  - weather
+  - temperature
+  - wind_speed
+  - humidity
+  - clouds
+  - rain
+  - snow

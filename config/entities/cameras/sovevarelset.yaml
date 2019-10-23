@@ -1,0 +1,5 @@
+---
+# Huawei Mediapad T3
+platform: mjpeg
+name: Soveværelset
+mjpeg_url: !secret huawei_mjpeg_url_sove

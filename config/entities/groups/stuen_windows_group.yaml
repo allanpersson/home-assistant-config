@@ -1,0 +1,10 @@
+---
+#
+stuen_windows:
+  view: true
+  # control: hidden
+  name: "Stuen windows"
+  icon: mdi:border-all-variant
+  entities:
+    - binary_sensor.window_stuen_hojre
+    - binary_sensor.window_stuen_venstre

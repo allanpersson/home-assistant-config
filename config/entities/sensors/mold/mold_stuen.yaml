@@ -1,0 +1,7 @@
+---
+platform: mold_indicator
+name: "Mold stuen"
+indoor_temp_sensor: sensor.stuen_temperature
+indoor_humidity_sensor: sensor.stuen_humidity
+outdoor_temp_sensor: sensor.owm_temperature
+calibration_factor: 2.2

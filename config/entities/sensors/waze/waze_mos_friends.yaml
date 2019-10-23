@@ -1,0 +1,8 @@
+---
+#
+platform: waze_travel_time
+name: "Til Mo's Friends"
+origin: device_tracker.allanpersson_pepemobil
+destination: zone.mo_s_friends
+region: 'EU'
+realtime: true

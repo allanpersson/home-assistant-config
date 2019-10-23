@@ -1,0 +1,10 @@
+---
+#
+motion.kokkenet:
+  view: true
+  # control: hidden
+  name: "Motion Køkkenet"
+  icon: mdi:run-fast
+  entities:
+    - binary_sensor.dafang_motion_sensor
+    - binary_sensor.motion_kokken

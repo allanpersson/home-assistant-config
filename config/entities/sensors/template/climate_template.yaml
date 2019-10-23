@@ -1,0 +1,135 @@
+---
+platform: template
+sensors:
+  # Stuen
+  stuen_temperature:
+    friendly_name: Stuen temperature
+    entity_id:
+      - climate.stuen
+    value_template: "{{ states.climate.stuen.attributes.current_temperature }}"
+    unit_of_measurement: "°C"
+    device_class: temperature
+    icon_template: mdi:thermometer
+  stuen_humidity:
+    friendly_name: Stuen humidity
+    entity_id:
+      - climate.stuen
+    value_template: "{{ states.climate.stuen.attributes.current_humidity }}"
+    unit_of_measurement: "%"
+  stuen_target_temperature:
+    friendly_name: Stuen target temperature
+    entity_id:
+      - climate.stuen
+    value_template: "{{ states.climate.stuen.attributes.temperature }}"
+  stuen_hvac_mode:
+    friendly_name: Stuen hvac mode
+    entity_id:
+      - climate.stuen
+    value_template: "{{ states.climate.stuen.attributes.hvac_mode }}"
+  # Gangen
+  gangen_temperature:
+    friendly_name: Gangen temperature
+    entity_id:
+      - climate.gangen
+    value_template: "{{ states.climate.gangen.attributes.current_temperature }}"
+    unit_of_measurement: "°C"
+    device_class: temperature
+    icon_template: mdi:thermometer
+  gangen_humidity:
+    friendly_name: Gangen humidity
+    entity_id:
+      - climate.gangen
+    value_template: "{{ states.climate.gangen.attributes.current_humidity }}"
+    unit_of_measurement: "%"
+  gangen_target_temperature:
+    friendly_name: Gangen target temperature
+    entity_id:
+      - climate.gangen
+    value_template: "{{ states.climate.gangen.attributes.temperature }}"
+  gangen_hvac_mode:
+    friendly_name: Gangen hvac mode
+    entity_id:
+      - climate.gangen
+    value_template: "{{ states.climate.gangen.attributes.hvac_mode }}"
+  # Børneværelset
+  bornevaerelset_temperature:
+    friendly_name: Børneværelset temperature
+    entity_id:
+      - climate.bornevaerelset
+    value_template: >
+      {{ states.climate.bornevaerelset.attributes.current_temperature }}
+    unit_of_measurement: "°C"
+    device_class: temperature
+    icon_template: mdi:thermometer
+  bornevaerelset_humidity:
+    friendly_name: Børneværelset humidity
+    entity_id:
+      - climate.bornevaerelset
+    value_template: >
+      {{ states.climate.bornevaerelset.attributes.current_humidity }}
+    unit_of_measurement: "%"
+  bornevaerelset_target_temperature:
+    friendly_name: Børneværelset target temperature
+    entity_id:
+      - climate.bornevaerelset
+    value_template: "{{ states.climate.bornevaerelset.attributes.temperature }}"
+  bornevaerelset_hvac_mode:
+    friendly_name: Børneværelset hvac mode
+    entity_id:
+      - climate.bornevaerelset
+    value_template: >
+      {{ states.climate.bornevaerelset.attributes.hvac_mode }}
+  # Køkkenet
+  kokkenet_temperature:
+    friendly_name: Køkkenet temperature
+    entity_id:
+      - climate.kokkenet
+    value_template: >
+      {{ states.climate.kokkenet.attributes.current_temperature }}
+    unit_of_measurement: "°C"
+    device_class: temperature
+    icon_template: mdi:thermometer
+  kokkenet_humidity:
+    friendly_name: Køkkenet humidity
+    entity_id:
+      - climate.kokkenet
+    value_template: "{{ states.climate.kokkenet.attributes.current_humidity }}"
+    unit_of_measurement: "%"
+  kokkenet_target_temperature:
+    friendly_name: Køkkenet target temperature
+    entity_id:
+      - climate.kokkenet
+    value_template: "{{ states.climate.kokkenet.attributes.temperature }}"
+  kokkenet_hvac_mode:
+    friendly_name: Køkkenet hvac mode
+    entity_id:
+      - climate.kokkenet
+    value_template: "{{ states.climate.kokkenet.attributes.hvac_mode }}"
+  # Badeværelset
+  badevaerelset_temperature:
+    friendly_name: Badeværelset temperature
+    entity_id:
+      - climate.badevaerelset
+    value_template: >
+      {{ states.climate.badevaerelset.attributes.current_temperature }}
+    unit_of_measurement: "°C"
+    device_class: temperature
+    icon_template: mdi:thermometer
+  badevaerelset_humidity:
+    friendly_name: Badeværelset humidity
+    entity_id:
+      - climate.badevaerelset
+    value_template: >
+      {{ states.climate.badevaerelset.attributes.current_humidity }}
+    unit_of_measurement: "%"
+  badevaerelset_target_temperature:
+    friendly_name: Badeværelset target temperature
+    entity_id:
+      - climate.badevaerelset
+    value_template: "{{ states.climate.badevaerelset.attributes.temperature }}"
+  badevaerelsett_hvac_mode:
+    friendly_name: Badeværelset hvac mode
+    entity_id:
+      - climate.badevaerelset
+    value_template: >
+      {{ states.climate.badevaerelset.attributes.hvac_mode }}

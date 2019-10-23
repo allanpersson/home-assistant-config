@@ -1,0 +1,5 @@
+---
+#
+platform: bluetooth_tracker
+consider_home: 300
+interval_seconds: 20

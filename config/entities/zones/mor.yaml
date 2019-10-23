@@ -1,0 +1,7 @@
+---
+name: Mor
+latitude: !secret zone_mor_latitude
+longitude: !secret zone_mor_longitude
+radius: 250
+passive: false
+icon: mdi:human-female-boy

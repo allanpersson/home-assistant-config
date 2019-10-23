@@ -1,0 +1,8 @@
+---
+#
+platform: rejseplanen
+name: "Rejseplanen Skanderborg Station"
+stop_id: "745000602"
+# direction:
+# - 'Skanderborg Busterminal'
+# - "Hinnerup"

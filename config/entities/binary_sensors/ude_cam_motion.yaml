@@ -1,0 +1,8 @@
+---
+#
+platform: mqtt
+name: "Frontdoor Motion"
+state_topic: "cameras/frontdoor/motion"
+device_class: "motion"
+payload_on: "ON"
+payload_off: "OFF"

@@ -1,0 +1,28 @@
+---
+#
+platform: template
+sensors:
+  garmin_total_kcal:
+    value_template: \
+      "{{ state_attr('sensor.garmin_steps', 'totalKilocalories') }}"
+    unit_of_measurement: "kcal"
+
+  garmin_restingheartrate:
+    value_template: \
+      "{{ state_attr('sensor.garmin_steps', 'restingHeartRate') }}"
+    unit_of_measurement: "bpm"
+
+  garmin_maxheartrate:
+    value_template: \
+      "{{ state_attr('sensor.garmin_steps', 'maxAvgHeartRate') }}"
+    unit_of_measurement: "bpm"
+
+  garmin_floors:
+    value_template: \
+      "{{ state_attr('sensor.garmin_steps', 'floorsAscended') }}"
+    unit_of_measurement: ""
+
+  garmin_stress:
+    value_template: \
+      "{{ state_attr('sensor.garmin_steps', 'averageStressLevel') }}"
+    unit_of_measurement: ""

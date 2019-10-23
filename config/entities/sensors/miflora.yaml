@@ -1,0 +1,14 @@
+---
+#
+platform: miflora
+# adapter: hci1
+mac: !secret miflora_mac_ginseng
+name: Plante (Stuen, Ginseng)
+force_update: true
+median: 1
+monitored_conditions:
+  - moisture
+  - light
+  - temperature
+  - conductivity
+  - battery

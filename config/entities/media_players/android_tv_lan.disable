@@ -1,0 +1,19 @@
+---
+#
+platform: androidtv
+host: !secret androidtv_host_lan
+device_class: androidtv
+adb_server_ip: !secret adb_server_ip
+adb_server_port: !secret adb_server_port
+name: Android Tv-boks (lan)
+apps:
+  "com.google.android.tvlauncher": "Homescreen"
+  "com.android.vending": "Google Play Store"
+  "org.xbmc.kodi": "Kodi"
+  "com.netflix.ninja": "Netflix"
+  "com.alexvas.dvr.pro": "tinyCam Pro"
+  "tunein.player": "TuneIn Radio"
+  "tv.twitch.android.app": "Twitch"
+  "dk.yousee.tv.leanback": "youSee"
+  "com.google.android.youtube.tv": "Youtube"
+  "com.google.android.youtube.tvkids": "Youtube Kids"

@@ -1,0 +1,8 @@
+---
+#
+platform: waze_travel_time
+name: 'Til Hempel & Juhl'
+origin: device_tracker.allanpersson_pepemobil
+destination: zone.hempel_juhl
+region: 'EU'
+realtime: true
