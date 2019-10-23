@@ -1,8 +1,0 @@
----
-#
-netatmo:
-  api_key: !secret netatmo_clientid
-  secret_key: !secret netatmo_clientsecret
-  username: !secret netatmo_username
-  password: !secret netatmo_password
-  discovery: false
