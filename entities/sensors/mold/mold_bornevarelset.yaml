@@ -1,7 +1,0 @@
----
-platform: mold_indicator
-name: "Mold børneværelset"
-indoor_temp_sensor: sensor.bornevaerelset_temperature
-indoor_humidity_sensor: sensor.bornevaerelset_humidity
-outdoor_temp_sensor: sensor.owm_temperature
-calibration_factor: 2.0
