@@ -62,22 +62,22 @@ Your help is much appreciated on my code, broken links, typos etc.
 ## Screenshots 📷
 
 **Laptop:**
-![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_laptop.png)
-![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_camera_description.jpeg)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_laptop.png)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_camera_description.jpeg)
 
 **Tablet:**
-![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_tablet.jpeg)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_tablet.jpeg)
 
 **Mobile:**
-![Image](https://github.com/allanpersson/home-assistant-config/blob/master/www/images/themes/material_dark_theme_custom_mobile.jpg)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_mobile.jpg)
 
 
 
 ## Theme 🖼️
-The theme i use ([screenshots](https://github.com/allanpersson/home-assistant-config#screenshots-)) is my take on [Material Dark Theme "Pepe Version"](https://github.com/allanpersson/home-assistant-config/blob/master/themes/material_dark_theme_custom.yaml) with some minor tweaks like rounded corners, color changes etc.
+The theme i use ([screenshots](https://github.com/allanpersson/home-assistant-config#screenshots-)) is my take on [Material Dark Theme "Pepe Version"](https://github.com/allanpersson/home-assistant-config/blob/master/config/themes/material_dark_theme_custom.yaml) with some minor tweaks like rounded corners, color changes etc.
 
 **Automations:**
-- [Default theme](https://github.com/allanpersson/home-assistant-config/blob/master/automations/system/default_theme.yaml)
+- [Default theme](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/system/default_theme.yaml)
 
 
 
@@ -181,8 +181,8 @@ I don't have any [Automations](https://github.com/allanpersson/home-assistant-co
 **Automations:**
 <details>
   <summary>None... But feel free to suggest some cool automations for me</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/>
-  None... But feel free to suggest some cool automations for me - /automations/</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/config/automations/>
+  None... But feel free to suggest some cool automations for me - /config/automations/</a><br>
 <p></details>
 
 </td></tr>
@@ -286,38 +286,38 @@ I use alot of [Automations](https://github.com/allanpersson/home-assistant-confi
 **Automations:**
 <details>
   <summary>Entity update</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/system/entity_update/climate_update.yaml>
-  Entity update (Climate) - /automations/system/entity_update/climate_update.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/system/entity_update/climate_update.yaml>
+  Entity update (Climate) - /config/automations/system/entity_update/climate_update.yaml</a><br>
 <p></details>
 <details>
   <summary>Away mode</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_away.yaml>
-  Away mode - /automations/areas/helehuset/climate/climate_auto_away.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/helehuset/climate/climate_auto_away.yaml>
+  Away mode - /config/automations/areas/helehuset/climate/climate_auto_away.yaml</a><br>
 <p></details>
 <details>
   <summary>Home mode</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_home.yaml>
-  Home mode - /automations/areas/helehuset/climate/climate_auto_home.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/helehuset/climate/climate_auto_home.yaml>
+  Home mode - /config/automations/areas/helehuset/climate/climate_auto_home.yaml</a><br>
 <p></details>
 <details>
   <summary>Auto off</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_off.yaml>
-  Auto off - /automations/areas/helehuset/climate/climate_auto_off.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/helehuset/climate/climate_auto_off.yaml>
+  Auto off - /config/automations/areas/helehuset/climate/climate_auto_off.yaml</a><br>
 <p></details>
 <details>
   <summary>Sleep mode (Night)</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_auto_sleep.yaml>
-  Sleep mode (Night) - /automations/areas/helehuset/climate/climate_auto_sleep.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/helehuset/climate/climate_auto_sleep.yaml>
+  Sleep mode (Night) - /config/automations/areas/helehuset/climate/climate_auto_sleep.yaml</a><br>
 <p></details>
 <details>
   <summary>Windows closed</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_close_windows.yaml>
-  Windows closed - /automations/areas/helehuset/climate/climate_close_windows.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/helehuset/climate/climate_close_windows.yaml>
+  Windows closed - /config/automations/areas/helehuset/climate/climate_close_windows.yaml</a><br>
 <p></details>
 <details>
   <summary>Windows open</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/climate/climate_open_windows.yaml>
-  Windows open - /automations/areas/helehuset/climate/climate_open_windows.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/helehuset/climate/climate_open_windows.yaml>
+  Windows open - /config/automations/areas/helehuset/climate/climate_open_windows.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -366,18 +366,18 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 
 <tr><td colspan="4">
 
-I use some [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my covers, but in future i'm gonna look more into cool cover automations, maybe a "naked sensor" that rolls down the covers if your naked...
+I use some [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my covers, but in future i'm gonna look more into cool cover automations, maybe a "naked sensor" that rolls down the covers if your naked...
 
 **Automations:**
 <details>
   <summary>Roll down when mediaplayer (Kodi) is playing</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_kodi.yaml>
-  Roll down when mediaplayer (Kodi) is playing - /automations/areas/stuen/cover_kodi.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/cover_kodi.yaml>
+  Roll down when mediaplayer (Kodi) is playing - /config/automations/areas/stuen/cover_kodi.yaml</a><br>
 <p></details>
 <details>
   <summary>Roll down when sunny and room is getting hot</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_sunny.yaml>
-  Roll down when sunny and room is getting hot - /automations/areas/stuen/cover_sunny.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/cover_sunny.yaml>
+  Roll down when sunny and room is getting hot - /config/automations/areas/stuen/cover_sunny.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -492,12 +492,12 @@ Below some videos i have found useful myself.
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my fan(s) at the moment.
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my fan(s) at the moment.
 
 **Automations:**
 <details>
   <summary>None.... Yet</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/>
   None.... Yet</a><br>
 <p></details>
 
@@ -619,43 +619,43 @@ Below information on the software used on/with my hardware.
 
 <tr><td colspan="4">
 
-I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my lights. Actually i almost never manually or with voice activate my lights. 
+I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my lights. Actually i almost never manually or with voice activate my lights. 
 
 **Automations:**
 <details>
   <summary>Lights on (Day)</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_on_day.yaml>
-  Lights on (Day) - /automations/areas/kokkenet/kokken_lights_on_day.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/kokkenet/kokken_lights_on_day.yaml>
+  Lights on (Day) - /config/automations/areas/kokkenet/kokken_lights_on_day.yaml</a><br>
 <p></details>
 <details>
   <summary>Lights off (Day)</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_off_day.yaml>
-  Lights off (Day) - /automations/areas/kokkenet/kokken_lights_off_day.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/kokkenet/kokken_lights_off_day.yaml>
+  Lights off (Day) - /config/automations/areas/kokkenet/kokken_lights_off_day.yaml</a><br>
 <p></details>
 <details>
   <summary>Lights on (Night)</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_on_night.yaml>
-  Lights on (Night) - /automations/areas/kokkenet/kokken_lights_on_night.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/kokkenet/kokken_lights_on_night.yaml>
+  Lights on (Night) - /config/automations/areas/kokkenet/kokken_lights_on_night.yaml</a><br>
 <p></details>
 <details>
   <summary>Lights off (Night)</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/kokkenet/kokken_lights_off_night.yaml>
-  Lights off (Night) - /automations/areas/kokkenet/kokken_lights_off_night.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/kokkenet/kokken_lights_off_night.yaml>
+  Lights off (Night) - /config/automations/areas/kokkenet/kokken_lights_off_night.yaml</a><br>
 <p></details>
 <details>
   <summary>Lights on when lux is low, door is closed and mediaplayer is playing</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/stuen_androidtv_lights_on.yaml>
-  Lights on when lux is low, door is closed and mediaplayer is playing - /automations/areas/stuen/stuen_androidtv_lights_on.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/stuen_androidtv_lights_on.yaml>
+  Lights on when lux is low, door is closed and mediaplayer is playing - /config/automations/areas/stuen/stuen_androidtv_lights_on.yaml</a><br>
 <p></details>
 <details>
   <summary>Lights off when mediaplayer is turned off at bedtime</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/stuen_androidtv_lights_off.yaml>
-  Lights off when mediaplayer is turned off at bedtime - /automations/areas/stuen/stuen_androidtv_lights_off.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/stuen_androidtv_lights_off.yaml>
+  Lights off when mediaplayer is turned off at bedtime - /config/automations/areas/stuen/stuen_androidtv_lights_off.yaml</a><br>
 <p></details>
 <details>
   <summary>Turn off all lights and mediaplayer when not home</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/helehuset/leaving_home_turn_off.yaml>
-  Turn off all lights and mediaplayer when not home - /automations/areas/helehuset/leaving_home_turn_off.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/helehuset/leaving_home_turn_off.yaml>
+  Turn off all lights and mediaplayer when not home - /config/automations/areas/helehuset/leaving_home_turn_off.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -724,13 +724,13 @@ Below you can find information about my gateway and software used to control my 
 
 ⚠️ ***I strongly advise you NOT to buy any Danalock products. The software is not working, and they don't take it serious and keeps deleting their social media profiles to make the company look better!*** ⚠️
 <br><br>
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my Danalock because i have the bluetooth only version.
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my Danalock because i have the bluetooth only version.
 
 **Automations:**
 <details>
   <summary>None... But feel free to to suggest some for me</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/>
-  None... But feel free to to suggest some for me - /automations/</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/>
+  None... But feel free to to suggest some for me - /config/automations/</a><br>
 <p></details>
 
 </td></tr>
@@ -744,7 +744,7 @@ Below configuration of my locks.
 **Configuration:**
 <details>
   <summary>None... But would love to get my lock in Home Assistant</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/entities/>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/entities/>
   None... But would love to get my lock in Home Assistant</a><br>
 <p></details>
 
@@ -802,28 +802,28 @@ Below configuration of my locks.
 
 <tr><td colspan="4">
 
-I use my mediaplayers in many of my [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) because in my use case it often define what i'm doing. I also use my mediaplayers alot for playing music and podcasts, so the volume sync is fantastic for not being annoyed with different volume level around the appartment.
+I use my mediaplayers in many of my [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) because in my use case it often define what i'm doing. I also use my mediaplayers alot for playing music and podcasts, so the volume sync is fantastic for not being annoyed with different volume level around the appartment.
 
 **Automations:**
 <details>
   <summary>Google Home volume sync</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/tree/master/automations/areas/helehuset/media_players_volume_sync>
-  Google Home volume sync - /automations/areas/helehuset/media_players_volume_sync</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/tree/master/config/automations/areas/helehuset/media_players_volume_sync>
+  Google Home volume sync - /config/automations/areas/helehuset/media_players_volume_sync</a><br>
 <p></details>
 <details>
 <summary>Auto light on in livingroom when lux is low and mediaplayer is 'on'</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/stuen_androidtv_lights_on.yaml>
-Auto light on in livingroom when lux is low and mediaplayer is 'on' - /automations/areas/stuen/stuen_androidtv_lights_on.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/stuen_androidtv_lights_on.yaml>
+Auto light on in livingroom when lux is low and mediaplayer is 'on' - /config/automations/areas/stuen/stuen_androidtv_lights_on.yaml</a><br>
 <p></details>
 <details>
 <summary>Roll down Ikea Fyrtur cover when Kodi is 'on'.</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/cover_kodi.yaml>
-Roll down Ikea Fyrtur cover when Kodi is 'on' - /automations/areas/stuen/cover_kodi.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/cover_kodi.yaml>
+Roll down Ikea Fyrtur cover when Kodi is 'on' - /config/automations/areas/stuen/cover_kodi.yaml</a><br>
 <p></details>
 <details>
 <summary>Play radio in bathroom when having guests</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/badevarelset/bad_radio_on_guests.yaml>
-Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_radio_on_guests.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/badevarelset/bad_radio_on_guests.yaml>
+Play radio in bathroom when having guests - /config/automations/areas/badevarelset/bad_radio_on_guests.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -867,13 +867,13 @@ Play radio in bathroom when having guests - /automations/areas/badevarelset/bad_
 
 <tr><td colspan="4">
 
-I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) involving my sensors. Most of them is about comfort, but one of them is about safety inspired by the Disappearance of Madeleine McCann case. The one called [Opening door notification](https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/ude/hoved_notification.yaml) which give me a instant notification if door opens on my phone and smartwatch, so i can react if my childrens or mine safety is in danger.
+I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) involving my sensors. Most of them is about comfort, but one of them is about safety inspired by the Disappearance of Madeleine McCann case. The one called [Opening door notification](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/ude/hoved_notification.yaml) which give me a instant notification if door opens on my phone and smartwatch, so i can react if my childrens or mine safety is in danger.
 
 **Automations:**
 <details>
   <summary>Opening door notification</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/ude/hoved_notification.yaml>
-  Opening door notification - /automations/areas/ude/hoved_notification.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/ude/hoved_notification.yaml>
+  Opening door notification - /config/automations/areas/ude/hoved_notification.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -910,12 +910,12 @@ I have alot of [Automations](https://github.com/allanpersson/home-assistant-conf
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my smoke detectors yet. I want to consult with a friend of mine who is firefighter to make sure the automation(s) i safe, to make sure i don't choose a color of light that makes it impossible to get out in case of fire... 
+I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my smoke detectors yet. I want to consult with a friend of mine who is firefighter to make sure the automation(s) i safe, to make sure i don't choose a color of light that makes it impossible to get out in case of fire... 
 
 **Automations:**
 <details>
   <summary>None.... Yet</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/>
   None.... Yet</a><br>
 <p></details>
 
@@ -977,8 +977,8 @@ I don't have any real [Automations](https://github.com/allanpersson/home-assista
 **Automations:**
 <details>
   <summary>Start on start up</summary><p align="center">
-  <a href=hhttps://github.com/allanpersson/home-assistant-config/blob/master/automations/system/start_on_startup.yaml>
-  Start on start up - /automations/system/start_on_startup.yaml</a><br>
+  <a href=hhttps://github.com/allanpersson/home-assistant-config/blob/master/config/automations/system/start_on_startup.yaml>
+  Start on start up - /config/automations/system/start_on_startup.yaml</a><br>
 <p></details>
 
 </td></tr>
@@ -1049,28 +1049,28 @@ Below you can find information about my gateway and software used to control my 
 
 <tr><td colspan="4">
 
-I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/automations) for my vacuum to help me keep my appartment clean, which can be tricky with a labrador retriever. And of course some for comfort as well. 
+I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my vacuum to help me keep my appartment clean, which can be tricky with a labrador retriever. And of course some for comfort as well. 
 
 **Automations:**
 <details>
   <summary>Autoclean every 3.5 hours after last finish</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_autoclean.yaml>
-  Autoclean every 3.5 hours after last finish - /automations/areas/stuen/vacuum_autoclean.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_autoclean.yaml>
+  Autoclean every 3.5 hours after last finish - /config/automations/areas/stuen/vacuum_autoclean.yaml</a><br>
 <p></details>
 <details>
 <summary>Set home mode if home</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_home.yaml>
-Set home mode if home - /automations/areas/stuen/vacuum_home.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_home.yaml>
+Set home mode if home - /config/automations/areas/stuen/vacuum_home.yaml</a><br>
 <p></details>
 <details>
 <summary>Set away mode if away</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_away.yaml>
-Set away mode if away - /automations/areas/stuen/vacuum_away.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_away.yaml>
+Set away mode if away - /config/automations/areas/stuen/vacuum_away.yaml</a><br>
 <p></details>
 <details>
 <summary>Return to dock when child is going to bed</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/automations/areas/stuen/vacuum_ea_sleep.yaml>
-Return to dock when child is going to bed - /automations/areas/stuen/vacuum_ea_sleep.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_ea_sleep.yaml>
+Return to dock when child is going to bed - /config/automations/areas/stuen/vacuum_ea_sleep.yaml</a><br>
 <p></details>
 
 </td></tr>
