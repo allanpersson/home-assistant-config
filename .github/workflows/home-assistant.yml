@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - master
-      - 'home-assistant/home-assistant/**'
+      - 'home-assistant/home-assistant/releases/tag/*'
   pull_request:
   schedule:
     - cron: 0 12 * * *
