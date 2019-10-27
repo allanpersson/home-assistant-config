@@ -880,6 +880,31 @@ I have alot of [Automations](https://github.com/allanpersson/home-assistant-conf
   <a href=https://github.com/allanpersson/home-assistant-config#climate>
   Climate automations - Climate section</a><br>
 <p></details>
+<details>
+  <summary>Cover automations</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config#covers>
+  Cover automations - Cover section</a><br>
+<p></details>
+<details>
+  <summary>Lights automations</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config#lights>
+  Lights automations - Lights section</a><br>
+<p></details>
+<details>
+  <summary>Mediaplayers automations</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config#mediaplayers>
+  Mediaplayers automations - Mediaplayers section</a><br>
+<p></details>
+<details>
+  <summary>Switches automations</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config#switches>
+  Switches automations - Switches section</a><br>
+<p></details>
+<details>
+  <summary>Vacuums automations</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config#vacuums>
+  Vacuums automations - Vacuums section</a><br>
+<p></details>
 
 </td></tr>
 
