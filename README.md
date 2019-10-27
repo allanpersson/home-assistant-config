@@ -40,6 +40,8 @@ I don't feel the excitement from putting some code together, but i have the hige
 
 So you might experience my code is 'ugly' and you are probably right, i find joy in making things work as i want it to. In coding there is frontend and backend coders, i'm the **userfriendliness and comfort guy** 😛
 
+Actual [Issues](https://github.com/allanpersson/home-assistant-config/issues).
+
 
 
 ## Description 📜
@@ -56,6 +58,8 @@ Watch this video to learn more: [How I structure my Home Assistant configuration
 ## PRs 📝
 You are more than welcome to submit PRs to my repo. This repo and documentation is "quite big" to keep up to date but i try my best! 
 Your help is much appreciated on my code, broken links, typos etc.
+
+If you want to help take a look at the [Issues](https://github.com/allanpersson/home-assistant-config/issues) section.
 
 
 
