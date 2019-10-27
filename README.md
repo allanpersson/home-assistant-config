@@ -875,6 +875,11 @@ I have alot of [Automations](https://github.com/allanpersson/home-assistant-conf
   <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/ude/hoved_notification.yaml>
   Opening door notification - /config/automations/areas/ude/hoved_notification.yaml</a><br>
 <p></details>
+<details>
+  <summary>Climate automations</summary><p align="center">
+  <a href=https://github.com/allanpersson/home-assistant-config#climate>
+  Climate automations - Climate section</a><br>
+<p></details>
 
 </td></tr>
 
