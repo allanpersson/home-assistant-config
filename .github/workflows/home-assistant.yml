@@ -5,9 +5,8 @@ name: Home Assistant CI
 on:
   push:
     branches:
-    - master
-    paths:
-    - 'home-assistant/home-assistant/releases/tag/*'
+      - master
+      - 'home-assistant/home-assistant/releases/tag/*'
   pull_request:
   schedule:
     - cron: 0 10 * * *
