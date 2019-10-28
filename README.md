@@ -49,7 +49,7 @@ Configuration for [Home Assistant][home-assistant] running [Hass.io][hassio] on 
 
 I use `packages "configuration"` introduced by [Frenck][frenck]. 
 
-That means my [configuration.yaml](https://github.com/allanpersson/home-assistant-config/blob/master/config/configuration.yaml) points to the folder [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations), and the files in my [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations) folder is pointing to the [entities](https://github.com/allanpersson/home-assistant-config/tree/master/config/entities) etc. folder where every entity has it's own file sorted by type.
+That means my [configuration.yaml](https://github.com/allanpersson/home-assistant-config/blob/master/config/configuration.yaml) points to the folder [integrations][integrations], and the files in my [integrations][integrations] folder is pointing to the [entities][entities] etc. folder where every entity has it's own file sorted by type.
 
 Watch this video to learn more: [How I structure my Home Assistant configuration - By Frenck](https://www.youtube.com/watch?v=lndeybw21PY) or take a deeper look at my configuration.
 
@@ -1202,11 +1202,13 @@ By using my product links in this repo i get a small commision, and you are supp
 [link-repo]:https://github.com/allanpersson/home-assistant-config
 
 [ccostan]: https://github.com/CCOSTAN/
+[entities]: https://github.com/allanpersson/home-assistant-config/tree/master/config/entities
 [facebook]: http://facebook.com/marathonpepe
 [frenck]: http://frenck.dev
 [hassio]: https://home-assistant.io/hassio/
 [home-assistant]: https://home-assistant.io
 [instagram]: http://instagram.com/marathonpepe
+[integrations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations
 [intelnuc]: https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008
 [issues]: https://github.com/allanpersson/home-assistant-config/issues
 [renemarc]: https://github.com/renemarc/
