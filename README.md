@@ -330,7 +330,7 @@ I use alot of [Automations](https://github.com/allanpersson/home-assistant-confi
 
 <tr><td colspan="4">
 
-Below configuration on my radiator thermostats. It's possible to use the Tado cloud service in [Home Assistant](https://home-assistant.io/) which i have done until i changed to the new option with homekit in [Home Assistant](https://home-assistant.io/).
+Below configuration on my radiator thermostats. It's possible to use the Tado cloud service in [Home Assistant][home-assistant] which i have done until i changed to the new option with homekit in [Home Assistant][home-assistant].
 
 **Configuration:**
 <details>
@@ -1150,13 +1150,13 @@ Here you can find the lovelace code for [Vacuum card](https://github.com/allanpe
 Thanks to:
 
 ## Ccostan
-- [Ccostan](https://github.com/CCOSTAN/) for documentation inspiration.
+- [Ccostan][ccostan] for documentation inspiration.
 
-## Frenck
-- [Frenck](https://github.com/frenck/) for config inspiration, and for your hard work and effort to the [Home Assistant](https://github.com/home-assistant) community.
+## Frenck (Franck Nijhof)
+- [Frenck][frenck] for config inspiration, and for learning me 95% of all my [Home Assistant][home-assistant] knowledge. And for your hard work and effort to the [Home Assistant][home-assistant] community you are the champ!
 
 ## Renemarc
-- [Renemarc](https://github.com/renemarc/) for documentation inspiration.
+- [Renemarc][renemarc] for documentation inspiration.
 
 
 
@@ -1164,16 +1164,16 @@ Thanks to:
 Fell free to contact me on one of the following places. And i would be happy if you follow me as well.
 
 ## Facebook 🔗
-[Facebook](http://facebook.com/marathonpepe)
+[Facebook][facebook]
 
 ## Instagram 🔗
-[Instagram](http://instagram.com/marathonpepe)
+[Instagram][instagram]
 
 ## Twitter 🔗
-[Twitter](http://twitter.com/marathonpepe)
+[Twitter][twitter]
 
 ## Website 🌐
-[Website](http://marathonpepe.dk)
+[Website][website]
 
 
 
@@ -1201,4 +1201,11 @@ By using my product links in this repo i get a small commision, and you are supp
 [link-license]:https://github.com/allanpersson/home-assistant-config/blob/master/LICENSE.txt
 [link-repo]:https://github.com/allanpersson/home-assistant-config
 
+[ccostan]: https://github.com/CCOSTAN/
+[facebook]: http://facebook.com/marathonpepe
+[frenck]: http://frenck.dev
 [home-assistant]: https://home-assistant.io
+[instagram]: http://instagram.com/marathonpepe
+[renemarc]: https://github.com/renemarc/
+[twitter]: http://twitter.com/marathonpepe
+[website]: http://marathonpepe.dk
