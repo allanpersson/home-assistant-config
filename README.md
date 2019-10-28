@@ -40,14 +40,14 @@ I don't feel the excitement from putting some code together, but i have the hige
 
 So you might experience my code is 'ugly' and you are probably right, i find joy in making things work as i want it to. In coding there is frontend and backend coders, i'm the **userfriendliness and comfort guy** 😛
 
-Actual [Issues](https://github.com/allanpersson/home-assistant-config/issues).
+Actual [issues][issues].
 
 
 
 ## Description 📜
-Configuration for [Home Assistant][home-assistant] running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008) for a two bedroom apartment (66m2).
+Configuration for [Home Assistant][home-assistant] running [Hass.io][hassio] on a [INTEL® NUC KIT NUC8I3BEK][intelnuc] for a two bedroom apartment (66 m2).
 
-I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
+I use `packages "configuration"` introduced by [Frenck][frenck]. 
 
 That means my [configuration.yaml](https://github.com/allanpersson/home-assistant-config/blob/master/config/configuration.yaml) points to the folder [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations), and the files in my [integrations](https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations) folder is pointing to the [entities](https://github.com/allanpersson/home-assistant-config/tree/master/config/entities) etc. folder where every entity has it's own file sorted by type.
 
@@ -59,7 +59,7 @@ Watch this video to learn more: [How I structure my Home Assistant configuration
 You are more than welcome to submit PRs to my repo. This repo and documentation is "quite big" to keep up to date but i try my best! 
 Your help is much appreciated on my code, broken links, typos etc.
 
-If you want to help take a look at the [Issues](https://github.com/allanpersson/home-assistant-config/issues) section.
+If you want to help take a look at the [issues][issues] section.
 
 
 
@@ -1204,8 +1204,11 @@ By using my product links in this repo i get a small commision, and you are supp
 [ccostan]: https://github.com/CCOSTAN/
 [facebook]: http://facebook.com/marathonpepe
 [frenck]: http://frenck.dev
+[hassio]: https://home-assistant.io/hassio/
 [home-assistant]: https://home-assistant.io
 [instagram]: http://instagram.com/marathonpepe
+[intelnuc]: https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008
+[issues]: https://github.com/allanpersson/home-assistant-config/issues
 [renemarc]: https://github.com/renemarc/
 [twitter]: http://twitter.com/marathonpepe
 [website]: http://marathonpepe.dk
