@@ -180,7 +180,7 @@ Below list of accessories i use with my cameras.
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my camera entities. So far i haven't found any use case for any automations, but feel free to inspire me with some ideas.
+I don't have any [Automations][automations] for my camera entities. So far i haven't found any use case for any [Automations][automations], but feel free to inspire me with some ideas.
 
 **Automations:**
 <details>
@@ -285,7 +285,7 @@ Below you can find list of the software i'm using with my cameras.
 
 <tr><td colspan="4">
 
-I use alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for controlling my thermostats for best comfort and saving most energy.
+I use alot of [Automations][automations] for controlling my thermostats for best comfort and saving most energy.
 
 **Automations:**
 <details>
@@ -370,7 +370,7 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 
 <tr><td colspan="4">
 
-I use some [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my covers, but in future i'm gonna look more into cool cover automations, maybe a "naked sensor" that rolls down the covers if your naked...
+I use some [Automations][automations] for my covers, but in future i'm gonna look more into cool cover automations, maybe a "naked sensor" that rolls down the covers if your naked...
 
 **Automations:**
 <details>
@@ -405,7 +405,7 @@ Below information on the gateway(s) im using for my covers.
 
 <tr><td colspan="4">
 
-I use scripts to trigger my cover automations.
+I use [Scripts][scripts] to trigger my cover automations.
 
 **Scripts:**
 <details>
@@ -496,7 +496,7 @@ Below some videos i have found useful myself.
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my fan(s) at the moment.
+I don't have any [Automations][automations] for my fan(s) at the moment.
 
 **Automations:**
 <details>
@@ -623,7 +623,7 @@ Below information on the software used on/with my hardware.
 
 <tr><td colspan="4">
 
-I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my lights. Actually i almost never manually or with voice activate my lights. 
+I have alot of [Automations][automations] for my lights. Actually i almost never manually or with voice activate my lights. 
 
 **Automations:**
 <details>
@@ -728,7 +728,7 @@ Below you can find information about my gateway and software used to control my 
 
 ⚠️ ***I strongly advise you NOT to buy any Danalock products. The software is not working, and they don't take it serious and keeps deleting their social media profiles to make the company look better!*** ⚠️
 <br><br>
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my Danalock because i have the bluetooth only version.
+I don't have any [Automations][automations] for my Danalock because i have the bluetooth only version.
 
 **Automations:**
 <details>
@@ -806,7 +806,7 @@ Below configuration of my locks.
 
 <tr><td colspan="4">
 
-I use my mediaplayers in many of my [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) because in my use case it often define what i'm doing. I also use my mediaplayers alot for playing music and podcasts, so the volume sync is fantastic for not being annoyed with different volume level around the appartment.
+I use my mediaplayers in many of my [Automations][automations] because in my use case it often define what i'm doing. I also use my mediaplayers alot for playing music and podcasts, so the volume sync is fantastic for not being annoyed with different volume level around the appartment.
 
 **Automations:**
 <details>
@@ -871,7 +871,7 @@ Play radio in bathroom when having guests - /config/automations/areas/badevarels
 
 <tr><td colspan="4">
 
-I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) involving my sensors. Most of them is about comfort, but one of them is about safety inspired by the Disappearance of Madeleine McCann case. The one called [Opening door notification](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/ude/hoved_notification.yaml) which give me a instant notification if door opens on my phone and smartwatch, so i can react if my childrens or mine safety is in danger.
+I have alot of [Automations][automations] involving my sensors. Most of them is about comfort, but one of them is about safety inspired by the Disappearance of Madeleine McCann case. The one called [Opening door notification](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/ude/hoved_notification.yaml) which give me a instant notification if door opens on my phone and smartwatch, so i can react if my childrens or mine safety is in danger.
 
 **Automations:**
 <details>
@@ -944,7 +944,7 @@ I have alot of [Automations](https://github.com/allanpersson/home-assistant-conf
 
 <tr><td colspan="4">
 
-I don't have any [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my smoke detectors yet. I want to consult with a friend of mine who is firefighter to make sure the automation(s) i safe, to make sure i don't choose a color of light that makes it impossible to get out in case of fire... 
+I don't have any [Automations][automations] for my smoke detectors yet. I want to consult with a friend of mine who is firefighter to make sure the automation(s) i safe, to make sure i don't choose a color of light that makes it impossible to get out in case of fire... 
 
 **Automations:**
 <details>
@@ -1006,7 +1006,7 @@ Below you can find information about my gateway and software used to control my 
 
 <tr><td colspan="4">
 
-I don't have any real [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my switches(s) at the moment. Exept making sure they are on at start up.
+I don't have any real [Automations][automations] for my switches(s) at the moment. Exept making sure they are on at start up.
 
 **Automations:**
 <details>
@@ -1083,7 +1083,7 @@ Below you can find information about my gateway and software used to control my 
 
 <tr><td colspan="4">
 
-I have alot of [Automations](https://github.com/allanpersson/home-assistant-config/tree/master/config/automations) for my vacuum to help me keep my appartment clean, which can be tricky with a labrador retriever. And of course some for comfort as well. 
+I have alot of [Automations][automations] for my vacuum to help me keep my appartment clean, which can be tricky with a labrador retriever. And of course some for comfort as well. 
 
 **Automations:**
 <details>
@@ -1112,7 +1112,7 @@ Return to dock when child is going to bed - /config/automations/areas/stuen/vacu
 <tr><td colspan="4">
   
   
-I have some [Scripts](https://github.com/allanpersson/home-assistant-config/tree/master/scripts) for my vacuum, which i use for zoned clean up or trigger sleep mode when i go to bed late. 
+I have some [Scripts][scripts] for my vacuum, which i use for zoned clean up or trigger sleep mode when i go to bed late. 
 
 **Scripts:**
 <details>
@@ -1139,10 +1139,10 @@ Zoned clean up (Livingroom) - /config/scripts/vacuum_zone_stuen.yaml</a><br>
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ## Camera Card 📸
-Here you can find the lovelace code for [Camera card](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/camera_card.yaml)
+Here you can find the lovelace code for [Camera card][cameracard]
 
 ## Vacuum Card 🧹
-Here you can find the lovelace code for [Vacuum card](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/vacuum_card.yaml)
+Here you can find the lovelace code for [Vacuum card][vacuumcard]
 
 
 
@@ -1190,27 +1190,32 @@ By using my product links in this repo i get a small commision, and you are supp
 
 [img-ha-version]:https://img.shields.io/badge/Home_Assistant-0.100.3-53c1f1.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxLjgsMTNIMjBWMjFIMTNWMTcuNjdMMTUuNzksMTQuODhMMTYuNSwxNUMxNy42NiwxNSAxOC42LDE0LjA2IDE4LjYsMTIuOUMxOC42LDExLjc0IDE3LjY2LDEwLjggMTYuNSwxMC44QTIuMSwyLjEgMCAwLDAgMTQuNCwxMi45TDE0LjUsMTMuNjFMMTMsMTUuMTNWOS42NUMxMy42Niw5LjI5IDE0LjEsOC42IDE0LjEsNy44QTIuMSwyLjEgMCAwLDAgMTIsNS43QTIuMSwyLjEgMCAwLDAgOS45LDcuOEM5LjksOC42IDEwLjM0LDkuMjkgMTEsOS42NVYxNS4xM0w5LjUsMTMuNjFMOS42LDEyLjlBMi4xLDIuMSAwIDAsMCA3LjUsMTAuOEEyLjEsMi4xIDAgMCwwIDUuNCwxMi45QTIuMSwyLjEgMCAwLDAgNy41LDE1TDguMjEsMTQuODhMMTEsMTcuNjdWMjFINFYxM0gyLjI1QzEuODMsMTMgMS40MiwxMyAxLjQyLDEyLjc5QzEuNDMsMTIuNTcgMS44NSwxMi4xNSAyLjI4LDExLjcyTDExLDNDMTEuMzMsMi42NyAxMS42NywyLjMzIDEyLDIuMzNDMTIuMzMsMi4zMyAxMi42NywyLjY3IDEzLDNMMTcsN1Y2SDE5VjlMMjEuNzgsMTEuNzhDMjIuMTgsMTIuMTggMjIuNTksMTIuNTkgMjIuNiwxMi44QzIyLjYsMTMgMjIuMiwxMyAyMS44LDEzTTcuNSwxMkEwLjksMC45IDAgMCwxIDguNCwxMi45QTAuOSwwLjkgMCAwLDEgNy41LDEzLjhBMC45LDAuOSAwIDAsMSA2LjYsMTIuOUEwLjksMC45IDAgMCwxIDcuNSwxMk0xNi41LDEyQzE3LDEyIDE3LjQsMTIuNCAxNy40LDEyLjlDMTcuNCwxMy40IDE3LDEzLjggMTYuNSwxMy44QTAuOSwwLjkgMCAwLDEgMTUuNiwxMi45QTAuOSwwLjkgMCAwLDEgMTYuNSwxMk0xMiw2LjlDMTIuNSw2LjkgMTIuOSw3LjMgMTIuOSw3LjhDMTIuOSw4LjMgMTIuNSw4LjcgMTIsOC43QzExLjUsOC43IDExLjEsOC4zIDExLjEsNy44QzExLjEsNy4zIDExLjUsNi45IDEyLDYuOVoiIGZpbGw9IiNmZmZmZmYiIC8+PC9zdmc+Cg==&maxAge=21600
 [img-hassio]:https://img.shields.io/badge/config_for-Hass.io-53c1f1.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDE1LjVBMy41LDMuNSAwIDAsMSA4LjUsMTJBMy41LDMuNSAwIDAsMSAxMiw4LjVBMy41LDMuNSAwIDAsMSAxNS41LDEyQTMuNSwzLjUgMCAwLDEgMTIsMTUuNU0xOS40MywxMi45N0MxOS40NywxMi42NSAxOS41LDEyLjMzIDE5LjUsMTJDMTkuNSwxMS42NyAxOS40NywxMS4zNCAxOS40MywxMUwyMS41NCw5LjM3QzIxLjczLDkuMjIgMjEuNzgsOC45NSAyMS42Niw4LjczTDE5LjY2LDUuMjdDMTkuNTQsNS4wNSAxOS4yNyw0Ljk2IDE5LjA1LDUuMDVMMTYuNTYsNi4wNUMxNi4wNCw1LjY2IDE1LjUsNS4zMiAxNC44Nyw1LjA3TDE0LjUsMi40MkMxNC40NiwyLjE4IDE0LjI1LDIgMTQsMkgxMEM5Ljc1LDIgOS41NCwyLjE4IDkuNSwyLjQyTDkuMTMsNS4wN0M4LjUsNS4zMiA3Ljk2LDUuNjYgNy40NCw2LjA1TDQuOTUsNS4wNUM0LjczLDQuOTYgNC40Niw1LjA1IDQuMzQsNS4yN0wyLjM0LDguNzNDMi4yMSw4Ljk1IDIuMjcsOS4yMiAyLjQ2LDkuMzdMNC41NywxMUM0LjUzLDExLjM0IDQuNSwxMS42NyA0LjUsMTJDNC41LDEyLjMzIDQuNTMsMTIuNjUgNC41NywxMi45N0wyLjQ2LDE0LjYzQzIuMjcsMTQuNzggMi4yMSwxNS4wNSAyLjM0LDE1LjI3TDQuMzQsMTguNzNDNC40NiwxOC45NSA0LjczLDE5LjAzIDQuOTUsMTguOTVMNy40NCwxNy45NEM3Ljk2LDE4LjM0IDguNSwxOC42OCA5LjEzLDE4LjkzTDkuNSwyMS41OEM5LjU0LDIxLjgyIDkuNzUsMjIgMTAsMjJIMTRDMTQuMjUsMjIgMTQuNDYsMjEuODIgMTQuNSwyMS41OEwxNC44NywxOC45M0MxNS41LDE4LjY3IDE2LjA0LDE4LjM0IDE2LjU2LDE3Ljk0TDE5LjA1LDE4Ljk1QzE5LjI3LDE5LjAzIDE5LjU0LDE4Ljk1IDE5LjY2LDE4LjczTDIxLjY2LDE1LjI3QzIxLjc4LDE1LjA1IDIxLjczLDE0Ljc4IDIxLjU0LDE0LjYzTDE5LjQzLDEyLjk3WiIgZmlsbD0iI2ZmZmZmZiIgLz48L3N2Zz4K&maxAge=86400
-[img-last-commit]:https://img.shields.io/github/last-commit/allanpersson/home-assistant-config/master
-[img-license]:https://img.shields.io/github/license/allanpersson/home-assistant-config
 [img-price]:https://img.shields.io/badge/price-FREE-53c1f1.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTcsMTVIOUM5LDE2LjA4IDEwLjM3LDE3IDEyLDE3QzEzLjYzLDE3IDE1LDE2LjA4IDE1LDE1QzE1LDEzLjkgMTMuOTYsMTMuNSAxMS43NiwxMi45N0M5LjY0LDEyLjQ0IDcsMTEuNzggNyw5QzcsNy4yMSA4LjQ3LDUuNjkgMTAuNSw1LjE4VjNIMTMuNVY1LjE4QzE1LjUzLDUuNjkgMTcsNy4yMSAxNyw5SDE1QzE1LDcuOTIgMTMuNjMsNyAxMiw3QzEwLjM3LDcgOSw3LjkyIDksOUM5LDEwLjEgMTAuMDQsMTAuNSAxMi4yNCwxMS4wM0MxNC4zNiwxMS41NiAxNywxMi4yMiAxNywxNUMxNywxNi43OSAxNS41MywxOC4zMSAxMy41LDE4LjgyVjIxSDEwLjVWMTguODJDOC40NywxOC4zMSA3LDE2Ljc5IDcsMTVaIiBmaWxsPSIjZmZmIiAvPjwvc3ZnPgo=&maxAge=86400
-[img-release]:https://img.shields.io/github/release/allanpersson/home-assistant-config/all.svg?logo=github&logoColor=white&maxAge=21600
-[link-board]:https://github.com/allanpersson/home-assistant-config/projects/1
-[link-ha-version]:https://github.com/home-assistant/home-assistant/tree/0.100.3
-[link-hassio]:https://home-assistant.io/hassio/
-[link-issues]:https://github.com/allanpersson/home-assistant-config/issues
-[link-license]:https://github.com/allanpersson/home-assistant-config/blob/master/LICENSE.txt
-[link-repo]:https://github.com/allanpersson/home-assistant-config
 
+
+[automations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/automations
+[cameracard]: https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/camera_card.yaml
 [ccostan]: https://github.com/CCOSTAN/
 [entities]: https://github.com/allanpersson/home-assistant-config/tree/master/config/entities
 [facebook]: http://facebook.com/marathonpepe
 [frenck]: http://frenck.dev
 [hassio]: https://home-assistant.io/hassio/
 [home-assistant]: https://home-assistant.io
+[img-last-commit]: https://img.shields.io/github/last-commit/allanpersson/home-assistant-config/master
+[img-license]: https://img.shields.io/github/license/allanpersson/home-assistant-config
+[img-release]: https://img.shields.io/github/release/allanpersson/home-assistant-config/all.svg?logo=github&logoColor=white&maxAge=21600
 [instagram]: http://instagram.com/marathonpepe
 [integrations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations
 [intelnuc]: https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008
 [issues]: https://github.com/allanpersson/home-assistant-config/issues
+[link-board]: https://github.com/allanpersson/home-assistant-config/projects/1
+[link-ha-version]: https://github.com/home-assistant/home-assistant/tree/0.100.3
+[link-hassio]: https://home-assistant.io/hassio/
+[link-issues]: https://github.com/allanpersson/home-assistant-config/issues
+[link-license]: https://github.com/allanpersson/home-assistant-config/blob/master/LICENSE.txt
+[link-repo]: https://github.com/allanpersson/home-assistant-config
 [renemarc]: https://github.com/renemarc/
+[scripts]: https://github.com/allanpersson/home-assistant-config/tree/master/config/scripts
 [twitter]: http://twitter.com/marathonpepe
+[vacuumcard]: https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/vacuum_card.yaml
 [website]: http://marathonpepe.dk
