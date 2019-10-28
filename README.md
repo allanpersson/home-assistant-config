@@ -45,7 +45,7 @@ Actual [Issues](https://github.com/allanpersson/home-assistant-config/issues).
 
 
 ## Description 📜
-Configuration for [Home Assistant](https://home-assistant.io/) running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008) for a two bedroom apartment (66m2).
+Configuration for [Home Assistant][home-assistant] running [Hass.io](https://home-assistant.io/hassio/) on a [INTEL® NUC KIT NUC8I3BEK](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008) for a two bedroom apartment (66m2).
 
 I use `packages "configuration"` introduced by [Frenck](https://github.com/frenck/). 
 
@@ -1200,3 +1200,5 @@ By using my product links in this repo i get a small commision, and you are supp
 [link-issues]:https://github.com/allanpersson/home-assistant-config/issues
 [link-license]:https://github.com/allanpersson/home-assistant-config/blob/master/LICENSE.txt
 [link-repo]:https://github.com/allanpersson/home-assistant-config
+
+[home-assistant]: https://home-assistant.io
