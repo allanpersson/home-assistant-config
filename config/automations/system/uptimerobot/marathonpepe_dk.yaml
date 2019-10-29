@@ -1,0 +1,14 @@
+---
+#
+alias: "Notification (Marathonpepe.dk down)"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.marathonpepe_dk
+    from: "on"
+    to: "off"
+action:
+  - service: notify.join_allan
+    data_template:
+      title: Marathonpepe.dk is down!
+      message: >
+        Be aware of downtime on marathonpepe.dk!

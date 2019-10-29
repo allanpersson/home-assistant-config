@@ -1,0 +1,14 @@
+---
+#
+alias: "Notification (Salomonisk.dk down)"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.salomonisk_dk
+    from: "on"
+    to: "off"
+action:
+  - service: notify.join_allan
+    data_template:
+      title: Salomonisk.dk is down!
+      message: >
+        Be aware of downtime on salomonisk.dk!

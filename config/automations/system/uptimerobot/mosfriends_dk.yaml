@@ -1,0 +1,14 @@
+---
+#
+alias: "Notification (Mosfriends.dk down)"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.mosfriends_dk
+    from: "on"
+    to: "off"
+action:
+  - service: notify.join_allan
+    data_template:
+      title: Mosfriends.dk is down!
+      message: >
+        Be aware of downtime on mosfriends.dk!
