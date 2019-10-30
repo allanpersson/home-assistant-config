@@ -1,0 +1,4 @@
+---
+# https://www.home-assistant.io/integrations/season/
+platform: season
+type: astronomical
