@@ -1,0 +1,128 @@
+---
+#
+alias: "Halloween"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.motion_kokken
+    to: "on"
+  - platform: state
+    entity_id: binary_sensor.motion_gang
+    to: "on"
+  - platform: state
+    entity_id: binary_sensor.motion_bad
+    to: "on"
+condition:
+  condition: and
+  conditions:
+    # - condition: state
+    #   entity_id: light.kokkenet_nilfisk
+    #   state: "off"
+    # - condition: state
+    #   entity_id: light.kokkenet_vask
+    #   state: "off"
+    # - condition: state
+    #   entity_id: light.gangen
+    #   state: "off"
+    # - condition: state
+    #   entity_id: light.badevaerelset
+    #   state: "off"
+    - condition: state
+      entity_id: automation.lights_off_day_kokkenet
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_on_day_kokkenet
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_off_night_kokkenet
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_on_night_kokkenet
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_on_day_gangen
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_off_gangen
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_on_night_gangen
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_on_day_badevaerelset
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_off_badevaerelset
+      state: "off"
+    - condition: state
+      entity_id: automation.lights_on_night_badevaerelset
+      state: "off"
+    - condition: state
+      entity_id: media_player.gangen
+      state: "off"
+    - condition: state
+      entity_id: media_player.badevaerelset
+      state: "off"
+action:
+  - service: light.turn_on
+    data:
+      entity_id: light.kokkenet_nilfisk
+      transition: 100
+      brightness: 255
+      rgb_color: [255, 0, 0]
+      effect: random
+      flash: long
+  - service: light.turn_on
+    data:
+      entity_id: light.kokkenet_vask
+      transition: 100
+      brightness: 255
+      rgb_color: [255, 0, 0]
+      effect: random
+      flash: long
+  - service: light.turn_on
+    data:
+      entity_id: light.gangen
+      transition: 100
+      brightness: 255
+      rgb_color: [255, 0, 0]
+      effect: random
+      flash: long
+  - service: light.turn_on
+    data:
+      entity_id: light.badevaerelset
+      transition: 100
+      brightness: 255
+      rgb_color: [255, 0, 0]
+      effect: random
+      flash: long
+  - service: media_player.turn_on
+    entity_id: media_player.badevaerelset
+  - service: media_player.turn_on
+    entity_id: media_player.gangen
+  - service: media_player.turn_on
+    entity_id: media_player.kokkenet
+  - delay:
+      milliseconds: 100
+  - service: media_player.play_media
+    data_template:
+      entity_id: media_player.badevaerelset
+      media_content_id: https://halloweenlove.com/audio/Friday the 13th - Theme (Original NES).mp3
+      media_content_type: "audio/mp3"
+  - service: media_player.play_media
+    data_template:
+      entity_id: media_player.gangen
+      media_content_id: https://halloweenlove.com/audio/Chamber of Horrors.mp3
+      media_content_type: "audio/mp3"
+  - service: media_player.play_media
+    data_template:
+      entity_id: media_player.kokkenet
+      media_content_id: https://halloweenlove.com/audio/Friday the 13th - Theme (Original NES).mp3
+      media_content_type: "audio/mp3"
+  - delay:
+      minutes: 3
+  - service: media_player.turn_off
+    entity_id: media_player.gangen
+  - service: media_player.turn_off
+    entity_id: media_player.badevaerelset
+  - service: media_player.turn_off
+    entity_id: media_player.kokkenet
