@@ -67,8 +67,9 @@ If you want to help take a look at the [issues][issues] section.
 ## Screenshots 📷
 
 **Laptop:**
-![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_laptop.png)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_laptop_frontpage.png)
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_camera_description.jpeg)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_laptop_system.jpeg)
 
 **Tablet:**
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_tablet.jpeg)
