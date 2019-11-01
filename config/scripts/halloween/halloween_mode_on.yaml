@@ -1,0 +1,25 @@
+---
+#
+halloween_mode_on:
+  alias: "Halloween mode (on)"
+  sequence:
+    - service: automation.turn_off
+      entity_id: automation.lights_off_day_kokkenet
+    - service: automation.turn_off
+      entity_id: automation.lights_on_day_kokkenet
+    - service: automation.turn_off
+      entity_id: automation.lights_off_night_kokkenet
+    - service: automation.turn_off
+      entity_id: automation.lights_on_night_kokkenet
+    - service: automation.turn_off
+      entity_id: automation.lights_on_day_gangen
+    - service: automation.turn_off
+      entity_id: automation.lights_off_gangen
+    - service: automation.turn_off
+      entity_id: automation.lights_on_night_gangen
+    - service: automation.turn_off
+      entity_id: automation.lights_on_day_badevaerelset
+    - service: automation.turn_off
+      entity_id: automation.lights_off_badevaerelset
+    - service: automation.turn_off
+      entity_id: automation.lights_on_night_badevaerelset
