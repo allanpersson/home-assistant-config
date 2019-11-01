@@ -1161,7 +1161,7 @@ Here you can find the lovelace code for [Vacuum card][vacuumcard]
 
 Below you can find short description about some of the addons and plugins i use.
 
-## Adguard Home 🛡️
+## Adguard Home
 [Adguard Home][adguard-home-addon] is network-wide ads & trackers blocking DNS server.
 
 
