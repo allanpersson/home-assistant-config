@@ -23,7 +23,7 @@
 3. **[Lovelace Configuration](#Lovelace-configuration-)**\
     [Camera Card](#camera-card-) | [Vacuum Card](#vacuum-card-)
 4. **[Addons](#addons-)**\
-    [Adguard Home](#adguard-home-)
+    [Adguard Home](#adguard-home)
 5. **[Credits](#credits-)**\
      [Ccostan](#ccostan) | [Frenck](#frenck) | [Renemarc](#renemarc)
 6. **[Contact](#contact-)**\
