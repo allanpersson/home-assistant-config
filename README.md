@@ -22,11 +22,13 @@
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace Configuration](#Lovelace-configuration-)**\
     [Camera Card](#camera-card-) | [Vacuum Card](#vacuum-card-)
-4. **[Credits](#credits-)**\
+4. **[Addons & Plugins](#addons-plugins-)**\
+    [Adguard Home](#adguard-home-)
+5. **[Credits](#credits-)**\
      [Ccostan](#ccostan) | [Frenck](#frenck) | [Renemarc](#renemarc)
-5. **[Contact](#contact-)**\
+6. **[Contact](#contact-)**\
      [Facebook](#facebook-) | [Instagram](#instagram-) | [Twitter](#twitter-) | [Website](#website-)
-6. **[Support](#support-)**\
+7. **[Support](#support-)**\
      [Affiliate Links](#affiliate-links-) | [Buy me a coffee](#buy-me-a-coffee-)
 
 
@@ -1148,6 +1150,25 @@ Here you can find the lovelace code for [Vacuum card][vacuumcard]
 
 
 
+
+
+
+# Addons & Plugins 🔥
+[Home Assistant][home-assistant] have an amazing [community][home-assistant-community] helping each other and building one amazing addon after another. So browse through the following places to find awesome stuff for your installation:
+- Official [Home Assistant][home-assistant] website.
+- [Home Assistant Community][home-assistant-community] forum.
+- [Community Hass.io Add-on][hassio-addons] store by [Frenck][frenck].
+
+Below you can find short description about some of the addons and plugins i use.
+
+## Adguard Home 🛡️
+[Adguard Home][adguard-home-addon] is network-wide ads & trackers blocking DNS server.
+
+
+
+
+
+
 # Credits 💕
 Thanks to:
 
@@ -1191,6 +1212,7 @@ By using my product links in this repo i get a small commision, and you are supp
 
 
 
+[adguard-home-addon]: https://github.com/hassio-addons/addon-adguard-home
 [automations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/automations
 [buymeacoffee]: https://www.buymeacoffee.com/marathonpepe
 [cameracard]: https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/camera_card.yaml
@@ -1200,7 +1222,9 @@ By using my product links in this repo i get a small commision, and you are supp
 [facebook]: http://facebook.com/marathonpepe
 [frenck]: http://frenck.dev
 [hassio]: https://home-assistant.io/hassio/
+[hassio-addons]: https://github.com/hassio-addons
 [home-assistant]: https://home-assistant.io
+[home-assistant-community]: https://community.home-assistant.io
 
 [img-buymeacoffee]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 
