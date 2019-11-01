@@ -24,11 +24,13 @@
     [Camera Card](#camera-card-) | [Vacuum Card](#vacuum-card-)
 4. **[Addons](#addons-)**\
     [Adguard Home](#adguard-home)
-5. **[Credits](#credits-)**\
+5. **[Seasons](#seasons-)**\
+    [Halloween](#halloween-)
+6. **[Credits](#credits-)**\
      [Ccostan](#ccostan) | [Frenck](#frenck) | [Renemarc](#renemarc)
-6. **[Contact](#contact-)**\
+7. **[Contact](#contact-)**\
      [Facebook](#facebook-) | [Instagram](#instagram-) | [Twitter](#twitter-) | [Website](#website-)
-7. **[Support](#support-)**\
+8. **[Support](#support-)**\
      [Affiliate Links](#affiliate-links-) | [Buy me a coffee](#buy-me-a-coffee-)
 
 
@@ -1168,6 +1170,17 @@ Below you can find short description about some of the addons and plugins i use.
 
 
 
+# Seasons 🎅
+Below you can find links to seasons [automations][automations] and [scrips][scripts] i use.
+
+## Halloween 🎃
+For halloween i use these:
+- [Halloween automations][halloween-automations].
+- [Halloween scripts][halloween-scripts].
+
+
+
+
 
 # Credits 💕
 Thanks to:
@@ -1221,6 +1234,8 @@ By using my product links in this repo i get a small commision, and you are supp
 [entities]: https://github.com/allanpersson/home-assistant-config/tree/master/config/entities
 [facebook]: http://facebook.com/marathonpepe
 [frenck]: http://frenck.dev
+[halloween-automations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/automations/seasons/halloween
+[halloween-scripts]: https://github.com/allanpersson/home-assistant-config/tree/master/config/scripts/halloween
 [hassio]: https://home-assistant.io/hassio/
 [hassio-addons]: https://github.com/hassio-addons
 [home-assistant]: https://home-assistant.io
