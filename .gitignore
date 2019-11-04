@@ -15,9 +15,10 @@ config/deps
 
 # Specific file ignores
 config/.config_entries.json
+config/.google.token
 config/.homekit.state
 config/.ios.conf
-config/.ip_aithenticated.yaml
+config/.ip_authenticated.yaml
 config/.spotify-token-cache
 config/.tradfri_psk.conf
 config/.uuid
@@ -56,4 +57,3 @@ config/deps
 config/esphome
 config/glances
 config/tts
-config/www
