@@ -1148,7 +1148,7 @@ Add the following code to your lovelace configuration, and insert your own entit
 Here you can find the lovelace code for [Camera card][cameracard]
 
 ## Speedtest Card
-![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/speedtestcard.jpg)
+![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/speedtestcard.jpg)
 
 Here you can find the lovelace code for [Speedtest card][speedtestcard]
 
