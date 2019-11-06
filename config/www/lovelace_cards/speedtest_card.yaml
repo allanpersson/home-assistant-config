@@ -1,0 +1,47 @@
+---
+cards:
+  - color_thresholds:
+      - color: "#ff0000"
+        value: 0
+      - color: "#ffff00"
+        value: 50
+      - color: "#33cc33"
+        value: 70
+    entities:
+      - sensor.speedtest_download
+      - sensor.speedtest_upload
+    font_size: 75
+    hours_to_show: 72
+    line_color: black
+    line_width: 3
+    name: 72t Download / Upload
+    points_per_hour: 2
+    show:
+      extrema: true
+      fill: fade
+      labels: true
+      legends: true
+    type: "custom:mini-graph-card"
+  - color_thresholds:
+      - color: "#33cc33"
+        value: 0
+      - color: "#ffff00"
+        value: 10
+      - color: "#ff0000"
+        value: 20
+    entities:
+      - sensor.speedtest_ping
+    font_size: 75
+    hours_to_show: 72
+    line_color: black
+    line_width: 6
+    name: 72t Ping
+    points_per_hour: 2
+    show:
+      extrema: true
+      fill: fade
+      labels: true
+      legends: true
+    type: "custom:mini-graph-card"
+name: Speedtest
+type: vertical-stack
