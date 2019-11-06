@@ -21,7 +21,7 @@
 2. **[Devices](#devices-)**\
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace Configuration](#Lovelace-configuration-)**\
-    [Camera Card](#camera-card-) | [Vacuum Card](#vacuum-card-)
+    [Camera Card](#camera-card-) | [Speedtest Card](#speedtest-card-) | [Vacuum Card](#vacuum-card-)
 4. **[Addons](#addons-)**\
     [Adguard Home](#adguard-home)
 5. **[Seasons](#seasons-)**\
@@ -1147,6 +1147,13 @@ Add the following code to your lovelace configuration, and insert your own entit
 ## Camera Card 📸
 Here you can find the lovelace code for [Camera card][cameracard]
 
+## Speedtest Card 🖥️
+Here you can find the lovelace code for [Speedtest card][speedtestcard]
+
+Requirements:
+- [Mini Graph Card][minigraphcard]
+- [Speedtest integration][speedtestintegration]
+
 ## Vacuum Card 🧹
 Here you can find the lovelace code for [Vacuum card][vacuumcard]
 
@@ -1264,8 +1271,11 @@ By using my product links in this repo i get a small commision, and you are supp
 [link-issues]: https://github.com/allanpersson/home-assistant-config/issues
 [link-license]: https://github.com/allanpersson/home-assistant-config/blob/master/LICENSE.txt
 [link-repo]: https://github.com/allanpersson/home-assistant-config
+[minigraphcard]: https://github.com/kalkih/mini-graph-card
 [renemarc]: https://github.com/renemarc/
 [scripts]: https://github.com/allanpersson/home-assistant-config/tree/master/config/scripts
+[speedtestcard]: https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/speedtest_card.yaml
+[speedtestintegration]: https://www.home-assistant.io/integrations/speedtestdotnet/
 [theme]: https://github.com/allanpersson/home-assistant-config/blob/master/config/themes/material_dark_theme_custom.yam
 [twitter]: http://twitter.com/marathonpepe
 [vacuumcard]: https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/vacuum_card.yaml
