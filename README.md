@@ -21,7 +21,7 @@
 2. **[Devices](#devices-)**\
     [Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 3. **[Lovelace Configuration](#Lovelace-configuration-)**\
-    [Camera Card](#camera-card-) | [Speedtest Card](#speedtest-card-) | [Vacuum Card](#vacuum-card-)
+    [Camera Card](#camera-card) | [Speedtest Card](#speedtest-card) | [Vacuum Card](#vacuum-card)
 4. **[Addons](#addons-)**\
     [Adguard Home](#adguard-home)
 5. **[Seasons](#seasons-)**\
@@ -1144,17 +1144,17 @@ Zoned clean up (Livingroom) - /config/scripts/vacuum_zone_stuen.yaml</a><br>
 # Lovelace Configuration ⚓
 Add the following code to your lovelace configuration, and insert your own entities.
 
-## Camera Card 📸
+## Camera Card
 Here you can find the lovelace code for [Camera card][cameracard]
 
-## Speedtest Card 🖥️
+## Speedtest Card
 Here you can find the lovelace code for [Speedtest card][speedtestcard]
 
 Requirements:
 - [Mini Graph Card][minigraphcard]
 - [Speedtest integration][speedtestintegration]
 
-## Vacuum Card 🧹
+## Vacuum Card
 Here you can find the lovelace code for [Vacuum card][vacuumcard]
 
 
