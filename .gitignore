@@ -52,8 +52,11 @@ addons/*
 backup/*
 share/*
 ssl/*
+config/custom_components
 config/customizations
 config/deps
 config/esphome
 config/glances
 config/tts
+config/_gsdata_/*
+_gsdata_/*
