@@ -2,15 +2,18 @@
 #
 alias: "Lights on day (Gangen)"
 trigger:
-  platform: state
-  entity_id: binary_sensor.motion_gang
-  to: "on"
+  - platform: state
+    entity_id: binary_sensor.motion_gang
+    to: "on"
+  - platform: state
+    entity_id: binary_sensor.window_hoveddor
+    to: "on"
 condition:
   condition: and
   conditions:
     - condition: numeric_state
       entity_id: sensor.motion_gang
-      below: 3
+      below: 10
     - condition: time
       before: "22:00"
       after: "07:00"
