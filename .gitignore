@@ -59,7 +59,9 @@ config/esphome
 config/glances
 config/tts
 config/_gsdata_/*
+.stubs/_gsdata_/*
 _gsdata_/*
 config/README.md
 config/.gitignore
 config/.yamllint
+config/.stubs/*
