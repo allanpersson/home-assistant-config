@@ -3,7 +3,7 @@
 alias: Cover update
 trigger:
   - platform: time_pattern
-    seconds: "/60"
+    seconds: "/300"
 # condition:
 #   - condition: template
 #     value_template: "{{ now().month > 9 }}" ## Starting September

@@ -11,5 +11,13 @@ condition:
     - condition: time
       after: "21:30:00"
       before: "07:00:00"
+    - condition: numeric_state
+      entity_id: cover.stuen_hojre
+      value_template: "{{ states.cover.stuen_hojre.attributes.current_position }}"
+      above: 26
+    - condition: numeric_state
+      entity_id: cover.stuen_venstre
+      value_template: "{{ states.cover.stuen_venstre.attributes.current_position }}"
+      above: 26
 action:
   - service: script.cover_stuen_0_percent_open
