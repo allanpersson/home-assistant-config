@@ -1,0 +1,7 @@
+---
+# https://www.home-assistant.io/integrations/glances/
+glances:
+  - host: !secret glances_host
+    name: glances
+    port: !secret glances_port
+    version: 3
