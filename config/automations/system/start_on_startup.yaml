@@ -12,4 +12,4 @@ action:
   - service: switch.turn_on
     entity_id: switch.gang
   - service: switch.turn_on
-    entity_id: switch.kokken
+    entity_id: switch.router
