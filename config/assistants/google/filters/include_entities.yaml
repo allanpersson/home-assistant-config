@@ -45,7 +45,7 @@ include_entities:
   - switch.bad
   - switch.born
   - switch.gang
-  - switch.kokken
+  - switch.router
 
   #### Vacuum ####
   - vacuum.james
