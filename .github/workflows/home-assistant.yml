@@ -9,7 +9,7 @@ on:
       - 'home-assistant/home-assistant/releases/tag/*'
   pull_request:
   schedule:
-    - cron: 0 /6 * * *
+    - cron: 0 10,20 * * *
 
 jobs:
   yamllint:
