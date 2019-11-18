@@ -92,4 +92,4 @@ jobs:
         uses: "docker://esphome/esphome:latest
         with:
           args: >
-            python -m esphome --version
+            python -m armv7-hassio --version
