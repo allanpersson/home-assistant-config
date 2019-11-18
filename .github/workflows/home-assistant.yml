@@ -88,5 +88,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: [yamllint, remarklint]
     steps:
-      - name: Esphome Lastest
+      - name: Esphome Lastest version
         uses: "docker://esphome/esphome:latest
+        with:
+          args: >
+            python -m esphome --version
