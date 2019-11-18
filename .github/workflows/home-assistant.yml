@@ -39,7 +39,7 @@ jobs:
       - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
       - name: Running Json lint
-        uses: "docker:/pipelinecomponents/jsonlint:latest"
+        uses: "pipelinecomponents/jsonlint:latest"
         continue-on-error: true
         with:
           args: >
