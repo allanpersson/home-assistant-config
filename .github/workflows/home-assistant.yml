@@ -84,12 +84,3 @@ jobs:
         uses: "docker://homeassistant/home-assistant:dev"
         with:
           args: python -m homeassistant --config ./config/ --script check_config --info all
-  esphome-latest:
-    runs-on: ubuntu-latest
-    needs: [yamllint, remarklint]
-    steps:
-      - name: Esphome Lastest version
-        uses: "docker://esphome/esphome:latest
-        with:
-          args: >
-            python -m armv7-hassio --version
