@@ -9,7 +9,7 @@ on:
       - 'home-assistant/home-assistant/releases/tag/*'
   pull_request:
   schedule:
-    - cron: 0 10 * * *
+    - cron: 0 /6 * * *
 
 jobs:
   yamllint:
@@ -84,3 +84,15 @@ jobs:
         uses: "docker://homeassistant/home-assistant:dev"
         with:
           args: python -m homeassistant --config ./config/ --script check_config --info all
+
+  esphome-latest:
+      runs-on: ubuntu-latest
+      needs: [yamllint, remarklint]
+      steps:
+        - name: Getting your configuration from GitHub
+          uses: actions/checkout@v1
+        - name: Copy stub files into configuration folder
+          run: cp -R ./.stubs/* ./config
+        - name: sphome-latest
+          uses: "docker://homeassistant/esphome/esphome:latest"
+          
