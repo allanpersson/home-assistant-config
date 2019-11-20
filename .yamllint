@@ -4,6 +4,7 @@ ignore: |
   config/ip_bans.yaml
   config/esphomeyaml/*/
   config/notebooks/
+  .github/workflows/*
 rules:
   braces:
     level: error
