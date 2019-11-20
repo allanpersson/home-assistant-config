@@ -46,6 +46,7 @@ config/notebooks
 
 # Specific keeps
 !.gitkeep
+!config/esphome/.stubs/secrets.yaml
 
 # Manuel control
 addons/*
