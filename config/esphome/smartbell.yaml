@@ -1,3 +1,4 @@
+---
 esphome:
   name: smartbell
   platform: ESP8266
