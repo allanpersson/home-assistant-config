@@ -1,0 +1,96 @@
+---
+esphome:
+  name: bluetooth
+  platform: ESP32
+  board: esp-wrover-kit
+
+wifi:
+  ssid: !secret wifi_name
+  password: !secret wifi_secret
+  fast_connect: true
+  reboot_timeout: 60min
+
+  manual_ip:
+    static_ip: !secret esp_bluetooth_board_ip
+    gateway: !secret wifi_gateway
+    subnet: !secret wifi_subnet
+    dns1: !secret wifi_dns01
+    dns2: !secret wifi_dns02
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Bluetooth Fallback Hotspot"
+    password: !secret ap_password
+
+esp32_ble_tracker:
+
+captive_portal:
+
+# Enable logging.
+logger:
+
+# Enable Home Assistant API.
+api:
+
+# Enable over-the-air updates.
+ota:
+
+# Enable Web server.
+web_server:
+  port: 80
+
+# Sync time with Home Assistant.
+time:
+  - platform: homeassistant
+    id: homeassistant_time
+
+# Text sensors with general information.
+text_sensor:
+  # Expose ESPHome version as sensor.
+  - platform: version
+    name: Bluetooth ESPHome Version
+  # Expose WiFi information as sensors.
+  - platform: wifi_info
+    ip_address:
+      name: Bluetooth IP
+    ssid:
+      name: Bluetooth SSID
+    bssid:
+      name: Bluetooth BSSID
+
+sensor:
+  - platform: xiaomi_hhccjcy01
+    mac_address: !secret miflora_mac
+    temperature:
+      name: "plante_stuen_ginseng_temperature_board"
+    moisture:
+      name: "plante_stuen_ginseng_moisture_board"
+    illuminance:
+      name: "plante_stuen_ginseng_light_intensity_board"
+    conductivity:
+      name: "plante_stuen_ginseng_conductivity_board"
+    battery_level:
+      name: "plante_stuen_ginseng_battery_board"
+
+  - platform: xiaomi_lywsdcgq
+    mac_address: !secret xiaomi_temp_mac
+    temperature:
+      name: "Baderum_temperature_board"
+    humidity:
+      name: "Baderum_humidity_board"
+    battery_level:
+      name: "Baderum_battery_board"
+
+  - platform: wifi_signal
+    name: "Bluetooth board WiFi Signal"
+    update_interval: 60s
+  - platform: uptime
+    name: Uptime Sensor
+
+#  - platform: ble_presence
+#    mac_address: 88:BD:45:4A:DA:E4
+#    name: "ESP32 BLE Pepemobil"
+
+binary_sensor:
+  - platform: status
+    name: "Bluetooth board Status"

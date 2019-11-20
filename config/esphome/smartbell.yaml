@@ -1,0 +1,133 @@
+esphome:
+  name: smartbell
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: !secret wifi_name
+  password: !secret wifi_secret
+  fast_connect: true
+  reboot_timeout: 60min
+
+  manual_ip:
+    static_ip: !secret esp_smartbell_ip
+    gateway: !secret wifi_gateway
+    subnet: !secret wifi_subnet
+    dns1: !secret wifi_dns01
+    dns2: !secret wifi_dns02
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Smartbell Fallback Hotspot"
+    password: !secret ap_password
+
+captive_portal:
+
+# Enable logging.
+logger:
+
+# Enable Home Assistant API.
+api:
+
+# Enable over-the-air updates.
+ota:
+
+# Enable Web server.
+web_server:
+  port: 80
+
+# Sync time with Home Assistant.
+time:
+  - platform: homeassistant
+    id: homeassistant_time
+
+# Text sensors with general information.
+text_sensor:
+  # Expose ESPHome version as sensor.
+  - platform: version
+    name: Smartbell ESPHome Version
+  # Expose WiFi information as sensors.
+  - platform: wifi_info
+    ip_address:
+      name: Smartbell IP
+    ssid:
+      name: Smartbell SSID
+    bssid:
+      name: Smartbell BSSID
+
+# Sensors with general information.
+sensor:
+  # Uptime sensor.
+  - platform: uptime
+    name: Smartbell Uptime
+
+  # WiFi Signal sensor.
+  - platform: wifi_signal
+    name: Smartbell WiFi Signal
+    update_interval: 60s
+
+# Global to store the on/off state of the chime
+globals:
+  - id: chime
+    type: bool
+    restore_value: true
+    initial_value: 'true'
+
+# Exposed switches.
+switch:
+  # Switch to restart the smartbell.
+  - platform: restart
+    name: Smartbell Restart
+
+  # Switch to turn on/off the chime.
+  - platform: gpio
+    id: relay
+    inverted: true
+    name: Smartbell Chime
+    pin: GPIO0
+
+  # Switch to turn on/off chime when
+  # smartbell button is pushed.
+  #
+  # It creates a "virtual" switch based
+  # on a global variable.
+  - platform: template
+    name: Smartbell Chime Active
+    id: chime_active
+    restore_state: false
+    turn_on_action:
+      - globals.set:
+          id: chime
+          value: 'true'
+    turn_off_action:
+      - globals.set:
+          id: chime
+          value: 'false'
+    lambda: |-
+      return id(chime);
+# Binary sensor representing the
+# Smartbell button push.
+binary_sensor:
+  - platform: gpio
+    id: button
+    name: Smartbell Button
+    pin:
+      # Connected to GPIO on the ESP-01S.
+      number: GPIO2
+      mode: INPUT_PULLUP
+      inverted: true
+    filters:
+      # Small filter, to debounce the button press.
+      - delayed_on: 25ms
+      - delayed_off: 25ms
+    on_press:
+      # Only turn on the chime when it is active.
+      then:
+        if:
+          condition:
+            - switch.is_on: chime_active
+          then:
+            - switch.turn_on: relay
+    on_release:
+      # On release, turn of the chime.
+      - switch.turn_off: relay
