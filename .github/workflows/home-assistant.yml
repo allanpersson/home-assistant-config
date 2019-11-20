@@ -33,6 +33,18 @@ jobs:
           args: >
             "remark --no-stdout --color --frail
             --use preset-lint-recommended ."
+ # jsonlint:
+  #  runs-on: ubuntu-latest
+   # steps:
+    #  - name: Getting your configuration from GitHub
+     #   uses: actions/checkout@v1
+      #- name: Running Json lint
+       # uses: "docker://pipelinecomponents/jsonlint:latest"
+        #continue-on-error: true
+       # with:
+        #  args: |
+         # find . -not -path './.git/*' -name '*.json' -type f -print0 |
+         # parallel --will-cite -k -0 -n1 jsonlint -q
   home_assistant_stable:
     runs-on: ubuntu-latest
     needs: [yamllint, remarklint]
@@ -84,3 +96,15 @@ jobs:
         uses: "docker://homeassistant/home-assistant:dev"
         with:
           args: python -m homeassistant --config ./config/ --script check_config --info all
+
+ # esphome-latest:
+  #    runs-on: ubuntu-latest
+   #   needs: [yamllint, remarklint]
+    #  steps:
+    #    - name: Getting your configuration from GitHub
+     #     uses: actions/checkout@v1
+      #  - name: Copy stub files into configuration folder
+       #   run: cp -R ./.stubs/* ./config
+        #- name: esphome-latest
+        #  uses: "docker://esphome/esphome:latest"
+          
