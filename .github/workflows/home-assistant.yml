@@ -117,6 +117,7 @@ jobs:
       - name: esphome-beta
         uses: "docker://esphome/esphome:beta"
   esphome-dev:
+    name: "Esphome Dev"
     runs-on: ubuntu-latest
     needs: [yamllint, remarklint, jsonlint]
     steps:
