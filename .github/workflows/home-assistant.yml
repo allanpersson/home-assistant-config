@@ -120,7 +120,7 @@ jobs:
       - name: ESPHome Check
         uses: "docker://esphome/esphome:latest"
         with:
-          args: python -m esphome --config ./config/ --script check_config --info all
+          args: python -m esphome --config ./config/esphome/ --script check_config --info all
         continue-on-error: true
   esphome-beta:
     name: "ESPHome: Beta"
@@ -140,7 +140,7 @@ jobs:
       - name: ESPHome Check
         uses: "docker://esphome/esphome:beta"
         with:
-          args: python -m esphome --config ./config/ --script check_config --info all
+          args: python -m esphome --config ./config/esphome/ --script check_config --info all
         continue-on-error: true
   esphome-dev:
     name: "ESPHome: Developer"
@@ -160,5 +160,5 @@ jobs:
       - name: ESPHome Check
         uses: "docker://esphome/esphome:dev"
         with:
-          args: python -m esphome --config ./config/ --script check_config --info all
+          args: python -m esphome --config ./config/esphome/ --script check_config --info all
         continue-on-error: true
