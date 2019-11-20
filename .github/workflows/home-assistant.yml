@@ -115,7 +115,7 @@ jobs:
         uses: "docker://esphome/esphome:latest"
         with:
           args: >
-            python -m esphome --version
+            -m esphome --version
         continue-on-error: true
       - name: ESPHome Check
         uses: "docker://esphome/esphome:latest"
@@ -135,7 +135,7 @@ jobs:
         uses: "docker://esphome/esphome:beta"
         with:
           args: >
-            python -m esphome --version
+            esphome --version
         continue-on-error: true
       - name: ESPHome Check
         uses: "docker://esphome/esphome:beta"
@@ -155,7 +155,7 @@ jobs:
         uses: "docker://esphome/esphome:dev"
         with:
           args: >
-            python -m esphome --version
+            --version
         continue-on-error: true
       - name: ESPHome Check
         uses: "docker://esphome/esphome:dev"
