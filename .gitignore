@@ -56,12 +56,11 @@ addons/*
 backup/*
 share/*
 ssl/*
-config/custom_components/*
-config/custom_components/**
+config/custom_components/**/
 config/customizations
 config/glances
 config/tts
-config/www/community/*
+config/www/community/**/
 config/README.md
 config/.gitignore
 config/.yamllint
