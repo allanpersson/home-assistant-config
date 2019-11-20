@@ -52,7 +52,7 @@ addons/*
 backup/*
 share/*
 ssl/*
-config/custom_components
+config/custom_components/*
 config/customizations
 config/deps
 config/glances
