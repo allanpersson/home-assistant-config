@@ -48,6 +48,24 @@ jobs:
           args: >
             "find . -not -path './.git/*' -name '*.json' -type f -print0 |
             parallel --will-cite -k -0 -n1 jsonlint -q"
+  shellcheck:
+    name: "Shellcheck"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Getting your configuration from GitHub
+        uses: actions/checkout@v1
+      - name: Running Shellcheck
+        uses: "docker://pipelinecomponents/shellcheck:latest"
+        continue-on-error: true
+        with:
+          args: >
+            - |
+            find . -name .git -type d -prune -o -type f  -name \*.sh -print0 |
+            xargs -0 -P $(nproc) -r -n1 shellcheck
+            # magic, any file with a valid shebang should be scanned aswell
+            - |
+            find . -name .git -type d -prune -o -type f  -regex '.*/[^.]*$'   -print0 |
+            xargs -0 -P $(nproc) -r -n1 sh -c 'FILE="$0"; if head -n1 "$FILE" |grep -q "^#\\! \?/.\+\(ba|d|k\)\?sh" ; then shellcheck "$FILE" ; else /bin/true ; fi '
   home_assistant_stable:
     name: "Home-Assistant: Stable"
     runs-on: ubuntu-latest
