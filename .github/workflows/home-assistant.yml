@@ -108,7 +108,7 @@ jobs:
         uses: "docker://esphome/esphome:latest"
         with:
           args: >
-            python -m esphome --version
+            python -m esphome:latest --version
       - name: esphome-latest
         uses: "docker://esphome/esphome:latest"
   esphome-beta:
