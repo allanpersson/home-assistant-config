@@ -46,18 +46,22 @@ config/notebooks
 # Specific keeps
 !.gitkeep
 
+# Sync ignores
+config/_gsdata_/*
+.stubs/_gsdata_/*
+_gsdata_/*
+
 # Manuel control
 addons/*
 backup/*
 share/*
 ssl/*
+config/custom_components/*
 config/custom_components/**
 config/customizations
 config/glances
 config/tts
-config/_gsdata_/*
-.stubs/_gsdata_/*
-_gsdata_/*
+config/www/community/*
 config/README.md
 config/.gitignore
 config/.yamllint
