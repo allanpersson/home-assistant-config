@@ -31,7 +31,6 @@ config/options.xml
 config/secrets.yaml
 
 # ESPHome ignores
-config/esphome/secrets.yaml
 config/esphome/**/
 
 # Ignore add-on files
@@ -54,7 +53,6 @@ share/*
 ssl/*
 config/custom_components/**
 config/customizations
-config/deps
 config/glances
 config/tts
 config/_gsdata_/*
