@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - master
-      - 'home-assistant/home-assistant/releases/tag/*'
+      - "home-assistant/home-assistant/releases/tag/*"
   pull_request:
   schedule:
     - cron: 0 10 * * *
@@ -43,8 +43,16 @@ jobs:
         continue-on-error: true
         with:
           args: >
-            "find . -not -path './.git/*' -name '*.json' -type f -print0 |
-            parallel --will-cite -k -0 -n1 jsonlint -q"
+            "for file in $(find . -type f -name "*.json"); do
+            if ! jsonlint -q $file; then
+            export FAILED=1
+            else
+            echo "$file OK"
+            fi
+            done
+            if [ "${FAILED}" = "1" ]; then
+              exit 1
+            fi"
   home_assistant_stable:
     runs-on: ubuntu-latest
     needs: [yamllint, remarklint]
@@ -106,4 +114,4 @@ jobs:
       - name: Copy stub files into configuration folder
         run: cp -R ./.stubs/* ./config
       - name: esphome-latest
-        uses: "docker://esphome/esphome:latest"         
+        uses: "docker://esphome/esphome:latest"
