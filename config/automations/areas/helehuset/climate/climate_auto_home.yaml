@@ -18,7 +18,7 @@ condition:
       state: "home"
     - condition: time
       after: "06:00:00"
-      before: "23:00:00"
+      before: "22:00:00"
 action:
   - service: climate.set_hvac_mode
     data:
@@ -27,9 +27,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.stuen
-      target_temp_high: 22
-      temperature: 21.5
-      target_temp_low: 21
+      target_temp_high: 22.1
+      temperature: 22.0
+      target_temp_low: 21.0
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -38,9 +38,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.gangen
-      target_temp_high: 22
-      temperature: 21.5
-      target_temp_low: 21
+      target_temp_high: 22.1
+      temperature: 22.0
+      target_temp_low: 21.0
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -49,9 +49,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.kokkenet
-      target_temp_high: 22
-      temperature: 21.5
-      target_temp_low: 21
+      target_temp_high: 22.1
+      temperature: 22.0
+      target_temp_low: 21.0
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -60,9 +60,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.badevaerelset
-      target_temp_high: 22
-      temperature: 21.5
-      target_temp_low: 21
+      target_temp_high: 22.1
+      temperature: 22.0
+      target_temp_low: 21.0
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -71,7 +71,7 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.bornevaerelset
-      target_temp_high: 22
-      temperature: 21.5
-      target_temp_low: 21
+      target_temp_high: 22.1
+      temperature: 22.0
+      target_temp_low: 21.0
       hvac_mode: "heat"

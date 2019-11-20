@@ -12,7 +12,7 @@ condition:
       entity_id: sensor.motion_bad
       below: 50
     - condition: time
-      after: '22:00'
+      after: '22:30'
       before: '07:00'
 action:
   - service: light.turn_on
