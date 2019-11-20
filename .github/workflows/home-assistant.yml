@@ -113,6 +113,7 @@ jobs:
         run: cp -R ./.stubs/* ./config/esphome/
       - name: esphome-latest
         uses: "docker://esphome/esphome:latest"
+        continue-on-error: true
   esphome-beta:
     name: "ESPHome: Beta"
     runs-on: ubuntu-latest
@@ -124,6 +125,7 @@ jobs:
         run: cp -R ./.stubs/* ./config/esphome/
       - name: esphome-beta
         uses: "docker://esphome/esphome:beta"
+        continue-on-error: true
   esphome-dev:
     name: "ESPHome: Developer"
     runs-on: ubuntu-latest
@@ -135,3 +137,4 @@ jobs:
         run: cp -R ./.stubs/* ./config/esphome/
       - name: esphome-dev
         uses: "docker://esphome/esphome:dev"
+        continue-on-error: true
