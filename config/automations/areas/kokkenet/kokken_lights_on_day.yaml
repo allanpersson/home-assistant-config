@@ -11,6 +11,13 @@ condition:
     - condition: numeric_state
       entity_id: sensor.motion_kokken
       below: 20
+    - condition: numeric_state
+      entity_id: sun.sun
+      value_template: "{{ states.sun.sun.attributes.elevation }}"
+      below: !secret sun_elevation_value
+    - condition: state
+      entity_id: light.kokkenet_nilfisk
+      state: "off"
     - condition: time
       after: "07:00"
       before: "22:00"

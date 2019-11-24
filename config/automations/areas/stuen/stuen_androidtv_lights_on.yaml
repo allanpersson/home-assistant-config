@@ -3,13 +3,21 @@
 alias: "Lights on - Android Tv (Stuen)"
 trigger:
   - platform: time_pattern
-    minutes: "/1"
+    minutes: "/5"
+  - platform: numeric_state
+    entity_id: sun.sun
+    value_template: "{{ states.sun.sun.attributes.elevation }}"
+    below: !secret sun_elevation_value
 condition:
   condition: and
   conditions:
     - condition: numeric_state
       entity_id: sensor.motion_stuen
-      below: 8
+      below: 10
+    - condition: numeric_state
+      entity_id: sun.sun
+      value_template: "{{ states.sun.sun.attributes.elevation }}"
+      below: !secret sun_elevation_value
     - condition: state
       entity_id: light.stuen
       state: "off"
@@ -28,6 +36,6 @@ action:
   service: light.turn_on
   data:
     transition: 10
-    brightness_pct: 1
+    brightness_pct: 10
     rgb_color: [255, 160, 39]
     entity_id: light.stuen

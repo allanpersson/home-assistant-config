@@ -2,13 +2,17 @@
 #
 alias: "Lights off (Stuen)"
 trigger:
-  platform: state
-  entity_id: binary_sensor.motion_stuen
-  to: "off"
-  for:
-    minutes: 30
+  - platform: state
+    entity_id: binary_sensor.motion_stuen
+    to: "off"
+    for:
+      minutes: 30
+  - platform: numeric_state
+    entity_id: sun.sun
+    value_template: "{{ states.sun.sun.attributes.elevation }}"
+    above: !secret sun_elevation_value
 action:
-  service: light.turn_off
-  data:
-    transition: 60
-    entity_id: light.stuen
+  - service: light.turn_off
+    data:
+      transition: 60
+      entity_id: light.stuen
