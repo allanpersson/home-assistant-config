@@ -33,9 +33,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.stuen
-      target_temp_high: 17
-      temperature: 16
-      target_temp_low: 15
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -44,9 +44,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.gangen
-      target_temp_high: 17
-      temperature: 16
-      target_temp_low: 15
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -55,9 +55,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.kokkenet
-      target_temp_high: 17
-      temperature: 16
-      target_temp_low: 15
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -66,9 +66,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.badevaerelset
-      target_temp_high: 17
-      temperature: 16
-      target_temp_low: 15
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -77,7 +77,7 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.bornevaerelset
-      target_temp_high: 17
-      temperature: 16
-      target_temp_low: 15
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
       hvac_mode: "heat"

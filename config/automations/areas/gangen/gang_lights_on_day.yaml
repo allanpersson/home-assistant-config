@@ -14,6 +14,13 @@ condition:
     - condition: numeric_state
       entity_id: sensor.motion_gang
       below: 10
+    - condition: numeric_state
+      entity_id: sun.sun
+      value_template: "{{ states.sun.sun.attributes.elevation }}"
+      below: !secret sun_elevation_value
+    - condition: state
+      entity_id: light.gangen
+      state: "off"
     - condition: time
       before: "22:00"
       after: "07:00"

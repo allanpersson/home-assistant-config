@@ -21,9 +21,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.stuen
-      target_temp_high: 7
-      temperature: 6
-      target_temp_low: 5
+      target_temp_high: !secret off_target_temp_high
+      temperature: !secret off_target_temp
+      target_temp_low: !secret off_target_temp_low
       hvac_mode: "off"
   - service: climate.set_hvac_mode
     data:
@@ -32,9 +32,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.gangen
-      target_temp_high: 7
-      temperature: 6
-      target_temp_low: 5
+      target_temp_high: !secret off_target_temp_high
+      temperature: !secret off_target_temp
+      target_temp_low: !secret off_target_temp_low
       hvac_mode: "off"
   - service: climate.set_hvac_mode
     data:
@@ -43,9 +43,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.kokkenet
-      target_temp_high: 7
-      temperature: 6
-      target_temp_low: 5
+      target_temp_high: !secret off_target_temp_high
+      temperature: !secret off_target_temp
+      target_temp_low: !secret off_target_temp_low
       hvac_mode: "off"
   - service: climate.set_hvac_mode
     data:
@@ -54,9 +54,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.badevaerelset
-      target_temp_high: 7
-      temperature: 6
-      target_temp_low: 5
+      target_temp_high: !secret off_target_temp_high
+      temperature: !secret off_target_temp
+      target_temp_low: !secret off_target_temp_low
       hvac_mode: "off"
   - service: climate.set_hvac_mode
     data:
@@ -65,7 +65,7 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.bornevaerelset
-      target_temp_high: 7
-      temperature: 6
-      target_temp_low: 5
+      target_temp_high: !secret off_target_temp_high
+      temperature: !secret off_target_temp
+      target_temp_low: !secret off_target_temp_low
       hvac_mode: "off"

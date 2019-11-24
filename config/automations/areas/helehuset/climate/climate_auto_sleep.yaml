@@ -17,8 +17,8 @@ condition:
       entity_id: group.person_alle
       state: "home"
     - condition: time
-      after: "22:00:00"
-      before: "06:00:00"
+      after: !secret climate_night_start
+      before: !secret climate_day_start
     - condition: or
       conditions:
         - condition: state
@@ -38,9 +38,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.stuen
-      target_temp_high: 19
-      temperature: 18.5
-      target_temp_low: 18
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -49,9 +49,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.gangen
-      target_temp_high: 19
-      temperature: 18.5
-      target_temp_low: 18
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -60,9 +60,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.kokkenet
-      target_temp_high: 19
-      temperature: 18.5
-      target_temp_low: 18
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -71,9 +71,9 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.badevaerelset
-      target_temp_high: 19
-      temperature: 18.5
-      target_temp_low: 18
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
       hvac_mode: "heat"
   - service: climate.set_hvac_mode
     data:
@@ -82,7 +82,7 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.bornevaerelset
-      target_temp_high: 21
-      temperature: 20.5
-      target_temp_low: 20
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
       hvac_mode: "heat"
