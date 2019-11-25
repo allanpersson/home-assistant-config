@@ -6,7 +6,6 @@
 [![License][img-license]][link-license]
 [![Buy me a coffee][img-buymeacoffee]][buymeacoffee]
 
-
 <h1 align="center">
   🏰<br/>Home Assistant configuration</sub></sup>
 </h1>
@@ -33,13 +32,12 @@
 8. **[Support](#support-)**\
      [Affiliate Links](#affiliate-links-) | [Buy me a coffee](#buy-me-a-coffee-)
 
-
-
 # Overview 📇
+
 ⚠ This repo contains [affiliate links](#affiliate-links-) that [support](#support-) my work! ⚠ 
 
-
 ## Code ⌨
+
 Let me be clear from the start; I'm not a great coder in any way!
 I don't feel the excitement from putting some code together, but i have the higest respect and admiration for people who finds joy in it and are good at it. **You make my life easier ❤️**
 
@@ -47,26 +45,22 @@ So you might experience my code is 'ugly' and you are probably right, i find joy
 
 Actual [issues][issues].
 
-
-
 ## Description 📜
+
 Configuration for [Home Assistant][home-assistant] running [Hass.io][hassio] on a [INTEL® NUC KIT NUC8I3BEK][intelnuc] for a two bedroom apartment (66 m2).
 
-I use `packages "configuration"` introduced by [Frenck][frenck]. 
+I use `packages "configuration"` introduced by [Frenck][frenck].
 
 That means my [configuration.yaml][configuration-yaml] points to the folder [integrations][integrations], and the files in my [integrations][integrations] folder is pointing to the [entities][entities] etc. folder where every entity has it's own file sorted by type.
 
 Watch this video to learn more: [How I structure my Home Assistant configuration - By Frenck](https://www.youtube.com/watch?v=lndeybw21PY) or take a deeper look at my configuration.
 
-
-
 ## PRs 📝
+
 You are more than welcome to submit PRs to my repo. This repo and documentation is "quite big" to keep up to date but i try my best! 
 Your help is much appreciated on my code, broken links, typos etc.
 
 If you want to help take a look at the [issues][issues] section.
-
-
 
 ## Screenshots 📷
 
@@ -81,17 +75,15 @@ If you want to help take a look at the [issues][issues] section.
 **Mobile:**
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/material_dark_theme_custom_mobile.jpg)
 
-
-
 ## Theme 🖼️
+
 The [theme][theme] i use ([screenshots](https://github.com/allanpersson/home-assistant-config#screenshots-)) is my take on [Material Dark Theme "Pepe Version"][theme] with some minor tweaks like rounded corners, color changes etc.
 
 **Automations:**
 - [Default theme](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/system/default_theme.yaml)
 
-
-
 # Devices 📱
+
 <a name="devices"></a>
 <div align="center">
   <h4>
@@ -145,11 +137,8 @@ The [theme][theme] i use ([screenshots](https://github.com/allanpersson/home-ass
   </h4>
 </div>
 
-
-
 <table align="center" border="0">
 <tr><td colspan="4">
-
 
 #### Cameras <a name="cameras" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
@@ -172,7 +161,7 @@ The [theme][theme] i use ([screenshots](https://github.com/allanpersson/home-ass
 
 <tr><td colspan="4">
 
-Below list of accessories i use with my cameras. 
+Below list of accessories i use with my cameras.
 
 **Accessories:**
 <details>
@@ -182,7 +171,6 @@ Below list of accessories i use with my cameras.
 <p></details>
 
 </td></tr>
-
 
 <tr><td colspan="4">
 
@@ -197,11 +185,9 @@ I don't have any [Automations][automations] for my camera entities. So far i hav
 
 </td></tr>
 
-
-
 <tr><td colspan="4">
 
-Below configuration on the different cameras. 
+Below configuration on the different cameras.
 
 **Configuration:**
 <details>
@@ -226,8 +212,6 @@ Below configuration on the different cameras.
 <p></details>
 
 </td></tr>
-
-
 
 <tr><td colspan="4">
 
@@ -277,8 +261,7 @@ Below you can find list of the software i'm using with my cameras.
 
 <table align="center" border="0">
 <tr><td colspan="4">
-  
-  
+
 #### Climate <a name="climate" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
 <tr><td align="center">
@@ -287,7 +270,6 @@ Below you can find list of the software i'm using with my cameras.
 </td></tr>
 
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dtado%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMNR2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1543598077883" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dtado%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
 
 <tr><td colspan="4">
 
@@ -332,8 +314,6 @@ I use alot of [Automations][automations] for controlling my thermostats for best
 
 </td></tr>
 
-
-
 <tr><td colspan="4">
 
 Below configuration on my radiator thermostats. It's possible to use the Tado cloud service in [Home Assistant][home-assistant] which i have done until i changed to the new option with homekit in [Home Assistant][home-assistant].
@@ -357,10 +337,6 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 </table>
 </p>
 
-
-
-
-
 <table align="center" border="0">
 <tr><td colspan="4">
   
@@ -372,7 +348,6 @@ Below configuration on my radiator thermostats. It's possible to use the Tado cl
 </td></tr>
 
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Bfyrtur%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://www.ikea.com/PIAimages/0595179_PE675959_S5.JPG" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dikea%2Bfyrtur%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
 
 <tr><td colspan="4">
 
@@ -392,8 +367,6 @@ I use some [Automations][automations] for my covers, but in future i'm gonna loo
 
 </td></tr>
 
-
-
 <tr><td colspan="4">
 
 Below information on the gateway(s) im using for my covers. 
@@ -406,8 +379,6 @@ Below information on the gateway(s) im using for my covers.
 <p></details>
 
 </td></tr>
-
-
 
 <tr><td colspan="4">
 
@@ -436,7 +407,6 @@ I use [Scripts][scripts] to trigger my cover automations.
 <p></details>
 
 </td></tr>
-
 
 <tr><td colspan="4">
 
@@ -477,12 +447,6 @@ Below some videos i have found useful myself.
 <table align="center" border="0">
 <tr><td colspan="4">
   
-
-
-
-
-
-
 <table align="center" border="0">
 <tr><td colspan="4">
 
@@ -494,11 +458,7 @@ Below some videos i have found useful myself.
 [Table fan](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xtable%2Bfan.TRS0%26_nkw%3Dtable%2Bfan%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td></tr>
 
-
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xtable%2Bfan.TRS0%26_nkw%3Dtable%2Bfan%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="http://c1.peakpx.com/wallpaper/858/711/797/white-fan-objects-hardwood-wallpaper-preview.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xtable%2Bfan.TRS0%26_nkw%3Dtable%2Bfan%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
-
-
 
 <tr><td colspan="4">
 
@@ -512,9 +472,6 @@ I don't have any [Automations][automations] for my fan(s) at the moment.
 <p></details>
 
 </td></tr>
-
-
-
 
 <tr><td colspan="4">
   
@@ -533,11 +490,6 @@ Below you can find information about my configuration.
 
 </table>
 </p>
-
-
-
-
-
 
 <table align="center" border="0">
 <tr><td colspan="4">
@@ -560,7 +512,6 @@ Below you can find information about my configuration.
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://www.intel.com/content/dam/products/hero/foreground/nuc8-i5i3-bek-front-angle.png.rendition.intel.web.978.550.png" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
 
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR8.TRC2.A0.H0.XRaspberry%2BPi%2BZero%2BW.TRS0%26_nkw%3DRaspberry%2BPi%2BZero%2BW%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://cdn.shopify.com/s/files/1/0176/3274/products/raspberry-pi-zero-wireless-front_1024x1024.jpg?v=1542643550" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR8.TRC2.A0.H0.XRaspberry%2BPi%2BZero%2BW.TRS0%26_nkw%3DRaspberry%2BPi%2BZero%2BW%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
 
 <tr><td colspan="4">
 
@@ -590,12 +541,6 @@ Below information on the software used on/with my hardware.
 </table>
 </p>
 
-
-  
-
-
-
-
 <table align="center" border="0">
 <tr><td colspan="4">
 
@@ -623,9 +568,6 @@ Below information on the software used on/with my hardware.
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR10.TRC2.A0.H0.Xphilips%2Bhue%2Bbulb.TRS0%26_nkw%3Dphilips%2Bhue%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://brain-images-ssl.cdn.dixons.com/6/3/10160336/u_10160336.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bled%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR10.TRC2.A0.H0.Xphilips%2Bhue%2Bbulb.TRS0%26_nkw%3Dphilips%2Bhue%2Bbulb%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
 
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dphilips%2Bhue%2Bbulb%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dyeelight%2Blightstrip%2Bplus%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://xiaomi-store.cz/4226/xiaomi-yeelight-lightstrip-plus-extension.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dphilips%2Bhue%2Bbulb%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dyeelight%2Blightstrip%2Bplus%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
-
-
 
 <tr><td colspan="4">
 
@@ -670,11 +612,6 @@ I have alot of [Automations][automations] for my lights. Actually i almost never
 
 </td></tr>
 
-
-
-
-
-
 <tr><td colspan="4">
 
 Below configuration for my lights. 
@@ -687,8 +624,6 @@ Below configuration for my lights.
 <p></details>
 
 </td></tr>
-
-
 
 <tr><td colspan="4">
   
@@ -712,10 +647,6 @@ Below you can find information about my gateway and software used to control my 
 
 </table>
 </p>
-
-
-
-
 
 <table align="center" border="0">
 <tr><td colspan="4">
@@ -765,9 +696,6 @@ Below configuration of my locks.
 </table>
 </p>
 
-
-  
-  
 <table align="center" border="0">
 <tr><td colspan="4">
 
@@ -843,11 +771,6 @@ Play radio in bathroom when having guests - /config/automations/areas/badevarels
 </table>
 </p>
 
-
-
-
-
-
 <table align="center" border="0">
 <tr><td colspan="4">
 
@@ -871,9 +794,6 @@ Play radio in bathroom when having guests - /config/automations/areas/badevarels
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR3.TRC2.A0.H0.Xxiaomi%2Btemperature%2Bsensor.TRS0%26_nkw%3Dxiaomi%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/31kV-Vk90NL._SX466_.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dxiaomi%2Bble%2Btemperature%2Bsensor%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR3.TRC2.A0.H0.Xxiaomi%2Btemperature%2Bsensor.TRS0%26_nkw%3Dxiaomi%2Btemperature%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
 
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://i.ebayimg.com/images/g/i88AAOSwnG1dTOpH/s-l640.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dxiaomi%2Bdoor%2Bwindow%2Bsensor%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
-
-
 
 <tr><td colspan="4">
 
@@ -918,22 +838,13 @@ I have alot of [Automations][automations] involving my sensors. Most of them is 
 
 </td></tr>
 
-
-
 <tr><td colspan="4">
 
 </table>
 </p>
 
-
-
-
-
-
-
 <table align="center" border="0">
 <tr><td colspan="4">
-
 
 #### Smoke Detectors <a name="smokedetectors" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
@@ -944,9 +855,6 @@ I have alot of [Automations][automations] involving my sensors. Most of them is 
 
 
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR12.TRC2.A0.H0.Xxiaomi%2Bhoneywell.TRS0%26_nkw%3Dxiaomi%2Bhoneywell%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/61y8pOxMJLL._SX425_.jpg" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dp2380057.m570.l1313.TR12.TRC2.A0.H0.Xxiaomi%2Bhoneywell.TRS0%26_nkw%3Dxiaomi%2Bhoneywell%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
-
-
 
 <tr><td colspan="4">
 
@@ -960,9 +868,6 @@ I don't have any [Automations][automations] for my smoke detectors yet. I want t
 <p></details>
 
 </td></tr>
-
-
-
 
 <tr><td colspan="4">
   
@@ -987,15 +892,8 @@ Below you can find information about my gateway and software used to control my 
 </table>
 </p>
 
-
-
-
-
-
-
 <table align="center" border="0">
 <tr><td colspan="4">
-
 
 #### Switches <a name="switches" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
@@ -1004,11 +902,7 @@ Below you can find information about my gateway and software used to control my 
 [Ikea Trådfri smart plug](https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dtable%2Bfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug.TRS0%26_nkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_sacat%3D0&campid=5338610312&toolid=20008)
 </td></tr>
 
-
 </td><td align="center"><a href="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dtable%2Bfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug.TRS0%26_nkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_sacat%3D0&campid=5338610312&toolid=20008" target="_blank"><img border="0" src="https://www.ikea.com/PIAimages/0515582_PE640306_S5.JPG?f=s" ></a><img src="https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_osacat%3D0%26_odkw%3Dtable%2Bfan%26_from%3DR40%26_trksid%3Dp2334524.m570.l1313.TR11.TRC1.A0.H0.Xikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug.TRS0%26_nkw%3Dikea%2Btr%25C3%25A5dfri%2Bsmart%2Bplug%26_sacat%3D0&campid=5338610312&toolid=20008" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
-
-
-
 
 <tr><td colspan="4">
 
@@ -1023,9 +917,6 @@ I don't have any real [Automations][automations] for my switches(s) at the momen
 
 </td></tr>
 
-
-
-
 <tr><td colspan="4">
   
 Below you can find information about my configuration.
@@ -1038,13 +929,6 @@ Below you can find information about my configuration.
 <p></details>
 
 </td></tr>
-
-
-
-
-
-
-
 
 <tr><td colspan="4">
   
@@ -1068,12 +952,6 @@ Below you can find information about my gateway and software used to control my 
 
 </table>
 </p>
-
-
-
-
-
-
 
 <table align="center" border="0">
 <tr><td colspan="4">
@@ -1139,33 +1017,33 @@ Zoned clean up (Livingroom) - /config/scripts/vacuum_zone_stuen.yaml</a><br>
 </table>
 </p>
 
-
-
 # Lovelace Configuration ⚓
+
 Add the following code to your lovelace configuration, and insert your own entities.
 
 ## Camera Card
+
 Here you can find the lovelace code for [Camera card][cameracard]
 
 ## Speedtest Card
+
 ![Image](https://github.com/allanpersson/home-assistant-config/blob/master/config/www/images/themes/speedtestcard.jpg)
 
 Here you can find the lovelace code for [Speedtest card][speedtestcard]
 
 Requirements:
+
 - [Mini Graph Card][minigraphcard]
 - [Speedtest integration][speedtestintegration]
 
 ## Vacuum Card
+
 Here you can find the lovelace code for [Vacuum card][vacuumcard]
 
-
-
-
-
-
 # Addons 🔥
+
 [Home Assistant][home-assistant] have an amazing [community][home-assistant-community] helping each other and building one amazing addon after another. So browse through the following places to find awesome stuff for your installation:
+
 - Official [Home Assistant][home-assistant] website.
 - [Home Assistant Community][home-assistant-community] forum.
 - [Community Hass.io Add-on][hassio-addons] store by [Frenck][frenck].
@@ -1173,66 +1051,69 @@ Here you can find the lovelace code for [Vacuum card][vacuumcard]
 Below you can find short description about some of the addons and plugins i use.
 
 ## Adguard Home
+
 [Adguard Home][adguard-home-addon] is network-wide ads & trackers blocking DNS server.
 
-
-
-
-
 # Seasons 🎅
+
 Below you can find links to seasons [automations][automations] and [scrips][scripts] i use.
 
 ## Halloween 🎃
+
 For halloween i use these:
+
 - [Halloween automations][halloween-automations].
 - [Halloween scripts][halloween-scripts].
 
 [![Halloween video](http://img.youtube.com/vi/1hgWB6LhkBo/0.jpg)](https://www.youtube.com/watch?v=1hgWB6LhkBo "Halloween automation")
 
-
-
 # Credits 💕
+
 Thanks to:
 
 ## Ccostan
+
 - [Ccostan][ccostan] for documentation inspiration.
 
 ## Frenck (Franck Nijhof)
+
 - [Frenck][frenck] for config inspiration, and for learning me 95% of all my [Home Assistant][home-assistant] knowledge. And for your hard work and effort to the [Home Assistant][home-assistant] community you are the champ!
 
 ## Renemarc
+
 - [Renemarc][renemarc] for documentation inspiration.
 
-
-
 # Contact 📮
+
 Fell free to contact me on one of the following places. And i would be happy if you follow me as well.
 
 ## Facebook 🔗
+
 [Facebook][facebook]
 
 ## Instagram 🔗
+
 [Instagram][instagram]
 
 ## Twitter 🔗
+
 [Twitter][twitter]
 
 ## Website 🌐
+
 [Website][website]
 
-
-
 # Support 👍
+
 This body runs on coffee and you can send a little love to me in the following way(s).
 
 ## Affiliate Links 🤝
+
 By using my product links in this repo i get a small commision, and you are supporting me and encourage me to keep spending time keeping it up to date.
 
 ## Buy me a coffee ☕
+
 [![Buy me a coffee][img-buymeacoffee]][buymeacoffee]
-
-
-
 
 [adguard-home-addon]: https://github.com/hassio-addons/addon-adguard-home
 [automations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/automations
@@ -1252,7 +1133,7 @@ By using my product links in this repo i get a small commision, and you are supp
 
 [img-buymeacoffee]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 
-[img-ha-version]:https://img.shields.io/badge/Home_Assistant-0.102.1-53c1f1.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxLjgsMTNIMjBWMjFIMTNWMTcuNjdMMTUuNzksMTQuODhMMTYuNSwxNUMxNy42NiwxNSAxOC42LDE0LjA2IDE4LjYsMTIuOUMxOC42LDExLjc0IDE3LjY2LDEwLjggMTYuNSwxMC44QTIuMSwyLjEgMCAwLDAgMTQuNCwxMi45TDE0LjUsMTMuNjFMMTMsMTUuMTNWOS42NUMxMy42Niw5LjI5IDE0LjEsOC42IDE0LjEsNy44QTIuMSwyLjEgMCAwLDAgMTIsNS43QTIuMSwyLjEgMCAwLDAgOS45LDcuOEM5LjksOC42IDEwLjM0LDkuMjkgMTEsOS42NVYxNS4xM0w5LjUsMTMuNjFMOS42LDEyLjlBMi4xLDIuMSAwIDAsMCA3LjUsMTAuOEEyLjEsMi4xIDAgMCwwIDUuNCwxMi45QTIuMSwyLjEgMCAwLDAgNy41LDE1TDguMjEsMTQuODhMMTEsMTcuNjdWMjFINFYxM0gyLjI1QzEuODMsMTMgMS40MiwxMyAxLjQyLDEyLjc5QzEuNDMsMTIuNTcgMS44NSwxMi4xNSAyLjI4LDExLjcyTDExLDNDMTEuMzMsMi42NyAxMS42NywyLjMzIDEyLDIuMzNDMTIuMzMsMi4zMyAxMi42NywyLjY3IDEzLDNMMTcsN1Y2SDE5VjlMMjEuNzgsMTEuNzhDMjIuMTgsMTIuMTggMjIuNTksMTIuNTkgMjIuNiwxMi44QzIyLjYsMTMgMjIuMiwxMyAyMS44LDEzTTcuNSwxMkEwLjksMC45IDAgMCwxIDguNCwxMi45QTAuOSwwLjkgMCAwLDEgNy41LDEzLjhBMC45LDAuOSAwIDAsMSA2LjYsMTIuOUEwLjksMC45IDAgMCwxIDcuNSwxMk0xNi41LDEyQzE3LDEyIDE3LjQsMTIuNCAxNy40LDEyLjlDMTcuNCwxMy40IDE3LDEzLjggMTYuNSwxMy44QTAuOSwwLjkgMCAwLDEgMTUuNiwxMi45QTAuOSwwLjkgMCAwLDEgMTYuNSwxMk0xMiw2LjlDMTIuNSw2LjkgMTIuOSw3LjMgMTIuOSw3LjhDMTIuOSw4LjMgMTIuNSw4LjcgMTIsOC43QzExLjUsOC43IDExLjEsOC4zIDExLjEsNy44QzExLjEsNy4zIDExLjUsNi45IDEyLDYuOVoiIGZpbGw9IiNmZmZmZmYiIC8+PC9zdmc+Cg==&maxAge=21600
+[img-ha-version]:https://img.shields.io/badge/Home_Assistant-0.102.2-53c1f1.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxLjgsMTNIMjBWMjFIMTNWMTcuNjdMMTUuNzksMTQuODhMMTYuNSwxNUMxNy42NiwxNSAxOC42LDE0LjA2IDE4LjYsMTIuOUMxOC42LDExLjc0IDE3LjY2LDEwLjggMTYuNSwxMC44QTIuMSwyLjEgMCAwLDAgMTQuNCwxMi45TDE0LjUsMTMuNjFMMTMsMTUuMTNWOS42NUMxMy42Niw5LjI5IDE0LjEsOC42IDE0LjEsNy44QTIuMSwyLjEgMCAwLDAgMTIsNS43QTIuMSwyLjEgMCAwLDAgOS45LDcuOEM5LjksOC42IDEwLjM0LDkuMjkgMTEsOS42NVYxNS4xM0w5LjUsMTMuNjFMOS42LDEyLjlBMi4xLDIuMSAwIDAsMCA3LjUsMTAuOEEyLjEsMi4xIDAgMCwwIDUuNCwxMi45QTIuMSwyLjEgMCAwLDAgNy41LDE1TDguMjEsMTQuODhMMTEsMTcuNjdWMjFINFYxM0gyLjI1QzEuODMsMTMgMS40MiwxMyAxLjQyLDEyLjc5QzEuNDMsMTIuNTcgMS44NSwxMi4xNSAyLjI4LDExLjcyTDExLDNDMTEuMzMsMi42NyAxMS42NywyLjMzIDEyLDIuMzNDMTIuMzMsMi4zMyAxMi42NywyLjY3IDEzLDNMMTcsN1Y2SDE5VjlMMjEuNzgsMTEuNzhDMjIuMTgsMTIuMTggMjIuNTksMTIuNTkgMjIuNiwxMi44QzIyLjYsMTMgMjIuMiwxMyAyMS44LDEzTTcuNSwxMkEwLjksMC45IDAgMCwxIDguNCwxMi45QTAuOSwwLjkgMCAwLDEgNy41LDEzLjhBMC45LDAuOSAwIDAsMSA2LjYsMTIuOUEwLjksMC45IDAgMCwxIDcuNSwxMk0xNi41LDEyQzE3LDEyIDE3LjQsMTIuNCAxNy40LDEyLjlDMTcuNCwxMy40IDE3LDEzLjggMTYuNSwxMy44QTAuOSwwLjkgMCAwLDEgMTUuNiwxMi45QTAuOSwwLjkgMCAwLDEgMTYuNSwxMk0xMiw2LjlDMTIuNSw2LjkgMTIuOSw3LjMgMTIuOSw3LjhDMTIuOSw4LjMgMTIuNSw4LjcgMTIsOC43QzExLjUsOC43IDExLjEsOC4zIDExLjEsNy44QzExLjEsNy4zIDExLjUsNi45IDEyLDYuOVoiIGZpbGw9IiNmZmZmZmYiIC8+PC9zdmc+Cg==&maxAge=21600
 
 [img-hassio]:https://img.shields.io/badge/config_for-Hass.io-53c1f1.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDE1LjVBMy41LDMuNSAwIDAsMSA4LjUsMTJBMy41LDMuNSAwIDAsMSAxMiw4LjVBMy41LDMuNSAwIDAsMSAxNS41LDEyQTMuNSwzLjUgMCAwLDEgMTIsMTUuNU0xOS40MywxMi45N0MxOS40NywxMi42NSAxOS41LDEyLjMzIDE5LjUsMTJDMTkuNSwxMS42NyAxOS40NywxMS4zNCAxOS40MywxMUwyMS41NCw5LjM3QzIxLjczLDkuMjIgMjEuNzgsOC45NSAyMS42Niw4LjczTDE5LjY2LDUuMjdDMTkuNTQsNS4wNSAxOS4yNyw0Ljk2IDE5LjA1LDUuMDVMMTYuNTYsNi4wNUMxNi4wNCw1LjY2IDE1LjUsNS4zMiAxNC44Nyw1LjA3TDE0LjUsMi40MkMxNC40NiwyLjE4IDE0LjI1LDIgMTQsMkgxMEM5Ljc1LDIgOS41NCwyLjE4IDkuNSwyLjQyTDkuMTMsNS4wN0M4LjUsNS4zMiA3Ljk2LDUuNjYgNy40NCw2LjA1TDQuOTUsNS4wNUM0LjczLDQuOTYgNC40Niw1LjA1IDQuMzQsNS4yN0wyLjM0LDguNzNDMi4yMSw4Ljk1IDIuMjcsOS4yMiAyLjQ2LDkuMzdMNC41NywxMUM0LjUzLDExLjM0IDQuNSwxMS42NyA0LjUsMTJDNC41LDEyLjMzIDQuNTMsMTIuNjUgNC41NywxMi45N0wyLjQ2LDE0LjYzQzIuMjcsMTQuNzggMi4yMSwxNS4wNSAyLjM0LDE1LjI3TDQuMzQsMTguNzNDNC40NiwxOC45NSA0LjczLDE5LjAzIDQuOTUsMTguOTVMNy40NCwxNy45NEM3Ljk2LDE4LjM0IDguNSwxOC42OCA5LjEzLDE4LjkzTDkuNSwyMS41OEM5LjU0LDIxLjgyIDkuNzUsMjIgMTAsMjJIMTRDMTQuMjUsMjIgMTQuNDYsMjEuODIgMTQuNSwyMS41OEwxNC44NywxOC45M0MxNS41LDE4LjY3IDE2LjA0LDE4LjM0IDE2LjU2LDE3Ljk0TDE5LjA1LDE4Ljk1QzE5LjI3LDE5LjAzIDE5LjU0LDE4Ljk1IDE5LjY2LDE4LjczTDIxLjY2LDE1LjI3QzIxLjc4LDE1LjA1IDIxLjczLDE0Ljc4IDIxLjU0LDE0LjYzTDE5LjQzLDEyLjk3WiIgZmlsbD0iI2ZmZmZmZiIgLz48L3N2Zz4K&maxAge=86400
 
@@ -1268,7 +1149,7 @@ By using my product links in this repo i get a small commision, and you are supp
 [intelnuc]: https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008
 [issues]: https://github.com/allanpersson/home-assistant-config/issues
 [link-board]: https://github.com/allanpersson/home-assistant-config/projects/1
-[link-ha-version]: https://github.com/home-assistant/home-assistant/tree/0.102.1
+[link-ha-version]: https://github.com/home-assistant/home-assistant/tree/0.102.2
 [link-hassio]: https://home-assistant.io/hassio/
 [link-issues]: https://github.com/allanpersson/home-assistant-config/issues
 [link-license]: https://github.com/allanpersson/home-assistant-config/blob/master/LICENSE.txt
