@@ -13,8 +13,8 @@
  ...for making my life easier... Hopefully 🙈<br/> <sup><sub>by <a href="http://marathonpepe.dk">Allan Persson</a> 😈</sub></sup>
 </h2>
 
-
 # Table of contents 📑
+
 1. **[Overview](#overview-)**\
     [Code](#code-) | [Description](#description-) | [PRs](#prs-) | [Screenshots](#screenshots-) | [Theme](#theme-)
 2. **[Devices](#devices-)**\
@@ -27,14 +27,13 @@
     [Halloween](#halloween-)
 6. **[Credits](#credits-)**\
      [Ccostan](#ccostan) | [Frenck](#frenck) | [Renemarc](#renemarc)
-7. **[Contact](#contact-)**\
-     [Facebook](#facebook-) | [Instagram](#instagram-) | [Twitter](#twitter-) | [Website](#website-)
+7. **[Contact](#contact-)**
 8. **[Support](#support-)**\
      [Affiliate Links](#affiliate-links-) | [Buy me a coffee](#buy-me-a-coffee-)
 
 # Overview 📇
 
-⚠ This repo contains [affiliate links](#affiliate-links-) that [support](#support-) my work! ⚠ 
+⚠ This repo contains [affiliate links](#affiliate-links-) that [support](#support-) my work! ⚠
 
 ## Code ⌨
 
@@ -57,7 +56,7 @@ Watch this video to learn more: [How I structure my Home Assistant configuration
 
 ## PRs 📝
 
-You are more than welcome to submit PRs to my repo. This repo and documentation is "quite big" to keep up to date but i try my best! 
+You are more than welcome to submit PRs to my repo. This repo and documentation is "quite big" to keep up to date but i try my best!
 Your help is much appreciated on my code, broken links, typos etc.
 
 If you want to help take a look at the [issues][issues] section.
@@ -80,62 +79,12 @@ If you want to help take a look at the [issues][issues] section.
 The [theme][theme] i use ([screenshots](https://github.com/allanpersson/home-assistant-config#screenshots-)) is my take on [Material Dark Theme "Pepe Version"][theme] with some minor tweaks like rounded corners, color changes etc.
 
 **Automations:**
+
 - [Default theme](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/system/default_theme.yaml)
 
 # Devices 📱
 
-<a name="devices"></a>
-<div align="center">
-  <h4>
-    <a href="https://github.com/allanpersson/home-assistant-config#cameras">
-      Cameras
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#climate">
-      Climate
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#covers">
-      Covers
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#fans">
-      Fans
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#hardware">
-      Hardware
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#lights">
-      Lights
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#locks">
-      Locks
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#mediaplayers">
-      Mediaplayers
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#sensors">
-      Sensors
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#smokedetectors">
-      Smoke Detectors
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#switches">
-      Switches
-    </a>
-    <span> | </span>
-    <a href="https://github.com/allanpersson/home-assistant-config#vacuums">
-      Vacuums
-    </a>
-  </h4>
-</div>
+[Cameras](#cameras) | [Climate](#climate) | [Covers](#covers) | [Fans](#fans) | [Hardware](#hardware) | [Lights](#lights) | [Locks](#locks) | [Mediaplayers](#mediaplayers) | [Sensors](#sensors) | [Smoke Detectors](#smokedetectors) | [Switches](#switches) | [Vacuums](#vacuums)
 
 <table align="center" border="0">
 <tr><td colspan="4">
@@ -571,7 +520,7 @@ Below information on the software used on/with my hardware.
 
 <tr><td colspan="4">
 
-I have alot of [Automations][automations] for my lights. Actually i almost never manually or with voice activate my lights. 
+I have alot of [Automations][automations] for my lights. Actually i almost never manually or with voice activate my lights.
 
 **Automations:**
 <details>
@@ -614,7 +563,7 @@ I have alot of [Automations][automations] for my lights. Actually i almost never
 
 <tr><td colspan="4">
 
-Below configuration for my lights. 
+Below configuration for my lights.
 
 **Configuration:**
 <details>
@@ -675,8 +624,6 @@ I don't have any [Automations][automations] for my Danalock because i have the b
 <p></details>
 
 </td></tr>
-
-
 
 <tr><td colspan="4">
 
@@ -773,7 +720,6 @@ Play radio in bathroom when having guests - /config/automations/areas/badevarels
 
 <table align="center" border="0">
 <tr><td colspan="4">
-
 
 #### Sensors <a name="sensors" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
 </td></tr>
@@ -956,66 +902,31 @@ Below you can find information about my gateway and software used to control my 
 <table align="center" border="0">
 <tr><td colspan="4">
 
-#### Vacuums <a name="vacuums" href="https://github.com/allanpersson/home-assistant-config#devices"><img align="right" border="0" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" width="20" ></a>
-</td></tr>
-<tr><td align="center">
+# Vacuums
 
-[Xiaomi Roborock S50][xiaomiroborocks50]
-</td></tr>
+| [Xiaomi Roborock S50][xiaomiroborocks50] |
+| ------------- |
+| [![Xiaomi Roborock S50][img-xiaomiroborocks50]][xiaomiroborocks50] |
 
-</td><td align="center"><a href="[Xiaomi Roborock S50][xiaomiroborocks50]" target="_blank"><img border="0" src="https://sc02.alicdn.com/kf/HTB11hAzm0fJ8KJjy0Feq6xKEXXaQ/Global-Version-XIAOMI-Roborock-S50-MI-Robot.jpg_350x350.jpg" ></a><img src="[Xiaomi Roborock S50][xiaomiroborocks50]" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></a>
+## Vacuums automations
 
-<tr><td colspan="4">
+I have alot of [Automations][automations] for my vacuum to help me keep my appartment clean, which can be tricky with a labrador retriever. And of course some for comfort as well.
 
-I have alot of [Automations][automations] for my vacuum to help me keep my appartment clean, which can be tricky with a labrador retriever. And of course some for comfort as well. 
+| Name | Location |
+| ------------- | ------------- |
+| [Autoclean every 3.5 hours after last finish](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_autoclean.yaml) | /config/automations/areas/stuen/vacuum_autoclean.yaml |
+| [Set home mode if home](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_home.yaml) | /config/automations/areas/stuen/vacuum_home.yaml |
+| [Set away mode if away](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_away.yaml) | /config/automations/areas/stuen/vacuum_away.yaml |
+| [Return to dock when child is going to bed](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_ea_sleep.yaml) | /config/automations/areas/stuen/vacuum_ea_sleep.yaml |
 
-**Automations:**
-<details>
-  <summary>Autoclean every 3.5 hours after last finish</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_autoclean.yaml>
-  Autoclean every 3.5 hours after last finish - /config/automations/areas/stuen/vacuum_autoclean.yaml</a><br>
-<p></details>
-<details>
-<summary>Set home mode if home</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_home.yaml>
-Set home mode if home - /config/automations/areas/stuen/vacuum_home.yaml</a><br>
-<p></details>
-<details>
-<summary>Set away mode if away</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_away.yaml>
-Set away mode if away - /config/automations/areas/stuen/vacuum_away.yaml</a><br>
-<p></details>
-<details>
-<summary>Return to dock when child is going to bed</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/stuen/vacuum_ea_sleep.yaml>
-Return to dock when child is going to bed - /config/automations/areas/stuen/vacuum_ea_sleep.yaml</a><br>
-<p></details>
+## Vacuums scripts
 
-</td></tr>
+I have some [Scripts][scripts] for my vacuum, which i use for zoned clean up or trigger sleep mode when i go to bed late.
 
-<tr><td colspan="4">
-  
-  
-I have some [Scripts][scripts] for my vacuum, which i use for zoned clean up or trigger sleep mode when i go to bed late. 
-
-**Scripts:**
-<details>
-  <summary>Goodnight script turn off autoclean for 9 hours</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/godnat_vacuum_off.yaml>
-  Goodnight script turn off autoclean for 9 hours - /config/scripts/godnat_vacuum_off.yaml</a><br>
-<p></details>
-<details>
-<summary>Zoned clean up (Livingroom)</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/vacuum_zone_stuen.yaml>
-Zoned clean up (Livingroom) - /config/scripts/vacuum_zone_stuen.yaml</a><br>
-<p></details>
-
-</td></tr>
-
-<tr><td colspan="4">
-
-</table>
-</p>
+| Name | Location |
+| ------------- | ------------- |
+| [Goodnight script turn off autoclean for x hours](https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/godnat_vacuum_off.yaml) | /config/scripts/godnat_vacuum_off.yaml |
+| [Zoned clean up (Livingroom)](https://github.com/allanpersson/home-assistant-config/blob/master/config/scripts/vacuum_zone_stuen.yaml) | /config/scripts/vacuum_zone_stuen.yaml |
 
 # Lovelace Configuration ⚓
 
@@ -1087,21 +998,8 @@ Thanks to:
 
 Fell free to contact me on one of the following places. And i would be happy if you follow me as well.
 
-## Facebook 🔗
-
-[Facebook][facebook]
-
-## Instagram 🔗
-
-[Instagram][instagram]
-
-## Twitter 🔗
-
-[Twitter][twitter]
-
-## Website 🌐
-
-[Website][website]
+| [Facebook][facebook] | [Instagram][instagram] | [Twitter][twitter] | [Website][website] |
+| ------------- | ------------- | ------------- | ------------- |
 
 # Support 👍
 
@@ -1144,6 +1042,8 @@ By using my product links in this repo i get a small commision, and you are supp
 [img-price]:https://img.shields.io/badge/price-FREE-53c1f1.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTcsMTVIOUM5LDE2LjA4IDEwLjM3LDE3IDEyLDE3QzEzLjYzLDE3IDE1LDE2LjA4IDE1LDE1QzE1LDEzLjkgMTMuOTYsMTMuNSAxMS43NiwxMi45N0M5LjY0LDEyLjQ0IDcsMTEuNzggNyw5QzcsNy4yMSA4LjQ3LDUuNjkgMTAuNSw1LjE4VjNIMTMuNVY1LjE4QzE1LjUzLDUuNjkgMTcsNy4yMSAxNyw5SDE1QzE1LDcuOTIgMTMuNjMsNyAxMiw3QzEwLjM3LDcgOSw3LjkyIDksOUM5LDEwLjEgMTAuMDQsMTAuNSAxMi4yNCwxMS4wM0MxNC4zNiwxMS41NiAxNywxMi4yMiAxNywxNUMxNywxNi43OSAxNS41MywxOC4zMSAxMy41LDE4LjgyVjIxSDEwLjVWMTguODJDOC40NywxOC4zMSA3LDE2Ljc5IDcsMTVaIiBmaWxsPSIjZmZmIiAvPjwvc3ZnPgo=&maxAge=86400
 
 [img-release]: https://img.shields.io/github/release/allanpersson/home-assistant-config/all.svg?logo=github&logoColor=white&maxAge=21600
+
+[img-xiaomiroborocks50]: https://sc02.alicdn.com/kf/HTB11hAzm0fJ8KJjy0Feq6xKEXXaQ/Global-Version-XIAOMI-Roborock-S50-MI-Robot.jpg_350x350.jpg
 [instagram]: http://instagram.com/marathonpepe
 [integrations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/integrations
 [intelnuc]: https://rover.ebay.com/rover/1/710-53481-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.co.uk%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3DINTEL%2BNUC8I3BEK%2B%26_sacat%3D0&campid=5338610312&toolid=20008
