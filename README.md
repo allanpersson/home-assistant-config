@@ -1,17 +1,12 @@
-[![Home Assistant version][img-ha-version]][link-ha-version]
-[![Hass.io][img-hassio]][link-hassio]
-[![Last commit][img-last-commit]][link-repo]
-[![Issues][img-issues]][issues]
-[![Price][img-price]][link-license]
-[![License][img-license]][link-license]
-[![Buy me a coffee][img-buymeacoffee]][buymeacoffee]
-
 <h1 align="center">
   🏰<br/>Home Assistant configuration</sub></sup>
 </h1>
 <h2 align="center">
  ...for making my life easier... Hopefully 🙈<br/> <sup><sub>by <a href="http://marathonpepe.dk">Allan Persson</a> 😈</sub></sup>
 </h2>
+
+| [![Home Assistant version][img-ha-version]][link-ha-version] | [![Hass.io][img-hassio]][link-hassio] | [![Last commit][img-last-commit]][link-repo] | [![Issues][img-issues]][issues] | [![Price][img-price]][link-license] | [![License][img-license]][link-license] | [![Buy me a coffee][img-buymeacoffee]][buymeacoffee] |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 
 # Table of contents 📑
 
