@@ -1,5 +1,5 @@
 ---
-#
+# https://www.home-assistant.io/integrations/rejseplanen/
 platform: rejseplanen
 name: "Rejseplanen Aarhus H"
 stop_id: "8600053"

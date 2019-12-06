@@ -1,7 +1,7 @@
 ---
-#
+# https://www.home-assistant.io/integrations/rejseplanen/
 platform: rejseplanen
-name: 'Rejseplanen Engdalsvej/Århusvej, mod Aarhus/Skanderborg'
-stop_id: '713000702'
+name: "Rejseplanen Engdalsvej/Århusvej, mod Aarhus/Skanderborg"
+stop_id: "713000702"
 direction:
-  - 'Skanderborg Busterminal (Skanderborg Kom)'
+  - "Skanderborg Busterminal (Skanderborg Kom)"

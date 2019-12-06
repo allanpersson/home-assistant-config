@@ -1,5 +1,5 @@
 ---
-#
+# https://www.home-assistant.io/integrations/rejseplanen/
 platform: rejseplanen
 name: 'Rejseplanen Engdalsvej/Århusvej, mod Hinnerup'
 stop_id: '713000702'

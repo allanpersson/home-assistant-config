@@ -1,8 +1,5 @@
 ---
-#
+# https://www.home-assistant.io/integrations/rejseplanen/
 platform: rejseplanen
 name: "Rejseplanen Aarhus Banegårdspladsen"
 stop_id: "751300601"
-# direction:
-# - 'Skanderborg Busterminal'
-# - "Hinnerup"
