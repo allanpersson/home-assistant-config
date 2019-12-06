@@ -1,9 +1,11 @@
 # Home Assistant configuration 🏰
 
-...for making my and others life easier... Hopefully 🙈
+...for making my and others life easier... Hopefully 🙈\
 by **[Allan Persson][allanpersson]**
 
-[![Home Assistant version][img-ha-version]][link-ha-version] [![Home Assistant Android version][img-ha-android-version]][link-ha-android-version]  [![Hass.io][img-hassio]][link-hassio] [![Price][img-price]][link-license] [![Last commit][img-last-commit]][link-repo] [![Issues][img-issues]][issues] [![License][img-license]][link-license] [![Buy me a coffee][img-buymeacoffee]][buymeacoffee]
+[![Home Assistant version][img-ha-version]][link-ha-version] [![Home Assistant Android version][img-ha-android-version]][link-ha-android-version]  [![Hass.io][img-hassio]][link-hassio] [![Price][img-price]][link-license]\
+[![Last commit][img-last-commit]][link-repo] [![Issues][img-issues]][issues] [![License][img-license]][link-license]\
+[![Buy me a coffee][img-buymeacoffee]][buymeacoffee]
 
 # Table of contents 📑
 
