@@ -1,0 +1,29 @@
+---
+platform: template
+sensors:
+  galaxys9plus_batterylevel:
+    friendly_name: Galaxy S9plus battery
+    entity_id:
+      - device_tracker.sm_g965f
+    value_template: >
+      {{ states.device_tracker.sm_g965f.attributes.battery_level }}
+    unit_of_measurement: "%"
+    device_class: battery
+    icon_template: mdi:battery
+  mediapad_batterylevel:
+    friendly_name: Huawei Mediapad battery
+    entity_id:
+      - device_tracker.ags_w09
+    value_template: >
+      {{ states.device_tracker.ags_w09.attributes.battery_level }}
+    unit_of_measurement: "%"
+    device_class: battery
+    icon_template: mdi:battery
+  galaxys9plus_location:
+    friendly_name: Galaxy S9plus location
+    entity_id:
+      - device_tracker.sm_g965f
+    value_template: >
+      '{"longitude": "{{ states.device_tracker.sm_g965f.attributes.longitude | float }}","latitude": "{{ states.device_tracker.sm_g965f.attributes.latitude | float }}","gps_accuracy": "{{ states.device_tracker.sm_g965f.attributes.gps_accuracy | int }}"}'
+    unit_of_measurement: ""
+    icon_template: mdi:map-marker-plus
