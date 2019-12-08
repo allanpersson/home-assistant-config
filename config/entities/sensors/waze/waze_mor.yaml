@@ -1,8 +1,8 @@
 ---
-#
+# https://www.home-assistant.io/integrations/waze_travel_time/
 platform: waze_travel_time
 name: 'Til Mor'
-origin: device_tracker.allanpersson_pepemobil
+origin: person.allan_persson
 destination: zone.mor
 region: 'EU'
 realtime: true
