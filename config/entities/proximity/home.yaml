@@ -1,0 +1,14 @@
+---
+# https://www.home-assistant.io/integrations/proximity/
+home:
+  zone: home
+  devices:
+    - person.allan_persson
+    - person.caroline_hempel
+    - person.ditte_hebsgaard
+    - person.ea_hebsgaard
+    - person.emil_hempel
+    - person.gaester
+    - person.otto
+  tolerance: 50
+  unit_of_measurement: km
