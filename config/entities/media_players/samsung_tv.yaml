@@ -8,3 +8,4 @@ name: Samsung Tv
 host: !secret samsungtv_host
 port: !secret samsungtv_port
 mac: !secret samsungtv_mac_wifi
+timeout: 0
