@@ -107,17 +107,17 @@ action:
     data_template:
       entity_id: media_player.badevaerelset
       media_content_id: https://halloweenlove.com/audio/Friday the 13th - Theme (Original NES).mp3
-      media_content_type: "audio/mp3"
+      media_content_type: "music"
   - service: media_player.play_media
     data_template:
       entity_id: media_player.gangen
       media_content_id: https://halloweenlove.com/audio/Chamber of Horrors.mp3
-      media_content_type: "audio/mp3"
+      media_content_type: "music"
   - service: media_player.play_media
     data_template:
       entity_id: media_player.kokkenet
       media_content_id: https://halloweenlove.com/audio/Friday the 13th - Theme (Original NES).mp3
-      media_content_type: "audio/mp3"
+      media_content_type: "music"
   - delay:
       minutes: 3
   - service: media_player.turn_off

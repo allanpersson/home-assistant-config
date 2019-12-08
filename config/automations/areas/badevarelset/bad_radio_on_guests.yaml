@@ -4,19 +4,19 @@ alias: "Radio on guests (Badeværelset)"
 trigger:
   platform: state
   entity_id: binary_sensor.motion_bad
-  to: 'on'
+  to: "on"
 condition:
   condition: and
   conditions:
     - condition: state
       entity_id: person.gaester
-      state: 'home'
+      state: "home"
     - condition: time
-      after: '07:00'
-      before: '23:30'
+      after: "07:00"
+      before: "23:30"
     - condition: state
       entity_id: media_player.badevaerelset
-      state: 'off'
+      state: "off"
 action:
   - service: media_player.turn_on
     entity_id: media_player.badevaerelset
@@ -26,7 +26,7 @@ action:
     data_template:
       entity_id: media_player.badevaerelset
       media_content_id: http://live-icy.gss.dr.dk/A/A21H.mp3
-      media_content_type: 'audio/mp3'
+      media_content_type: "music"
   - delay:
       milliseconds: 100
   - service: media_player.volume_set
