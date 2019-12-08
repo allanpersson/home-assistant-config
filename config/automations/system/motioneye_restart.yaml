@@ -1,0 +1,20 @@
+---
+#
+alias: "Motioneye restart"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.ping_192_168_100_6
+    to: "off"
+    for:
+      minutes: 15
+action:
+  - service: switch.turn_off
+    entity_id: switch.kokken
+  - delay:
+      seconds: 10
+  - service: switch.turn_on
+    entity_id: switch.kokken
+  - service: notify.mobile_app_sm_g965f
+    data:
+      title: "Motioneye genstartet"
+      message: "Efter at have været offline..."
