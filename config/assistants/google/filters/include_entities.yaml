@@ -17,6 +17,14 @@ include_entities:
   #### Climate ####
   - climate.stuen
 
+  #### Cover ####
+  - cover.stuen_hojre
+  - cover.stuen_venstre
+  - script.cover_stuen_0_percent_open
+  - script.cover_stuen_10_percent_open
+  - script.cover_stuen_50_percent_open
+  - script.cover_stuen_100_percent_open
+
   #### Lights ####
   - light.badevaerelset
   - light.bornevaerelset
@@ -32,17 +40,26 @@ include_entities:
 
   #### Media Players ####
   - media_player.android_tv_boks
+  - media_player.android_tv_boks_lan
+  - media_player.mibox4
+  - media_player.kokkenet
   - media_player.samsung_tv
+  - media_player.stuen
 
-  #### Sensor's ####
+  #### Persons ####
+  - person.allan_persson
+
+  #### Sensors ####
   - binary_sensor.window_altandor
   - binary_sensor.window_hoveddor
   - binary_sensor.window_postkasse
+  - binary_sensor.fire_stuen
   - sensor.owm_temperature
+  - sensor.rejseplanen_engdalsvej_arhusvej_mod_aarhus_skanderborg
 
   #### Switches ####
   - switch.adguard_protection
-  - switch.bad
+  - switch.kokken
   - switch.born
   - switch.gang
   - switch.router
