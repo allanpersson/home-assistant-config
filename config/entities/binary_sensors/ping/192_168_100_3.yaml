@@ -1,0 +1,4 @@
+---
+platform: ping
+name: "Ping_003 192.168.100.3"
+host: 192.168.100.3

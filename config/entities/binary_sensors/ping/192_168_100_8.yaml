@@ -1,0 +1,4 @@
+---
+platform: ping
+name: "Ping_008 192.168.100.8"
+host: 192.168.100.8
