@@ -3,7 +3,7 @@
 alias: "Lights on - Android Tv (Stuen)"
 trigger:
   - platform: time_pattern
-    minutes: "/5"
+    seconds: "/60"
   - platform: numeric_state
     entity_id: sun.sun
     value_template: "{{ states.sun.sun.attributes.elevation }}"
@@ -33,9 +33,27 @@ condition:
           entity_id: media_player.android_tv_boks
           state: "playing"
 action:
-  service: light.turn_on
-  data:
-    transition: 10
-    brightness_pct: 10
-    rgb_color: [255, 160, 39]
-    entity_id: light.stuen
+  - service: light.turn_on
+    data:
+      transition: 10
+      brightness_pct: 1
+      rgb_color: [139, 69, 19]
+      entity_id: light.stuen_nilfisk
+  - service: light.turn_on
+    data:
+      transition: 10
+      brightness_pct: 40
+      rgb_color: [255, 160, 39]
+      entity_id: light.stuen_hvid
+  - service: light.turn_on
+    data:
+      transition: 10
+      brightness_pct: 40
+      rgb_color: [85, 107, 47]
+      entity_id: light.stuen_sort
+  - service: light.turn_on
+    data:
+      transition: 10
+      brightness_pct: 40
+      rgb_color: [255, 69, 0]
+      entity_id: light.stuen_rod
