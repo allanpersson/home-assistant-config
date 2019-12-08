@@ -6,3 +6,5 @@ logger:
     pydeconz: warning
     homeassistant.components.deconz: warning
     custom_components.hacs: warning
+    homeassistant.components.homekit: warning
+    pyhap: warning
