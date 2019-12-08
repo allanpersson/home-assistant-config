@@ -1,6 +1,0 @@
----
-#
-owntracks:
-  max_gps_accuracy: 300
-  # waypoints: true
-  mqtt_topic: "owntracks/#"
