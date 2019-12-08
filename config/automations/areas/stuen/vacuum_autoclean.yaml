@@ -17,9 +17,9 @@ condition:
     - condition: state
       entity_id: vacuum.james
       state: "docked"
-    - condition: numeric_state
-      entity_id: sensor.motion_born
-      above: 5
+    # - condition: numeric_state
+    #   entity_id: sensor.motion_born
+    #   above: 1
 action:
   - service: vacuum.start
     entity_id: vacuum.james
@@ -30,6 +30,10 @@ action:
       entity_id: vacuum.james
       fan_speed: 105
   - service: notify.join_allan
+    data:
+      title: "James er startet!"
+      message: "Læn dig tilbage og lad ham gøre rent efter dig"
+  - service: notify.mobile_app_sm_g965f
     data:
       title: "James er startet!"
       message: "Læn dig tilbage og lad ham gøre rent efter dig"
