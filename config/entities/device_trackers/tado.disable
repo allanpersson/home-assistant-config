@@ -1,7 +1,0 @@
----
-#
-platform: tado
-username: !secret tado_allan_user
-password: !secret tado_allan_password
-home_id: !secret tado_home_id
-interval_seconds: 30

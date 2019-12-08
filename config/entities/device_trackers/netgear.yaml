@@ -1,7 +1,12 @@
 ---
-#
+# https://www.home-assistant.io/integrations/netgear/
 platform: netgear
 host: !secret netgear_host
 port: !secret netgear_port
 username: !secret netgear_username
 password: !secret netgear_password
+consider_home: 180
+interval_seconds: 12
+new_device_defaults:
+  track_new_devices: true
+  hide_if_away: false
