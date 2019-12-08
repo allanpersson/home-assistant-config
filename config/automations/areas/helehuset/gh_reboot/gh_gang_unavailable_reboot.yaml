@@ -1,0 +1,10 @@
+---
+alias: "Gangen unavailable reboot"
+trigger:
+  - platform: state
+    entity_id: media_player.gangen
+    to: "unavailable"
+    for:
+      minutes: 1
+action:
+  - service: rest_command.gh_gang_reboot

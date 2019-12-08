@@ -1,0 +1,10 @@
+---
+alias: "Stuen unavailable reboot"
+trigger:
+  - platform: state
+    entity_id: media_player.stuen
+    to: "unavailable"
+    for:
+      minutes: 1
+action:
+  - service: rest_command.gh_stuen_reboot

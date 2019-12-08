@@ -1,0 +1,10 @@
+---
+alias: "Badeværelset unavailable reboot"
+trigger:
+  - platform: state
+    entity_id: media_player.badevaerelset
+    to: "unavailable"
+    for:
+      minutes: 1
+action:
+  - service: rest_command.gh_bad_reboot
