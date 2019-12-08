@@ -2,11 +2,15 @@
 #
 alias: "Lights off day (Køkkenet)"
 trigger:
-  platform: state
-  entity_id: binary_sensor.motion_kokken
-  to: 'off'
-  for:
-    minutes: 5
+  - platform: state
+    entity_id: binary_sensor.motion_kokken
+    to: 'off'
+    for:
+      minutes: 5
+  - platform: numeric_state
+    entity_id: sun.sun
+    value_template: "{{ states.sun.sun.attributes.elevation }}"
+    above: !secret sun_elevation_value
 condition:
   condition: and
   conditions:
@@ -14,7 +18,7 @@ condition:
       before: '22:00'
       after: '07:00'
 action:
-  service: light.turn_off
-  entity_id:
-    - light.kokkenet_nilfisk
-    - light.kokkenet_vask
+  - service: light.turn_off
+    entity_id:
+      - light.kokkenet_nilfisk
+      - light.kokkenet_vask
