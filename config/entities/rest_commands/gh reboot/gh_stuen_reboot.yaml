@@ -1,0 +1,7 @@
+---
+#
+gh_stuen_reboot:
+  url: http://192.168.100.12:8008/setup/reboot
+  method: POST
+  content_type: "application/json"
+  payload: '{"params": "now"}'
