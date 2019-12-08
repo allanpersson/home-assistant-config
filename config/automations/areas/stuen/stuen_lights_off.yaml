@@ -6,7 +6,7 @@ trigger:
     entity_id: binary_sensor.motion_stuen
     to: "off"
     for:
-      minutes: 30
+      minutes: 15
   - platform: numeric_state
     entity_id: sun.sun
     value_template: "{{ states.sun.sun.attributes.elevation }}"
@@ -14,5 +14,5 @@ trigger:
 action:
   - service: light.turn_off
     data:
-      transition: 60
+      transition: 10
       entity_id: light.stuen
