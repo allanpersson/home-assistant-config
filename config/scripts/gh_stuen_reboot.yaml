@@ -1,0 +1,6 @@
+---
+#
+gh_stuen_reboot:
+  alias: "Google Home Stuen reboot"
+  sequence:
+    - service: rest_command.gh_stuen_reboot
