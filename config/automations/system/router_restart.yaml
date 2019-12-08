@@ -8,11 +8,12 @@ condition:
   condition: and
   conditions:
     - condition: state
-      entity_id: media_player.android_tv_boks
-      state: "off"
-    - condition: state
       entity_id: light.stuen
       state: "off"
+    - condition: time
+      weekday:
+        - wed
+        - sun
 action:
   - service: switch.turn_off
     entity_id: switch.router
