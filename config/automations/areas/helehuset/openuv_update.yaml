@@ -3,7 +3,7 @@
 alias: "Openuv update"
 trigger:
   platform: time_pattern
-  minutes: "60"
+  minutes: "/60"
 # condition:
 #   condition: and
 #   conditions:
