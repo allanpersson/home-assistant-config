@@ -82,7 +82,7 @@ action:
   - service: climate.set_temperature
     data:
       entity_id: climate.bornevaerelset
-      target_temp_high: !secret sleep_target_temp_high
-      temperature: !secret sleep_target_temp
-      target_temp_low: !secret sleep_target_temp_low
+      target_temp_high: !secret sleep_target_temp_high_born
+      temperature: !secret sleep_target_temp_born
+      target_temp_low: !secret sleep_target_temp_low_born
       hvac_mode: "heat"
