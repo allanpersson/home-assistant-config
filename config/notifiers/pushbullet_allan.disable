@@ -1,5 +1,0 @@
----
-#
-name: Pushbullet Allan
-platform: pushbullet
-api_key: !secret pushbullet_allan_token
