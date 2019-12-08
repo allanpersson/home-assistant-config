@@ -4,11 +4,11 @@ person:
   - name: Allan Persson
     id: allanpersson
     device_trackers:
-      - device_tracker.allanpersson_pepemobil
       - device_tracker.allanpersson_bt
       - device_tracker.allanpersson_forerunner_ble
       - device_tracker.allanpersson_forerunner_bt
       - device_tracker.allanpersson_nmap
+      - device_tracker.sm_g965f
   - name: Caroline Hempel
     id: carolinehempel
     device_trackers:
