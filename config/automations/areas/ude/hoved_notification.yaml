@@ -1,6 +1,6 @@
 ---
 #
-alias: "Notification (Hovedndør)"
+alias: "Notification (Hoveddør)"
 trigger:
   platform: state
   entity_id: binary_sensor.window_hoveddor
