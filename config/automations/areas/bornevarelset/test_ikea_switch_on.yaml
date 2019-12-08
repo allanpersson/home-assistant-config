@@ -28,22 +28,29 @@ trigger:
 #        {{ x|length != 4 or x[1:3] != '00' }}
 action:
   - service: light.turn_on
-    # data_template:
-    # transition: 1
-    # brightness_pct: >
-    #    {{states.light.stuen_nilfisk.attributes.brightness + 10}}'
-    # rgb_color: [255 , 160 , 39]
     entity_id: light.bornevaerelset
-  - service: switch.turn_on
-    entity_id: switch.born
-  - delay:
-      seconds: 100
-  - service: switch.turn_off
-    entity_id: switch.born
-  - service: light.turn_off
-    # data_template:
-    # transition: 1
-    # brightness_pct: >
-    #     '{{states.light.stuen_nilfisk.attributes.brightness + 10}}'
-    # rgb_color: [255 , 160 , 39]
-    entity_id: light.bornevaerelset
+    data_template:
+      hs_color:
+        - "{{ (30 + (state_attr('light.bornevaerelset', 'hs_color')[0] or 0)) % 360 }}"
+        - 100
+      brightness_pct: 100
+      transition: 15
+  # - service: media_player.turn_on
+  #   entity_id: media_player.bornevaerelset
+  # - delay:
+  #     milliseconds: 100
+  # - service: media_player.set_volume
+  #   data:
+  #     entity_id: media_player.bornevaerelset
+  #     volume_level: "0.50"
+  # - delay:
+  #     milliseconds: 100
+  # - service: media_player.play_media
+  #   entity_id: media_player.bornevaerelset
+  #   data_template:
+  #     media_content_id: http://live-icy.gss.dr.dk/A/A21H.mp3
+  #     media_content_type: "music"
+  # - delay:
+  #     seconds: 30
+  # - service: media_player.turn_off
+  #   entity_id: media_player.bornevaerelset
