@@ -21,11 +21,6 @@ trigger:
     event_data:
       id: huset
       event: 2002
-# condition:
-#   - condition: template
-#     value_template: >
-#        {% set x = trigger.event.data.event|string %}
-#        {{ x|length != 4 or x[1:3] != '00' }}
 action:
   - service: light.turn_on
     entity_id: light.bornevaerelset
@@ -35,22 +30,22 @@ action:
         - 100
       brightness_pct: 100
       transition: 15
-  # - service: media_player.turn_on
-  #   entity_id: media_player.bornevaerelset
-  # - delay:
-  #     milliseconds: 100
-  # - service: media_player.set_volume
-  #   data:
-  #     entity_id: media_player.bornevaerelset
-  #     volume_level: "0.50"
-  # - delay:
-  #     milliseconds: 100
-  # - service: media_player.play_media
-  #   entity_id: media_player.bornevaerelset
-  #   data_template:
-  #     media_content_id: http://live-icy.gss.dr.dk/A/A21H.mp3
-  #     media_content_type: "music"
-  # - delay:
-  #     seconds: 30
-  # - service: media_player.turn_off
-  #   entity_id: media_player.bornevaerelset
+  - service: media_player.turn_on
+    entity_id: media_player.bornevaerelset
+  - delay:
+      milliseconds: 100
+  - service: media_player.set_volume
+    data:
+      entity_id: media_player.bornevaerelset
+      volume_level: "0.50"
+  - delay:
+      milliseconds: 100
+  - service: media_player.play_media
+    entity_id: media_player.bornevaerelset
+    data_template:
+      media_content_id: http://live-icy.gss.dr.dk/A/A21H.mp3
+      media_content_type: "music"
+  - delay:
+      seconds: 30
+  - service: media_player.turn_off
+    entity_id: media_player.bornevaerelset

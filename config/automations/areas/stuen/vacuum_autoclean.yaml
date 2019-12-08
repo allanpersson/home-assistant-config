@@ -17,9 +17,6 @@ condition:
     - condition: state
       entity_id: vacuum.james
       state: "docked"
-    # - condition: numeric_state
-    #   entity_id: sensor.motion_born
-    #   above: 1
 action:
   - service: vacuum.start
     entity_id: vacuum.james

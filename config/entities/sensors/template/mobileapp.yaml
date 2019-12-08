@@ -24,6 +24,8 @@ sensors:
     entity_id:
       - device_tracker.sm_g965f
     value_template: >
-      '{"longitude": "{{ states.device_tracker.sm_g965f.attributes.longitude | float }}","latitude": "{{ states.device_tracker.sm_g965f.attributes.latitude | float }}","gps_accuracy": "{{ states.device_tracker.sm_g965f.attributes.gps_accuracy | int }}"}'
+      '{"longitude": "{{ states.device_tracker.sm_g965f.attributes.longitude | float }}"\
+      ,"latitude": "{{ states.device_tracker.sm_g965f.attributes.latitude | float }}",\
+      "gps_accuracy": "{{ states.device_tracker.sm_g965f.attributes.gps_accuracy | int }}"}'
     unit_of_measurement: ""
     icon_template: mdi:map-marker-plus
