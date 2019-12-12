@@ -1,8 +1,0 @@
----
-#
-platform: mqtt
-state_topic: "huaweisensor/face"
-name: "Huawei Mediapad Face"
-payload_on: '{"value":true}'
-payload_off: '{"value":false}'
-device_class: motion
