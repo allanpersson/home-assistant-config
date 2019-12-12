@@ -9,7 +9,16 @@ sensors:
       {{ states.device_tracker.sm_g965f.attributes.battery_level }}
     unit_of_measurement: "%"
     device_class: battery
-    icon_template: mdi:battery
+    icon_template: >-
+      {% if is_value('sensor.galaxys9plus_batterylevel','> 50') %}
+          '/config/www/images/rooms/battery.png'
+      {% else %}
+        {% if is_value('sensor.galaxys9plus_batterylevel','< 50') %}
+          '/config/www/images/rooms/battery_1.png'
+        {% else %}
+          '/config/www/images/rooms/battery_2.png'
+        {% endif %}
+      {% endif %}
   mediapad_batterylevel:
     friendly_name: Huawei Mediapad battery
     entity_id:
@@ -24,8 +33,6 @@ sensors:
     entity_id:
       - device_tracker.sm_g965f
     value_template: >
-      '{"longitude": "{{ states.device_tracker.sm_g965f.attributes.longitude | float }}"\
-      ,"latitude": "{{ states.device_tracker.sm_g965f.attributes.latitude | float }}",\
-      "gps_accuracy": "{{ states.device_tracker.sm_g965f.attributes.gps_accuracy | int }}"}'
+      {{ states.device_tracker.sm_g965f.attributes.latitude | float }}, {{ states.device_tracker.sm_g965f.attributes.longitude | float }}
     unit_of_measurement: ""
     icon_template: mdi:map-marker-plus
