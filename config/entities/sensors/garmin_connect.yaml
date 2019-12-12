@@ -1,5 +1,0 @@
----
-#
-platform: Garmin_Connect
-username: !secret garmin_username
-password: !secret garmin_password
