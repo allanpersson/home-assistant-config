@@ -737,13 +737,13 @@ Play radio in bathroom when having guests - /config/automations/areas/badevarels
 
 <tr><td colspan="4">
 
-I have alot of [Automations][automations] involving my sensors. Most of them is about comfort, but one of them is about safety inspired by the Disappearance of Madeleine McCann case. The one called [Opening door notification](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/ude/hoved_notification.yaml) which give me a instant notification if door opens on my phone and smartwatch, so i can react if my childrens or mine safety is in danger.
+I have alot of [Automations][automations] involving my sensors. Most of them is about comfort, but one of them is about safety inspired by the Disappearance of Madeleine McCann case. The one called [Opening door notification](https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/notifications/hoved_notification.yaml) which give me a instant notification if door opens on my phone and smartwatch, so i can react if my childrens or mine safety is in danger.
 
 **Automations:**
 <details>
   <summary>Opening door notification</summary><p align="center">
-  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/ude/hoved_notification.yaml>
-  Opening door notification - /config/automations/areas/ude/hoved_notification.yaml</a><br>
+  <a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/notifications/hoved_notification.yaml>
+  Opening door notification - /config/automations/notifications/hoved_notification.yaml</a><br>
 <p></details>
 <details>
   <summary>Climate automations</summary><p align="center">

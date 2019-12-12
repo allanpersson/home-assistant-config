@@ -1,0 +1,13 @@
+---
+#
+alias: "Notification (Altandør)"
+trigger:
+  platform: state
+  entity_id: binary_sensor.window_altandor
+  from: "off"
+  to: "on"
+action:
+  - service: notify.join_allan
+    data:
+      title: "Altandør!"
+      message: "Døren er netop blevet åbnet...."

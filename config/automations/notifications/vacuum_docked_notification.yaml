@@ -1,0 +1,16 @@
+---
+#
+alias: "Vacuum docked (Notification)"
+trigger:
+  platform: state
+  entity_id: vacuum.james
+  to: "docked"
+action:
+  - service: notify.join_allan
+    data:
+      title: "James AFSLUTTET"
+      message: "Han tager en velfortjent lur i docken efter x minutters rengøring"
+  - service: notify.mobile_app_sm_g965f
+    data:
+      title: "James AFSLUTTET"
+      message: "Han tager en velfortjent lur i docken efter x minutters rengøring"
