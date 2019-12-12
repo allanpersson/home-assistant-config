@@ -1,5 +1,5 @@
 ---
-#####   https://www.home-assistant.io/components/generic_thermostat/   #####
+# https://www.home-assistant.io/integrations/generic_thermostat/
 platform: generic_thermostat
 name: "Ventilator (Børneværelset)"
 heater: switch.born
