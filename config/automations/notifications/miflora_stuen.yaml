@@ -13,8 +13,11 @@ condition:
     - condition: state
       entity_id: person.allan_persson
       state: "home"
+    - condition: time
+      after: "10:00:00"
+      before: "21:00:00"
 action:
-  - service: notify.join_allan
+  - service: notify.mobile_app_sm_g965f
     data:
       title: "Husk at vande!"
       message: "Ginseng i stuen har brug for looooooove"
