@@ -4,7 +4,7 @@ alias: "Leaving home turn off"
 trigger:
   - platform: state
     entity_id: group.person_alle
-    to: 'not_home'
+    to: "not_home"
     for:
       minutes: 15
 condition:
@@ -20,7 +20,7 @@ condition:
       entity_id: media_player.android_tv_boks
       state: "paused"
 action:
-  - service: notify.join_allan
+  - service: notify.mobile_app_sm_g965f
     data:
       title: "1 minut til auto sluk"
       message: >
