@@ -3,7 +3,7 @@
 alias: "Lights on - Android Tv (Stuen)"
 trigger:
   - platform: time_pattern
-    seconds: "/60"
+    seconds: "/180"
   - platform: numeric_state
     entity_id: sun.sun
     value_template: "{{ states.sun.sun.attributes.elevation }}"

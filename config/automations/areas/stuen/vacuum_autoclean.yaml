@@ -3,7 +3,7 @@
 alias: "Autoclean (Vacuum)"
 trigger:
   platform: time_pattern
-  seconds: "/60"
+  seconds: "/180"
 condition:
   condition: and
   conditions:

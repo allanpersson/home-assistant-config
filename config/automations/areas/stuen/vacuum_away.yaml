@@ -6,7 +6,7 @@ trigger:
     entity_id: group.person_alle
     to: "not_home"
   - platform: time_pattern
-    seconds: "/60"
+    seconds: "/180"
 condition:
   condition: and
   conditions:
