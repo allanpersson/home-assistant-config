@@ -3,6 +3,8 @@
 halloween_mode_off:
   alias: "Halloween mode (off)"
   sequence:
+    - service: automation.turn_off
+      entity_id: automation.halloween
     - service: automation.turn_on
       entity_id: automation.lights_off_day_kokkenet
     - service: automation.turn_on
