@@ -9,16 +9,6 @@ sensors:
       {{ states.device_tracker.sm_g965f.attributes.battery_level }}
     unit_of_measurement: "%"
     device_class: battery
-    icon_template: >-
-      {% if is_value('sensor.galaxys9plus_batterylevel','> 50') %}
-          '/config/www/images/rooms/battery.png'
-      {% else %}
-        {% if is_value('sensor.galaxys9plus_batterylevel','< 50') %}
-          '/config/www/images/rooms/battery_1.png'
-        {% else %}
-          '/config/www/images/rooms/battery_2.png'
-        {% endif %}
-      {% endif %}
   mediapad_batterylevel:
     friendly_name: Huawei Mediapad battery
     entity_id:
