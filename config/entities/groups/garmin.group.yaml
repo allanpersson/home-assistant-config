@@ -6,6 +6,9 @@ garmin:
   name: "Garmin group"
   # icon: mdi:lightbulb-on
   entities:
+    - script.vacuum_return_to_dock
+    - script.vacuum_start
+    - script.vacuum_pause
     - script.cover_stuen_100_percent_open
     - script.cover_stuen_50_percent_open
     - script.cover_stuen_10_percent_open
