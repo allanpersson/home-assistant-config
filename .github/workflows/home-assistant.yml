@@ -7,6 +7,9 @@ on:
     branches:
       - master
       - "home-assistant/home-assistant/releases/tag/*" # INVALID LINE need help please
+  release:
+    types: published
+      - "home-assistant/home-assistant/releases/tag/*"
   pull_request:
   schedule:
     - cron: 0 10 * * *
