@@ -33,6 +33,7 @@ sensors:
     entity_id:
       - device_tracker.sm_g965f
     value_template: >
-      {{ states.device_tracker.sm_g965f.attributes.latitude | float }}, {{ states.device_tracker.sm_g965f.attributes.longitude | float }}
+      {{ states.device_tracker.sm_g965f.attributes.latitude | float }},\
+       {{ states.device_tracker.sm_g965f.attributes.longitude | float }}
     unit_of_measurement: ""
     icon_template: mdi:map-marker-plus

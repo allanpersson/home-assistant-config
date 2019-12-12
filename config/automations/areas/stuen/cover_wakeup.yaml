@@ -8,7 +8,9 @@ condition:
   condition: and
   conditions:
     - condition: template
-      value_template: '{{ (((as_timestamp(now()) | int) + 3*60) | timestamp_custom("%Y-%m-%d %H:%M:00")) == states.sensor.next_alarm.state }}'
+      value_template: >
+        '{{ (((as_timestamp(now()) | int) + 3*60) | timestamp_custom("%Y-%m-%d %H:%M:00"))\
+         == states.sensor.next_alarm.state }}'
     - condition: time
       after: "00:00:01"
       before: "11:59:59"
