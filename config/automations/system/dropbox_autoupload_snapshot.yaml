@@ -3,7 +3,7 @@
 alias: "Dropbox Auto upload Snapshot"
 trigger:
   - platform: time
-    at: '02:00:00'
+    at: '03:30:00'
 action:
   - service: hassio.addon_stdin
     data:
