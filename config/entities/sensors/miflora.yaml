@@ -1,11 +1,10 @@
 ---
-#
+# https://www.home-assistant.io/integrations/miflora
 platform: miflora
-# adapter: hci1
 mac: !secret miflora_mac_ginseng
 name: Plante (Stuen, Ginseng)
-force_update: true
-# median: 1
+force_update: false
+median: 3
 monitored_conditions:
   - moisture
   - light
