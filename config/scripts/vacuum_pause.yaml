@@ -1,0 +1,7 @@
+---
+#
+vacuum_pause:
+  alias: "Vacuum Pause"
+  sequence:
+    - service: vacuum.start_pause
+      entity_id: vacuum.james

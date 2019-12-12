@@ -1,0 +1,7 @@
+---
+#
+vacuum_return_to_dock:
+  alias: "Vacuum Return to dock"
+  sequence:
+    - service: vacuum.return_to_base
+      entity_id: vacuum.james

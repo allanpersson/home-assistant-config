@@ -1,0 +1,7 @@
+---
+#
+vacuum_start:
+  alias: "Vacuum Start"
+  sequence:
+    - service: vacuum.start
+      entity_id: vacuum.james        
