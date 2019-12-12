@@ -5,8 +5,6 @@ trigger:
   - platform: state
     entity_id: binary_sensor.ping_192_168_100_6
     to: "off"
-    for:
-      minutes: 15
 action:
   - service: switch.turn_off
     entity_id: switch.kokken
