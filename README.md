@@ -27,7 +27,7 @@ by **[Allan Persson][allanpersson]**
 
 # Overview 📇
 
-⚠ This repo contains [affiliate links](#affiliate-links-) that [support](#support-) my work! ⚠
+⚠ This repo contains [affiliate links](#affiliate-links-) from [Aliexpress][aliexpress] & [Ebay][ebay] that [support](#support-) my work! ⚠
 
 ## Code ⌨
 
@@ -1002,11 +1002,13 @@ This body runs on coffee and you can send a little love to me in the following w
 ## Affiliate Links 🤝
 
 By using my product links in this repo i get a small commision, and you are supporting me and encourage me to keep spending time keeping it up to date.
+Affiliate partners: [Aliexpress][aliexpress] & [Ebay][ebay]
 
 ## Buy me a coffee ☕
 
 [![Buy me a coffee][img-buymeacoffee]][buymeacoffee]
 
+[aliexpress]: http://s.click.aliexpress.com/e/l8H1V6jQ
 [allanpersson]: http://allanpersson.dk
 [adguard-home-addon]: https://github.com/hassio-addons/addon-adguard-home
 [automations]: https://github.com/allanpersson/home-assistant-config/tree/master/config/automations
@@ -1014,6 +1016,7 @@ By using my product links in this repo i get a small commision, and you are supp
 [cameracard]: https://github.com/allanpersson/home-assistant-config/blob/master/config/www/lovelace_cards/camera_card.yaml
 [ccostan]: https://github.com/CCOSTAN/
 [configuration-yaml]: https://github.com/allanpersson/home-assistant-config/blob/master/config/configuration.yaml
+[ebay]: http://rover.ebay.com/rover/1/710-53481-19255-0/1?ff3=4&pub=5575546327&toolid=10001&campid=5338610312&customid=&mpre=http%3A%2F%2Febay.co.uk
 [entities]: https://github.com/allanpersson/home-assistant-config/tree/master/config/entities
 [facebook]: http://facebook.com/marathonpepe
 [frenck]: http://frenck.dev
