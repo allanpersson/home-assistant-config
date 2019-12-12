@@ -1,8 +1,5 @@
 ---
-# This is my Livingroom Samsung TV.
-#
-# https://www.home-assistant.io/components/media_player.samsungtv/
-#
+# https://www.home-assistant.io/integrations/samsungtv/
 platform: samsungtv
 name: Samsung Tv
 host: !secret samsungtv_host
