@@ -1,6 +1,3 @@
 ---
-# This handles the loading of my notify platforms
-#
-# https://www.home-assistant.io/components/notify
-#
+# https://www.home-assistant.io/integrations/notify
 notify: !include_dir_list ../notifiers

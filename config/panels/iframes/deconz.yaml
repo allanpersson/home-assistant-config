@@ -1,6 +1,6 @@
 ---
 #
-# https://www.home-assistant.io/components/panel_iframe/
+# https://www.home-assistant.io/integrations/panel_iframe/
 #
 deconz:
   title: Deconz
