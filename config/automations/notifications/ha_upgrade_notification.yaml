@@ -13,7 +13,7 @@ condition:
         states('sensor.version_current')
       }}
 action:
-  - service: notify.join_allan
+  - service: notify.mobile_app_sm_g965f
     data_template:
       title: Upgrade time!
       message: >
@@ -21,10 +21,3 @@ action:
         Version {{ states('sensor.version_available') }} just got released!
       data:
         url: !secret nabucasa_url
-  - service: persistent_notification.create
-    data_template:
-      title: Upgrade time!
-      message: >
-        There is a Home Assistant upgrade for Hass.io pending!
-        Version {{ states('sensor.version_available') }} just got released!
-      notification_id: hassio_upgrade
