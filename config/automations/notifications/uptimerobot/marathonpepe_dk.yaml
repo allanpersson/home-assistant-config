@@ -7,7 +7,7 @@ trigger:
     from: "on"
     to: "off"
 action:
-  - service: notify.join_allan
+  - service: notify.mobile_app_sm_g965f
     data_template:
       title: Marathonpepe.dk is down!
       message: >
