@@ -6,10 +6,6 @@ trigger:
   entity_id: vacuum.james
   to: "error"
 action:
-  - service: notify.join_allan
-    data:
-      title: "James FEJL!"
-      message: "Han sidder fast eller oplever en fejl der kræver opmærksomhed"
   - service: notify.mobile_app_sm_g965f
     data:
       title: "James FEJL!"
