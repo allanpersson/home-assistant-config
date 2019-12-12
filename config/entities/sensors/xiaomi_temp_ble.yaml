@@ -2,7 +2,6 @@
 #
 platform: mitemp_bt
 mac: !secret xiaomi_temp_mac_baderum
-# adapter: hci1
 name: Baderum
 force_update: true
 median: 1
