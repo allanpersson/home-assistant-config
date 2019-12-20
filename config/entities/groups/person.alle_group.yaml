@@ -7,4 +7,9 @@ person.alle:
   icon: mdi:account-supervisor
   entities:
     - person.allan_persson
-    - person.ea_rose_hebsgaard
+    - person.caroline_hempel
+    - person.ditte_hebsgaard
+    - person.ea_hebsgaard
+    - person.emil_hempel
+    - person.gaester
+    - person.irene_nissen

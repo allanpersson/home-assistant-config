@@ -1,9 +1,0 @@
----
-#
-mailbox:
-  view: true
-  # control: hidden
-  name: "Mailbox"
-  icon: mdi:mailbox-outline
-  entities:
-    - binary_sensor.window_postkasse

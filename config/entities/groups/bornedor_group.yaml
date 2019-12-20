@@ -1,0 +1,9 @@
+---
+#
+bornedor:
+  view: true
+  # control: hidden
+  name: "Bornedor"
+  icon: mdi:door
+  entities:
+    - binary_sensor.window_bornedor
