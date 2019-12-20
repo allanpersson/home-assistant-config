@@ -3,9 +3,7 @@ alias: "Ea sleep (Vacuum)"
 trigger:
   - platform: numeric_state
     entity_id: sensor.motion_born
-    below: 25
-  - platform: time_pattern
-    seconds: "/60"
+    below: 5
 condition:
   condition: and
   conditions:
@@ -14,7 +12,7 @@ condition:
       state: "cleaning"
     - condition: numeric_state
       entity_id: sensor.motion_born
-      below: 5
+      below: 3
     - condition: state
       entity_id: person.ea_hebsgaard
       state: "home"
