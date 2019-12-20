@@ -18,6 +18,15 @@ sensors:
     unit_of_measurement: "%"
     device_class: battery
     icon_template: mdi:battery
+  tecno_batterylevel:
+    friendly_name: Tecno battery
+    entity_id:
+      - device_tracker.tecno_ca6
+    value_template: >
+      {{ states.device_tracker.tecno_ca6.attributes.battery_level }}
+    unit_of_measurement: "%"
+    device_class: battery
+    icon_template: mdi:battery
   galaxys9plus_location:
     friendly_name: Galaxy S9plus location
     entity_id:
