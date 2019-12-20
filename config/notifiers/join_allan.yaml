@@ -1,6 +1,0 @@
----
-# https://www.home-assistant.io/integrations/joaoapps_join/
-platform: joaoapps_join
-name: Join Allan
-api_key: !secret join_api
-device_id: !secret join_galaxy_device_id
