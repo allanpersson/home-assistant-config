@@ -701,8 +701,8 @@ Roll down Ikea Fyrtur cover when Kodi is 'on' - /config/automations/areas/stuen/
 <p></details>
 <details>
 <summary>Play radio in bathroom when having guests</summary><p align="center">
-<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/badevarelset/bad_radio_on_guests.yaml>
-Play radio in bathroom when having guests - /config/automations/areas/badevarelset/bad_radio_on_guests.yaml</a><br>
+<a href=https://github.com/allanpersson/home-assistant-config/blob/master/config/automations/areas/badevarelset/bad_guests.yaml>
+Play radio in bathroom when having guests - /config/automations/areas/badevarelset/bad_guests.yaml</a><br>
 <p></details>
 
 </td></tr>

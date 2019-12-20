@@ -1,6 +1,6 @@
 ---
 #
-alias: "Radio on guests (Badeværelset)"
+alias: "Guest mode (Badeværelset)"
 trigger:
   platform: state
   entity_id: binary_sensor.motion_bad
@@ -34,6 +34,6 @@ action:
       entity_id: media_player.badevaerelset
       volume_level: 0.20
   - delay:
-      minutes: 10
+      minutes: 7
   - service: media_player.turn_off
     entity_id: media_player.badevaerelset
