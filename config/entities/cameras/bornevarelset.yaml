@@ -8,3 +8,4 @@ verify_ssl: false
 authentication: basic
 still_image_url: !secret dafang_still_image_url_born
 stream_source: !secret dafang_stream_source_born
+scan_interval: 5
