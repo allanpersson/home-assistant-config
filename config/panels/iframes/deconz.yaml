@@ -1,8 +1,0 @@
----
-#
-# https://www.home-assistant.io/integrations/panel_iframe/
-#
-deconz:
-  title: Deconz
-  icon: mdi:zigbee
-  url: !secret iframe_url_deconz
