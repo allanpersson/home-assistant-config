@@ -2,6 +2,6 @@
 name: Ditte Hebsgaard
 latitude: !secret zone_dittehebsgaard_latitude
 longitude: !secret zone_dittehebsgaard_longitude
-radius: 30
+radius: 20
 passive: false
 icon: mdi:alien
