@@ -1,0 +1,12 @@
+---
+# https://shelly.cloud/
+alias: Shelly Sync at HA Start
+trigger:
+  - platform: homeassistant
+    event: start
+action:
+  - delay: 00:00:20
+  - service: mqtt.publish
+    data:
+      topic: shellies/command
+      payload: announce
