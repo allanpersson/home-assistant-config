@@ -21,15 +21,20 @@ person:
   - name: Ea Hebsgaard
     id: eahebsgaard
     device_trackers:
-      - device_tracker.eahebsgaard_ble
       - device_tracker.eahebsgaard_bt
       - device_tracker.eahebsgaard_nmap
+      - device_tracker.tecno_ca6
   - name: Emil Hempel
     id: emilhempel
     device_trackers:
       - device_tracker.emilhempel
       - device_tracker.emilhempel_bt
       - device_tracker.emilhempel_nmap
+  - name: Irene Nissen
+    id: irenenissen
+    device_trackers:
+      - device_tracker.irenenissen_bt
+      - device_tracker.irenenissen_nmap
   - name: Otto
     id: otto
     device_trackers:
