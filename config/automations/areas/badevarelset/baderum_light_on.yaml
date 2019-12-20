@@ -1,0 +1,19 @@
+---
+#
+alias: "Baderum light on (Badeværelset)"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.baderum_humidity
+    above: "60"
+# condition:
+#   condition: and
+#   conditions:
+#     - condition: numeric_state
+#       entity_id: sensor.motion_bad
+#       below: 50
+#     - condition: time
+#       before: "22:30"
+#       after: "07:00"
+action:
+  - service: switch.turn_on
+    entity_id: switch.baderum_light_badevaerelset
