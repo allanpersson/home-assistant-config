@@ -4,9 +4,9 @@ sensors:
   galaxys9plus_batterylevel:
     friendly_name: Galaxy S9plus battery
     entity_id:
-      - device_tracker.sm_g965f
+      - device_tracker.pepemobil
     value_template: >
-      {{ states.device_tracker.sm_g965f.attributes.battery_level }}
+      {{ states.device_tracker.pepemobil.attributes.battery_level }}
     unit_of_measurement: "%"
     device_class: battery
   mediapad_batterylevel:
@@ -30,9 +30,9 @@ sensors:
   galaxys9plus_location:
     friendly_name: Galaxy S9plus location
     entity_id:
-      - device_tracker.sm_g965f
+      - device_tracker.pepemobil
     value_template: >
-      {{ states.device_tracker.sm_g965f.attributes.latitude | float }},
-      {{ states.device_tracker.sm_g965f.attributes.longitude | float }}
+      {{ states.device_tracker.pepemobil.attributes.latitude | float }},
+      {{ states.device_tracker.pepemobil.attributes.longitude | float }}
     unit_of_measurement: ""
     icon_template: mdi:map-marker-plus
