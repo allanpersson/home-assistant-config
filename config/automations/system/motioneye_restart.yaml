@@ -12,7 +12,7 @@ action:
       seconds: 10
   - service: switch.turn_on
     entity_id: switch.kokken
-  - service: notify.mobile_app_sm_g965f
+  - service: notify.mobile_app_pepemobil
     data:
       title: "Motioneye genstartet"
       message: "Efter at have været offline..."
