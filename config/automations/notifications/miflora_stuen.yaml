@@ -17,7 +17,7 @@ condition:
       after: "10:00:00"
       before: "21:00:00"
 action:
-  - service: notify.mobile_app_sm_g965f
+  - service: notify.mobile_app_pepemobil
     data:
       title: "Husk at vande!"
       message: "Ginseng i stuen har brug for looooooove"

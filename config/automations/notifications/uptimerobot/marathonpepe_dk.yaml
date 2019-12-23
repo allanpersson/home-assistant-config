@@ -7,7 +7,7 @@ trigger:
     from: "on"
     to: "off"
 action:
-  - service: notify.mobile_app_sm_g965f
+  - service: notify.mobile_app_pepemobil
     data_template:
       title: Marathonpepe.dk is down!
       message: >

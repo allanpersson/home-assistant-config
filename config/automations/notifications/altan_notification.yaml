@@ -7,7 +7,7 @@ trigger:
   from: "off"
   to: "on"
 action:
-  - service: notify.mobile_app_sm_g965f
+  - service: notify.mobile_app_pepemobil
     data:
       title: "Altandør!"
       message: "Døren er netop blevet åbnet...."

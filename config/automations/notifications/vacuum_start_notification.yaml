@@ -4,10 +4,10 @@ alias: "Vacuum start (Notification)"
 trigger:
   platform: state
   entity_id: vacuum.james
-  from: 'docked'
-  to: 'cleaning'
+  from: "docked"
+  to: "cleaning"
 action:
-  - service: notify.mobile_app_sm_g965f
+  - service: notify.mobile_app_pepemobil
     data:
       title: "James er startet!"
       message: "Læn dig tilbage og lad ham gøre rent efter dig"

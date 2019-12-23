@@ -6,7 +6,7 @@ trigger:
   entity_id: vacuum.james
   to: "docked"
 action:
-  - service: notify.mobile_app_sm_g965f
+  - service: notify.mobile_app_pepemobil
     data:
       title: "James AFSLUTTET"
       message: >
