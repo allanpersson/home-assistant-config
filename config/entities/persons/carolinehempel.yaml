@@ -1,0 +1,7 @@
+---
+# https://www.home-assistant.io/integrations/person/
+name: Caroline Hempel
+id: carolinehempel
+device_trackers:
+  - device_tracker.carolinehempel_bt
+  - device_tracker.carolinehempel_nmap

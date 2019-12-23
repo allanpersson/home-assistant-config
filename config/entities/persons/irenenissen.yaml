@@ -1,0 +1,7 @@
+---
+# https://www.home-assistant.io/integrations/person/
+name: Irene Nissen
+id: irenenissen
+device_trackers:
+  - device_tracker.irenenissen_bt
+  - device_tracker.irenenissen_nmap

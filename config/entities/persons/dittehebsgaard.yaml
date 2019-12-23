@@ -1,0 +1,6 @@
+---
+# https://www.home-assistant.io/integrations/person/
+name: Ditte Hebsgaard
+id: dittehebsgaard
+device_trackers:
+  - device_tracker.dittehebsgaard_nmap

@@ -1,0 +1,8 @@
+---
+# https://www.home-assistant.io/integrations/person/
+name: Emil Hempel
+id: emilhempel
+device_trackers:
+  - device_tracker.emilhempel
+  - device_tracker.emilhempel_bt
+  - device_tracker.emilhempel_nmap

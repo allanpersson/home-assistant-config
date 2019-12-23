@@ -1,0 +1,11 @@
+---
+# https://www.home-assistant.io/integrations/person/
+name: Allan Persson
+id: allanpersson
+user_id: !secret user_id_person_allan
+device_trackers:
+  - device_tracker.allanpersson_bt
+  - device_tracker.allanpersson_forerunner_ble
+  - device_tracker.allanpersson_forerunner_bt
+  - device_tracker.allanpersson_nmap
+  - device_tracker.pepemobil
