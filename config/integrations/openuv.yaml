@@ -1,4 +1,4 @@
 ---
-#
+# https://www.home-assistant.io/integrations/openuv/
 openuv:
   api_key: !secret openuv_api
