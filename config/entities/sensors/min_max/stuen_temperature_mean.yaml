@@ -5,6 +5,6 @@ name: "Stuen Temperature (Mean)"
 type: "mean"
 round_digits: 2
 entity_ids:
-  - sensor.sovevaerelset_temperature
+  - sensor.sovevaerelset
   - sensor.stuen_temperature
-  - sensor.motion_stuen_2
+  - sensor.motion_stuen
