@@ -3,7 +3,7 @@
 alias: "Ventilator on (Badeværelset)"
 trigger:
   - platform: numeric_state
-    entity_id: sensor.baderum_humidity
+    entity_id: sensor.baderum_2
     above: "60"
   - platform: numeric_state
     entity_id: sensor.badevaerelset_humidity
@@ -18,5 +18,5 @@ trigger:
 #       before: "22:30"
 #       after: "07:00"
 action:
-  - service: switch.turn_on
-    entity_id: switch.ventilator_badevaerelset
+  - service: fan.turn_on
+    entity_id: fan.badevaerelset

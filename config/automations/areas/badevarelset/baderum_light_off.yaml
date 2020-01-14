@@ -3,8 +3,8 @@
 alias: "Baderum light off (Badeværelset)"
 trigger:
   - platform: numeric_state
-    entity_id: sensor.baderum_humidity
-    below: "60"
+    entity_id: sensor.baderum_2
+    below: "65"
 # condition:
 #   condition: and
 #   conditions:
@@ -15,5 +15,5 @@ trigger:
 #       before: "22:30"
 #       after: "07:00"
 action:
-  - service: switch.turn_off
-    entity_id: switch.baderum_light_badevaerelset
+  - service: light.turn_off
+    entity_id: light.baderum

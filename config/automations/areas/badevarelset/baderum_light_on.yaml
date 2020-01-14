@@ -3,7 +3,7 @@
 alias: "Baderum light on (Badeværelset)"
 trigger:
   - platform: numeric_state
-    entity_id: sensor.baderum_humidity
+    entity_id: sensor.baderum_2
     above: "60"
 # condition:
 #   condition: and
@@ -15,5 +15,5 @@ trigger:
 #       before: "22:30"
 #       after: "07:00"
 action:
-  - service: switch.turn_on
-    entity_id: switch.baderum_light_badevaerelset
+  - service: light.turn_on
+    entity_id: light.baderum
