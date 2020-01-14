@@ -20,7 +20,7 @@ action:
   - service: vacuum.set_fan_speed
     data:
       entity_id: vacuum.james
-      fan_speed: 105
+      fan_speed: Quiet
   - delay:
       milliseconds: 100
   - service: vacuum.return_to_base

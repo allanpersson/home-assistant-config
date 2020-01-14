@@ -25,4 +25,4 @@ action:
   - service: vacuum.set_fan_speed
     data:
       entity_id: vacuum.james
-      fan_speed: 105
+      fan_speed: Gentle
