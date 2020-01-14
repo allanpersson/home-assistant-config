@@ -15,9 +15,14 @@ condition:
       entity_id: sun.sun
       value_template: "{{ states.sun.sun.attributes.elevation }}"
       below: !secret sun_elevation_value
-    - condition: state
-      entity_id: light.kokkenet_nilfisk
-      state: "off"
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: light.kokkenet_nilfisk
+          state: "off"
+        - condition: state
+          entity_id: light.kokkenet_vask
+          state: "off"
     - condition: time
       after: "07:00"
       before: "22:00"
@@ -25,12 +30,14 @@ action:
   - service: light.turn_on
     entity_id: light.kokkenet_vask
     data:
-      transition: 10
+      transition: 1
       brightness_pct: 70
       rgb_color: [255, 160, 39]
+  - delay:
+      milliseconds: 100
   - service: light.turn_on
     entity_id: light.kokkenet_nilfisk
     data:
-      transition: 10
+      transition: 1
       brightness_pct: 70
       rgb_color: [255, 160, 39]
