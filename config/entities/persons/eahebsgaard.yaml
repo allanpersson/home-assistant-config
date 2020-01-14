@@ -6,4 +6,4 @@ user_id: !secret user_id_person_ea
 device_trackers:
   - device_tracker.eahebsgaard_bt
   - device_tracker.eahebsgaard_nmap
-  - device_tracker.tecno_ca6
+  - device_tracker.eahebsgaard
