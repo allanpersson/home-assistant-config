@@ -1,19 +1,13 @@
 ---
 name: Home Assistant CI
-
 # yamllint disable-line rule:truthy
 on:
   push:
     branches:
       - master
-      - "home-assistant/home-assistant/releases/tag/*" # INVALID LINE need help please
-  release:
-    types: published
-      - "home-assistant/home-assistant/releases/tag/*"
   pull_request:
   schedule:
     - cron: 0 10 * * *
-
 jobs:
   yamllint:
     name: "Yamllint"
@@ -122,64 +116,7 @@ jobs:
       - name: Home Assistant Check
         uses: "docker://homeassistant/home-assistant:dev"
         with:
-          args: python -m homeassistant --config ./config/ --script check_config --info all
-  esphome-latest:
-    name: "ESPHome: Stable"
-    runs-on: ubuntu-latest
-    needs: [yamllint, remarklint, jsonlint, shellcheck]
-    steps:
-      - name: Getting your configuration from GitHub
-        uses: actions/checkout@v1
-      - name: Copy stub files into configuration folder
-        run: cp -R ./.stubs/* ./config/esphome/
-      - name: ESPHome Version # INVALID SECTION need help please
-        uses: "docker://esphome/esphome:latest"
-        with:
-          args: >
-            python -m esphome --version
-        continue-on-error: true
-      - name: ESPHome Check # INVALID SECTION need help please
-        uses: "docker://esphome/esphome:latest"
-        with:
-          args: python -m esphome --config ./config/esphome/ --script check_config --info all
-        continue-on-error: true
-  esphome-beta:
-    name: "ESPHome: Beta"
-    runs-on: ubuntu-latest
-    needs: [yamllint, remarklint, jsonlint, shellcheck]
-    steps:
-      - name: Getting your configuration from GitHub
-        uses: actions/checkout@v1
-      - name: Copy stub files into configuration folder
-        run: cp -R ./.stubs/* ./config/esphome/
-      - name: ESPHome Version # INVALID SECTION need help please
-        uses: "docker://esphome/esphome:beta"
-        with:
-          args: >
-            esphome -version
-        continue-on-error: true
-      - name: ESPHome Check # INVALID SECTION need help please
-        uses: "docker://esphome/esphome:beta"
-        with:
-          args: python -m esphome --config ./config/esphome/ --script check_config --info all
-        continue-on-error: true
-  esphome-dev:
-    name: "ESPHome: Developer"
-    runs-on: ubuntu-latest
-    needs: [yamllint, remarklint, jsonlint, shellcheck]
-    steps:
-      - name: Getting your configuration from GitHub
-        uses: actions/checkout@v1
-      - name: Copy stub files into configuration folder
-        run: cp -R ./.stubs/* ./config/esphome/
-      - name: ESPHome Version # INVALID SECTION need help please
-        uses: "docker://esphome/esphome:dev"
-        with:
-          args: >
-            esphome -v
-        continue-on-error: true
-      - name: ESPHome Check # INVALID SECTION need help please
-        uses: "docker://esphome/esphome:dev"
-        with:
-          args: python -m esphome --config ./config/esphome/ --script check_config --info all
+          args:
+            python -m homeassistant --config ./config/ --script check_config --info all
+            --config ./config/esphome/ --script check_config --info all
         continue-on-error: true
