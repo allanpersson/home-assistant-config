@@ -1,0 +1,3 @@
+---
+#
+fan: !include_dir_list ../entities/fans
