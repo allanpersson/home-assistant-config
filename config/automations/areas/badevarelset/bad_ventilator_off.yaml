@@ -5,18 +5,6 @@ trigger:
   - platform: numeric_state
     entity_id: sensor.baderum_2
     below: "60"
-  # - platform: numeric_state
-  #   entity_id: sensor.badevaerelset_humidity
-  #   below: "60"
-# condition:
-#   condition: and
-#   conditions:
-#     - condition: numeric_state
-#       entity_id: sensor.motion_bad
-#       below: 50
-#     - condition: time
-#       before: "22:30"
-#       after: "07:00"
 action:
   - service: fan.turn_off
     entity_id: fan.badevaerelset
