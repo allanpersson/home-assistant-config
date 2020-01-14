@@ -1,0 +1,13 @@
+---
+#
+platform: template
+lights:
+  baderum:
+    friendly_name: "Baderum"
+    value_template: "{{ states('switch.baderum_light_badevaerelset') }}"
+    turn_on:
+      service: switch.turn_on
+      entity_id: switch.baderum_light_badevaerelset
+    turn_off:
+      service: switch.turn_off
+      entity_id: switch.baderum_light_badevaerelset
