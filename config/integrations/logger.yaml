@@ -1,10 +1,31 @@
 ---
-#
+# https://www.home-assistant.io/integrations/logger/
 logger:
   default: warning
   logs:
-    pydeconz: warning
-    homeassistant.components.deconz: warning
-    custom_components.hacs: warning
-    homeassistant.components.homekit: warning
-    pyhap: warning
+    # HA
+    homeassistant.core: info
+    homeassistant.setup: info
+
+    # MQTT
+    homeassistant.components.mqtt: info
+
+    # Deconz
+    pydeconz: warn
+    homeassistant.components.deconz: warn
+
+    # HACS
+    custom_components.hacs: warn
+
+    # Nabu Casa
+    hass_nabucasa: warn
+    snitun: warn
+
+    # Homekit
+    homeassistant.components.homekit: info
+    pyhap: info
+
+    # Device tracker
+    homeassistant.components.device_tracker.bluetooth_tracker: debug
+    homeassistant.components.device_tracker.bluetooth_le_tracker: debug
+    homeassistant.components.device_tracker: info
