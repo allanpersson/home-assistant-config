@@ -16,6 +16,8 @@ sensors:
       - climate.stuen
     value_template: "{{ states.climate.stuen.attributes.current_humidity }}"
     unit_of_measurement: "%"
+    device_class: humidity
+    icon_template: mdi:water-percent
   stuen_target_temperature:
     friendly_name: Stuen target temperature
     entity_id:
@@ -41,6 +43,8 @@ sensors:
       - climate.gangen
     value_template: "{{ states.climate.gangen.attributes.current_humidity }}"
     unit_of_measurement: "%"
+    device_class: humidity
+    icon_template: mdi:water-percent
   gangen_target_temperature:
     friendly_name: Gangen target temperature
     entity_id:
@@ -68,6 +72,8 @@ sensors:
     value_template: >
       {{ states.climate.bornevaerelset.attributes.current_humidity }}
     unit_of_measurement: "%"
+    device_class: humidity
+    icon_template: mdi:water-percent
   bornevaerelset_target_temperature:
     friendly_name: Børneværelset target temperature
     entity_id:
@@ -95,6 +101,8 @@ sensors:
       - climate.kokkenet
     value_template: "{{ states.climate.kokkenet.attributes.current_humidity }}"
     unit_of_measurement: "%"
+    device_class: humidity
+    icon_template: mdi:water-percent
   kokkenet_target_temperature:
     friendly_name: Køkkenet target temperature
     entity_id:
@@ -122,6 +130,8 @@ sensors:
     value_template: >
       {{ states.climate.badevaerelset.attributes.current_humidity }}
     unit_of_measurement: "%"
+    device_class: humidity
+    icon_template: mdi:water-percent
   badevaerelset_target_temperature:
     friendly_name: Badeværelset target temperature
     entity_id:
