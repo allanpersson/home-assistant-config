@@ -3,16 +3,16 @@
 alias: "Smokealarm alert"
 trigger:
   - platform: state
-    entity_id: binary_sensor.fire_born
+    entity_id: binary_sensor.lumi_sensor_smoke
     to: "on"
   - platform: state
-    entity_id: binary_sensor.fire_gang
+    entity_id: binary_sensor.lumi_sensor_smoke_2
     to: "on"
   - platform: state
-    entity_id: binary_sensor.fire_kokken
+    entity_id: binary_sensor.lumi_sensor_smoke_3
     to: "on"
   - platform: state
-    entity_id: binary_sensor.fire_stuen
+    entity_id: binary_sensor.lumi_sensor_smoke_4
     to: "on"
 action:
   - service: light.turn_on
