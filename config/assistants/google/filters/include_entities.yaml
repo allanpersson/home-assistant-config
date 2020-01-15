@@ -22,7 +22,12 @@ include_entities:
   - script.cover_stuen_50_percent_open
   - script.cover_stuen_100_percent_open
 
+  #### Fans ####
+  - fan.badevaerelset
+  - fan.bornevaerelset
+
   #### Lights ####
+  - light.baderum
   - light.badevaerelset
   - light.bornevaerelset
   - light.gangen
@@ -58,11 +63,14 @@ include_entities:
   - switch.adguard_protection
   - switch.kokken
   - switch.born
-  - switch.gang
+  - switch.google_home_stuen
   - switch.router
 
   #### Vacuum ####
   - vacuum.james
+  - script.vacuum_return_to_dock
+  - script.vacuum_start
+  - script.vacuum_pause
   - script.vacuum_badevarelset
   - script.vacuum_bornevarelset
   - script.vacuum_gangen
