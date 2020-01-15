@@ -1,8 +1,8 @@
 ---
-#
+# https://www.home-assistant.io/integrations/mitemp_bt/
 platform: mitemp_bt
 mac: !secret xiaomi_temp_mac_baderum
-name: Baderum
+name: Gangen display
 force_update: true
 median: 1
 timeout: 60
