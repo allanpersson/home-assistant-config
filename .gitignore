@@ -4,6 +4,7 @@
 *.db
 *.db-shm
 *.db-wal
+*.disable
 *.pyc
 ._*
 __pycache__
@@ -61,6 +62,8 @@ config/customizations
 config/glances
 config/tts
 config/www/community/**/
+config/www/images/persons/*
+config/entities/binary_sensors/ping_private/*
 config/README.md
 config/.gitignore
 config/.yamllint
