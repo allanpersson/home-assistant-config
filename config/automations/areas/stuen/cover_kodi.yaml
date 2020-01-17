@@ -3,11 +3,8 @@
 alias: "Cover - Kodi (Stuen)"
 trigger:
   - platform: state
-    entity_id: media_player.kodi
-    to: "paused"
-  - platform: state
-    entity_id: media_player.kodi
-    to: "playing"
+    entity_id: sensor.android_tv_boks_source
+    to: "Kodi"
 condition:
   condition: or
   conditions:
