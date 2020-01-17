@@ -4,7 +4,7 @@ alias: "Baderum light on (Badeværelset)"
 trigger:
   - platform: numeric_state
     entity_id: sensor.baderum_2
-    above: "60"
+    above: "63"
 action:
   - service: light.turn_on
     entity_id: light.baderum
