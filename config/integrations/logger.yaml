@@ -29,3 +29,9 @@ logger:
     homeassistant.components.device_tracker.bluetooth_tracker: debug
     homeassistant.components.device_tracker.bluetooth_le_tracker: debug
     homeassistant.components.device_tracker: info
+
+    # ADB
+    androidtv.adb_manager: error
+
+    # Mediaplayer
+    homeassistant.components.media_player: error
