@@ -57,11 +57,9 @@ addons/*
 backup/*
 share/*
 ssl/*
-config/custom_components/**/
 config/customizations
 config/glances
 config/tts
-config/www/community/**/
 config/www/images/persons/*
 config/entities/binary_sensors/ping_private/*
 config/README.md
