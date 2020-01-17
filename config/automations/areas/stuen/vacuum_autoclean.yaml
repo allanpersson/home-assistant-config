@@ -17,6 +17,12 @@ condition:
     - condition: state
       entity_id: vacuum.james
       state: "docked"
+    - condition: state
+      entity_id: input_boolean.children_home_mode
+      state: "off"
+    - condition: state
+      entity_id: input_boolean.sleep_mode
+      state: "off"
 action:
   - service: vacuum.start
     entity_id: vacuum.james
