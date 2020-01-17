@@ -1,6 +1,6 @@
 ---
 #
-alias: ha version update
+alias: "HA version update"
 trigger:
   - platform: time_pattern
     hours: "/6"
