@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/input_boolean
+laundering_mode:
+  name: Laundering Mode
+  icon: mdi:washing-machine

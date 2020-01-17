@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/input_boolean
+party_mode:
+  name: Party Mode
+  icon: mdi:party-popper

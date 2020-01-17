@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/input_boolean
+christmas_mode:
+  name: Christmas Mode
+  icon: mdi:pine-tree

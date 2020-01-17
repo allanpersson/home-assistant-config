@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/input_boolean
+children_home_mode:
+  name: Children Home Mode
+  icon: mdi:baby-face

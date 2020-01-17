@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/input_boolean
+romantic_mode:
+  name: Romantic Mode
+  icon: mdi:candle
