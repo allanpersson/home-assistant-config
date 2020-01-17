@@ -12,7 +12,7 @@ condition:
   condition: and
   conditions:
     - condition: numeric_state
-      entity_id: sensor.motion_stuen
+      entity_id: sensor.motion_stuen_2
       below: 10
     - condition: numeric_state
       entity_id: sun.sun
