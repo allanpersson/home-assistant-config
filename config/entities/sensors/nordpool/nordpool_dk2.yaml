@@ -3,5 +3,5 @@
 platform: nordpool
 friendly_name: "Nordpool Sjælland kWh"
 region: "DK2"
-VAT: True
+VAT: true
 price_type: kWh
