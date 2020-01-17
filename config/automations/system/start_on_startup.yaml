@@ -1,6 +1,6 @@
 ---
 #
-alias: start on startup
+alias: "Start on startup"
 trigger:
   - platform: homeassistant
     event: start
@@ -10,6 +10,6 @@ action:
   - service: switch.turn_on
     entity_id: switch.bad
   - service: switch.turn_on
-    entity_id: switch.gang
+    entity_id: switch.google_home_stuen
   - service: switch.turn_on
     entity_id: switch.router
