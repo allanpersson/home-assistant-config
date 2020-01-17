@@ -14,18 +14,9 @@ trigger:
 condition:
   condition: and
   conditions:
-    # - condition: state
-    #   entity_id: light.kokkenet_nilfisk
-    #   state: "off"
-    # - condition: state
-    #   entity_id: light.kokkenet_vask
-    #   state: "off"
-    # - condition: state
-    #   entity_id: light.gangen
-    #   state: "off"
-    # - condition: state
-    #   entity_id: light.badevaerelset
-    #   state: "off"
+    - condition: state
+      entity_id: input_boolean.halloween_mode
+      state: "on"
     - condition: state
       entity_id: automation.lights_off_day_kokkenet
       state: "off"
