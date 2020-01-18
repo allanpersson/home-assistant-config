@@ -2,9 +2,7 @@
 #
 garmin:
   view: true
-  # control: hidden
   name: "Garmin group"
-  # icon: mdi:lightbulb-on
   entities:
     - script.vacuum_return_to_dock
     - script.vacuum_start
@@ -14,8 +12,10 @@ garmin:
     - script.cover_stuen_10_percent_open
     - script.cover_stuen_0_percent_open
     - script.godnat_vacuum_off
+    - fan.badevaerelset
     - light.kokkenet_nilfisk
     - light.kokkenet_vask
+    - light.baderum
     - light.badevaerelset
     - light.bornevaerelset
     - light.gangen
