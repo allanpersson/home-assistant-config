@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/sentry/
+sentry:
+  dsn: !secret sentry_dsn
+  environment: HA errors
