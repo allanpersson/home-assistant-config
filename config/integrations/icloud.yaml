@@ -1,0 +1,3 @@
+---
+# https://www.home-assistant.io/integrations/icloud/
+icloud: !include_dir_merge_list ../entities/iclouds
