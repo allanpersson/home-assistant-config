@@ -1,5 +1,5 @@
 ---
 # https://www.home-assistant.io/integrations/input_boolean
-guest_mode:
-  name: Guest Mode
-  icon: mdi:account-group
+cleaning_mode:
+  name: Cleaning Mode
+  icon: mdi:fingerprint
