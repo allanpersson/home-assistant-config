@@ -15,4 +15,13 @@ condition:
       after: "00:00:01"
       before: "11:59:59"
 action:
-  - service: script.cover_stuen_100_percent_open
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_venstre
+    data:
+      position: 100
+  - delay:
+      milliseconds: 100
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_hojre
+    data:
+      position: 100

@@ -1,0 +1,39 @@
+---
+#
+alias: "Cover - switch open (Stuen)"
+trigger:
+  - platform: event
+    event_type: deconz_event
+    event_data:
+      id: tradfri_open_close_remote
+      unique_id: "00:0d:6f:ff:fe:e3:ac:ca"
+      event: 1001
+  - platform: event
+    event_type: deconz_event
+    event_data:
+      id: tradfri_open_close_remote
+      unique_id: "00:0d:6f:ff:fe:e3:ac:ca"
+      event: 1002
+  - platform: event
+    event_type: deconz_event
+    event_data:
+      id: tradfri_open_close_remote
+      unique_id: "00:0d:6f:ff:fe:e3:a8:f2"
+      event: 1001
+  - platform: event
+    event_type: deconz_event
+    event_data:
+      id: tradfri_open_close_remote
+      unique_id: "00:0d:6f:ff:fe:e3:a8:f2"
+      event: 1002
+action:
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_venstre
+    data:
+      position: 100
+  - delay:
+      milliseconds: 100
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_hojre
+    data:
+      position: 100

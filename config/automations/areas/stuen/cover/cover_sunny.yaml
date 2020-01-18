@@ -21,4 +21,13 @@ condition:
       entity_id: sensor.stuen_temperature_mean
       above: 22.0
 action:
-  - service: script.cover_stuen_0_percent_open
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_venstre
+    data:
+      position: 23
+  - delay:
+      milliseconds: 100
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_hojre
+    data:
+      position: 23
