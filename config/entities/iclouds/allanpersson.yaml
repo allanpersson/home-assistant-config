@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/icloud/
+- username: !secret icloud_username_allanpersson
+  password: !secret icloud_password_allanpersson
+  account_name: "Allan Persson Icloud"
