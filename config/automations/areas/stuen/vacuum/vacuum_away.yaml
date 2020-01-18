@@ -1,0 +1,23 @@
+---
+#
+alias: "Away (Vacuum)"
+trigger:
+  - platform: state
+    entity_id: group.person_alle
+    to: "not_home"
+  - platform: time_pattern
+    seconds: "/180"
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: vacuum.james
+      state: "cleaning"
+    - condition: state
+      entity_id: group.person_alle
+      state: "not_home"
+action:
+  - service: vacuum.set_fan_speed
+    data:
+      entity_id: vacuum.james
+      fan_speed: Max
