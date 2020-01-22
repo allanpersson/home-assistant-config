@@ -4,22 +4,22 @@ trigger:
   - platform: event
     event_type: deconz_event
     event_data:
-      id: huset
+      id: bornevaerelset
       event: 1001
   - platform: event
     event_type: deconz_event
     event_data:
-      id: huset
+      id: bornevaerelset
       event: 1002
   - platform: event
     event_type: deconz_event
     event_data:
-      id: huset
+      id: bornevaerelset
       event: 2001
   - platform: event
     event_type: deconz_event
     event_data:
-      id: huset
+      id: bornevaerelset
       event: 2002
 action:
   - service: light.turn_on
