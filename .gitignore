@@ -1,4 +1,6 @@
 ---
+# https://github.com/github/gitignore
+#
 # Generic ignores
 *.log
 *.db
@@ -13,6 +15,15 @@ __pycache__
 config/.cloud
 config/.storage
 config/deps
+addons/*
+backup/*
+share/*
+ssl/*
+config/glances
+config/tts
+config/www/images/persons/*
+config/entities/binary_sensors/ping_private/*
+config/.stubs/*
 
 # Specific file ignores
 config/.config_entries.json
@@ -30,6 +41,10 @@ config/ip_bans.yaml
 config/known_devices.yaml
 config/options.xml
 config/secrets.yaml
+config/README.md
+config/.gitignore
+config/.yamllint
+config/www/videos/seasons/halloween.mp4
 
 # ESPHome ignores
 config/esphome/**/
@@ -51,19 +66,3 @@ config/notebooks
 config/_gsdata_/*
 .stubs/_gsdata_/*
 _gsdata_/*
-
-# Manuel control
-addons/*
-backup/*
-share/*
-ssl/*
-config/customizations
-config/glances
-config/tts
-config/www/images/persons/*
-config/www/videos/seasons/halloween.mp4
-config/entities/binary_sensors/ping_private/*
-config/README.md
-config/.gitignore
-config/.yamllint
-config/.stubs/*
