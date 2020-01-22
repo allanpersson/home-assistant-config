@@ -1,0 +1,3 @@
+---
+person.gaester:
+  entity_picture: !secret gaester_image

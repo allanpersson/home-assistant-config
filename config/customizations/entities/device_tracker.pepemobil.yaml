@@ -1,0 +1,3 @@
+---
+device_tracker.pepemobil:
+  entity_picture: !secret allanpersson_image

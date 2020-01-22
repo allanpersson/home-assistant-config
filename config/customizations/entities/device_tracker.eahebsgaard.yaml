@@ -1,0 +1,3 @@
+---
+device_tracker.eahebsgaard:
+  entity_picture: !secret eahebsgaard_image
