@@ -1,0 +1,28 @@
+---
+# https://www.home-assistant.io/integrations/trend/
+platform: trend
+sensors:
+  outdoor_temperature_falling:
+    friendly_name: Outdoor temperature falling
+    entity_id: sensor.owm_temperature
+    sample_duration: 7200
+    min_gradient: -0.0008
+    device_class: cold
+  outdoor_temperature_rising:
+    friendly_name: Outdoor temperature rising
+    entity_id: sensor.owm_temperature
+    sample_duration: 7200
+    min_gradient: 0.0008
+    device_class: heat
+  baderum_humidity_falling:
+    friendly_name: Baderum humidity falling
+    entity_id: sensor.baderum_2
+    sample_duration: 300
+    min_gradient: -0.0008
+    device_class: moisture
+  baderum_humidity_rising:
+    friendly_name: Baderum humidity rising
+    entity_id: sensor.baderum_2
+    sample_duration: 300
+    min_gradient: 0.0008
+    device_class: moisture
