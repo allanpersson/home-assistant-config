@@ -2,5 +2,6 @@
 # https://www.home-assistant.io/integrations/meteoalarm/
 platform: meteoalarm
 name: "Meteroalarm"
-country: "DK"
+country: 'DK'
+language: 'da'
 province: "Østjylland"
