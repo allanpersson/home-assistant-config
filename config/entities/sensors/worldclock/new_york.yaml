@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/worldclock/
+platform: worldclock
+name: "Time: New York"
+time_zone: America/New_York
