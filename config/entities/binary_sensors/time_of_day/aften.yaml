@@ -1,0 +1,6 @@
+---
+# https://www.home-assistant.io/integrations/tod/
+platform: tod
+name: Aften
+after: '18:00'
+before: '0:00'

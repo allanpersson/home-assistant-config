@@ -1,0 +1,6 @@
+---
+# https://www.home-assistant.io/integrations/tod/
+platform: tod
+name: Morgen
+after: sunrise
+before: '09:00'

@@ -1,0 +1,6 @@
+---
+# https://www.home-assistant.io/integrations/tod/
+platform: tod
+name: Nat
+after: '0:00'
+before: sunrise
