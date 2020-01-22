@@ -1,0 +1,9 @@
+---
+# https://www.home-assistant.io/integrations/history_stats/
+platform: history_stats
+name: Android tv on time (today)
+entity_id: sensor.android_tv_boks_state
+state: "on"
+type: time
+start: "{{ now().replace(hour=0).replace(minute=0).replace(second=0) }}"
+end: "{{ now() }}"

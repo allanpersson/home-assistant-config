@@ -1,0 +1,9 @@
+---
+# https://www.home-assistant.io/integrations/history_stats/
+platform: history_stats
+name: Vacuum total cleaning time (today)
+entity_id: vacuum.james
+state: "cleaning"
+type: time
+start: "{{ now().replace(hour=0).replace(minute=0).replace(second=0) }}"
+end: "{{ now() }}"
