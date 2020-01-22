@@ -33,26 +33,23 @@ jobs:
             "remark --no-stdout --color --frail
             --use preset-lint-recommended ."
   home_assistant_stable:
+    name: "Home-Assistant: Stable"
     runs-on: ubuntu-latest
+    needs: [yamllint, remarklint]
     steps:
-      - name: Getting configuration from GitHub
+      - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
-      - name: Generate secrets.yaml
-        run: |
-          grep -r -h -o "\!secret [a-zA-Z\-\_][a-zA-Z0-9\-\_]*" . | sed -E 's/\!secret ([a-zA-Z0-9\-\_]*)/\1: X/g' | sort | uniq > secrets.yaml
-          sed -E -i 's/(.*)_url: X/\1_url: https\:\/\/home\-assistant\.com/g' secrets.yaml
-          sed -E -i 's/(.*)_(num|port): X/\1_\2: 12/g' secrets.yaml
-          sed -E -i 's/(.*)_ip: X/\1_ip: 1.1.1.1/g' secrets.yaml
-          sed -E -i 's/zwave_network_key: X/zwave_network_key: 0x2e, 0xcc, 0xab, 0x1c, 0xa3, 0x7f, 0x0e, 0xb5, 0x70, 0x71, 0x2d, 0x98, 0x25, 0x43, 0xee, 0x0c/g' secrets.yaml
-          cat secrets.yaml
+      - name: Copy stub files into configuration folder
+        run: cp -R ./.stubs/* ./config
       - name: Home Assistant Version
         uses: "docker://homeassistant/home-assistant:stable"
         with:
-          args: python -m homeassistant --version
-      - name: Home Assistant Config Check
+          args: >
+            python -m homeassistant --version
+      - name: Home Assistant Check
         uses: "docker://homeassistant/home-assistant:stable"
         with:
-          args: python -m homeassistant --config ./config --script check_config --info all
+          args: python -m homeassistant --config ./config/ --script check_config --info all
   home_assistant_beta:
     name: "Home-Assistant: Beta"
     runs-on: ubuntu-latest
