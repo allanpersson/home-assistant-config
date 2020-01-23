@@ -23,6 +23,7 @@ config/glances
 config/tts
 config/www/images/persons/*
 config/entities/binary_sensors/ping_private/*
+config/entities/zones/zones_private/*
 config/.stubs/*
 
 # Specific file ignores
