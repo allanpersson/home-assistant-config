@@ -1,8 +1,6 @@
 ---
 #
 stuen_windows:
-  view: true
-  # control: hidden
   name: "Stuen windows"
   icon: mdi:border-all-variant
   entities:

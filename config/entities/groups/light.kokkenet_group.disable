@@ -1,8 +1,6 @@
 ---
 #
 light.kokkenet:
-  view: true
-  # control: hidden
   name: "Light Køkkenet"
   icon: mdi:lightbulb-on
   entities:

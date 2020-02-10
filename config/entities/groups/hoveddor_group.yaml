@@ -1,9 +1,7 @@
 ---
 #
 hoveddor:
-  view: true
-  # control: hidden
   name: "Hoveddør"
   icon: mdi:door
   entities:
-    - binary_sensor.window_hoveddor
+    - binary_sensor.door_hoveddor

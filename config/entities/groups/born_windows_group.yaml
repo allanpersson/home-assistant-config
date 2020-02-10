@@ -1,9 +1,7 @@
 ---
 #
 born_windows:
-  view: true
-  # control: hidden
   name: "Børneværelset windows"
   icon: mdi:border-all-variant
   entities:
-    - binary_sensor.window_born
+    - binary_sensor.window_bornevaerelset

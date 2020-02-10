@@ -1,9 +1,7 @@
 ---
 #
 bad_windows:
-  view: true
-  # control: hidden
   name: "Badeværelset windows"
   icon: mdi:border-all-variant
   entities:
-    - binary_sensor.window_bad
+    - binary_sensor.window_badevaerelset

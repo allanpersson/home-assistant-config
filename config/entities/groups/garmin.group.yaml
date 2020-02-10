@@ -1,7 +1,6 @@
 ---
 #
 garmin:
-  view: true
   name: "Garmin group"
   entities:
     - script.vacuum_return_to_dock

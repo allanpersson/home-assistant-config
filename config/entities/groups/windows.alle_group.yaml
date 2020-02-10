@@ -1,17 +1,15 @@
 ---
 #
 windows.alle:
-  view: true
-  # control: hidden
   name: "Windows Alle"
   icon: mdi:border-all-variant
   entities:
-    - binary_sensor.window_altandor
-    - binary_sensor.window_bad
-    - binary_sensor.window_born
-    - binary_sensor.window_hoveddor
-    - binary_sensor.window_kokken_hojre
-    - binary_sensor.window_kokken_lille
-    - binary_sensor.window_kokken_venstre
+    - binary_sensor.window_badevaerelset
+    - binary_sensor.window_bornevaerelset
+    - binary_sensor.window_kokkenet_hojre
+    - binary_sensor.window_kokkenet_lille
+    - binary_sensor.window_kokkenet_venstre
     - binary_sensor.window_stuen_hojre
     - binary_sensor.window_stuen_venstre
+    - binary_sensor.door_altandor
+    - binary_sensor.door_hoveddor

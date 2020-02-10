@@ -1,8 +1,6 @@
 ---
 #
 person.alle:
-  view: true
-  # control: hidden
   name: "Personer alle"
   icon: mdi:account-supervisor
   entities:

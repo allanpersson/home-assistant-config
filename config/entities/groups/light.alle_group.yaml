@@ -1,8 +1,6 @@
 ---
 #
 light.alle:
-  view: true
-  # control: hidden
   name: "Light Alle"
   icon: mdi:lightbulb-on
   entities:
