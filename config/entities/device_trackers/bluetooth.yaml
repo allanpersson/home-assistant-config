@@ -1,9 +1,3 @@
 ---
 # https://www.home-assistant.io/integrations/bluetooth_tracker/
 platform: bluetooth_tracker
-request_rssi: 'true'
-consider_home: 180
-interval_seconds: 12
-new_device_defaults:
-  track_new_devices: true
-  hide_if_away: false
