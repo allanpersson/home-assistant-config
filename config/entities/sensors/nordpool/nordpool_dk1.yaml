@@ -1,7 +1,0 @@
----
-# https://github.com/custom-components/nordpool
-platform: nordpool
-friendly_name: "Nordpool Jylland/Fyn kWh"
-region: "DK1"
-VAT: true
-price_type: kWh
