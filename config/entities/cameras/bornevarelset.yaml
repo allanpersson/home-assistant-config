@@ -1,11 +1,14 @@
 ---
 # Xiaomi Dafang
-platform: generic
-name: "Børneværelset"
-username: !secret dafang_username_born
-password: !secret dafang_password_born
-verify_ssl: false
-authentication: basic
-still_image_url: !secret dafang_still_image_url_born
-stream_source: !secret dafang_stream_source_born
-scan_interval: 5
+# platform: generic
+# name: "Børneværelset"
+# username: !secret dafang_username_born
+# password: !secret dafang_password_born
+# verify_ssl: false
+# authentication: basic
+# still_image_url: !secret dafang_still_image_url_born
+# stream_source: !secret dafang_stream_source_born
+# scan_interval: 5
+platform: ffmpeg
+name: Børneværelset
+input: !secret dafang_ffmpeg_input_born
