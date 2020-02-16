@@ -1,7 +1,0 @@
----
-name: Anders Dall
-latitude: !secret zone_andersdall_latitude
-longitude: !secret zone_andersdall_longitude
-radius: 500
-passive: false
-icon: mdi:human
