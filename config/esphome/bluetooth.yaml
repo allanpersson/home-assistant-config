@@ -59,27 +59,27 @@ text_sensor:
       name: Bluetooth BSSID
 
 sensor:
-  # - platform: xiaomi_hhccjcy01
-  #   mac_address: !secret miflora_mac
-  #   temperature:
-  #     name: "plante_stuen_ginseng_temperature_board"
-  #   moisture:
-  #     name: "plante_stuen_ginseng_moisture_board"
-  #   illuminance:
-  #     name: "plante_stuen_ginseng_light_intensity_board"
-  #   conductivity:
-  #     name: "plante_stuen_ginseng_conductivity_board"
-  #   battery_level:
-  #     name: "plante_stuen_ginseng_battery_board"
+  - platform: xiaomi_hhccjcy01
+    mac_address: !secret miflora_mac
+    temperature:
+      name: "plante_stuen_ginseng_temperature"
+    moisture:
+      name: "plante_stuen_ginseng_moisture"
+    illuminance:
+      name: "plante_stuen_ginseng_light_intensity"
+    conductivity:
+      name: "plante_stuen_ginseng_conductivity"
+    battery_level:
+      name: "plante_stuen_ginseng_battery"
 
-  # - platform: xiaomi_lywsdcgq
-  #   mac_address: !secret xiaomi_temp_mac
-  #   temperature:
-  #     name: "Baderum_temperature_board"
-  #   humidity:
-  #     name: "Baderum_humidity_board"
-  #   battery_level:
-  #     name: "Baderum_battery_board"
+  - platform: xiaomi_lywsdcgq
+    mac_address: !secret xiaomi_temp_mac
+    temperature:
+      name: "Gangen_display_temperature"
+    humidity:
+      name: "Gangen_display_humidity"
+    battery_level:
+      name: "Gangen_display_battery"
 
   - platform: wifi_signal
     name: "Bluetooth board WiFi Signal"
