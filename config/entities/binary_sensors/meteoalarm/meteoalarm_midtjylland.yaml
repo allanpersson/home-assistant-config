@@ -1,7 +1,7 @@
 ---
 # https://www.home-assistant.io/integrations/meteoalarm/
 platform: meteoalarm
-name: "Meteroalarm"
+name: "Meteoalarm Midt- og Vestjylland"
 country: 'DK'
-language: 'da'
-province: "Østjylland"
+language: da'
+province: 'Midt- og Vestjylland'
