@@ -1,0 +1,9 @@
+{
+  "domain": "logbook_cache",
+  "name": "Logbook Cache",
+  "config_flow": true,
+  "documentation": "https://github.com/amelchio/logbook_cache/",
+  "requirements": [],
+  "dependencies": ["logbook"],
+  "codeowners": ["@amelchio"]
+}
