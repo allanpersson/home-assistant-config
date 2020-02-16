@@ -5,11 +5,9 @@ trigger:
   - platform: homeassistant
     event: start
 action:
-  # - service: switch.turn_on
-  #   entity_id: switch.born
-  - service: switch.turn_on
-    entity_id: switch.bad
   - service: switch.turn_on
     entity_id: switch.google_home_stuen
+  - service: switch.turn_on
+    entity_id: switch.kokkenet
   - service: switch.turn_on
     entity_id: switch.router
