@@ -1,0 +1,7 @@
+---
+# https://www.home-assistant.io/integrations/google_assistant/#entity_config
+sensor.sovevaerelset:
+  # name: 'Cover: Stuen, hojre'
+  aliases:
+    - Soveværelset temperatur
+  room: Soveværelset

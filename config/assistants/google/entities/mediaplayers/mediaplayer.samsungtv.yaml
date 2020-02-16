@@ -4,5 +4,4 @@ media_player.samsung_tv:
   name: Samsung Tv
   aliases:
     - Samsung Tv
-    - Tv
   room: Stuen

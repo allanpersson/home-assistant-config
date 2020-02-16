@@ -1,0 +1,10 @@
+---
+# https://www.home-assistant.io/integrations/google_assistant/#entity_config
+cover.stuen_venstre:
+  name: 'Stuen, venstre'
+  aliases:
+    - cover stuen venstre
+    - persienne stuen venstre
+    - gardin stuen venstre
+    - stuen venstre
+  room: Stuen

@@ -1,0 +1,11 @@
+---
+# https://www.home-assistant.io/integrations/google_assistant/#entity_config
+light.baderum:
+  name: "Baderum"
+  aliases:
+    - Lys baderum
+    - Lys badet
+    - lys i badet
+    - lys i baderum
+    - lys i baderummet
+  room: Baderum

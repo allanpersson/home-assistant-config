@@ -22,6 +22,11 @@ include_entities:
   - script.cover_stuen_50_percent_open
   - script.cover_stuen_100_percent_open
 
+  #### Device Trackers ####
+  - device_tracker.eahebsgaard
+  - device_tracker.mediapad
+  - device_tracker.pepemobil
+
   #### Fans ####
   - fan.badevaerelset
   - fan.bornevaerelset
@@ -50,19 +55,21 @@ include_entities:
 
   #### Persons ####
   - person.allan_persson
+  - person.ea_hebsgaard
 
   #### Sensors ####
-  - binary_sensor.window_altandor
-  - binary_sensor.window_hoveddor
-  - binary_sensor.window_postkasse
+  - binary_sensor.door_altandor
+  - binary_sensor.door_hoveddor
+  - binary_sensor.door_bornedor
   - binary_sensor.fire_stuen
   - sensor.owm_temperature
   - sensor.rejseplanen_engdalsvej_arhusvej_mod_aarhus_skanderborg
+  - sensor.sovevaerelset
 
   #### Switches ####
   - switch.adguard_protection
-  - switch.kokken
-  - switch.born
+  - switch.kokkenet
+  - switch.ventilator_bornevaerelset
   - switch.google_home_stuen
   - switch.router
 
