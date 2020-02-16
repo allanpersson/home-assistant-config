@@ -18,8 +18,8 @@ trigger:
 action:
   - service: notify.mobile_app_pepemobil
     data:
-        title: "Wake up!"
-        message: "The house is on fire and the cat's stuck in the dryer!"
-        data:
-          ttl: 0
-          priority: high
+      title: "Wake up!"
+      message: "The house is on fire and the cat's stuck in the dryer!"
+      data:
+        ttl: 0
+        priority: high
