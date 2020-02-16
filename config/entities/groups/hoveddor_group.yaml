@@ -1,7 +1,0 @@
----
-#
-hoveddor:
-  name: "Hoveddør"
-  icon: mdi:door
-  entities:
-    - binary_sensor.door_hoveddor

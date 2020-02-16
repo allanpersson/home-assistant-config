@@ -5,4 +5,4 @@ motion.kokkenet:
   icon: mdi:run-fast
   entities:
     - binary_sensor.dafang_kokkenet_motion_sensor
-    - bbinary_sensor.motion_kokkenet
+    - binary_sensor.motion_kokkenet

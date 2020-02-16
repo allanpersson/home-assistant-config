@@ -1,7 +1,0 @@
----
-#
-altandor:
-  name: "Altandør"
-  icon: mdi:door
-  entities:
-    - binary_sensor.door_altandor

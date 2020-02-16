@@ -1,7 +1,0 @@
----
-#
-bornedor:
-  name: "Bornedor"
-  icon: mdi:door
-  entities:
-    - binary_sensor.window_bornedor

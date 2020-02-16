@@ -1,7 +1,0 @@
----
-#
-born_windows:
-  name: "Børneværelset windows"
-  icon: mdi:border-all-variant
-  entities:
-    - binary_sensor.window_bornevaerelset

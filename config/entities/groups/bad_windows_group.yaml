@@ -1,7 +1,0 @@
----
-#
-bad_windows:
-  name: "Badeværelset windows"
-  icon: mdi:border-all-variant
-  entities:
-    - binary_sensor.window_badevaerelset
