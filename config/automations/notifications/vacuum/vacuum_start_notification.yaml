@@ -1,0 +1,13 @@
+---
+#
+alias: "[Notification] Vacuum: Start"
+trigger:
+  platform: state
+  entity_id: vacuum.james
+  from: "docked"
+  to: "cleaning"
+action:
+  - service: notify.mobile_app_pepemobil
+    data:
+      title: "James er startet!"
+      message: "Læn dig tilbage og lad ham gøre rent efter dig"

@@ -1,0 +1,12 @@
+---
+#
+alias: '[Notification] Vacuum: Error'
+trigger:
+  platform: state
+  entity_id: vacuum.james
+  to: "error"
+action:
+  - service: notify.mobile_app_pepemobil
+    data:
+      title: "James FEJL!"
+      message: "Han sidder fast eller oplever en fejl der kræver opmærksomhed"

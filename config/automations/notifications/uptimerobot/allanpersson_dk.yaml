@@ -1,6 +1,6 @@
 ---
 #
-alias: "Notification (Allanpersson.dk down)"
+alias: "[Notification] Allanpersson.dk down"
 trigger:
   - platform: state
     entity_id: binary_sensor.allanpersson_dk

@@ -1,6 +1,6 @@
 ---
 #
-alias: "Notification (Salomonisk.dk down)"
+alias: "[Notification] Salomonisk.dk down"
 trigger:
   - platform: state
     entity_id: binary_sensor.salomonisk_dk

@@ -1,6 +1,6 @@
 ---
 #
-alias: "Notification (Mosfriends.dk down)"
+alias: "[Notification] Mosfriends.dk down"
 trigger:
   - platform: state
     entity_id: binary_sensor.mosfriends_dk

@@ -1,6 +1,6 @@
 ---
 #
-alias: "Notification (Marathonpepe.dk down)"
+alias: "[Notification] Marathonpepe.dk down"
 trigger:
   - platform: state
     entity_id: binary_sensor.marathonpepe_dk
