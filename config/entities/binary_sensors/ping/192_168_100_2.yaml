@@ -1,4 +1,0 @@
----
-platform: ping
-name: "Ping_002 192.168.100.2"
-host: 192.168.100.2
