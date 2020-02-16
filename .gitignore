@@ -25,6 +25,7 @@ config/www/images/persons/*
 config/entities/binary_sensors/ping_private/*
 config/entities/zones/zones_private/*
 config/.stubs/*
+config/secrets/*
 
 # Specific file ignores
 config/.config_entries.json
@@ -62,8 +63,3 @@ config/notebooks
 
 # Specific keeps
 !.gitkeep
-
-# Sync ignores
-config/_gsdata_/*
-.stubs/_gsdata_/*
-_gsdata_/*
