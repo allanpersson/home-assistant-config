@@ -1,0 +1,6 @@
+---
+# Mqtt
+mqtt_port: "1234"
+mqtt_url: "1.1.1.1"
+mqtt_username: username
+mqtt_password: "password"

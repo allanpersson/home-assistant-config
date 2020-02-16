@@ -1,0 +1,6 @@
+---
+# Samsung Tv
+samsungtv_host: 1.1.1.1
+samsungtv_mac_lan: "aa:11:bb:22:cc:33"
+samsungtv_mac_wifi: "aa:11:bb:22:cc:33"
+samsungtv_port: 1234

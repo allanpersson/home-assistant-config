@@ -1,26 +1,11 @@
 ---
 # Use this file to store secrets like usernames and passwords.
 # Learn more at https://home-assistant.io/docs/configuration/secrets/
-adb_server_ip: 1.1.1.1
-adb_server_port: 1234
-androidtv_host_lan: 1.1.1.1
-androidtv_host_wifi: 1.1.1.1
-darksky_api_key: "tokentokentokentokentokentokentokentoken"
-dropbox_token: >
-  "tokentokentokentokentokentokentokentoken"
 duckdns_token: "tokentokentokentokentokentokentokentoken"
-garmin_password: "password"
-garmin_username: email@email.com
 github_access_token: "tokentokentokentokentokentokentokentoken"
-google_client_id: >
-  "tokentokentokentokentokentokentokentoken"
-google_client_secret: "secret"
-google_maps_api: "apiapiapiapiapi"
 here_appcode: "codecodecode"
 here_appid: "appidappidappid"
 here_password: "password"
-http_base_port: "1234"
-http_base_url: "1.1.1.1"
 huawei_mjpeg_url_sove: http://1.1.1.1:1234/camera/stream
 hue_bridges_host: "1.1.1.1"
 http_password: "password"
@@ -49,9 +34,6 @@ roborock_token: "12345678901234567890123456789012"
 snapshot_password: "password"
 strava_client_id: "1234"
 strava_client_secret: "secretsecret"
-tuya_user: email@email.com
-tuya_password: "password"
-tuya_country_code: "12"
 twitch_client_id: "clientid"
 uptimerobot_api_key: "apiapiapiapiapiapi"
 yeelight_kokkenvask_url: "1.1.1.1"
@@ -60,69 +42,9 @@ zerotier_api: "apiapiapi"
 zerotier_network: "network"
 xiaomi_temp_mac_baderum: "aa:11:bb:22:cc:33"
 
-# Eloverblik
-eloverblik_token: "token"
-
-# Glances
-glances_db: "database"
-glances_host: 1.1.1.1
-glances_port: 12345
-glances_prefix: "prefix"
-glances_user: "username"
-glances_password: "password"
-
 # Icloud
 icloud_password_allanpersson: "password"
 icloud_username_allanpersson: "email@email.dk"
 
-# Influxdb
-influxdb_host: "localhost"
-influxdb_password: "password"
-influxdb_port: 1234
-influxdb_username: "username"
-
-# Mqtt
-mqtt_port: "1234"
-mqtt_url: "1.1.1.1"
-mqtt_username: username
-mqtt_password: "password"
-
-# Netatmo
-netatmo_clientid: "clientid"
-netatmo_clientsecret: "clientsecret"
-netatmo_lat_ne: 12.34567
-netatmo_lon_ne: 12.34567
-netatmo_lat_sw: 12.34567
-netatmo_lon_sw: 12.34567
-netatmo_username: "email@email.com"
-netatmo_password: "password"
-
-# Netgear
-netgear_host: 1.1.1.1
-netgear_password: "password"
-netgear_port: 1234
-netgear_username: username
-
 # OpenExchangeRates
 openexchangerates_api: "apiapiapiapi"
-
-# Openuv
-openuv_api: "apiapiapi"
-
-# Person
-user_id_person_allan: "user_allan"
-user_id_person_ea: "user_ea"
-
-# Pizero
-pizero_mjpeg_url_hoveddor: http://1.1.1.1:1234
-pizero_password_hoveddor: "password"
-pizero_still_image_url_hoveddor: >
-  http://1.1.1.1/picture/2/current/
-  ?_username=username&_signature=ididid
-pizero_username_hoveddor: username
-
-# Samsung Tv
-samsungtv_host: 1.1.1.1
-samsungtv_mac_lan: "aa:11:bb:22:cc:33"
-samsungtv_mac_wifi: "aa:11:bb:22:cc:33"
-samsungtv_port: 1234

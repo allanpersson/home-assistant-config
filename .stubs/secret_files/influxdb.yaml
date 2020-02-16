@@ -1,0 +1,6 @@
+---
+# Influxdb
+influxdb_host: "localhost"
+influxdb_password: "password"
+influxdb_port: 1234
+influxdb_username: "username"

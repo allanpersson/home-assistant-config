@@ -1,0 +1,8 @@
+---
+# Glances
+glances_db: "database"
+glances_host: 1.1.1.1
+glances_port: 12345
+glances_prefix: "prefix"
+glances_user: "username"
+glances_password: "password"

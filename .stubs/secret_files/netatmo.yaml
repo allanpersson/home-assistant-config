@@ -1,0 +1,10 @@
+---
+# Netatmo
+netatmo_clientid: "clientid"
+netatmo_clientsecret: "clientsecret"
+netatmo_lat_ne: 12.34567
+netatmo_lon_ne: 12.34567
+netatmo_lat_sw: 12.34567
+netatmo_lon_sw: 12.34567
+netatmo_username: "email@email.com"
+netatmo_password: "password"

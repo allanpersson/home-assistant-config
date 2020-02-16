@@ -1,0 +1,4 @@
+---
+# ADB
+adb_server_ip: 1.1.1.1
+adb_server_port: 1234

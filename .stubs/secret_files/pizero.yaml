@@ -1,0 +1,8 @@
+---
+# Pizero
+pizero_mjpeg_url_hoveddor: http://1.1.1.1:1234
+pizero_password_hoveddor: "password"
+pizero_still_image_url_hoveddor: >
+  http://1.1.1.1/picture/2/current/
+  ?_username=username&_signature=ididid
+pizero_username_hoveddor: username

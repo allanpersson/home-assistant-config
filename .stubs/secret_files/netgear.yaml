@@ -1,0 +1,6 @@
+---
+# Netgear
+netgear_host: 1.1.1.1
+netgear_password: "password"
+netgear_port: 1234
+netgear_username: username

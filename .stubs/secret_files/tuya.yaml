@@ -1,0 +1,5 @@
+---
+# Tuya
+tuya_user: email@email.com
+tuya_password: "password"
+tuya_country_code: "12"
