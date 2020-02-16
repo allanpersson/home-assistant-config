@@ -5,11 +5,11 @@ name: "Pepehome Temperature (Mean)"
 type: "mean"
 round_digits: 2
 entity_ids:
-  - sensor.sovevaerelset
+  - sensor.sovevaerelset_temperature
   - sensor.gangen_temperature
   - sensor.stuen_temperature
   - sensor.motion_stuen
   - sensor.kokkenet_temperature
   - sensor.bornevaerelset_temperature
   - sensor.badevaerelset_temperature
-  - sensor.baderum
+  - sensor.baderum_temperature
