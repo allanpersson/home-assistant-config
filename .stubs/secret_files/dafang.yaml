@@ -1,0 +1,12 @@
+---
+# Dafang
+dafang_password_born: "password"
+dafang_password_kokken: "password"
+dafang_ffmpeg_input_born: "-rtsp_transport tcp -i rtsp://1.1.1.1:8554/unicast"
+dafang_ffmpeg_input_kokken: "-rtsp_transport tcp -i rtsp://1.1.1.1:8554/unicast"
+dafang_still_image_url_born: "https://1.1.1.1/cgi-bin/currentpic.cgi"
+dafang_still_image_url_kokken: "https://1.1.1.1/cgi-bin/currentpic.cgi"
+dafang_stream_source_born: "rtsp://1.1.1.1:1234/unicast"
+dafang_stream_source_kokken: "rtsp://1.1.1.1:1234/unicast"
+dafang_username_born: username
+dafang_username_kokken: username
