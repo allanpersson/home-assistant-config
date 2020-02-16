@@ -3,35 +3,38 @@
 logger:
   default: warning
   logs:
-    # HA
-    homeassistant.core: info
-    homeassistant.setup: info
-
-    # MQTT
-    homeassistant.components.mqtt: info
+    # ADB
+    androidtv.adb_manager: error
 
     # Deconz
     pydeconz: warn
     homeassistant.components.deconz: warn
-
-    # HACS
-    custom_components.hacs: warn
-
-    # Nabu Casa
-    hass_nabucasa: warn
-    snitun: warn
-
-    # Homekit
-    homeassistant.components.homekit: info
-    pyhap: info
 
     # Device tracker
     homeassistant.components.device_tracker.bluetooth_tracker: debug
     homeassistant.components.device_tracker.bluetooth_le_tracker: debug
     homeassistant.components.device_tracker: info
 
-    # ADB
-    androidtv.adb_manager: error
+    # HA
+    homeassistant.core: info
+    homeassistant.setup: info
+
+    # HACS
+    custom_components.hacs: warn
+
+    # Homekit
+    homeassistant.components.homekit: info
+    pyhap: info
 
     # Mediaplayer
     homeassistant.components.media_player: error
+
+    # MQTT
+    homeassistant.components.mqtt: info
+
+    # Nabu Casa
+    hass_nabucasa: warn
+    snitun: warn
+
+    # Waze
+    homeassistant.components.waze_travel_time.sensor: error
