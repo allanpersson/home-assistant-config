@@ -1,0 +1,7 @@
+---
+# https://www.home-assistant.io/integrations/light.group/
+platform: group
+name: "Køkkenet"
+entities:
+  - light.kokkenet_nilfisk
+  - light.kokkenet_vask
