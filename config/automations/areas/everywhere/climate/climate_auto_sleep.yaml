@@ -1,0 +1,88 @@
+---
+#
+alias: "[Climate] auto sleep"
+trigger:
+  - platform: state
+    entity_id: media_player.android_tv_boks
+    to: "off"
+  - platform: time_pattern
+    seconds: "/300"
+condition:
+  condition: and
+  conditions:
+    - condition: numeric_state
+      entity_id: sensor.owm_temperature
+      below: 17
+    - condition: state
+      entity_id: group.person_alle
+      state: "home"
+    - condition: time
+      after: !secret climate_night_start
+      before: !secret climate_day_start
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: media_player.android_tv_boks
+          state: "standby"
+        - condition: state
+          entity_id: media_player.android_tv_boks
+          state: "idle"
+        - condition: state
+          entity_id: media_player.android_tv_boks
+          state: "off"
+action:
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.stuen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.stuen
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.gangen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.gangen
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.kokkenet
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.kokkenet
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.badevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.badevaerelset
+      target_temp_high: !secret sleep_target_temp_high
+      temperature: !secret sleep_target_temp
+      target_temp_low: !secret sleep_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.bornevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.bornevaerelset
+      target_temp_high: !secret sleep_target_temp_high_born
+      temperature: !secret sleep_target_temp_born
+      target_temp_low: !secret sleep_target_temp_low_born
+      hvac_mode: "heat"

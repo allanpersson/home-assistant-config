@@ -1,0 +1,39 @@
+---
+#
+alias: "[Automation] Wakeup"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.pepemobil_charging
+    from: "on"
+    to: "off"
+  - platform: state
+    entity_id: media_player.android_tv_boks
+    to: "on"
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: binary_sensor.pepemobil_charging
+      state: "off"
+    - condition: time
+      after: "06:00:00"
+      before: "11:00:00"
+    - condition: numeric_state
+      entity_id: cover.stuen_hojre
+      value_template: "{{ states.cover.stuen_hojre.attributes.current_position }}"
+      below: 101
+    - condition: numeric_state
+      entity_id: cover.stuen_venstre
+      value_template: "{{ states.cover.stuen_venstre.attributes.current_position }}"
+      below: 101
+action:
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_venstre
+    data:
+      position: 100
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_hojre
+    data:
+      position: 100
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.sleep_mode

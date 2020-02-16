@@ -1,0 +1,22 @@
+---
+#
+alias: "Ventilator on (Badeværelset)"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.baderum_humidity
+    above: "60"
+  - platform: numeric_state
+    entity_id: sensor.badevaerelset_humidity
+    above: "60"
+  - platform: numeric_state
+    entity_id: sensor.gangen_humidity
+    above: "60"
+  - platform: numeric_state
+    entity_id: sensor.kokkenet_humidity
+    above: "60"
+  - platform: numeric_state
+    entity_id: sensor.stuen_humidity
+    above: "60"
+action:
+  - service: fan.turn_on
+    entity_id: fan.badevaerelset

@@ -1,0 +1,26 @@
+---
+#
+alias: "[Climate] naked off"
+trigger:
+  - platform: state
+    entity_id: input_boolean.naked_mode
+    to: "off"
+action:
+  - service: automation.turn_on
+    data:
+      entity_id: automation.climate_auto_away
+  - service: automation.turn_on
+    data:
+      entity_id: automation.climate_auto_home
+  - service: automation.turn_on
+    data:
+      entity_id: automation.climate_auto_off
+  - service: automation.turn_on
+    data:
+      entity_id: automation.climate_close_windows
+  - service: automation.turn_on
+    data:
+      entity_id: automation.climate_open_windows
+  - service: automation.turn_on
+    data:
+      entity_id: automation.climate_auto_sleep

@@ -1,0 +1,10 @@
+---
+#
+alias: "Baderum light on (Badeværelset)"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.baderum_humidity
+    above: "63"
+action:
+  - service: light.turn_on
+    entity_id: light.baderum

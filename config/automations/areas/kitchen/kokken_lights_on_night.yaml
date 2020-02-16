@@ -1,0 +1,39 @@
+---
+#
+alias: "Lights on night (Køkkenet)"
+trigger:
+  platform: state
+  entity_id: binary_sensor.motion_kokkenet
+  to: "on"
+condition:
+  condition: and
+  conditions:
+    - condition: numeric_state
+      entity_id: sensor.motion_kokkenet
+      below: 20
+    - condition: time
+      after: "22:00"
+      before: "07:00"
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: light.kokkenet_nilfisk
+          state: "off"
+        - condition: state
+          entity_id: light.kokkenet_vask
+          state: "off"
+action:
+  - service: light.turn_on
+    entity_id: light.kokkenet_vask
+    data:
+      transition: 1
+      brightness_pct: 1
+      rgb_color: [255, 160, 39]
+  - delay:
+      milliseconds: 100
+  - service: light.turn_on
+    entity_id: light.kokkenet_nilfisk
+    data:
+      transition: 1
+      brightness_pct: 1
+      rgb_color: [255, 160, 39]

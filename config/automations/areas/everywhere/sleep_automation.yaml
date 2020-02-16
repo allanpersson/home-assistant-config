@@ -1,0 +1,42 @@
+---
+#
+alias: "[Automation] Sleep"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.pepemobil_charging
+    from: "off"
+    to: "on"
+  - platform: state
+    entity_id: media_player.android_tv_boks
+    to: "off"
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: binary_sensor.pepemobil_charging
+      state: "on"
+    - condition: state
+      entity_id: media_player.android_tv_boks
+      state: "off"
+    - condition: time
+      after: "21:00:00"
+      before: "06:00:00"
+    - condition: numeric_state
+      entity_id: cover.stuen_hojre
+      value_template: "{{ states.cover.stuen_hojre.attributes.current_position }}"
+      above: 26
+    - condition: numeric_state
+      entity_id: cover.stuen_venstre
+      value_template: "{{ states.cover.stuen_venstre.attributes.current_position }}"
+      above: 26
+action:
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_venstre
+    data:
+      position: 23
+  - service: cover.set_cover_position
+    entity_id: cover.stuen_hojre
+    data:
+      position: 23
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.sleep_mode

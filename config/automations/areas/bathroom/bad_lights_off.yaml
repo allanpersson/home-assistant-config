@@ -1,0 +1,12 @@
+---
+#
+alias: "Lights off (Badeværelset)"
+trigger:
+  platform: state
+  entity_id: binary_sensor.motion_badevaerelset
+  to: 'off'
+  for:
+    minutes: 1
+action:
+  service: light.turn_off
+  entity_id: light.badevaerelset

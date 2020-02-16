@@ -1,0 +1,74 @@
+---
+#
+alias: "[Climate] open windows"
+trigger:
+  - platform: state
+    entity_id: group.windows_alle
+    to: "on"
+    for:
+      seconds: 20
+action:
+  - service: automation.turn_off
+    data:
+      entity_id: automation.climate_auto_away
+  - service: automation.turn_off
+    data:
+      entity_id: automation.climate_auto_home
+  - service: automation.turn_off
+    data:
+      entity_id: automation.climate_auto_sleep
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.stuen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.stuen
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.gangen
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.gangen
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.kokkenet
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.kokkenet
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.badevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.badevaerelset
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
+      hvac_mode: "heat"
+  - service: climate.set_hvac_mode
+    data:
+      entity_id: climate.bornevaerelset
+      hvac_mode: "heat"
+  - service: climate.set_temperature
+    data:
+      entity_id: climate.bornevaerelset
+      target_temp_high: !secret windows_open_target_temp_high
+      temperature: !secret windows_open_target_temp
+      target_temp_low: !secret windows_open_target_temp_low
+      hvac_mode: "heat"

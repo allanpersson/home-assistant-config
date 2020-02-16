@@ -1,0 +1,20 @@
+---
+#
+alias: "Lights off night (Køkkenet)"
+trigger:
+  platform: state
+  entity_id: binary_sensor.motion_kokkenet
+  to: 'off'
+  for:
+    minutes: 1
+condition:
+  condition: and
+  conditions:
+    - condition: time
+      after: '22:00'
+      before: '07:00'
+action:
+  service: light.turn_off
+  entity_id:
+    - light.kokkenet_nilfisk
+    - light.kokkenet_vask
