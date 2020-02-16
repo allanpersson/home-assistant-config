@@ -1,0 +1,6 @@
+---
+#
+gh_stuen_bt_discovery:
+  alias: "Google Home Stuen bt discovery"
+  sequence:
+    - service: rest_command.gh_stuen_bt_discovery

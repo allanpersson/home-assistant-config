@@ -7,8 +7,8 @@ cover_stuen_0_percent_open:
       entity_id: cover.stuen_venstre
       data:
         position: 23
-    - delay:
-        milliseconds: 100
+    # - delay:
+    #     milliseconds: 100
     - service: cover.set_cover_position
       entity_id: cover.stuen_hojre
       data:

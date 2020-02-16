@@ -1,0 +1,34 @@
+---
+#
+who_is_home:
+  alias: "Who is home"
+  sequence:
+    - service: notify.mobile_app_pepemobil
+      data_template:
+        title: "Who is home?"
+        message: >
+          {% if is_state('person.allan_persson', 'home') %}
+            Allan is home!
+          {% else %}
+            Allan is at {{ states('person.allan_persson') }}.
+          {% endif %}
+          {% if is_state('person.caroline_hempel', 'home') %}
+            Caroline is home!
+          {% else %}
+            Caroline is at {{ states('person.caroline_hempel') }}.
+          {% endif %}
+          {% if is_state('person.ea_hebsgaard', 'home') %}
+            Ea is home!
+          {% else %}
+            Ea is at {{ states('person.ea_hebsgaard') }}.
+          {% endif %}
+          {% if is_state('person.ditte_hebsgaard', 'home') %}
+            Ditte is home!
+          {% else %}
+            Ditte is at {{ states('person.ditte_hebsgaard') }}.
+          {% endif %}
+          {% if is_state('person.emil_hempel', 'home') %}
+            Emil is home!
+          {% else %}
+            Emil is at {{ states('person.emil_hempel') }}.
+          {% endif %}
