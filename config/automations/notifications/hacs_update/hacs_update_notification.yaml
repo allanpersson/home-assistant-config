@@ -1,6 +1,6 @@
 ---
 # https://hacs.xyz/docs/basic/automation
-alias: "Notification (HACS Update)"
+alias: "[Notification] HACS Update"
 trigger:
   - platform: state
     entity_id: sensor.hacs

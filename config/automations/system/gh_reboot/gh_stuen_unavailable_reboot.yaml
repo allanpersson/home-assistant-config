@@ -1,0 +1,24 @@
+---
+alias: "Stuen unavailable reboot"
+trigger:
+  - platform: state
+    entity_id: media_player.stuen
+    to: "unavailable"
+    for:
+      minutes: 3
+  - platform: time_pattern
+    minutes: "/5"
+condition:
+  - condition: state
+    entity_id: sensor.android_tv_boks_state
+    state: "on"
+  - condition: state
+    entity_id: media_player.stuen
+    state: "unavailable"
+action:
+  - service: switch.turn_off
+    entity_id: switch.google_home_stuen
+  - delay:
+      seconds: 20
+  - service: switch.turn_on
+    entity_id: switch.google_home_stuen

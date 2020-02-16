@@ -2,11 +2,6 @@
 #
 alias: "Lights off (Stuen)"
 trigger:
-  - platform: state
-    entity_id: binary_sensor.motion_stuen
-    to: "off"
-    for:
-      minutes: 15
   - platform: numeric_state
     entity_id: sun.sun
     value_template: "{{ states.sun.sun.attributes.elevation }}"
@@ -14,12 +9,10 @@ trigger:
 condition:
   condition: or
   conditions:
-    - condition: state
-      entity_id: media_player.android_tv_boks
-      state: "off"
-    - condition: state
-      entity_id: media_player.android_tv_boks
-      state: "unavailable"
+    - condition: numeric_state
+      entity_id: sun.sun
+      value_template: "{{ states.sun.sun.attributes.elevation }}"
+      above: !secret sun_elevation_value
 action:
   - service: light.turn_off
     data:

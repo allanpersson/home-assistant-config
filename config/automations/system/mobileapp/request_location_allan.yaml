@@ -1,0 +1,15 @@
+---
+# https://companion.home-assistant.io/en/notifications/location
+alias: "[Mobileapp] Request location update (Allan Persson)"
+trigger:
+  - platform: time_pattern
+    hours: "/6"
+action:
+  - service: notify.mobile_app_pepemobil
+    data:
+        message: "request_location_update"
+  - delay:
+      seconds: 20
+  - service: notify.mobile_app_pepemobil
+    data:
+        message: "clear_notification"

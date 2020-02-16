@@ -1,0 +1,25 @@
+---
+#
+alias: "[Notification] Smokealarm"
+initial_state: true
+trigger:
+  - platform: state
+    entity_id: binary_sensor.fire_bornevaerelset
+    to: "on"
+  - platform: state
+    entity_id: binary_sensor.fire_gangen
+    to: "on"
+  - platform: state
+    entity_id: binary_sensor.fire_kokkenet
+    to: "on"
+  - platform: state
+    entity_id: binary_sensor.fire_stuen
+    to: "on"
+action:
+  - service: notify.mobile_app_pepemobil
+    data:
+        title: "Wake up!"
+        message: "The house is on fire and the cat's stuck in the dryer!"
+        data:
+          ttl: 0
+          priority: high

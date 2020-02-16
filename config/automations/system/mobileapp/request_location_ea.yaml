@@ -1,0 +1,23 @@
+---
+# https://companion.home-assistant.io/en/notifications/location
+alias: "[Mobileapp] Request location update (Ea Hebsgaard)"
+trigger:
+  - platform: time_pattern
+    minutes: "/30"
+action:
+  - service: notify.mobile_app_eahebsgaard
+    data:
+      message: "request_location_update"
+      #data:
+        #tag: location
+        #ttl: 0
+        #priority: high
+  - delay:
+      seconds: 90
+  - service: notify.mobile_app_eahebsgaard
+    data:
+      message: clear_notification
+      #data:
+        #tag: location
+        #ttl: 0
+        #priority: high

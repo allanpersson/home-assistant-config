@@ -19,8 +19,8 @@ action:
     entity_id: cover.stuen_venstre
     data:
       position: 100
-  - delay:
-      milliseconds: 100
+  # - delay:
+  #     milliseconds: 100
   - service: cover.set_cover_position
     entity_id: cover.stuen_hojre
     data:

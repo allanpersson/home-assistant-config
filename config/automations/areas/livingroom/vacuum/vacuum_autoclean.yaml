@@ -1,0 +1,37 @@
+---
+#
+alias: "Autoclean (Vacuum)"
+trigger:
+  platform: time_pattern
+  seconds: "/180"
+condition:
+  condition: and
+  conditions:
+    - condition: time
+      after: "08:00:00"
+      before: "21:00:00"
+    - condition: template
+      value_template: >
+        {{as_timestamp(now()) - as_timestamp
+        (states.vacuum.james.attributes.clean_stop) | int > 12600}}
+    - condition: state
+      entity_id: vacuum.james
+      state: "docked"
+    - condition: state
+      entity_id: input_boolean.children_home_mode
+      state: "off"
+    - condition: state
+      entity_id: input_boolean.naked_mode
+      state: "off"
+    - condition: state
+      entity_id: input_boolean.sleep_mode
+      state: "off"
+action:
+  - service: vacuum.start
+    entity_id: vacuum.james
+  - delay:
+      milliseconds: 100
+  - service: vacuum.set_fan_speed
+    data:
+      entity_id: vacuum.james
+      fan_speed: Gentle

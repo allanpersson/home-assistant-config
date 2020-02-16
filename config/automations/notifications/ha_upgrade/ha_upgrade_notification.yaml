@@ -1,6 +1,6 @@
 ---
 #
-alias: "Notification (HA Upgrade)"
+alias: "[Notification] HA Upgrade"
 trigger:
   - platform: state
     entity_id: sensor.version_available

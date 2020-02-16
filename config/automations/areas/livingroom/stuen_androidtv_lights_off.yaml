@@ -4,7 +4,7 @@ trigger:
   - platform: time_pattern
     minutes: "/1"
   - platform: state
-    entity_id: media_player.android_tv_boks
+    entity_id: sensor.android_tv_boks_state
     to: "off"
 condition:
   condition: and
@@ -13,7 +13,7 @@ condition:
       after: "22:00:00"
       before: "07:00:00"
     - condition: state
-      entity_id: media_player.android_tv_boks
+      entity_id: sensor.android_tv_boks_state
       state: "off"
     - condition: state
       entity_id: light.stuen
@@ -24,12 +24,12 @@ condition:
       for:
         minutes: 5
     - condition: state
-      entity_id: binary_sensor.motion_bad
+      entity_id: binary_sensor.motion_badevaerelset
       state: "off"
       for:
         minutes: 5
     - condition: state
-      entity_id: binary_sensor.motion_kokken
+      entity_id: binary_sensor.motion_kokkenet
       state: "off"
       for:
         minutes: 5

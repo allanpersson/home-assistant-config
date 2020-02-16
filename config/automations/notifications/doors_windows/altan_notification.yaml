@@ -1,0 +1,13 @@
+---
+#
+alias: "[Notification] Altandør"
+trigger:
+  platform: state
+  entity_id: binary_sensor.door_altandor
+  from: "off"
+  to: "on"
+action:
+  - service: notify.mobile_app_pepemobil
+    data:
+      title: "Altandør!"
+      message: "Døren er netop blevet åbnet...."

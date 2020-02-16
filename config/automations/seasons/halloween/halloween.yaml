@@ -3,13 +3,13 @@
 alias: "Halloween"
 trigger:
   - platform: state
-    entity_id: binary_sensor.motion_kokken
+    entity_id: binary_sensor.motion_kokkenet
     to: "on"
   - platform: state
-    entity_id: binary_sensor.motion_gang
+    entity_id: binary_sensor.motion_gangen
     to: "on"
   - platform: state
-    entity_id: binary_sensor.motion_bad
+    entity_id: binary_sensor.motion_badevaerelset
     to: "on"
 condition:
   condition: and

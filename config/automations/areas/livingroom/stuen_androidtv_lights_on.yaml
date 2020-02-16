@@ -22,7 +22,7 @@ condition:
       entity_id: light.stuen
       state: "off"
     - condition: state
-      entity_id: binary_sensor.window_altandor
+      entity_id: binary_sensor.door_altandor
       state: "off"
     - condition: or
       conditions:
@@ -32,6 +32,9 @@ condition:
         - condition: state
           entity_id: media_player.android_tv_boks
           state: "playing"
+        - condition: state
+          entity_id: sensor.android_tv_boks_state
+          state: "on"
 action:
   - service: light.turn_on
     data:

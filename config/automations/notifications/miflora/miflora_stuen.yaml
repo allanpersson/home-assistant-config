@@ -1,6 +1,6 @@
 ---
 #
-alias: "Plante: Ginseng, Stuen"
+alias: "[Notification] Plante: Ginseng"
 trigger:
   - platform: time_pattern
     minutes: "/60"
