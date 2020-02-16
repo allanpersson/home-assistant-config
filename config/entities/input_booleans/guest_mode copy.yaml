@@ -1,5 +1,0 @@
----
-# https://www.home-assistant.io/integrations/input_boolean
-sleep_mode:
-  name: Sleep Mode
-  icon: mdi:sleep

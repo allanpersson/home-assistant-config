@@ -1,5 +1,5 @@
 ---
 # https://www.home-assistant.io/integrations/input_boolean
-guest_mode:
-  name: Guest Mode
-  icon: mdi:account-alert
+sleep_mode:
+  name: Sleep Mode
+  icon: mdi:sleep

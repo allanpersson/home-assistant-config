@@ -1,5 +1,5 @@
 ---
 # https://www.home-assistant.io/integrations/input_boolean
-halloween_mode:
-  name: Halloween Mode
-  icon: mdi:halloween
+naked_mode:
+  name: Naked Mode
+  icon: mdi:rocket
