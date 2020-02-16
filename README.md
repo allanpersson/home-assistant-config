@@ -27,6 +27,8 @@ by **[Allan Persson][allanpersson]**
 
 # Overview 📇
 
+⚠ Restruction some folders is resulting in some urls is not pointing correct, i will fix them asap and until then please find them manually... Thanks ⚠
+
 ⚠ This repo contains [affiliate links](#affiliate-links-) from [Aliexpress][aliexpress] & [Ebay][ebay] that [support](#support-) my work! ⚠
 
 ## Code ⌨
