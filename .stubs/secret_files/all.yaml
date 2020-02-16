@@ -60,25 +60,8 @@ zerotier_api: "apiapiapi"
 zerotier_network: "network"
 xiaomi_temp_mac_baderum: "aa:11:bb:22:cc:33"
 
-# Deconz
-deconz_vnc_password: "password"
-deconz_device: "/dev/ttyACM0"
-
 # Eloverblik
 eloverblik_token: "token"
-
-# ESPHome
-ap_password: "password"
-esp_bluetooth_board_ip: 192.168.0.1
-esp_smartbell_ip: 192.168.0.1
-miflora_mac: "aa:11:bb:22:cc:33"
-xiaomi_temp_mac: "aa:11:bb:22:cc:33"
-wifi_name: "wifiname"
-wifi_secret: "wifipassword"
-wifi_gateway: "192.168.0.1"
-wifi_subnet: "255.255.255.255"
-wifi_dns01: "8.8.8.8"
-wifi_dns02: "1.1.1.1"
 
 # Glances
 glances_db: "database"
@@ -130,18 +113,6 @@ openuv_api: "apiapiapi"
 user_id_person_allan: "user_allan"
 user_id_person_ea: "user_ea"
 
-# Pictures
-allanpersson_image: "/local/images/persons/allanpersson_1.jpg"
-carolinehempel_image: "/local/images/persons/carolinehempel_1.jpg"
-dittehebsgaard_image: "/local/images/persons/dittehebsgaard_1.jpg"
-eahebsgaard_image: "/local/images/persons/eahebsgaard_1.jpg"
-emilhempel_image: "/local/images/persons/emilhempel_1.jpg"
-gaester_image: "/local/images/persons/gaester_1.jpeg"
-irenenissen_image: "/local/images/persons/irenenissen_1.jpg"
-mediapad_image: "/local/images/things/mediapad_1.jpg"
-otto_image: "/local/images/persons/otto_1.jpg"
-unknown_image: "/local/images/persons/unknown_1.jpg"
-
 # Pizero
 pizero_mjpeg_url_hoveddor: http://1.1.1.1:1234
 pizero_password_hoveddor: "password"
@@ -155,52 +126,3 @@ samsungtv_host: 1.1.1.1
 samsungtv_mac_lan: "aa:11:bb:22:cc:33"
 samsungtv_mac_wifi: "aa:11:bb:22:cc:33"
 samsungtv_port: 1234
-
-# Sentry
-sentry_dsn: "https://1234@sentry.io/1234"
-
-# SSH
-ssh_authorized_keys: >
-  ssh-rsa 123456789012345678901234567890123456789
-  01234567890123456789012345678901234567890123456
-  78901234567890
-ssh_password: "password"
-ssh_username: "username"
-
-# Sun
-sun_elevation_value: "3.0"
-
-# Tado
-tado_allan_user: email@email.com
-tado_allan_password: "password"
-tado_home_id: "1234"
-tado_temperature_away: "18"
-tado_temperature_home: "21"
-tado_temperature_off: "off"
-tado_temperature_sleep: "16"
-
-# Tts
-google_translate_base_url: "192.168.0.1:8123"
-
-# Zone
-zone_andersdall_latitude: "12.34567"
-zone_andersdall_longitude: "12.34567"
-zone_arbejde_latitude: "12.34567"
-zone_arbejde_longitude: "12.34567"
-zone_dittehebsgaard_latitude: "12.34567"
-zone_dittehebsgaard_longitude: "12.34567"
-zone_evigglad_latitude: "12.34567"
-zone_evigglad_longitude: "12.34567"
-zone_familienhebsgaard_latitude: "12.34567"
-zone_familienhebsgaard_longitude: "12.34567"
-zone_hempeljuhl_latitude: "12.34567"
-zone_hempeljuhl_longitude: "12.34567"
-zone_home_elevation: 12
-zone_home_latitude: "12.34567"
-zone_home_longitude: "12.34567"
-zone_mor_latitude: "12.34567"
-zone_mor_longitude: "12.34567"
-zone_mosfriends_latitude: "12.34567"
-zone_mosfriends_longitude: "12.34567"
-
-recorder_db_url: mysql://homeassistant:password@core-mariadb/homeassistant?charset=utf8

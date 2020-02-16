@@ -1,0 +1,4 @@
+---
+# Deconz
+deconz_vnc_password: "password"
+deconz_device: "/dev/ttyACM0"

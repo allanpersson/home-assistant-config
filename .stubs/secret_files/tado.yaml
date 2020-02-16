@@ -1,0 +1,9 @@
+---
+# Tado
+tado_allan_user: email@email.com
+tado_allan_password: "password"
+tado_home_id: "1234"
+tado_temperature_away: "18"
+tado_temperature_home: "21"
+tado_temperature_off: "off"
+tado_temperature_sleep: "16"

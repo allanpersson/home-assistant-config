@@ -1,0 +1,3 @@
+---
+# Recorder
+recorder_db_url: mysql://homeassistant:password@core-mariadb/homeassistant?charset=utf8

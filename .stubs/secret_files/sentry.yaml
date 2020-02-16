@@ -1,0 +1,3 @@
+---
+# Sentry
+sentry_dsn: "https://1234@sentry.io/1234"
