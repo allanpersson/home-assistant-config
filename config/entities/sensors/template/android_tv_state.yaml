@@ -1,0 +1,16 @@
+---
+platform: template
+sensors:
+  android_tv_boks_state:
+    friendly_name: Android Tv Boks state
+    entity_id:
+      - media_player.android_tv_boks
+    value_template: >
+      {% if states.media_player.android_tv_boks.state == 'off'
+      or states.media_player.android_tv_boks.state == 'unavailable' %}
+        off
+      {% else %}
+        on
+      {% endif %}
+    unit_of_measurement: ""
+    icon_template: mdi:television

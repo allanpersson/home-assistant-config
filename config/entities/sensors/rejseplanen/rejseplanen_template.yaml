@@ -1,0 +1,16 @@
+---
+#
+platform: template
+sensors:
+  bus_mod_hinnerup:
+    friendly_name_template: >-
+      {{ state_attr('sensor.rejseplanen_engdalsvej_arhusvej_mod_hinnerup', 'route') }} mod {{ state_attr('sensor.rejseplanen_engdalsvej_arhusvej_mod_hinnerup', 'direction') }} om:
+    value_template: >-
+      {{ states('sensor.rejseplanen_engdalsvej_arhusvej_mod_hinnerup') }} minut{% if states('sensor.rejseplanen_engdalsvej_arhusvej_mod_hinnerup') | int > 1 %}ter
+      {%- endif %} ({{ strptime(state_attr('sensor.rejseplanen_engdalsvej_arhusvej_mod_hinnerup', 'due_at'), '%d.%m.%y %H:%M').timestamp() | timestamp_custom('%R') }})
+  bus_mod_skanderborg:
+    friendly_name_template: >-
+      {{ state_attr('sensor.rejseplanen_engdalsvej_arhusvej_mod_aarhus_skanderborg', 'route') }} mod {{ state_attr('sensor.rejseplanen_engdalsvej_arhusvej_mod_aarhus_skanderborg', 'direction') }} om:
+    value_template: >-
+      {{ states('sensor.rejseplanen_engdalsvej_arhusvej_mod_aarhus_skanderborg') }} minut{% if states('sensor.rejseplanen_engdalsvej_arhusvej_mod_aarhus_skanderborg') | int > 1 %}ter
+      {%- endif %} ({{ strptime(state_attr('sensor.rejseplanen_engdalsvej_arhusvej_mod_aarhus_skanderborg', 'due_at'), '%d.%m.%y %H:%M').timestamp() | timestamp_custom('%R') }})

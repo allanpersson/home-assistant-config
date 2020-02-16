@@ -1,38 +1,45 @@
 ---
 platform: template
 sensors:
-  galaxys9plus_batterylevel:
-    friendly_name: Galaxy S9plus battery
+  pepemobil_charging:
+    friendly_name: Pepemobil charging
     entity_id:
-      - device_tracker.pepemobil
+      - sensor.pepemobil_battery_level
     value_template: >
-      {{ states.device_tracker.pepemobil.attributes.battery_level }}
-    unit_of_measurement: "%"
-    device_class: battery
-  mediapad_batterylevel:
-    friendly_name: Huawei Mediapad battery
-    entity_id:
-      - device_tracker.mediapad
-    value_template: >
-      {{ states.device_tracker.mediapad.attributes.battery_level }}
-    unit_of_measurement: "%"
-    device_class: battery
-    icon_template: mdi:battery
-  tecno_batterylevel:
-    friendly_name: Tecno battery
-    entity_id:
-      - device_tracker.eahebsgaard
-    value_template: >
-      {{ states.device_tracker.eahebsgaard.attributes.battery_level }}
-    unit_of_measurement: "%"
-    device_class: battery
-    icon_template: mdi:battery
-  galaxys9plus_location:
-    friendly_name: Galaxy S9plus location
-    entity_id:
-      - device_tracker.pepemobil
-    value_template: >
-      {{ states.device_tracker.pepemobil.attributes.latitude | float }},
-      {{ states.device_tracker.pepemobil.attributes.longitude | float }}
+      {{ states.sensor.pepemobil_battery_level.attributes.is_charging }}
     unit_of_measurement: ""
-    icon_template: mdi:map-marker-plus
+  pepemobil_charger_type:
+    friendly_name: Pepemobil charger type
+    entity_id:
+      - sensor.pepemobil_battery_level
+    value_template: >
+      {{ states.sensor.pepemobil_battery_level.attributes.charger_type }}
+    unit_of_measurement: ""
+  mediapad_charging:
+    friendly_name: Mediapad charging
+    entity_id:
+      - sensor.mediapad_battery_level
+    value_template: >
+      {{ states.sensor.mediapad_battery_level.attributes.is_charging }}
+    unit_of_measurement: ""
+  mediapad_charger_type:
+    friendly_name: Mediapad charger type
+    entity_id:
+      - sensor.pepemobil_battery_level
+    value_template: >
+      {{ states.sensor.pepemobil_battery_level.attributes.charger_type }}
+    unit_of_measurement: ""
+  eahebsgaard_charging:
+    friendly_name: Eahebsgaard charging
+    entity_id:
+      - sensor.eahebsgaard_battery_level
+    value_template: >
+      {{ states.sensor.eahebsgaard_battery_level.attributes.is_charging }}
+    unit_of_measurement: ""
+  eahebsgaard_charger_type:
+    friendly_name: Eahebsgaard charger type
+    entity_id:
+      - sensor.eahebsgaard_battery_level
+    value_template: >
+      {{ states.sensor.eahebsgaard_battery_level.attributes.charger_type }}
+    unit_of_measurement: ""

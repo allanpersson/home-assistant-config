@@ -6,7 +6,7 @@ sensors:
     friendly_name: Status
     entity_id:
       - vacuum.james
-    value_template: 'Status: {{ states.vacuum.james.attributes.status }}'
+    value_template: "{{ states.vacuum.james.attributes.status }}"
     icon_template: >
       {% set val =  states.vacuum.james.attributes.status  %}
       {% if val == 'Charging' %}
@@ -26,76 +26,71 @@ sensors:
     friendly_name: Fan Speed
     entity_id:
       - vacuum.james
-    value_template: 'Mode: {{ states.vacuum.james.attributes.fan_speed }}'
-    icon_template: 'mdi:speedometer'
+    value_template: "{{ states.vacuum.james.attributes.fan_speed }}"
+    icon_template: "mdi:speedometer"
   vacuum_battery:
     friendly_name: Vacuum Battery
     entity_id:
       - vacuum.james
-    value_template: >
-        Battery: {{ states.vacuum.james.attributes.
-        battery_level }}
-    unit_of_measurement: '%'
-    icon_template: '{{ states.vacuum.james.attributes.battery_icon }}'
+    value_template: "{{ states.vacuum.james.attributes.battery_level }}"
+    unit_of_measurement: "%"
+    device_class: battery
+    icon_template: "{{ states.vacuum.james.attributes.battery_icon }}"
   vacuum_cleaning_time:
     friendly_name: Time of Last Cycle
     entity_id:
       - vacuum.james
-    value_template: '{{ states.vacuum.james.attributes.cleaning_time }}'
-    icon_template: 'mdi:timer'
+    value_template: "{{ states.vacuum.james.attributes.cleaning_time }}"
+    icon_template: "mdi:timer"
   vacuum_cleaned_area:
     friendly_name: Area of Last Cycle
-    unit_of_measurement: 'm ²'
+    unit_of_measurement: "m²"
     entity_id:
       - vacuum.james
-    value_template: '{{ states.vacuum.james.attributes.cleaned_area }}'
-    icon_template: 'mdi:ruler'
+    value_template: "{{ states.vacuum.james.attributes.cleaned_area }}"
+    icon_template: "mdi:ruler"
   vacuum_cleanmainbrush:
     friendly_name: Replace main brush
-    unit_of_measurement: 't'
+    unit_of_measurement: "hours"
     entity_id:
       - vacuum.james
-    value_template: >
-        Main Brush: {{ states.vacuum.james.attributes.
-        main_brush_left }}
-    icon_template: 'mdi:screwdriver'
+    value_template: "{{ states.vacuum.james.attributes.main_brush_left }}"
+    icon_template: "mdi:screwdriver"
   vacuum_cleansidebrush:
     friendly_name: Replace side brush
-    unit_of_measurement: 't'
+    unit_of_measurement: "hours"
     entity_id:
       - vacuum.james
-    value_template: >
-        Side brush: {{ states.vacuum.james.attributes.
-        side_brush_left }}
-    icon_template: 'mdi:screwdriver'
+    value_template: "{{ states.vacuum.james.attributes.side_brush_left }}"
+    icon_template: "mdi:screwdriver"
   vacuum_cleanfilter:
     friendly_name: Replace filter
-    unit_of_measurement: 't'
+    unit_of_measurement: "hours"
+    device_class: timestamp
     entity_id:
       - vacuum.james
-    value_template: 'Filter: {{ states.vacuum.james.attributes.filter_left }}'
-    icon_template: 'mdi:screwdriver'
+    value_template: "{{ states.vacuum.james.attributes.filter_left }}"
+    icon_template: "mdi:screwdriver"
   vacuum_cleanstop:
     friendly_name: Clean stop
-    unit_of_measurement: 'date'
+    unit_of_measurement: "date"
     entity_id:
       - vacuum.james
-    value_template: 'Filter: {{ states.vacuum.james.attributes.clean_stop }}'
-    icon_template: 'mdi:stop'
+    value_template: "{{ states.vacuum.james.attributes.clean_stop }}"
+    icon_template: "mdi:stop"
   vacuum_sensordirtyleft:
     friendly_name: Replace filter
-    unit_of_measurement: 't'
+    unit_of_measurement: "hours"
+    device_class: timestamp
     entity_id:
       - vacuum.james
-    value_template: >
-        Sensor: {{ states.vacuum.james.attributes.
-        sensor_dirty_left }}
-    icon_template: 'mdi:screwdriver'
+    value_template: "{{ states.vacuum.james.attributes.sensor_dirty_left }}"
+    icon_template: "mdi:screwdriver"
   vacuum_do_not_disturb:
     friendly_name: Do Not Disturb
     entity_id:
       - vacuum.james
-    value_template: '{{ states.vacuum.james.attributes.do_not_disturb }}'
+    value_template: "{{ states.vacuum.james.attributes.do_not_disturb }}"
     icon_template: >
       {% set val =  states.vacuum.james.attributes.do_not_disturb  %}
       {% if val == 'on' %}
@@ -104,6 +99,6 @@ sensors:
         mdi:do-not-disturb-off
       {% endif %}
   vacuum_operation:
-    value_template: 'Operation'
+    value_template: "Operation"
   vacuum_accessories:
-    value_template: 'Maintenance'
+    value_template: "Maintenance"
