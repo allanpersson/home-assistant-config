@@ -1,0 +1,10 @@
+---
+# https://github.com/gregoryduckworth/GoogleGeocode-HASS
+platform: google_geocode
+name: Google Geocode Ea Hebsgaard
+origin: device_tracker.eahebsgaard
+options: street, street_number, city
+display_zone: hide
+api_key: !secret google_maps_api
+language: da-DK
+region: DK
