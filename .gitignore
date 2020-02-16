@@ -47,6 +47,7 @@ config/README.md
 config/.gitignore
 config/.yamllint
 config/www/videos/seasons/halloween.mp4
+config/integrations/anniversaries.yaml
 
 # ESPHome ignores
 config/esphome/**/
