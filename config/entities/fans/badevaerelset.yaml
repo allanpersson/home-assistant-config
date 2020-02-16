@@ -1,13 +1,16 @@
 ---
-#
-platform: template
-fans:
-  badevaerelset:
-    friendly_name: "Badeværelset"
-    value_template: "{{ states('switch.ventilator_badevaerelset') }}"
-    turn_on:
-      service: switch.turn_on
-      entity_id: switch.ventilator_badevaerelset
-    turn_off:
-      service: switch.turn_off
-      entity_id: switch.ventilator_badevaerelset
+# https://www.home-assistant.io/integrations/fan.mqtt/
+platform: mqtt
+name: "Badeværelset"
+state_topic: "shellies/shelly1-B8EDDC/relay/0"
+command_topic: "shellies/shelly1-B8EDDC/relay/0/command"
+availability_topic: "shellies/shelly1-B8EDDC/online"
+qos: 0
+payload_on: "on"
+payload_off: "off"
+payload_available: "true"
+payload_not_available: "false"
+payload_high_speed: "on"
+speeds:
+  - "off"
+  - high

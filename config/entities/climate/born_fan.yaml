@@ -2,7 +2,7 @@
 # https://www.home-assistant.io/integrations/generic_thermostat/
 platform: generic_thermostat
 name: "Ventilator (Børneværelset)"
-heater: switch.born
+heater: switch.ventilator_bornevaerelset
 target_sensor: sensor.bornevaerelset_temperature
 # min_temp: 19.0
 # max_temp: 23.5
