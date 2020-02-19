@@ -1,6 +1,6 @@
 ---
 #
-alias: "Router restart"
+alias: "[Automation] Router restart"
 trigger:
   - platform: time
     at: "03:59:30"
