@@ -10,3 +10,5 @@ action:
     data:
       title: "James FEJL!"
       message: "Han sidder fast eller oplever en fejl der kræver opmærksomhed"
+      data:
+        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.the-ambient.com%2Fmedia%2Fimages%2F2018%2F10%2F2018-10-22-111532-1540467534-FlGW-full-width-inline.jpg&f=1&nofb=1"

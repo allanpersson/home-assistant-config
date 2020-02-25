@@ -11,3 +11,8 @@ action:
     data:
       title: "James er startet!"
       message: "Læn dig tilbage og lad ham gøre rent efter dig"
+      data:
+        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F9to5mac.com%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F05%2FRoborock-S5.jpg%3Fquality%3D82%26strip%3Dall%26w%3D1500&f=1&nofb=1"
+        actions:
+          - action: script.vacuum_return_to_dock
+            title: "Return to dock"

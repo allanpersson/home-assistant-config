@@ -18,3 +18,5 @@ action:
         {{ states('sensor.vacuum_cleansidebrush') }}.
         {{ states('sensor.vacuum_cleanfilter') }}.
         {{ states('sensor.vacuum_sensordirtyleft') }}.
+      data:
+        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2otfaypcda2dg.cloudfront.net%2Fblog%2Fwp-content%2Fuploads%2F2018%2F10%2FRoborock-2-Vacuum-Cleaner-Review-charging-at-base-station.jpg&f=1&nofb=1"
