@@ -21,5 +21,6 @@ action:
       title: "Wake up!"
       message: "The house is on fire and the cat's stuck in the dryer!"
       data:
+        image: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fedinburghfestivalguide.co.uk%2Fwp-content%2Fuploads%2F2015%2F01%2FBeltane-2010-by-Neil-Hodgins.jpg&f=1&nofb=1"
         ttl: 0
         priority: high

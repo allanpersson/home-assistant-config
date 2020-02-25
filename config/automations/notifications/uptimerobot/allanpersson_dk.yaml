@@ -12,3 +12,5 @@ action:
       title: Allanpersson.dk is down!
       message: >
         Be aware of downtime on allanpersson.dk!
+      data:
+        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fregmedia.co.uk%2F2016%2F07%2F21%2Fdowntime_outage_sign.jpg%3Fx%3D1200%26y%3D794&f=1&nofb=1"

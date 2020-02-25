@@ -21,3 +21,5 @@ action:
     data:
       title: "Husk at vande!"
       message: "Ginseng i stuen har brug for looooooove"
+      data:
+        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fyoung-plant-watered-from-a-watering-can-picture-id637580444%3Fk%3D6%26m%3D637580444%26s%3D612x612%26w%3D0%26h%3DSA3IWKMhjEuGMjqdFnCDfaTYmMsJwFHt27XJkaMjdzU%3D&f=1&nofb=1"
