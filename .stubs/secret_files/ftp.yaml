@@ -1,0 +1,4 @@
+---
+# FTP
+ftp_password: "password"
+ftp_username: "username"
