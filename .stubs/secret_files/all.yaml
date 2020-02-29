@@ -3,6 +3,7 @@
 # Learn more at https://home-assistant.io/docs/configuration/secrets/
 duckdns_token: "tokentokentokentokentokentokentokentoken"
 github_access_token: "tokentokentokentokentokentokentokentoken"
+hacs_local_url: "http://url.dk"
 hacs_remote_url: "http://url.dk"
 here_appcode: "codecodecode"
 here_appid: "appidappidappid"
