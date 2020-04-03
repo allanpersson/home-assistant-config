@@ -2,6 +2,7 @@
 # https://www.home-assistant.io/integrations/fan.mqtt/
 platform: mqtt
 name: "Badeværelset"
+unique_id: 4f6044c4-487f-401c-90f5-578ebcd7fa5d
 state_topic: "shellies/shelly1-B8EDDC/relay/0"
 command_topic: "shellies/shelly1-B8EDDC/relay/0/command"
 availability_topic: "shellies/shelly1-B8EDDC/online"

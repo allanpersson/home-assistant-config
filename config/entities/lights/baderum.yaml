@@ -2,6 +2,7 @@
 # https://www.home-assistant.io/integrations/light.mqtt/
 platform: mqtt
 name: "Baderum"
+unique_id: e723f4f0-42b0-4f93-bc45-5f684461a5f3
 state_topic: "shellies/shelly1-B97644/relay/0"
 command_topic: "shellies/shelly1-B97644/relay/0/command"
 availability_topic: "shellies/shelly1-B97644/online"
