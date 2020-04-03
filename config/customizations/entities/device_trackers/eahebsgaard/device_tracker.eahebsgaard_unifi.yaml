@@ -1,0 +1,5 @@
+---
+device_tracker.eahebsgaard_unifi:
+  friendly_name: Ea Hebsgaard (Unifi)
+  icon: mdi:face-woman
+  entity_picture: !secret eahebsgaard_image

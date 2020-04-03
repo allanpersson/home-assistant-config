@@ -1,0 +1,5 @@
+---
+device_tracker.gh_kokkenet_unifi:
+  friendly_name: Google Home Køkkenet (Unifi)
+  icon: mdi:tablet
+  # entity_picture: !secret unknown_image

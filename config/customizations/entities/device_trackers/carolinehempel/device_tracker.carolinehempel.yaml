@@ -1,0 +1,5 @@
+---
+device_tracker.carolinehempel:
+  friendly_name: Caroline Hempel (Mobileapp)
+  icon: mdi:face-woman
+  entity_picture: !secret carolinehempel_image

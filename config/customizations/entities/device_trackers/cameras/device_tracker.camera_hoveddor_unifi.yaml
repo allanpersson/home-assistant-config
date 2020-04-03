@@ -1,0 +1,5 @@
+---
+device_tracker.camera_hoveddor_unifi:
+  friendly_name: Kamera Hoveddør (Unifi)
+  icon: mdi:cctv
+  # entity_picture: !secret unknown_image

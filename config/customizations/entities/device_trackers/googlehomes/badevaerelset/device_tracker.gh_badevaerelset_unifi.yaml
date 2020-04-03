@@ -1,0 +1,5 @@
+---
+device_tracker.gh_badevaerelset_unifi:
+  friendly_name: Google Home Badeværelset (Unifi)
+  icon: mdi:google-home
+  # entity_picture: !secret unknown_image

@@ -1,0 +1,5 @@
+---
+device_tracker.gh_stuen_bt:
+  friendly_name: Google Home Stuen (BT)
+  icon: mdi:cast-audio
+  # entity_picture: !secret unknown_image

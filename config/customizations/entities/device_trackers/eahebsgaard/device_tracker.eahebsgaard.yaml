@@ -1,0 +1,5 @@
+---
+device_tracker.eahebsgaard:
+  friendly_name: Ea Hebsgaard (Mobileapp)
+  icon: mdi:face-woman
+  entity_picture: !secret eahebsgaard_image

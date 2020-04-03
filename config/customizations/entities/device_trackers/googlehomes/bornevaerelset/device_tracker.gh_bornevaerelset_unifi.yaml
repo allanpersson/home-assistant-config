@@ -1,0 +1,5 @@
+---
+device_tracker.gh_bornevaerelset_unifi:
+  friendly_name: Google Home Børneværelset (Unifi)
+  icon: mdi:google-earth
+  # entity_picture: !secret unknown_image

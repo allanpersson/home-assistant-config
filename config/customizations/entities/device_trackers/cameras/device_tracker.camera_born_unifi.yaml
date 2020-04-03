@@ -1,0 +1,5 @@
+---
+device_tracker.camera_born_unifi:
+  friendly_name: Kamera Børneværelset (Unifi)
+  icon: mdi:cctv
+  # entity_picture: !secret unknown_image

@@ -1,0 +1,5 @@
+---
+device_tracker.dittehebsgaard_unifi:
+  friendly_name: Ditte Hebsgaard (Unifi)
+  icon: mdi:emoticon-devil
+  entity_picture: !secret dittehebsgaard_image

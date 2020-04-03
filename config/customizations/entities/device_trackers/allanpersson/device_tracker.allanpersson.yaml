@@ -1,0 +1,5 @@
+---
+device_tracker.allanpersson:
+  friendly_name: Allan Persson (Mobileapp)
+  icon: mdi:account-tie
+  entity_picture: !secret allanpersson_image

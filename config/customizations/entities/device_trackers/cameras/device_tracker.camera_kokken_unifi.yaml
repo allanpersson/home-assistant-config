@@ -1,0 +1,5 @@
+---
+device_tracker.camera_kokken_unifi:
+  friendly_name: Kamera Køkkenet (Unifi)
+  icon: mdi:cctv
+  # entity_picture: !secret unknown_image

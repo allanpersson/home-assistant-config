@@ -1,0 +1,5 @@
+---
+device_tracker.allanpersson_unifi:
+  friendly_name: Allan Persson (Unifi)
+  icon: mdi:account-tie
+  entity_picture: !secret allanpersson_image

@@ -1,0 +1,5 @@
+---
+device_tracker.dittehebsgaard_nmap:
+  friendly_name: Ditte Hebsgaard (Nmap)
+  icon: mdi:emoticon-devil
+  entity_picture: !secret dittehebsgaard_image

@@ -1,0 +1,5 @@
+---
+device_tracker.dittehebsgaard:
+  friendly_name: Ditte Hebsgaard (Mobileapp)
+  icon: mdi:emoticon-devil
+  entity_picture: !secret dittehebsgaard_image

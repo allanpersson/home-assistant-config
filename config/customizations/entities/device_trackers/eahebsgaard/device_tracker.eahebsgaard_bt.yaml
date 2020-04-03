@@ -1,0 +1,5 @@
+---
+device_tracker.eahebsgaard_bt:
+  friendly_name: Ea Hebsgaard (BT)
+  icon: mdi:face-woman
+  entity_picture: !secret eahebsgaard_image

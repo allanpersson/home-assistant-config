@@ -1,0 +1,5 @@
+---
+device_tracker.gh_gangen_unifi:
+  friendly_name: Google Home Gangen (Unifi)
+  icon: mdi:google-earth
+  # entity_picture: !secret unknown_image

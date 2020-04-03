@@ -1,0 +1,5 @@
+---
+device_tracker.allanpersson_bt:
+  friendly_name: Allan Persson (BT)
+  icon: mdi:account-tie
+  entity_picture: !secret allanpersson_image

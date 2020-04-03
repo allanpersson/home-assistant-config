@@ -1,0 +1,5 @@
+---
+device_tracker.emilhempel_bt:
+  friendly_name: Emil Hempel (BT)
+  icon: mdi:human-child
+  entity_picture: !secret emilhempel_image
