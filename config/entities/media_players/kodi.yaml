@@ -1,9 +1,9 @@
 ---
 #
 platform: kodi
-host: !secret kodi_host
+host: !secret kodi_host_lan
 turn_on_action:
   - service: wake_on_lan.send_magic_packet
     data:
-      mac: !secret kodi_mac
-      broadcast_address: !secret kodi_host
+      mac: !secret kodi_mac_lan
+      broadcast_address: !secret kodi_host_lan

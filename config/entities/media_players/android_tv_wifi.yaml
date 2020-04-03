@@ -1,7 +1,7 @@
 ---
 #
 platform: androidtv
-host: !secret androidtv_host_wifi
+host: !secret androidtv_host_lan
 device_class: androidtv
 adb_server_ip: !secret adb_server_ip
 adb_server_port: !secret adb_server_port
