@@ -1,3 +1,4 @@
 ---
 person.ea_hebsgaard:
+  icon: mdi:face-woman
   entity_picture: !secret eahebsgaard_image

@@ -1,3 +1,5 @@
 ---
 person.ditte_hebsgaard:
+  friendly_name: Ditte Hebsgaard
+  icon: mdi:emoticon-devil
   entity_picture: !secret dittehebsgaard_image

@@ -1,3 +1,5 @@
 ---
 person.allan_persson:
+  friendly_name: Allan Persson
+  icon: mdi:account-tie
   entity_picture: !secret allanpersson_image
