@@ -10,13 +10,6 @@ wifi:
   fast_connect: true
   reboot_timeout: 60min
 
-  manual_ip:
-    static_ip: !secret esp_bluetooth_board_ip
-    gateway: !secret wifi_gateway
-    subnet: !secret wifi_subnet
-    dns1: !secret wifi_dns01
-    dns2: !secret wifi_dns02
-
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Bluetooth Fallback Hotspot"
