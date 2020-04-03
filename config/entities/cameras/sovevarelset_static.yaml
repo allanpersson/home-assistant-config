@@ -1,5 +1,0 @@
----
-# Lokal file Camera
-platform: local_file
-name: "Soveværelset static"
-file_path: /config/www/images/rooms/sovevarelset.jpg
