@@ -1,0 +1,6 @@
+---
+# Kodi
+kodi_host_lan: 192.168.1.1
+kodi_host_wifi: 192.168.1.1
+kodi_mac_lan: "00:11:00:11:00:11"
+kodi_mac_wifi: "00:11:00:11:00:11"
