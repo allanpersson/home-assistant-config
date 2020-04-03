@@ -3,5 +3,4 @@ name: Evigglad
 latitude: !secret zone_evigglad_latitude
 longitude: !secret zone_evigglad_longitude
 radius: 50
-passive: false
 icon: mdi:baby-face
