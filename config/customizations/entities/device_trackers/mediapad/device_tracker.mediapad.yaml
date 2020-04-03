@@ -1,0 +1,5 @@
+---
+device_tracker.mediapad:
+  friendly_name: Mediapad (Mobileapp)
+  icon: mdi:tablet
+  entity_picture: !secret mediapad_image

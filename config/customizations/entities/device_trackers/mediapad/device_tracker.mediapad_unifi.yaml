@@ -1,0 +1,5 @@
+---
+device_tracker.mediapad_unifi:
+  friendly_name: Mediapad (Unifi)
+  icon: mdi:tablet
+  entity_picture: !secret mediapad_image

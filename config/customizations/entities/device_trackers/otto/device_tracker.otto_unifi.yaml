@@ -1,0 +1,5 @@
+---
+device_tracker.otto_unifi:
+  friendly_name: Otto (Unifi)
+  icon: mdi:dog
+  entity_picture: !secret otto_image

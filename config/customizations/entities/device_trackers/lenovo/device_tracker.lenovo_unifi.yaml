@@ -1,0 +1,5 @@
+---
+device_tracker.lenovo_unifi:
+  friendly_name: Lenovo Laptop (Unifi)
+  icon: mdi:laptop
+  # entity_picture: !secret unknown_image

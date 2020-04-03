@@ -1,0 +1,5 @@
+---
+device_tracker.lenovo_bt:
+  friendly_name: Lenovo Laptop (Bt)
+  icon: mdi:laptop
+  # entity_picture: !secret unknown_image

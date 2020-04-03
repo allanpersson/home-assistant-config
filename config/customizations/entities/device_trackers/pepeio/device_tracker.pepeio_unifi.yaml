@@ -1,0 +1,4 @@
+---
+device_tracker.pepeio_unifi:
+  friendly_name: Pepe.io (Unifi)
+  icon: mdi:home-assistant

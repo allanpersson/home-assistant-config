@@ -1,0 +1,5 @@
+---
+device_tracker.otto_tile:
+  friendly_name: Otto (Tile)
+  icon: mdi:dog
+  entity_picture: !secret otto_image

@@ -1,0 +1,5 @@
+---
+device_tracker.otto:
+  friendly_name: Otto (Mobileapp)
+  icon: mdi:dog
+  entity_picture: !secret otto_image

@@ -1,0 +1,5 @@
+---
+device_tracker.irenenissen_unifi:
+  friendly_name: Irene Nissen (Unifi)
+  icon: mdi:face-profile-woman
+  entity_picture: !secret irenenissen_image
