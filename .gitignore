@@ -22,8 +22,11 @@ ssl/*
 config/glances
 config/tts
 config/www/images/persons/*
+config/customizations/entities/device_trackers/allanpersson/device_tracker.tile_*
+config/customizations/entities/device_trackers/otto/device_tracker.tile_*
 config/entities/binary_sensors/ping_private/*
 config/entities/zones/zones_private/*
+config/entities/zones/parking/*
 config/.stubs/*
 config/secrets/*
 
