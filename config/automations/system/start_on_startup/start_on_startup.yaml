@@ -1,5 +1,4 @@
 ---
-#
 alias: "Start on startup"
 id: 01b9655d-9aa3-4b69-89ce-de34045843d1
 trigger:
@@ -10,5 +9,3 @@ action:
     entity_id: switch.google_home_stuen
   - service: switch.turn_on
     entity_id: switch.kokkenet
-  #- service: switch.turn_on
-    #entity_id: switch.router
