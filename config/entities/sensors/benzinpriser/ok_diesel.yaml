@@ -1,0 +1,10 @@
+---
+#
+# https://pastebin.com/qNNYH3J5
+platform: scrape
+name: Diesel
+resource: https://www.ok.dk/privat/produkter/priser
+select: ".cell--val"
+index: 3
+value_template: '{{ value | replace (" kr.", "") }}'
+unit_of_measurement: 'kr'
