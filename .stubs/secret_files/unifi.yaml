@@ -1,0 +1,6 @@
+---
+# Unifi
+unifi_host: 192.168.1.1
+unifi_password: "password"
+unifi_port: 8443
+unifi_username: "username"
