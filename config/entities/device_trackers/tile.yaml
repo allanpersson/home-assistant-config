@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/integrations/tile/
+platform: tile
+username: !secret tile_username
+password: !secret tile_password

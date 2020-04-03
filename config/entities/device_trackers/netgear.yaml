@@ -1,9 +1,0 @@
----
-# https://www.home-assistant.io/integrations/netgear/
-platform: netgear
-host: !secret netgear_host
-port: !secret netgear_port
-username: !secret netgear_username
-password: !secret netgear_password
-# consider_home: 120
-# interval_seconds: 15
