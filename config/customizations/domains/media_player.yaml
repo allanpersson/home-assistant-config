@@ -1,0 +1,4 @@
+---
+# https://www.home-assistant.io/docs/configuration/customizing-devices
+media_player:
+  icon: mdi:cast-audio

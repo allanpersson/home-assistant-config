@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/docs/configuration/customizing-devices
+binary_sensor.fire_37:
+  friendly_name: Gangen (Røgalarm)
+  icon: mdi:fire

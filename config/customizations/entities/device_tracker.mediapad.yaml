@@ -1,3 +1,0 @@
----
-device_tracker.mediapad:
-  entity_picture: !secret mediapad_image

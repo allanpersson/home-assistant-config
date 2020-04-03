@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/docs/configuration/customizing-devices
+binary_sensor.fire_38:
+  friendly_name: Køkkenet (Røgalarm)
+  icon: mdi:fire

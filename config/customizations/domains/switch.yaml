@@ -1,0 +1,4 @@
+---
+# https://www.home-assistant.io/docs/configuration/customizing-devices
+switch:
+  icon: mdi:light-switch

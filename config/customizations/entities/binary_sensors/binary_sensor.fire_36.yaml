@@ -1,0 +1,5 @@
+---
+# https://www.home-assistant.io/docs/configuration/customizing-devices
+binary_sensor.fire_36:
+  friendly_name: Stuen (Røgalarm)
+  icon: mdi:fire
