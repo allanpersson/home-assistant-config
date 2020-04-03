@@ -2,6 +2,7 @@
 #
 cover_stuen_50_percent_open:
   alias: "Cover 50% open (Stuen)"
+  icon: mdi:brightness-4
   sequence:
     - service: cover.set_cover_position
       entity_id: cover.stuen_venstre

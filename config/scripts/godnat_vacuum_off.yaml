@@ -2,6 +2,7 @@
 #
 godnat_vacuum_off:
   alias: "godnat vacuum off"
+  icon: 'mdi:bell-sleep'
   sequence:
     - service: automation.turn_off
       entity_id: automation.autoclean_vacuum

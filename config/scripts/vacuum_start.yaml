@@ -2,6 +2,7 @@
 #
 vacuum_start:
   alias: "Vacuum Start"
+  icon: mdi:play
   sequence:
     - service: vacuum.start
       entity_id: vacuum.james

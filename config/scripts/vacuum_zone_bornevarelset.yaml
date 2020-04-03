@@ -2,6 +2,7 @@
 #
 vacuum_bornevarelset:
   alias: "Vacuum Børneværelset"
+  icon: mdi:baby
   sequence:
     - service: vacuum.send_command
       data:

@@ -2,6 +2,7 @@
 #
 vacuum_pause:
   alias: "Vacuum Pause"
+  icon: mdi:pause
   sequence:
     - service: vacuum.start_pause
       entity_id: vacuum.james

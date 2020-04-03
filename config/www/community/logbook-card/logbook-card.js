@@ -35,7 +35,7 @@ class LogbookCard extends Polymer.Element {
             <template is="dom-repeat" rendered-item-count="{{itemsCount}}" items="{{history}}">
               <div class="item">
                 <template is="dom-if" if="{{_config.show.state}}"><span>[[item.state]]</span></template> 
-                <template is="dom-if" if="{{_config.show.duration}}"><span class="duration">[[getDuration(item.duration)]]</span></template>
+                <template is="dom-if" if="{{_config.show.duration}}"><span class="duration">[[item.duration]]</span></template>
                 <template is="dom-if" if="{{show.full_date}}"><div class="date"> [[_displayDate(item.start)]] - [[_displayDate(item.end)]]</div></template>
                 <template is="dom-if" if="{{show.only_start_date}}"><div class="date">[[_displayDate(item.start)]]</div></template>
                 <template is="dom-if" if="{{show.only_end_date}}"><div class="date">[[_displayDate(item.end)]]</div></template>
@@ -65,24 +65,36 @@ class LogbookCard extends Polymer.Element {
     return date.toLocaleString(this._hass.language);
   }
 
-  getDuration(durationInMs) {
+  
+  formatDuration(labelOne, labelMultiple,  value) {
+    return value === 1 
+    ? labelOne.replace("${value}", value)
+    : labelMultiple.replace("${value}", value);
+  } 
+
+  getDuration(durationInMs, labels) {
     if (!durationInMs) {
       return '';
     }
     const durationInS = durationInMs / 1000;
     if (durationInS < 60) {
-      return Math.round(durationInS) + 's';
+       var value = Math.round(durationInS);
+       return this.formatDuration(labels.second, labels.seconds, value);
     }
     const durationInMin = durationInS / 60;
     if (durationInMin < 60) {
-      return Math.round(durationInMin) + 'm';
+      var value = Math.round(durationInMin);
+      return this.formatDuration(labels.minute, labels.minutes, value);
     }
     const durationInHours = durationInMin / 60;
     if (durationInHours < 24) {
-      return Math.round(durationInHours) + 'h';
+      var value = Math.round(durationInHours);
+      return this.formatDuration(labels.hour, labels.hours, value);
     }
-    return Math.round(durationInHours / 24) + 'd';
+    var value = Math.round(durationInHours / 24);
+    return this.formatDuration(label.day, labels.days, value);
   }
+
 
   setConfig(config) {
     const DEFAULT_SHOW = {
@@ -90,6 +102,17 @@ class LogbookCard extends Polymer.Element {
       duration: true,
       start_date: true,
       end_date: true,
+    };
+
+    const DEFAULT_DURATION_LABELS = {
+      second: '${value}s',
+      seconds: '${value}s',
+      minute: '${value}m',
+      minutes: '${value}m',
+      hour: '${value}h',
+      hours: '${value}h',
+      day: '${value}d',
+      days: '${value}d'
     };
 
     this._config = {
@@ -101,14 +124,14 @@ class LogbookCard extends Polymer.Element {
       state_map: [],
       attributes: [],
       ...config,
-      show: { ...DEFAULT_SHOW, ...config.show }
+      show: { ...DEFAULT_SHOW, ...config.show },
+      duration_labels: { ...DEFAULT_DURATION_LABELS, ...config.duration_labels}
     };
 
     if (!config.entity) throw new Error('Please define an entity.');
     if (config.max_items !== undefined && !Number.isInteger(config.max_items)) throw new Error('Max_items must be an Integer.');
     if (config.hiddenState && !Array.isArray(config.hiddenState)) throw new Error('hiddenState must be an array');
     if (config.state_map && !Array.isArray(config.state_map)) throw new Error('state_map must be an array');
-    if (config.attributes && !Array.isArray(config.attributes)) throw new Error('attributes must be an array');
   }
 
   mapState(state) {
@@ -180,7 +203,11 @@ class LogbookCard extends Polymer.Element {
             }))
             //squash same state or unknown with previous state
             .reduce(this.squashSameState, [])
-            .filter(x => !this._config.hiddenState.includes(x.state));
+            .filter(x => !this._config.hiddenState.includes(x.state))
+            .map( x => ({
+              ...x,
+              duration: this.getDuration(x.duration, this._config.duration_labels)
+            }));
 
           if (this._config.desc === true) {
             this.history = this.history.reverse();

@@ -2,6 +2,7 @@
 #
 vacuum_gangen:
   alias: "Vacuum Gangen"
+  icon: mdi:hat-fedora
   sequence:
     - service: vacuum.send_command
       data:
