@@ -1,5 +1,6 @@
 ---
 alias: "Fan Off (Børneværelset)"
+id: a850566a-5469-4915-a0d3-f7ece5b464c4
 trigger:
   - platform: numeric_state
     entity_id: sensor.bornevaerelset_temperature

@@ -1,6 +1,7 @@
 ---
 #
 alias: "Baderum light on (Badeværelset)"
+id: ee9d40c0-96e9-4c16-942c-183a25efb8e1
 trigger:
   - platform: numeric_state
     entity_id: sensor.baderum_humidity

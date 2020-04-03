@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights off (Soveværelset)"
+id: 924dfba5-edc1-41a4-8c09-fee312041b8b
 trigger:
   platform: state
   entity_id:

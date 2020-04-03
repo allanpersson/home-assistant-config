@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights off (Badeværelset)"
+id: 9a79d40c-e617-48d5-ac30-68537a6d0568
 trigger:
   platform: state
   entity_id: binary_sensor.motion_badevaerelset

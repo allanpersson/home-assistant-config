@@ -1,6 +1,7 @@
 ---
 #
 alias: "Ventilator off (Badeværelset)"
+id: 1efa0c0f-14f3-4533-b6c6-e7d983091e3c
 trigger:
   - platform: numeric_state
     entity_id: sensor.baderum_humidity

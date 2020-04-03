@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights on night (Badeværelset)"
+id: 292933b5-f463-4e9a-aa89-f9e024bb5dea
 trigger:
   platform: state
   entity_id: binary_sensor.motion_badevaerelset
@@ -12,12 +13,12 @@ condition:
       entity_id: sensor.motion_badevaerelset
       below: 50
     - condition: time
-      after: '22:30'
+      after: '22:00'
       before: '07:00'
 action:
   - service: light.turn_on
     entity_id: light.badevaerelset
     data:
       transition: 1
-      brightness_pct: 1
+      brightness: 1
       rgb_color: [255, 160, 39]

@@ -1,5 +1,6 @@
 ---
 alias: "Børneværelset switch"
+id: 8fa72ab2-1a3e-4a90-8098-7a8c705212a3
 trigger:
   - platform: event
     event_type: deconz_event

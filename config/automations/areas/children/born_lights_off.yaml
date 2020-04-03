@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights off (Børneværelset)"
+id: 426055ec-f11d-468d-b716-caf015e98d29
 trigger:
   - platform: state
     entity_id: binary_sensor.motion_bornevaerelset

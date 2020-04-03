@@ -1,6 +1,7 @@
 ---
 #
 alias: "Guest mode (Badeværelset)"
+id: fbf2bb77-7fa7-4dba-8ddc-3097bf4b1c6f
 trigger:
   platform: state
   entity_id: binary_sensor.motion_badevaerelset
@@ -21,14 +22,14 @@ action:
   - service: media_player.turn_on
     entity_id: media_player.badevaerelset
   - delay:
-      milliseconds: 100
+      milliseconds: 50
   - service: media_player.play_media
     data_template:
       entity_id: media_player.badevaerelset
       media_content_id: http://live-icy.gss.dr.dk/A/A21H.mp3
       media_content_type: "music"
   - delay:
-      milliseconds: 100
+      milliseconds: 50
   - service: media_player.volume_set
     data_template:
       entity_id: media_player.badevaerelset
