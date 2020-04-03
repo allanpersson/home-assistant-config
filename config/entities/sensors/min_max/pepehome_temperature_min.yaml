@@ -1,5 +1,4 @@
 ---
-#
 platform: min_max
 name: "Pepehome Temperature (Min)"
 type: "min"

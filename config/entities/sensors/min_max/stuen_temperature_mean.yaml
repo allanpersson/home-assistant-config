@@ -1,5 +1,4 @@
 ---
-#
 platform: min_max
 name: "Stuen Temperature (Mean)"
 type: "mean"

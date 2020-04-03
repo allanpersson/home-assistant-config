@@ -4,8 +4,8 @@ sensors:
   android_tv_boks_source:
     friendly_name: Android Tv Boks Source
     entity_id:
-      - media_player.android_tv_boks
+      - media_player.samsung_tv
     value_template: >
-      {{ states.media_player.android_tv_boks.attributes.source }}
+      {{ states.media_player.samsung_tv.attributes.source }}
     unit_of_measurement: ""
     icon_template: mdi:television

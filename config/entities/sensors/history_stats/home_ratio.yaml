@@ -2,7 +2,7 @@
 # https://www.home-assistant.io/integrations/history_stats/
 platform: history_stats
 name: Allan Persson ratio home (today)
-entity_id: device_tracker.pepemobil
+entity_id: device_tracker.allanpersson
 state: "home"
 type: ratio
 start: "{{ now().replace(hour=0).replace(minute=0).replace(second=0) }}"

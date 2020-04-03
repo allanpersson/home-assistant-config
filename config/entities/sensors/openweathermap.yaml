@@ -1,5 +1,4 @@
 ---
-#
 platform: openweathermap
 api_key: !secret openweathermap_api
 language: da
