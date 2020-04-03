@@ -15,7 +15,7 @@ __pycache__
 config/.cloud
 config/.storage
 config/deps
-config/themes
+config/themes/**/
 addons/*
 backup/*
 share/*
