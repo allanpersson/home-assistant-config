@@ -7,34 +7,42 @@ logger:
     androidtv.adb_manager: error
 
     # Deconz
-    pydeconz: warn
-    homeassistant.components.deconz: warn
+    pydeconz: error
+    homeassistant.components.deconz: error
 
     # Device tracker
-    homeassistant.components.device_tracker.bluetooth_tracker: debug
-    homeassistant.components.device_tracker.bluetooth_le_tracker: debug
-    homeassistant.components.device_tracker: info
+    homeassistant.components.device_tracker.bluetooth_tracker: error
+    homeassistant.components.device_tracker.bluetooth_le_tracker: error
+    homeassistant.components.device_tracker: error
 
     # HA
     homeassistant.core: info
     homeassistant.setup: info
+    homeassistant.components.stream.worker: debug
+    # homeassistant.components.webhook: debug
+    homeassistant.helpers.condition: warn
+    homeassistant.components.androidtv.media_player: fatal
+    homeassistant.companion.android: debug
 
     # HACS
-    custom_components.hacs: warn
+    custom_components.hacs: warning
 
     # Homekit
-    homeassistant.components.homekit: info
-    pyhap: info
+    homeassistant.components.homekit: error
+    pyhap: error
 
     # Mediaplayer
     homeassistant.components.media_player: error
 
     # MQTT
-    homeassistant.components.mqtt: info
+    homeassistant.components.mqtt: error
 
     # Nabu Casa
     hass_nabucasa: warn
     snitun: warn
+
+    # Pychromecast
+    pychromecast.socket_client: warn
 
     # Waze
     homeassistant.components.waze_travel_time.sensor: error

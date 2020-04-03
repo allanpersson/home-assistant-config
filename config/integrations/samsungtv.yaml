@@ -1,0 +1,9 @@
+---
+# https://www.home-assistant.io/integrations/samsungtv/
+samsungtv:
+  - host: !secret samsungtv_host_lan
+    name: Samsung Tv
+    turn_on_action:
+      - service: wake_on_lan.send_magic_packet
+        data:
+          mac: !secret samsungtv_mac_lan
