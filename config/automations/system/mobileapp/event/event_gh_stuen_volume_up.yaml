@@ -1,0 +1,12 @@
+---
+#
+alias: "[Event] Stuen volume up"
+id: a7889293-bac5-45a0-b094-ad8669f385df
+trigger:
+  platform: event
+  event_type: mobile_app_notification_action
+  event_data:
+    action: stuen_volume_up
+action:
+  service: media_player.volume_up
+  entity_id: media_player.stuen

@@ -1,0 +1,12 @@
+---
+#
+alias: "[Event] Stuen volume mute"
+id: cd646c8b-f791-46bf-9b8d-b7e865e0afc8
+trigger:
+  platform: event
+  event_type: mobile_app_notification_action
+  event_data:
+    action: stuen_volume_mute
+action:
+  service: media_player.volume_mute
+  entity_id: media_player.stuen
