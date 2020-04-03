@@ -1,0 +1,22 @@
+---
+#
+alias: "[Automation] Sleep: Input Boolean Children OFF"
+id: 50b7cb05-7b0b-4adc-a7b0-8f1530d712c8
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.motion_bornevaerelset
+    above: 5
+    for:
+      minutes: 5
+condition:
+  condition: and
+  conditions:
+    - condition: time
+      after: "07:00:00"
+      before: "20:00:00"
+    - condition: numeric_state
+      entity_id: sensor.motion_bornevaerelset
+      above: 5
+action:
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.children_home_mode

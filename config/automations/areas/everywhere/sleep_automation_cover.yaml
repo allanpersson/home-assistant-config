@@ -1,22 +1,32 @@
 ---
 #
-alias: "[Automation] Sleep"
+alias: "[Automation] Sleep: Cover"
+id: e58a8bc0-6bc5-42c8-8ae7-c4c1c4e86655
 trigger:
   - platform: state
-    entity_id: binary_sensor.pepemobil_charging
-    from: "off"
-    to: "on"
+    entity_id: sensor.pepemobil_battery_state
+    to: "charging"
   - platform: state
-    entity_id: media_player.android_tv_boks
+    entity_id: sensor.pepemobil_battery_state
+    to: "full"
+  - platform: state
+    entity_id: media_player.samsung_tv
     to: "off"
+  - platform: time_pattern
+    seconds: "/180"
 condition:
   condition: and
   conditions:
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: sensor.pepemobil_battery_state
+          state: "charging"
+        - condition: state
+          entity_id: sensor.pepemobil_battery_state
+          state: "full"
     - condition: state
-      entity_id: binary_sensor.pepemobil_charging
-      state: "on"
-    - condition: state
-      entity_id: media_player.android_tv_boks
+      entity_id: media_player.samsung_tv
       state: "off"
     - condition: time
       after: "21:00:00"
@@ -24,11 +34,11 @@ condition:
     - condition: numeric_state
       entity_id: cover.stuen_hojre
       value_template: "{{ states.cover.stuen_hojre.attributes.current_position }}"
-      above: 26
+      above: 24
     - condition: numeric_state
       entity_id: cover.stuen_venstre
       value_template: "{{ states.cover.stuen_venstre.attributes.current_position }}"
-      above: 26
+      above: 24
 action:
   - service: cover.set_cover_position
     entity_id: cover.stuen_venstre
@@ -38,5 +48,3 @@ action:
     entity_id: cover.stuen_hojre
     data:
       position: 23
-  - service: input_boolean.turn_on
-    entity_id: input_boolean.sleep_mode

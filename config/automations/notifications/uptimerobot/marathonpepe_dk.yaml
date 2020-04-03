@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Notification] Marathonpepe.dk down"
+id: 598f40fd-c52c-4067-8eeb-6f63614adbdc
 trigger:
   - platform: state
     entity_id: binary_sensor.marathonpepe_dk
@@ -13,4 +14,4 @@ action:
       message: >
         Be aware of downtime on marathonpepe.dk!
       data:
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fregmedia.co.uk%2F2016%2F07%2F21%2Fdowntime_outage_sign.jpg%3Fx%3D1200%26y%3D794&f=1&nofb=1"
+        image: !secret uptimerobot_image

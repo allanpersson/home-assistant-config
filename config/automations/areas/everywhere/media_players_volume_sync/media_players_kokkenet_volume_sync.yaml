@@ -1,7 +1,7 @@
 ---
 #
 alias: "Google Home køkkenet volume sync"
-# initial_state: true
+id: 97333517-dc52-449d-a3e0-05bfe52c6697
 trigger:
   - platform: state
     entity_id: media_player.kokkenet

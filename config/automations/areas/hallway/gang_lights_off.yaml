@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights off (Gangen)"
+id: c3fc095b-4d52-4c68-8869-a4ab13fe7eeb
 trigger:
   platform: state
   entity_id: binary_sensor.motion_gangen

@@ -1,6 +1,7 @@
 ---
 #
 alias: "Autoclean (Vacuum)"
+id: 3405029c-1aa8-4e4b-a10a-34a2da15ed07
 trigger:
   platform: time_pattern
   seconds: "/180"
@@ -11,7 +12,7 @@ condition:
       after: "07:00:00"
       before: "20:00:00"
     - condition: template
-      value_template: >
+      value_template: >-
         {{as_timestamp(now()) - as_timestamp
         (states.vacuum.james.attributes.clean_stop) | int > 12600}}
     - condition: state

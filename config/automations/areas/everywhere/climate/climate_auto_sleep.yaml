@@ -1,9 +1,10 @@
 ---
 #
 alias: "[Climate] auto sleep"
+id: be12286f-cfa8-4634-bfb7-7905c849fca0
 trigger:
   - platform: state
-    entity_id: media_player.android_tv_boks
+    entity_id: media_player.samsung_tv
     to: "off"
   - platform: time_pattern
     seconds: "/300"
@@ -22,13 +23,13 @@ condition:
     - condition: or
       conditions:
         - condition: state
-          entity_id: media_player.android_tv_boks
+          entity_id: media_player.samsung_tv
           state: "standby"
         - condition: state
-          entity_id: media_player.android_tv_boks
+          entity_id: media_player.samsung_tv
           state: "idle"
         - condition: state
-          entity_id: media_player.android_tv_boks
+          entity_id: media_player.samsung_tv
           state: "off"
 action:
   - service: climate.set_hvac_mode

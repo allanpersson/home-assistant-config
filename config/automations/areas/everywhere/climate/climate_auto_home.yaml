@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Climate] auto home"
+id: ffa0f64c-7dcd-4266-95ed-84b965ba0806
 trigger:
   - platform: state
     entity_id: group.person_alle

@@ -1,6 +1,7 @@
 ---
 #
 alias: "Leaving home turn off"
+id: a6530e65-17e4-4953-b729-eecb288436a6
 trigger:
   - platform: state
     entity_id: group.person_alle
@@ -14,10 +15,10 @@ condition:
       entity_id: group.light_alle
       state: "on"
     - condition: state
-      entity_id: media_player.android_tv_boks
+      entity_id: media_player.samsung_tv
       state: "playing"
     - condition: state
-      entity_id: media_player.android_tv_boks
+      entity_id: media_player.samsung_tv
       state: "paused"
 action:
   - service: notify.mobile_app_pepemobil
@@ -31,4 +32,4 @@ action:
   - service: light.turn_off
     entity_id: group.light_alle
   - service: media_player.turn_off
-    entity_id: media_player.android_tv_boks
+    entity_id: media_player.samsung_tv

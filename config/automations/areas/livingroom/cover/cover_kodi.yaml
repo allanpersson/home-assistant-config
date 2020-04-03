@@ -1,28 +1,30 @@
 ---
 #
 alias: "Cover - Kodi (Stuen)"
+id: 61f845d3-8b6e-4d7f-b9ed-97325717ca23
 trigger:
   - platform: state
-    entity_id: sensor.android_tv_boks_source
-    to: "Kodi"
+    entity_id: media_player.kodi
+    to: "playing"
+  - platform: state
+    entity_id: media_player.kodi
+    to: "idle"
 condition:
   condition: or
   conditions:
     - condition: numeric_state
       entity_id: cover.stuen_hojre
       value_template: "{{ states.cover.stuen_hojre.attributes.current_position }}"
-      above: 26
+      above: 24
     - condition: numeric_state
       entity_id: cover.stuen_venstre
       value_template: "{{ states.cover.stuen_venstre.attributes.current_position }}"
-      above: 26
+      above: 24
 action:
   - service: cover.set_cover_position
     entity_id: cover.stuen_venstre
     data:
       position: 23
-  # - delay:
-  #     milliseconds: 100
   - service: cover.set_cover_position
     entity_id: cover.stuen_hojre
     data:

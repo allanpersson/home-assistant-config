@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Notification] HA Upgrade"
+id: d644b547-8a80-4ff1-81ce-1fa2f4520406
 trigger:
   - platform: state
     entity_id: sensor.version_available

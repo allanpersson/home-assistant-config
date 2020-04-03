@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Notification] Altandør"
+id: a8f1673e-2e10-48ab-8bfd-f3b821ba4f3a
 trigger:
   platform: state
   entity_id: binary_sensor.door_altandor
@@ -11,3 +12,5 @@ action:
     data:
       title: "Altandør!"
       message: "Døren er netop blevet åbnet...."
+      data:
+        image: !secret altan_image

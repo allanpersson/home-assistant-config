@@ -1,11 +1,11 @@
 ---
 alias: "Stuen unavailable reboot"
+id: 0465d71a-ca55-49df-a8b2-51f39b0255c3
 trigger:
   - platform: state
     entity_id: media_player.stuen
     to: "unavailable"
-    for:
-      minutes: 3
+    for: 00:03:00
   - platform: time_pattern
     minutes: "/5"
 condition:
@@ -19,6 +19,6 @@ action:
   - service: switch.turn_off
     entity_id: switch.google_home_stuen
   - delay:
-      seconds: 20
+      seconds: 30
   - service: switch.turn_on
     entity_id: switch.google_home_stuen

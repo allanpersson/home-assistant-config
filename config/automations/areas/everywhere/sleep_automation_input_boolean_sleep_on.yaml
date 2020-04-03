@@ -1,0 +1,36 @@
+---
+#
+alias: "[Automation] Sleep: Input Boolean Sleep ON"
+id: c7074731-c81e-405b-8b25-1ac1dd91dbc1
+trigger:
+  - platform: state
+    entity_id: sensor.pepemobil_battery_state
+    to: "charging"
+  - platform: state
+    entity_id: sensor.pepemobil_battery_state
+    to: "full"
+  - platform: state
+    entity_id: media_player.samsung_tv
+    to: "off"
+  - platform: time_pattern
+    seconds: "/180"
+condition:
+  condition: and
+  conditions:
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: sensor.pepemobil_battery_state
+          state: "charging"
+        - condition: state
+          entity_id: sensor.pepemobil_battery_state
+          state: "full"
+    - condition: state
+      entity_id: media_player.samsung_tv
+      state: "off"
+    - condition: time
+      after: "21:00:00"
+      before: "06:00:00"
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.sleep_mode

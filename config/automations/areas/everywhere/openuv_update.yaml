@@ -1,6 +1,7 @@
 ---
 #
 alias: "Openuv update"
+id: 070d8871-4361-468c-b69c-600698345c9b
 trigger:
   platform: time_pattern
   minutes: "/60"

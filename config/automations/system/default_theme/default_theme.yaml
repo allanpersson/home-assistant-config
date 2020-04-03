@@ -5,11 +5,12 @@
 # have a theme set.
 #
 alias: "Default HA Theme"
-# initial_state: true
+id: 68bad14f-07bc-4bc5-8aed-90e50ed7e746
+initial_state: true
 trigger:
   platform: homeassistant
   event: start
 action:
   service: frontend.set_theme
   data:
-    name: material_dark_theme_custom
+    name: Google Dark Theme

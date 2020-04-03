@@ -1,31 +1,41 @@
 ---
 #
 alias: "[Automation] Wakeup"
+id: 4876e57c-8e70-4e87-a4eb-434554a8f04e
 trigger:
   - platform: state
-    entity_id: binary_sensor.pepemobil_charging
-    from: "on"
-    to: "off"
+    entity_id: sensor.pepemobil_battery_state
+    to: "discharging"
   - platform: state
-    entity_id: media_player.android_tv_boks
+    entity_id: sensor.pepemobil_battery_state
+    to: "not_charging"
+  - platform: state
+    entity_id: media_player.samsung_tv
     to: "on"
+  - platform: time_pattern
+    seconds: "/180"
 condition:
   condition: and
   conditions:
-    - condition: state
-      entity_id: binary_sensor.pepemobil_charging
-      state: "off"
+    - condition: or
+      conditions:
+        - condition: state
+          entity_id: sensor.pepemobil_battery_state
+          state: "discharging"
+        - condition: state
+          entity_id: sensor.pepemobil_battery_state
+          state: "not_charging"
     - condition: time
       after: "06:00:00"
       before: "11:00:00"
     - condition: numeric_state
       entity_id: cover.stuen_hojre
       value_template: "{{ states.cover.stuen_hojre.attributes.current_position }}"
-      below: 101
+      above: 90
     - condition: numeric_state
       entity_id: cover.stuen_venstre
       value_template: "{{ states.cover.stuen_venstre.attributes.current_position }}"
-      below: 101
+      above: 90
 action:
   - service: cover.set_cover_position
     entity_id: cover.stuen_venstre
@@ -35,5 +45,7 @@ action:
     entity_id: cover.stuen_hojre
     data:
       position: 100
+  - delay:
+      minutes: 10
   - service: input_boolean.turn_off
     entity_id: input_boolean.sleep_mode

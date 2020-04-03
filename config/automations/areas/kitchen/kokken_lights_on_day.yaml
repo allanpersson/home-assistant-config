@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights on day (Køkkenet)"
+id: f6590224-5661-4813-9b1e-565827cce8b5
 trigger:
   platform: state
   entity_id: binary_sensor.motion_kokkenet
@@ -31,13 +32,13 @@ action:
     entity_id: light.kokkenet_vask
     data:
       transition: 1
-      brightness_pct: 70
+      brightness: 180
       rgb_color: [255, 160, 39]
   - delay:
-      milliseconds: 100
+      milliseconds: 50
   - service: light.turn_on
     entity_id: light.kokkenet_nilfisk
     data:
       transition: 1
-      brightness_pct: 70
+      brightness: 180
       rgb_color: [255, 160, 39]

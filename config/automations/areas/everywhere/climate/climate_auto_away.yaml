@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Climate] auto away"
+id: 79ed4b01-a209-4649-af68-b1181d6209b4
 trigger:
   - platform: state
     entity_id: group.person_alle

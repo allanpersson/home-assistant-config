@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Notification] Smokealarm"
+id: a68a2781-9aee-462c-979f-c8819437e4e6
 initial_state: true
 trigger:
   - platform: state

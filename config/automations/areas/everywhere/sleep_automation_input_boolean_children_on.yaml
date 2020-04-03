@@ -1,0 +1,30 @@
+---
+#
+alias: "[Automation] Sleep: Input Boolean Children ON"
+id: 3fbf2e2a-15cb-45f4-acf5-d68e7a43630d
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.motion_bornevaerelset
+    below: 5
+  - platform: time_pattern
+    seconds: "/300"
+condition:
+  condition: and
+  conditions:
+    - condition: or
+      conditions:
+        - condition: time
+          after: "18:00:00"
+          before: "09:00:00"
+        - condition: time
+          after: "12:00:00"
+          before: "15:00:00"
+    - condition: numeric_state
+      entity_id: sensor.motion_bornevaerelset
+      below: 5
+    - condition: state
+      entity_id: person.ea_hebsgaard
+      state: "home"
+action:
+  - service: input_boolean.turn_on
+    entity_id: input_boolean.children_home_mode

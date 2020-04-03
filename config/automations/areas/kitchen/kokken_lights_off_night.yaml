@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights off night (Køkkenet)"
+id: d777dbca-cc67-4c6d-9441-0fd334bf1455
 trigger:
   platform: state
   entity_id: binary_sensor.motion_kokkenet

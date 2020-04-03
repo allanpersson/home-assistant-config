@@ -1,6 +1,7 @@
 ---
 #
 alias: "Away (Vacuum)"
+id: 5e2c8f89-1d79-4698-ae96-fe934964c8af
 trigger:
   - platform: state
     entity_id: group.person_alle

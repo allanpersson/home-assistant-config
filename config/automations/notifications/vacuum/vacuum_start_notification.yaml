@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Notification] Vacuum: Start"
+id: d13cdbab-3325-485f-955d-cbfaddccc7ce
 trigger:
   platform: state
   entity_id: vacuum.james

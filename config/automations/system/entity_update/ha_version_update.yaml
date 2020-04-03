@@ -1,6 +1,7 @@
 ---
 #
 alias: "HA version update"
+id: 84db55b3-2547-4a68-a1bc-9bb1a85de7d7
 trigger:
   - platform: time_pattern
     hours: "/6"

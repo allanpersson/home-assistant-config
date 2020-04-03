@@ -1,6 +1,7 @@
 ---
 # https://hacs.xyz/docs/basic/automation
 alias: "[Notification] HACS Update"
+id: aef25931-baab-441a-8846-b774bb4494d7
 trigger:
   - platform: state
     entity_id: sensor.hacs
@@ -19,11 +20,8 @@ action:
         {% endfor %}
       data:
         image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SHLpGBkErfffxdIk-q_aywHaGL%26pid%3DApi&f=1"
-        clickAction: !secret hacs_remote_url
+        clickAction: /hacs
         actions:
-          - action: "URI"
-            title: "Gå til HACS (Lokal)"
-            uri: !secret hacs_local_url
-          - action: "URI"
-            title: "Gå til HACS (Remote)"
-            uri: !secret hacs_remote_url
+          - action: URI
+            uri: /hacs
+            title: "Gå til HACS"

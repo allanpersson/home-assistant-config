@@ -1,5 +1,6 @@
 ---
 alias: "Lights off - Android Tv (Stuen)"
+id: 1bc3800d-a967-4963-9da4-bd2cd3d1c0ad
 trigger:
   - platform: time_pattern
     minutes: "/1"

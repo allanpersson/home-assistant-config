@@ -1,6 +1,7 @@
 ---
 #
 alias: "Dropbox Auto upload Snapshot"
+id: f21584a4-b493-4281-9780-ac6b4c0d6cf5
 trigger:
   - platform: time
     at: '03:30:00'

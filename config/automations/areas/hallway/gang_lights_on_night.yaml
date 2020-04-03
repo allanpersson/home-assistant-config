@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights on night (Gangen)"
+id: 33cc4b47-a960-4767-8149-47c4f9b7ff20
 trigger:
   - platform: state
     entity_id: binary_sensor.motion_gangen
@@ -20,7 +21,7 @@ condition:
 action:
   service: light.turn_on
   data:
-    # transition: 1
-    brightness_pct: 1
+    transition: 1
+    brightness: 1
     rgb_color: [0, 0, 139]
     entity_id: light.gangen

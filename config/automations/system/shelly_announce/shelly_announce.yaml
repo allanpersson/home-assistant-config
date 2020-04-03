@@ -1,11 +1,13 @@
 ---
 # https://shelly.cloud/
 alias: Shelly Sync at HA Start
+id: 59f9f421-ddb9-497c-a3b8-94f0d4504f46
 trigger:
   - platform: homeassistant
     event: start
 action:
-  - delay: 00:00:20
+  - delay:
+      seconds: 30
   - service: mqtt.publish
     data:
       topic: shellies/command

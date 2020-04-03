@@ -1,7 +1,7 @@
 ---
 #
 alias: "Google Home Stuen volume sync"
-# initial_state: true
+id: e2a61128-8f7c-4ff9-abba-cc300e496eac
 trigger:
   - platform: state
     entity_id: media_player.stuen

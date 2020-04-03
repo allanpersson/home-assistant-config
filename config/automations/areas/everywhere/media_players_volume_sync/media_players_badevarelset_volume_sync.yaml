@@ -1,7 +1,7 @@
 ---
 #
 alias: "Google Home badeværelset volume sync"
-# initial_state: true
+id: 84feb1e6-7fa1-40c3-8af4-46a1b1e5c254
 trigger:
   - platform: state
     entity_id: media_player.badevaerelset

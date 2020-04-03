@@ -1,6 +1,7 @@
 ---
 #
 alias: '[Notification] Vacuum: Error'
+id: bfe6b7f4-c591-4002-b645-802d6b2c884e
 trigger:
   platform: state
   entity_id: vacuum.james

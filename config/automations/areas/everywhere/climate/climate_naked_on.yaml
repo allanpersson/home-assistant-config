@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Climate] naked on"
+id: 1e5905b8-367e-4527-b186-0bd179449266
 trigger:
   - platform: state
     entity_id: input_boolean.naked_mode

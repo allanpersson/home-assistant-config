@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights on - Android Tv (Stuen)"
+id: d4400beb-3185-4a47-8b82-4308d610c18b
 trigger:
   - platform: time_pattern
     seconds: "/180"
@@ -27,6 +28,9 @@ condition:
     - condition: or
       conditions:
         - condition: state
+          entity_id: media_player.samsung_tv
+          state: "on"
+        - condition: state
           entity_id: media_player.android_tv_boks
           state: "paused"
         - condition: state
@@ -39,24 +43,24 @@ action:
   - service: light.turn_on
     data:
       transition: 10
-      brightness_pct: 1
+      brightness: 40
       rgb_color: [139, 69, 19]
       entity_id: light.stuen_nilfisk
   - service: light.turn_on
     data:
       transition: 10
-      brightness_pct: 40
+      brightness: 50
       rgb_color: [255, 160, 39]
       entity_id: light.stuen_hvid
   - service: light.turn_on
     data:
       transition: 10
-      brightness_pct: 40
+      brightness: 70
       rgb_color: [85, 107, 47]
       entity_id: light.stuen_sort
   - service: light.turn_on
     data:
       transition: 10
-      brightness_pct: 40
+      brightness: 60
       rgb_color: [255, 69, 0]
       entity_id: light.stuen_rod

@@ -1,6 +1,7 @@
 ---
 #
 alias: "Cover - switch close (Stuen)"
+id: 3ce2eaee-fa6e-4179-9a31-9e5d5ba806a5
 trigger:
   - platform: event
     event_type: deconz_event
@@ -32,7 +33,7 @@ action:
     data:
       position: 23
   - delay:
-      milliseconds: 100
+      milliseconds: 50
   - service: cover.set_cover_position
     entity_id: cover.stuen_hojre
     data:

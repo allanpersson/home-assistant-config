@@ -1,6 +1,7 @@
 ---
 #
 alias: "Google Home gangen volume sync"
+id: 4861d6d4-9ca7-47b6-b051-1814260f3910
 trigger:
   - platform: state
     entity_id: media_player.gangen

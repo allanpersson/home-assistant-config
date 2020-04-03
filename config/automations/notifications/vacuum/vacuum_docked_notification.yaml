@@ -1,6 +1,7 @@
 ---
 #
 alias: '[Notification] Vacuum: Docked'
+id: 0f743d0a-d893-4f19-b1e6-c9530079b3f1
 trigger:
   platform: state
   entity_id: vacuum.james

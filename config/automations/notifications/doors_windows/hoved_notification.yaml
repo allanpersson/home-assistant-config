@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Notification] Hoveddør"
+id: 3b653ceb-46fa-4fe5-8327-6d65ed7a8bd0
 trigger:
   platform: state
   entity_id: binary_sensor.door_hoveddor
@@ -12,5 +13,18 @@ action:
       title: "Hoveddør!"
       message: "Døren er netop blevet åbnet...."
       data:
+        image: /api/camera_proxy/camera.kokkenet
+        clickAction: /api/camera_proxy/camera.kokkenet
+        color: green
         ttl: 0
         priority: high
+        actions:
+          - action: URI
+            uri: /lovelace/pepehome
+            title: "Pepehome"
+          - action: URI
+            uri: /lovelace/personer
+            title: "Personer"
+          - action: URI
+            uri: /lovelace/lamper
+            title: "Lamper"

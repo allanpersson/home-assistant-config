@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Notification] Plante: Ginseng"
+id: 3cb5767f-f511-4287-aab9-6d45903b9533
 trigger:
   - platform: time_pattern
     minutes: "/60"
@@ -9,7 +10,7 @@ condition:
   conditions:
     - condition: numeric_state
       entity_id: sensor.plante_stuen_ginseng_moisture
-      below: 10
+      below: 15
     - condition: state
       entity_id: person.allan_persson
       state: "home"
@@ -20,6 +21,8 @@ action:
   - service: notify.mobile_app_pepemobil
     data:
       title: "Husk at vande!"
-      message: "Ginseng i stuen har brug for looooooove"
+      message: >-
+        Ginseng i stuen har brug for looooooove! Der er kun
+        {{ states('sensor.plante_stuen_ginseng_moisture') }} % love tilbage...
       data:
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fyoung-plant-watered-from-a-watering-can-picture-id637580444%3Fk%3D6%26m%3D637580444%26s%3D612x612%26w%3D0%26h%3DSA3IWKMhjEuGMjqdFnCDfaTYmMsJwFHt27XJkaMjdzU%3D&f=1&nofb=1"
+        image: !secret ginseng_image

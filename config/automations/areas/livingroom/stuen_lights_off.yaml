@@ -1,6 +1,7 @@
 ---
 #
 alias: "Lights off (Stuen)"
+id: ce0dcfed-861a-4195-b2a5-6b3af09b2fd5
 trigger:
   - platform: numeric_state
     entity_id: sun.sun

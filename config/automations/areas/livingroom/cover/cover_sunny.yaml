@@ -1,22 +1,17 @@
 ---
 #
 alias: "Cover - Sunny (Stuen)"
+id: 6b3ae14e-dc86-4e0a-9991-10715da8958d
 trigger:
   - platform: numeric_state
     entity_id: sensor.stuen_temperature_mean
     above: 22.0
-  - platform: numeric_state
-    entity_id: sensor.owm_cloud_coverage
-    below: 50
 condition:
   condition: and
   conditions:
     - condition: numeric_state
       entity_id: sensor.owm_temperature
       above: 12
-    - condition: numeric_state
-      entity_id: sensor.owm_cloud_coverage
-      below: 50
     - condition: numeric_state
       entity_id: sensor.stuen_temperature_mean
       above: 22.0
@@ -25,8 +20,6 @@ action:
     entity_id: cover.stuen_venstre
     data:
       position: 23
-  # - delay:
-  #     milliseconds: 100
   - service: cover.set_cover_position
     entity_id: cover.stuen_hojre
     data:

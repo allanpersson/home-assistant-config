@@ -1,6 +1,7 @@
 ---
 #
 alias: "Halloween"
+id: fd7cd09c-4640-42b1-b4f6-e7dc0bed17ae
 trigger:
   - platform: state
     entity_id: binary_sensor.motion_kokkenet
@@ -93,7 +94,7 @@ action:
   - service: media_player.turn_on
     entity_id: media_player.kokkenet
   - delay:
-      milliseconds: 100
+      milliseconds: 50
   - service: media_player.play_media
     data_template:
       entity_id: media_player.badevaerelset

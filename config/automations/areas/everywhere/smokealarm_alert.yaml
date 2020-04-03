@@ -1,6 +1,7 @@
 ---
 #
 alias: "Smokealarm alert"
+id: 2c413138-4a77-4e47-ac91-7d7b1f61850c
 trigger:
   - platform: state
     entity_id: binary_sensor.lumi_sensor_smoke
@@ -23,41 +24,41 @@ action:
   - service: media_player.turn_on
     entity_id: media_player.alle_ogsa_bornevaerelet
   - delay:
-      milliseconds: 100
+      milliseconds: 50
   - service: media_player.play_media
     data_template:
       entity_id: media_player.alle_ogsa_bornevaerelet
       media_content_id: http://soundbible.com/mp3/submarine-diving-alarm-daniel_simon.mp3
       media_content_type: "music"
   - delay:
-      milliseconds: 100
+      milliseconds: 50
   - service: media_player.set_volume
     data:
       entity_id: media_player.alle_ogsa_bornevaerelet
       volume_level: "0.90"
   - delay:
-      seconds: 30
+      milliseconds: 50
   - service: media_player.play_media
     data_template:
       entity_id: media_player.alle_ogsa_bornevaerelet
       media_content_id: http://soundbible.com/mp3/submarine-diving-alarm-daniel_simon.mp3
       media_content_type: "music"
   - delay:
-      seconds: 30
+      milliseconds: 50
   - service: media_player.play_media
     data_template:
       entity_id: media_player.alle_ogsa_bornevaerelet
       media_content_id: http://soundbible.com/mp3/submarine-diving-alarm-daniel_simon.mp3
       media_content_type: "music"
   - delay:
-      seconds: 30
+      milliseconds: 50
   - service: media_player.play_media
     data_template:
       entity_id: media_player.alle_ogsa_bornevaerelet
       media_content_id: http://soundbible.com/mp3/submarine-diving-alarm-daniel_simon.mp3
       media_content_type: "music"
   - delay:
-      seconds: 30
+      milliseconds: 50
   - service: media_player.play_media
     data_template:
       entity_id: media_player.alle_ogsa_bornevaerelet

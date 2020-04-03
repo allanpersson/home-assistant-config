@@ -1,6 +1,7 @@
 ---
 #
 alias: "[Climate] auto off"
+id: 1e5b30bb-101c-4c61-9056-15b08b54d64f
 trigger:
   - platform: numeric_state
     entity_id: sensor.owm_temperature

@@ -1,12 +1,12 @@
 ---
 #
 alias: "[Climate] open windows"
+id: 66e029ff-e3c0-456f-8de8-3033903f33a0
 trigger:
   - platform: state
     entity_id: group.windows_alle
     to: "on"
-    for:
-      seconds: 20
+    for: 00:00:20
 action:
   - service: automation.turn_off
     data:
