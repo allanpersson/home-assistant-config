@@ -1,0 +1,4 @@
+---
+media_player.samsung_tv:
+  friendly_name: Samsung TV
+  icon: mdi:television
