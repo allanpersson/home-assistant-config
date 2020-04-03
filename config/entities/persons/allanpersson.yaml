@@ -4,8 +4,7 @@ name: Allan Persson
 id: allanpersson
 user_id: !secret user_id_person_allan
 device_trackers:
+  - device_tracker.allanpersson
   - device_tracker.allanpersson_bt
-  - device_tracker.allanpersson_forerunner_ble
-  - device_tracker.allanpersson_forerunner_bt
-  - device_tracker.allanpersson_nmap
-  - device_tracker.pepemobil
+  - device_tracker.allanpersson_unifi
+  - device_tracker.tile_p_ce8dba2d67fbfd64ef4a063c93c23b4b

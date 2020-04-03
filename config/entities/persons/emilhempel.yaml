@@ -5,4 +5,4 @@ id: emilhempel
 device_trackers:
   - device_tracker.emilhempel
   - device_tracker.emilhempel_bt
-  - device_tracker.emilhempel_nmap
+  - device_tracker.emilhempel_unifi

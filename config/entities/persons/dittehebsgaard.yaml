@@ -3,4 +3,6 @@
 name: Ditte Hebsgaard
 id: dittehebsgaard
 device_trackers:
-  - device_tracker.dittehebsgaard_nmap
+  - device_tracker.dittehebsgaard
+  - device_tracker.dittehebsgaard_bt
+  - device_tracker.dittehebsgaard_unifi

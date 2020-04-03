@@ -4,6 +4,6 @@ name: Ea Hebsgaard
 id: eahebsgaard
 user_id: !secret user_id_person_ea
 device_trackers:
-  - device_tracker.eahebsgaard_bt
-  - device_tracker.eahebsgaard_nmap
   - device_tracker.eahebsgaard
+  - device_tracker.eahebsgaard_bt
+  - device_tracker.eahebsgaard_unifi

@@ -3,5 +3,4 @@
 name: Otto
 id: otto
 device_trackers:
-  - device_tracker.otto_ble
   - device_tracker.otto_bt

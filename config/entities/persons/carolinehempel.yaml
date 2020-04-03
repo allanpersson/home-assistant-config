@@ -3,5 +3,6 @@
 name: Caroline Hempel
 id: carolinehempel
 device_trackers:
+  - device_tracker.carolinehempel
   - device_tracker.carolinehempel_bt
-  - device_tracker.carolinehempel_nmap
+  - device_tracker.carolinehempel_unifi

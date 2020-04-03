@@ -3,5 +3,6 @@
 name: Irene Nissen
 id: irenenissen
 device_trackers:
+  - device_tracker.irenenissen
   - device_tracker.irenenissen_bt
-  - device_tracker.irenenissen_nmap
+  - device_tracker.irenenissen_unifi
