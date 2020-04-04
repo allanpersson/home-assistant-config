@@ -90,5 +90,5 @@ jobs:
   readme_sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync .readme file
+      - name: Sync readme file
         run: cp -R ./config/README.md ./
