@@ -91,4 +91,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync readme file
-        run: cp -R ./config/README.md ./
+        run: cp -R ./config/README.md ./README.md
+        continue-on-error: true
