@@ -46,7 +46,7 @@ config/ip_bans.yaml
 config/known_devices.yaml
 config/options.xml
 config/secrets.yaml
-config/README.md
+#config/README.md
 config/.gitignore
 config/.yamllint
 config/www/videos/seasons/halloween.mp4
