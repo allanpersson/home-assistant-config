@@ -2,5 +2,5 @@
 platform: github
 access_token: !secret github_access_token
 repositories:
-  - path: "home-assistant/home-assistant"
-    name: Home Assistant
+  - path: "allanpersson/home-assistant-config"
+    name: Allan Persson Github
